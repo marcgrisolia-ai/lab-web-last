@@ -1,6 +1,17 @@
 import type { Category, Lab, Test } from '../models/types';
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000';
+const API_BASE = import.meta.env.BASE_URL === '/lab-web-last/' ? '' : import.meta.env.VITE_API_BASE || '';
+
+function requireApiBase(): string {
+  if (!API_BASE) {
+    throw new Error('VITE_API_BASE is not configured');
+  }
+  return API_BASE;
+}
+
+export function hasPublicApiBase(): boolean {
+  return !!API_BASE;
+}
 
 function extractArray<T>(payload: unknown): T[] {
   if (Array.isArray(payload)) return payload as T[];
@@ -15,14 +26,14 @@ function extractArray<T>(payload: unknown): T[] {
 }
 
 export async function fetchTests(): Promise<Test[]> {
-  const res = await fetch(`${API_BASE}/public/tests`);
+  const res = await fetch(`${requireApiBase()}/public/tests`);
   if (!res.ok) throw new Error(`fetchTests failed: ${res.status}`);
   const payload = (await res.json()) as unknown;
   return extractArray<Test>(payload);
 }
 
 export async function fetchStandards(): Promise<unknown[]> {
-  const res = await fetch(`${API_BASE}/public/standards`);
+  const res = await fetch(`${requireApiBase()}/public/standards`);
   if (!res.ok) throw new Error(`fetchStandards failed: ${res.status}`);
   const payload = (await res.json()) as unknown;
   return extractArray<unknown>(payload);
@@ -36,7 +47,7 @@ export type PublicContentPayload = {
 };
 
 export async function fetchPublicContent(): Promise<PublicContentPayload> {
-  const res = await fetch(`${API_BASE}/public/content`);
+  const res = await fetch(`${requireApiBase()}/public/content`);
   if (!res.ok) throw new Error(`fetchPublicContent failed: ${res.status}`);
   const payload = (await res.json()) as unknown;
   if (!payload || typeof payload !== 'object') {

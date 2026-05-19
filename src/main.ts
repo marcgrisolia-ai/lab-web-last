@@ -2,7 +2,7 @@ import './styles/app.css';
 import 'leaflet/dist/leaflet.css';
 import type { Category, Lab, Test } from './models/types';
 import { dataLoader } from './services/dataLoader';
-import { fetchPublicContent } from './services/api';
+import { fetchPublicContent, hasPublicApiBase } from './services/api';
 import { createStore } from './store/store';
 import { MapController } from './map/mapController';
 import { initApp } from './ui/app';
@@ -44,8 +44,11 @@ async function bootstrap(): Promise<void> {
     let categories: Category[] = [];
     let tests: Test[] = [];
 
-    // Try backend API first; fall back to bundled local JSON if unavailable
+    // Try backend API only when explicitly configured; otherwise use bundled JSON.
     try {
+      if (!hasPublicApiBase()) {
+        throw new Error('Public API not configured');
+      }
       const payload = await fetchPublicContent();
       labs = Array.isArray(payload.labs) ? (payload.labs as Lab[]) : [];
       categories = Array.isArray(payload.categories) ? (payload.categories as Category[]) : [];
