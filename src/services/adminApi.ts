@@ -1,7 +1,7 @@
 import type { Test } from '../models/types';
 
 const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000';
-const ADMIN_API_BASE = import.meta.env.VITE_ADMIN_API_BASE || '/.netlify/functions/admin-tests';
+const ADMIN_API_BASE = import.meta.env.VITE_ADMIN_API_BASE || '';
 const ADMIN_API_KEY = import.meta.env.VITE_ADMIN_API_KEY || '';
 
 function buildAdminHeaders(sourceLang?: string): HeadersInit {

@@ -74,43 +74,33 @@ VITE_CMS_URL=https://your-directus-instance.example
 VITE_CMS_TOKEN=your_api_token
 VITE_CMS_CACHE_TTL_MS=300000
 VITE_API_BASE=http://127.0.0.1:8000
-VITE_ADMIN_API_KEY=change-me
+VITE_ADMIN_API_KEY=
+VITE_ADMIN_API_BASE=
 ```
 
 If CMS env vars are **not** set or CMS fails, the app automatically falls back to local JSON.
 
+### GitHub Pages deployment
+This repo is configured to deploy with GitHub Actions using `.github/workflows/pages.yml`.
+
+Setup:
+- In GitHub, open **Settings → Pages**.
+- Set **Source** to **GitHub Actions**.
+- Push to `main`; the workflow builds the Vite app and publishes `dist`.
+
 ### Admin editor (SE Member)
 - After unlocking `SE Member`, a `Content editor` entry appears in nav, plus `+ Add test` and `Edit test`.
-- If `VITE_ADMIN_API_KEY` is configured, these actions call the admin endpoint configured in `VITE_ADMIN_API_BASE`.
-- If no admin API key/backend is configured, the editor runs in static mode: changes are saved in browser `localStorage` and can be exported with `Download tests.json`.
-- For GitHub Pages/Netlify static hosting, use static mode to prepare edits, then replace `public/data/tests.json` with the downloaded file and commit it.
+- On GitHub Pages, the editor runs in static mode: changes are saved in browser `localStorage` and can be exported with `Download tests.json`.
+- To publish edits, replace `public/data/tests.json` with the downloaded file and commit it to `main`; GitHub Actions redeploys the site.
 - You can edit test cards (title/summary/why/how/tags/category/standard fields), set `Where is this performed` labs, and create new tests.
 
-### GitHub-backed editing with Netlify
-The repo includes a Netlify Function at `/.netlify/functions/admin-tests`. In this mode, user edits become commits to `public/data/tests.json` in GitHub.
+### GitHub-only editing limitation
+GitHub Pages is static hosting. A public browser app cannot create commits with a hidden repository token because any `VITE_*` token is bundled into public JavaScript.
 
-Client-side variables:
-```
-VITE_ADMIN_API_KEY=change-me
-VITE_ADMIN_API_BASE=/.netlify/functions/admin-tests
-```
-
-Server-only Netlify environment variables:
-```
-ADMIN_API_KEY=change-me
-GITHUB_TOKEN=github_pat_or_fine_grained_token
-GITHUB_OWNER=your-github-user-or-org
-GITHUB_REPO=your-repo-name
-GITHUB_BRANCH=main
-GITHUB_CONTENT_PATH=public/data/tests.json
-ALLOWED_ORIGIN=https://your-site.netlify.app
-```
-
-Security note:
-- `GITHUB_TOKEN` must only be stored in Netlify environment variables.
-- Do not prefix `GITHUB_TOKEN` with `VITE_`; that would expose it in the browser bundle.
-- The GitHub token needs repository Contents read/write access.
-- If Netlify is connected to the same GitHub repo, each commit triggers a new deploy and updates the public page.
+Safe GitHub-only options:
+- Static review flow: users edit in the app, download `tests.json`, and a maintainer commits it.
+- GitHub web flow: users edit `public/data/tests.json` directly in GitHub and open a pull request.
+- Authenticated contributor flow: implement GitHub OAuth/device login so each user commits with their own GitHub permissions. This requires GitHub App/OAuth setup and should not use a shared token in the frontend.
 
 ### Directus content model
 Create 3 collections: `labs`, `categories`, `tests`.
