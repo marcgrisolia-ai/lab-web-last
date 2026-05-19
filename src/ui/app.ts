@@ -5,6 +5,7 @@ import { runExportTestPdf, runExportTestsExcel } from './exportActions';
 import { createStore } from '../store/store';
 import { createAdminTest, hasAdminApiKey, updateAdminTest } from '../services/adminApi';
 import { setContentBundle } from '../store/contentStore';
+import { assetUrl } from '../services/assetUrl';
 
 const CATEGORY_COLORS: Record<string, string> = {
   CAT_ENV: '#3dcd58',
@@ -109,6 +110,11 @@ export async function initApp({
   ]);
   const SE_MEMBER_KEY = 'se_member_unlocked';
   const remoteAdminEnabled = hasAdminApiKey();
+  const resolveContentAsset = (path?: string): string => {
+    if (!path) return '';
+    if (/^(https?:|data:|blob:)/i.test(path)) return path;
+    return assetUrl(path);
+  };
   const localAdminTests = readLocalAdminTests();
   if (localAdminTests?.length) {
     tests = localAdminTests;
@@ -390,7 +396,7 @@ export async function initApp({
       el.className = 'labCard' + (isSelected ? ' selected' : '');
       el.setAttribute('role', 'button');
       el.tabIndex = 0;
-      const imgSrc = lab.img && lab.img.trim() ? lab.img : SAMPLE_IMG;
+      const imgSrc = lab.img && lab.img.trim() ? resolveContentAsset(lab.img) : SAMPLE_IMG;
       const subtitle = labSubtitles[state.lang]?.[lab.id] || '';
 
       const labImg = document.createElement('div');
@@ -1407,7 +1413,7 @@ export async function initApp({
     triggerDetailFade(host);
     const backBtn = document.getElementById('detailBackBtn');
     if (backBtn) backBtn.hidden = true;
-    const imgSrc = lab.img && lab.img.trim() ? lab.img : SAMPLE_IMG;
+    const imgSrc = lab.img && lab.img.trim() ? resolveContentAsset(lab.img) : SAMPLE_IMG;
     host.innerHTML = `
       <div class="hero">
         <div class="heroTitle">${escapeHtml(tx(lab.name, state.lang))}</div>
@@ -2312,9 +2318,9 @@ export async function initApp({
     }
     if (btnExportPdfAll) {
       btnExportPdfAll.addEventListener('click', () => {
-        const pdfWindow = window.open('/assets/clients_guide_lab.pdf', '_blank', 'noopener');
+        const pdfWindow = window.open(assetUrl('assets/clients_guide_lab.pdf'), '_blank', 'noopener');
         if (!pdfWindow) {
-          window.location.href = '/assets/clients_guide_lab.pdf';
+          window.location.href = assetUrl('assets/clients_guide_lab.pdf');
         }
       });
     }

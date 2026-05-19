@@ -1,4 +1,5 @@
 import type { Category, Lab, Test, UiStrings, Lang } from '../models/types';
+import { assetUrl } from './assetUrl';
 
 const warn = (msg: string) => console.warn(`[dataLoader] ${msg}`);
 
@@ -69,19 +70,19 @@ function validateUiStrings(raw: unknown): UiStrings {
 
 export const dataLoader = {
   async getLabs(): Promise<Lab[]> {
-    const raw = await fetchJson<Lab[]>('/data/labs.json');
+    const raw = await fetchJson<Lab[]>(assetUrl('data/labs.json'));
     return validateLabs(raw);
   },
   async getCategories(): Promise<Category[]> {
-    const raw = await fetchJson<Category[]>('/data/categories.json');
+    const raw = await fetchJson<Category[]>(assetUrl('data/categories.json'));
     return validateCategories(raw);
   },
   async getTests(): Promise<Test[]> {
-    const raw = await fetchJson<Test[]>('/data/tests.json');
+    const raw = await fetchJson<Test[]>(assetUrl('data/tests.json'));
     return validateTests(raw);
   },
   async getUiStrings(lang: Lang): Promise<UiStrings> {
-    const raw = await fetchJson<UiStrings>(`/i18n/${lang}.json`);
+    const raw = await fetchJson<UiStrings>(assetUrl(`i18n/${lang}.json`));
     return validateUiStrings(raw);
   },
 };
