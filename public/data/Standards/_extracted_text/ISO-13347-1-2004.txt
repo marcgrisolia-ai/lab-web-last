@@ -1,0 +1,526 @@
+
+
+--- Page 1 ---
+INTERNATIONAL ISO
+STANDARD 13347-1
+First edition
+2004-08-15
+Industrial fans — Determination of fan
+sound power levels under standardized
+laboratory conditions —
+Part 1:
+General overview
+iTeh STANDARD PREVIEW
+Ventilateurs industriels — Détermination des niveaux de puissance
+acoustique des ventilateurs dans des conditions de laboratoire
+(standards.iteh.ai)
+normalisées —
+Partie 1: Présentation générale
+ISO 13347-1:2004
+https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+ce8306f588de/iso-13347-1-2004
+Reference number
+ISO 13347-1:2004(E)
+© ISO 2004
+
+--- Page 2 ---
+ISO 13347-1:2004(E)
+PDF disclaimer
+This PDF file may contain embedded typefaces. In accordance with Adobe's licensing policy, this file may be printed or viewed but
+shall not be edited unless the typefaces which are embedded are licensed to and installed on the computer performing the editing. In
+downloading this file, parties accept therein the responsibility of not infringing Adobe's licensing policy. The ISO Central Secretariat
+accepts no liability in this area.
+Adobe is a trademark of Adobe Systems Incorporated.
+Details of the software products used to create this PDF file can be found in the General Info relative to the file; the PDF-creation
+parameters were optimized for printing. Every care has been taken to ensure that the file is suitable for use by ISO member bodies. In
+the unlikely event that a problem relating to it is found, please inform the Central Secretariat at the address given below.
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+ISO 13347-1:2004
+https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+ce8306f588de/iso-13347-1-2004
+© ISO 2004
+All rights reserved. Unless otherwise specified, no part of this publication may be reproduced or utilized in any form or by any means,
+electronic or mechanical, including photocopying and microfilm, without permission in writing from either ISO at the address below or
+ISO's member body in the country of the requester.
+ISO copyright office
+Case postale 56 • CH-1211 Geneva 20
+Tel. + 41 22 749 01 11
+Fax + 41 22 749 09 47
+E-mail copyright@iso.org
+Web www.iso.org
+Published in Switzerland
+ii © ISO 2004 – All rights reserved
+
+--- Page 3 ---
+ISO 13347-1:2004(E)
+Contents
+Page
+Foreword............................................................................................................................................................iv
+Introduction........................................................................................................................................................v
+1 Scope......................................................................................................................................................1
+2 Normative references...........................................................................................................................1
+3 Terms, definitions, symbols and units...............................................................................................2
+4 Limitations on use................................................................................................................................6
+5 Measurement uncertainty.....................................................................................................................7
+6 Instrumentation.....................................................................................................................................8
+7 Test methods.........................................................................................................................................9
+8 Fan installation conditions.................................................................................................................10
+9 Fan operating conditions...................................................................................................................12
+10 Information to be recorded................................................................................................................13
+iTeh STANDARD PREVIEW
+11 Calculations and evaluations.............................................................................................................16
+(standards.iteh.ai)
+12 Test report............................................................................................................................................17
+Annex A (normative) Effect of rotational speed changes............................................................................19
+ISO 13347-1:2004
+Annex B (informative) Change of gas or air conditions...............................................................................20
+https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+Annex C (normative) Corrections focre 8e3n0d6f 5r8e8fldeec/istioo-1n3.3.4..7..-.1..-.2..0..0.4.....................................................................21
+Annex D (informative) Simplified anechoic termination...............................................................................25
+Annex E (normative) Uncertainty analysis....................................................................................................26
+Annex F (normative) Calibration of reference sound source......................................................................31
+Annex G (informative) Filter weighted measurements.................................................................................33
+Bibliography.....................................................................................................................................................34
+© ISO 2004 – All rights reserved iii
+
+--- Page 4 ---
+ISO 13347-1:2004(E)
+Foreword
+ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies
+(ISO member bodies). The work of preparing International Standards is normally carried out through ISO
+technical committees. Each member body interested in a subject for which a technical committee has been
+established has the right to be represented on that committee. International organizations, governmental and
+non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the
+International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.
+International Standards are drafted in accordance with the rules given in the ISO/IEC Directives, Part 2.
+The main task of technical committees is to prepare International Standards. Draft International Standards
+adopted by the technical committees are circulated to the member bodies for voting. Publication as an
+International Standard requires approval by at least 75 % of the member bodies casting a vote.
+Attention is drawn to the possibility that some of the elements of this document may be the subject of patent
+rights. ISO shall not be held responsible for identifying any or all such patent rights.
+ISO 13347-1 was prepared by Technical Committee ISO/TC 117, Industrial fans.
+iTeh STANDARD PREVIEW
+ISO 13347 consists of the following parts, under the general title Industrial fans — Determination of fan sound
+power levels under standardized laboratory conditions:
+(standards.iteh.ai)
+— Part 1: General overview
+ISO 13347-1:2004
+— Part 2: Reverberant room method
+https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+ce8306f588de/iso-13347-1-2004
+— Part 3: Enveloping surface methods
+— Part 4: Sound intensity method
+iv © ISO 2004 – All rights reserved
+
+--- Page 5 ---
+ISO 13347-1:2004(E)
+Introduction
+The need for this new International Standard, ISO 13347, has been evident for some time. Whilst a number of
+national standards exist for the measurement of fan noise, none has received universal acceptance nor may
+comparisons be readily made.
+Forming part of the ISO/TC 117 series of fan standards, this part of ISO 13347 deals with the determination of
+the fan sound power level appropriate to a particular application. In describing the test and rating procedures,
+numerous references are made to ISO 5801 as well as to other relevant ISO standards. This general overview
+should be read in conjunction with the appropriate part of ISO 13347 that specifies, in detail, methods for
+determining the sound power propagated from a fan in specified installation conditions as a function of
+frequency.
+This part of ISO 13347 primarily deals with the determination of sound power levels of industrial fans used in
+four types of installations (see Clause 4) for ducted applications.
+The test procedures described in this part of ISO 13347 relate to laboratory conditions. The measurement of
+performance under site conditions is not included. Acoustic system effects can be considerable where the
+airflow into and out of the fan is not free from swirl, nor fully developed.
+iTeh STANDARD PREVIEW
+This part of ISO 13347 describes methods for determining sound power levels of fans in one-third octave
+bandwidths and one octave bandwidths.
+(standards.iteh.ai)
+Data obtained in accordance with this part of ISO 13347 may be used for the following purposes amongst
+others:
+ISO 13347-1:2004
+https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+a) comparison of fans which are similar in size and type;
+ce8306f588de/iso-13347-1-2004
+b) comparison of fans which are different in size, type, design, speed, etc;
+c) determining whether a fan is suitable for a specified upper limit of sound emission;
+d) scaling of fan noise from one size and speed to another size and speed of the same type of fan;
+e) prediction of sound pressure level in application of the fan;
+f) engineering work to assist in developing machinery and equipment with lower sound emissions.
+© ISO 2004 – All rights reserved v
+
+--- Page 6 ---
+iTeh STANDARD PREVIEW
+(standards.iteh.ai)
+ISO 13347-1:2004
+https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+ce8306f588de/iso-13347-1-2004
+
+--- Page 7 ---
+INTERNATIONAL STANDARD ISO 13347-1:2004(E)
+Industrial fans — Determination of fan sound power levels
+under standardized laboratory conditions —
+Part 1:
+General overview
+1 Scope
+This part of ISO 13347 deals with the determination of the acoustic performance of industrial fans. In addition,
+it may be used to determine the acoustic performance of fans combined with an ancillary device such as a
+roof cowl or damper or, where the fan is fitted with a silencer, the sound power resulting from the fan and
+silencer combination.
+2 Normative references
+iTeh STANDARD PREVIEW
+The following referenced docum(enstts aanre dinadisrpdenssa.ibtlee fhor. athei) application of this document. For dated
+references, only the edition cited applies. For undated references, the latest edition of the referenced
+document (including any amendments) applies.
+ISO 13347-1:2004
+ISO 266, Acoustics —htt pPsr:/e/sftearnrdeadrd fsr.eiteqhu.aei/nccatiaelsog /standards/sist/63046a1a-c609-4d66-aa87-
+ce8306f588de/iso-13347-1-2004
+ISO 1000, SI units and recommendations for the use of their multiples and of certain other units
+ISO 3741, Acoustics — Determination of sound power levels of noise sources using sound pressure —
+Precision methods for reverberation rooms
+ISO 3743-1, Acoustics — Determination of sound power levels of noise sources — Engineering methods for
+small, movable sources in reverberant fields — Part 1: Comparison method for hard-walled test rooms
+ISO 3743-2, Acoustics — Determination of sound power levels of noise sources using sound pressure —
+Engineering methods for small, movable sources in reverberant fields — Part 2: Methods for special
+reverberation test rooms
+ISO 3744:1994, Acoustics — Determination of sound power levels of noise sources using sound pressure —
+Engineering method in an essentially free field over a reflecting plane
+ISO 3745, Acoustics — Determination of sound power levels of noise sources using sound pressure —
+Precision methods for anechoic and semi-anechoic rooms
+ISO 5136:2003, Acoustics — Determination of sound power radiated into a duct by fans and other air-moving
+devices — In-duct method
+ISO 5801, Industrial fans — Performance testing using standardized airways
+ISO 6926:1999, Acoustics — Requirements for the performance and calibration of reference sound sources
+for the determination of sound power levels
+ISO 9614-1, Acoustics — Determination of sound power levels of noise sources using sound intensity —
+Part 1: Measurement at discrete points
+© ISO 2004 – All rights reserved 1
+
+--- Page 8 ---
+ISO 13347-1:2004(E)
+ISO 10302, Acoustics — Method for the measurement of airborne noise emitted by small air-moving devices
+ISO 13347-2:2004, Industrial fans — Determination of fan sound power levels under standardized laboratory
+conditions — Part 2: Reverberant room method
+ISO 13347-3:2004, Industrial fans — Determination of fan sound power levels under standardized laboratory
+conditions — Part 3: Enveloping surface methods
+ISO 13347-4:2004, Industrial fans — Determination of fan sound power levels under standardized laboratory
+conditions — Part 4: Sound intensity method
+ISO 13349, Industrial fans — Vocabulary and definitions of categories
+ISO 13350:1999, Industrial fans — Performance testing of jet fans
+3 Terms, definitions, symbols and units
+3.1 Terms and definitions
+For the purposes of this document, the non-acoustical terms and units defined in ISO 5801, ISO 13349 and
+ISO 1000, apply; the following acoustical definitions apply, they are taken from ISO 3470 to 3747 wherever
+possible and some have been expanded to fit the specific needs of this document.
+3.1.1
+iTeh STANDARD PREVIEW
+inlet sound power level
+sound power level of a fan determined at the fan inlet in a specified test installation type, A, B, C or D
+(standards.iteh.ai)
+3.1.2
+outlet sound power level
+ISO 13347-1:2004
+sound power level of a fan determined at the fan outlet in a specified test installation, type A, B, C or D
+https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+ce8306f588de/iso-13347-1-2004
+3.1.3
+casing sound power level
+sound power level radiated from a fan casing
+NOTE 1 If the fan drive is external to the fan casing, the casing sound power shall include the sound power generated
+by and radiated from the fan drive
+NOTE 2 When cataloguing a range of fans, it is not always possible to include the motor noise, as this will vary
+according to the power and type of motor selected. Motor noise may then be omitted, provided this fact is clearly stated.
+3.1.4
+frequency range of interest
+frequency range including octave bands with centre frequencies between 63 Hz and 8 000 Hz and one-third
+octave bands with centre frequencies between 50 Hz and I0 000 Hz
+NOTE For special purposes, the frequency range may be extended at either end, provided that the test environment
+and instrument accuracy are satisfactory for use over the extended frequency range. For fans which radiate sound at
+predominantly high (or low) frequency, the frequency range of interest may be limited in order to optimise the test facility
+and procedures.
+3.1.5
+blade passage frequency
+BPF
+frequency of fan impeller blades passing a single fixed object
+NOTE The blade passage frequency is calculated by the following formula
+x×n
+BPF= Hz
+60
+2 © ISO 2004 – All rights reserved
+
+--- Page 9 ---
+ISO 13347-1:2004(E)
+where
+x is the number of blades;
+n is the fan speed, expressed in revolutions per minute.
+3.1.6
+chamber
+enclosure used to regulate flow and absorb sound; it may also conform to air test chamber conditions outlined
+in ISO 5801
+3.1.7
+ducted fan
+fan having a duct connected to either its inlet or outlet, or both
+3.1.8
+fan inlet area
+A
+1
+surface plane bounded by the upstream extremity of the air-moving device
+NOTE The inlet area is, by convention, taken as the gross area in the inlet plane inside the casing.
+3.1.9
+fan outlet area
+A
+2
+surface plane bounded ibTy theeh do wSnTstreAamN eDxtreAmitRy oDf th eP aiRr-mEovVing IdEeviWce
+(standards.iteh.ai)
+NOTE The fan outlet area is, by convention, taken as the gross area in the outlet plane inside the casing.
+3.1.10
+ISO 13347-1:2004
+end reflection
+phenomenon which hottcpcsu://rssta nwdharednse.itveeh.ra is/coautanlodg /sista ntdraanrdssm/siisttt/e6d30 a46caro1as-sc 6a0n9 -a4db6ru6-pata 8c7h-ange in area such as at the
+end of a duct in a room ce8306f588de/iso-13347-1-2004
+NOTE When end reflection occurs, some of the sound is reflected back into the duct and does not escape into the
+room.
+3.1.11
+non-ducted fan
+fan without a duct connected to either its inlet or outlet
+3.1.12
+reverberant room
+enclosure meeting the requirements of Annex A and/or Annex B of ISO 13347-2:2004
+3.1.13
+reference point of fan equipment
+position that is used to define and locate the measurement surface relative to the fan equipment under test,
+see Figures 1 to 4 of ISO 13347-3:2004
+NOTE 1 Generally, the reference point is the centroid of the centres of all inlets and outlets that contribute to the sound
+power level being determined.
+NOTE 2 For total sound power testing of fan equipment with a single inlet and a single outlet, the reference point is the
+midpoint of the line that joins the centres of the inlet and the outlet.
+NOTE 3 For fan inlet (or outlet) sound power testing of equipment with a single inlet (or single outlet), the reference
+point is the centre of that inlet (or outlet)
+© ISO 2004 – All rights reserved 3
+
+--- Page 10 ---
+ISO 13347-1:2004(E)
+3.1.14
+standard air
+air with a density of 1,2 kg/m3
+NOTE 1 Standard air has a ratio of specific heats of 1,4 and a viscosity of 1,815 E-03 Pa⋅s.
+NOTE 2 Air at 16 °C dry bulb temperature, 50 % relative humidity and 100 kPa barometric pressure has these
+properties, but this is not part of the definition.
+NOTE 3 Air at 20 °C dry bulb temperature, 50 % relative humidity and 101.325 kPa barometric pressure also has these
+properties but this is not a part of the definition.
+3.2 Fan sound power levels
+Considering all possible combinations for installation conditions specified in Clause 4, twelve different sound
+power level (L ) descriptions are defined in Table 1, for example L (A,in).
+W W
+Table 1 — Sound power levels
+Number Suffix Description
+1 (A,in) free-inlet sound power level, type A installation.
+2 (A,out) free-outlet sound power level; type A installation.
+3 (A,tot) total sound power level of a fan type A installation (includes the contributions from the
+iTeh STANDARD PREVIEW
+inlet, outlet, fan casing and drive).
+4 (B,in) free-inlet sound( psotwaern levdela; tyrped Bs in.sittalelathion..a i)
+5 (B,in+cas) free-inlet sound power level plus casing-radiated noise; type B installation.
+6 (B,out) ducted outlet sound poweISr Ole v1e3l3; 4ty7p-1e: 2B0 0in4stallation.
+https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+7 (C,in) ducted inlet sound power level; type C installation.
+ce8306f588de/iso-13347-1-2004
+8 (C,out) free-outlet sound power level; type C installation
+9 (C,out+cas) free-outlet sound power level plus casing-radiated noise; type C installation
+10 (D,in) ducted inlet sound power level; type D installation.
+11 (D,out) ducted outlet sound power level; type D installation.
+12 (D,cas) casing-radiated sound power level; type D installation.
+NOTE 1 All of these symbols may be used to indicate levels in one-third octave or octave frequency bands as well as
+overall sound power levels and A-weighted sound power levels, provided that the sound power to which the symbols
+relate is clearly defined.
+Where noise from the drive may contribute to the noise radiated from a casing then this should be clearly
+stated by the addition of +dr e.g., L (D,cas + dr).
+W
+NOTE 2 Not all of the above levels need to be measured for a particular fan.
+3.3 Other symbols
+For consistency and mutual understanding, it is recommended that the symbols and units shown in Table 2 be
+used in reporting and calculation. Unless otherwise noted, the subscript number refers to the mid-frequency of
+the octave band or one-third octave band number.
+4 © ISO 2004 – All rights reserved
+
+--- Page 11 ---
+ISO 13347-1:2004(E)
+Table 2 — Symbols, units
+Symbol Term SI unit
+A fan inlet area m2
+1
+A fan outlet area m2
+2
+c speed of sound m/s
+D distance between reference box and rectangular measurement surface m
+r
+D characteristic acoustic source dimension m
+o
+D nominal diameter of bellmouth/opening in reflecting plane m
+N
+D minimum distance between equipment under test and reverberant room measurement m
+min
+surface
+d duct diameter m
+d equivalent diameter (of rectangular duct) m
+e
+E duct outlet end correction dB
+o
+E duct inlet end correction dB
+i
+E adjustment to sound power level for duct end correction(s) dB
+W
+f frequency Hz
+h height of centre of orifice above floor level, or above another reflection plane m
+I sound intenisTity eh STANDARD PREVIEW W/m2
+I surface average sound intensity W/m2
+(standards.iteh.ai)
+I sound intensity I at measurement location n W/m2
+n
+I reference intensity, 1 pW/m2 (1 × 10−12 W/m2) —
+ref
+ISO 13347-1:2004
+l measurement surface characteristic dimension (length) m
+c https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+K background-noise correcticoen8 306f588de/iso-13347-1-2004 dB
+1
+K environmental noise correction dB
+2
+l dimensions of the reference box m
+L sound intensity level (re. 1 pW/m2) dB
+i
+L surface average sound intensity level dB
+i
+L fan sound intensity level dB
+if
+L surface average fan sound intensity level dB
+if
+L RSS sound intensity level dB
+iq
+L surface average RSS sound intensity level dB
+iq
+L sound pressure level, re 20 µPa (2 × 10−5 Pa) dB
+p
+L corrected sound pressure level of the fan dB
+pc
+L recorded sound pressure level of room background as measured over the normal dB
+pb
+microphone path
+L background sound pressure level dB
+pb
+L L at measurement location n dB
+pbn pb
+L RSS calibration sound power level dB
+Wrq
+L recorded sound pressure level of fan and room background as measured over the normal dB
+pm
+microphone path
+L corrected sound pressure level of the RSS dB
+pq
+L recorded sound pressure level of the RSS and room background as measured over the dB
+pqm
+normal microphone path
+© ISO 2004 – All rights reserved 5
+
+--- Page 12 ---
+ISO 13347-1:2004(E)
+Table 2 (continued)
+Symbol Term SI unit
+L sound power level, re 1 pW (1 × 10−12 W) dB
+W
+L sound power level of RSS dB
+Wr
+λ wavelength m
+M Mach number Dimensionless
+p sound pressure Pa
+p reference sound pressure, 20 µPa (2 × 10−5 Pa) —
+ref
+p fan static pressure Pa
+s
+p fan (total) pressure Pa
+t
+r radius of spherical (hemispherical) measurement surface m
+r duct area/Orifice area Dimensionless
+d
+s standard deviation dB
+θ air temperature K
+S measurement surface area m2
+S cross-sectional area of a section through the fan in the measurement surface plane m2
+H
+S portion of measurement surface in contact with discharge flow for fans with outlet orifice m2
+s
+iTeh STANDARD PREVIEW
+W sound power W
+W ref reference sound power, 1 pW (1( ×s t10a −1 n 2 Wd) ards.iteh.ai) dB
+z measurement surface characteristic dimension (height above reflecting plane) m
+δ convergence index (with n measurement locations) dB
+Wn ISO 13347-1:2004
+https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+ce8306f588de/iso-13347-1-2004
+4 Limitations on use
+For low-power fans (up to 3 kW) that could be run from a domestic power supply (single phase AC at a
+voltage not exceeding 250 V and a current not exceeding 16 A), reference should be made to IEC 60704-2-7
+which covers household and similar fans.
+For in-duct tests, the test duct diameter range as specified in ISO 5136 is from 0,15 m to 2 m (for more details
+see 6.5).
+For reverberant room tests, the size of fan is limited to less than 2 % of the room volume.
+There are no restrictions on the size of fan which may be tested by enveloping surface and sound intensity
+methods, provided the test environment meets the specified acoustic requirements. A test procedure is
+specified in Clause 9 of ISO 13350:1999 for testing jet fans.
+The test procedures specified in this part of ISO 13347 are intended principally for tests conducted using
+standardized test configurations and under specified environments and conditions and may not be appropriate
+to site test conditions.
+The fan installation conditions conform to the four categories of installation types specified in ISO 5801:
+ type A: free inlet, free outlet;
+ type B: free inlet, ducted outlet;
+ type C: ducted inlet, free outlet;
+ type D: ducted inlet, ducted outlet.
+6 © ISO 2004 – All rights reserved
+
+--- Page 13 ---
+ISO 13347-1:2004(E)
+5 Measurement uncertainty
+Measurements made in conformance with this part of ISO 13347 tend to result in standard deviations which
+are equal to or less than those given in Table 3. These standard deviations take into account the cumulative
+effects of all causes of measurement uncertainty, such as source location, duct end reflections, duct
+transitions, instrument calibration, derivation of sound power from sound pressure and sampling. They do not
+reflect variations in the sound power radiated by the fan itself due, for example, to changes in installation
+conditions or manufacturing tolerances. For further information refer to Annex C.
+Reverberant field tests have, for many years, been carried out without the addition of anechoic terminations
+on the non-measured side of the fan. This part of ISO 13347 allows for tests to be performed both with and
+without such terminations, but it must be recognised that the results will be different. It shall be clearly stated.
+in all documentation, test reports, catalogues, etc., whether or not anechoic terminations were fitted.
+Table 3 — Uncertainty in determination of the frequency-band sound power levels
+One-third Standard deviation, dB
+octave band
+In-duct Reverberant field Enveloping surface Sound intensity field
+frequencies
+(see also ISO 3743-2) methods
+Hz (see also with anechoic without anechoic (see also ISO 3744) (see also ISO 9614-1)
+ISO 5136) terminations terminations
+50 3,5 5,0 3,0
+63 3,i0T eh STA*5,N0 DARD6 ,P0 REVIEW5,0 3,0
+80 2,5 5,0 3,0
+(standards.iteh.ai)
+100 2,5 3,0 3,0
+125 2,0 5,0 3,0 3,0 3,0
+ISO 13347-1:2004
+160 2,0 3,0 3,0
+https://standards.iteh.ai/catalog/standards/sist/63046a1a-c609-4d66-aa87-
+200 2,0 ce83 06f588de/iso-13347 -1-2004 2,0 2,0
+250 2,0 3,0 3,0 2,0 2,0
+315 2,0 2,0 2,0
+400 2,0 1,5 2,0
+500 2,0 2,0 3,0 1,5 2,0
+630 2,0 1,5 2,0
+800 2,0 1,5 1,5
+1000 2,0 2,0 3,0 1,5 1,5
+1250 2,0 1,5 1,5
+1600 2,0 1,5 1,5
+2000 2,0 2,0 3,0 1,5 1,5
+2500 2,0 1,5 1,5
+3150 2,0 1,5 1,5
+4000 2,0 2,0 3,0 1,5 1,5
+5000 2,5 1,5 1,5
+6300 3,0 2,5 2,5
+8000 3,5 3,0 3,0 2,5 2,5
+10000 4,0 2,5 *3,0
+© ISO 2004 – All rights reserved 7

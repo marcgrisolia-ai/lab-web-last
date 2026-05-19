@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>SE — UE Lab Tests</title>
+  </head>
+  <body>
+    <a class="skipLink" href="#main">Skip to main content</a>
+    <div class="mapScrim" id="mapScrim" aria-hidden="true"></div>
+    <button class="mapClose" id="mapClose" type="button">✕ Close map</button>
+    <header class="top" id="topHeader">
+      <div class="topBar">
+        <a class="brandLink" href="https://www.se.com/ww/en/" target="_blank" rel="noreferrer" aria-label="Schneider Electric">
+          <div class="brandBlock">
+            <img src="/assets/se-logo.svg" alt="Schneider Electric" width="124" height="28" />
+          </div>
+        </a>
+        <div class="topSearch">
+          <div class="search" role="search">
+            <label class="srOnly" for="search">Search tests</label>
+            <input
+              id="search"
+              name="search"
+              autocomplete="off"
+              placeholder="Search"
+              aria-label="Search tests"
+            />
+            <button class="searchBtn" type="button" aria-label="Search">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="6" fill="none" stroke="currentColor" stroke-width="2"></circle>
+                <line x1="16" y1="16" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>
+              </svg>
+            </button>
+            <span class="pill" id="hitCount">0</span>
+          </div>
+        </div>
+        <div class="topRight">
+          <div class="memberAccess">
+            <button type="button" class="memberLink" id="navMemberBtn">SE Member</button>
+            <button type="button" class="memberLink navMemberOnly" id="navMemberLogoutBtn">Logout</button>
+          </div>
+          <a class="impactLink" href="https://www.se.com/ww/en/about-us/sustainability/" target="_blank" rel="noreferrer">
+            <img class="impactLogo" src="/assets/impact-logo.svg" alt="Impact Company" width="120" height="30" />
+          </a>
+          <div class="segmented" role="radiogroup" aria-label="Language">
+            <button type="button" class="langBtn" data-lang="en" role="radio" aria-checked="false">
+              EN
+            </button>
+            <button type="button" class="langBtn" data-lang="es" role="radio" aria-checked="true">
+              ES
+            </button>
+            <button type="button" class="langBtn" data-lang="fr" role="radio" aria-checked="false">
+              FR
+            </button>
+            <button type="button" class="langBtn" data-lang="ca" role="radio" aria-checked="false" hidden>
+              CA
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="navRow">
+        <nav class="navLinks" aria-label="Primary">
+          <button type="button" class="navLink" id="navOverviewBtn">General</button>
+          <div class="navItem">
+            <button type="button" class="navLink" id="navTestsBtn">Pruebas <span class="navChevron" aria-hidden="true">▾</span></button>
+            <ul class="navMenu" id="navTestsMenu" aria-label="Tests navigation"></ul>
+          </div>
+          <div class="navItem">
+            <button type="button" class="navLink" id="navLabsBtn">Laboratorios <span class="navChevron" aria-hidden="true">▾</span></button>
+            <ul class="navMenu" id="navLabsMenu" aria-label="Labs navigation"></ul>
+          </div>
+          <a class="navLink" id="navCompanyLink" href="https://www.se.com/ww/en/" target="_blank" rel="noreferrer">Empresa</a>
+          <button type="button" class="navLink navMemberOnly" id="navVideoProceduresBtn">Video procedures</button>
+          <button type="button" class="navLink navMemberOnly" id="navTemplatesBtn">Automatized templates</button>
+          <button type="button" class="navLink navMemberOnly" id="navStandardsBtn">Standards</button>
+          <button type="button" class="navLink navMemberOnly" id="navMethodsBtn">Internal methods</button>
+        </nav>
+        <div class="navActions">
+          <button class="btn primary" id="btnExportExcel" type="button">Export Excel</button>
+          <button class="btn primary" id="btnExportPdfAll" type="button">Export PDF</button>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <div class="topInner">
+        <div class="labsRow">
+          <div class="labsStrip" id="labsStrip"></div>
+        </div>
+      </div>
+      <div class="pageIntro">
+        <div class="introText">
+          <h1 class="introTitle" id="uiTitle">SCHNEIDER ELECTRIC — LAB TESTS</h1>
+          <div class="introSub" id="uiSubtitle">
+            Browse by need. Select a test to see a simple Why/How and the lab location.
+          </div>
+        </div>
+      </div>
+      <div class="app">
+        <section class="panel" aria-label="Browse tests">
+          <div class="panelTop">
+            <h2 class="panelTitle" id="navTitle">Pruebas</h2>
+            <div class="small" id="navSub">Categorías → selecciona una prueba</div>
+          </div>
+          <div class="panelControls">
+            <div class="categoryRow">
+              <button class="btn" id="btnBackCats" type="button">Categories</button>
+              <span class="pill" id="currentCategory">Categories</span>
+            </div>
+            <div class="testsBrowseTabs" role="tablist" aria-label="Browse mode">
+              <button
+                type="button"
+                class="testsBrowseTab is-active"
+                data-mode="category"
+                id="testsBrowseCategory"
+                role="tab"
+                aria-selected="true"
+                aria-controls="viewTestsCategory"
+                tabindex="0"
+              >
+                Categories
+              </button>
+              <button
+                type="button"
+                class="testsBrowseTab"
+                data-mode="standard"
+                id="testsBrowseStandard"
+                role="tab"
+                aria-selected="false"
+                aria-controls="viewTestsStandard"
+                tabindex="-1"
+              >
+                Standards
+              </button>
+            </div>
+            <div class="pager" id="testsPager">
+              <button class="btn" id="btnPrevPage" type="button">Prev</button>
+              <span class="pill" id="testPageInfo">1/1</span>
+              <button class="btn" id="btnNextPage" type="button">Next</button>
+            </div>
+            <button class="btn navMemberOnly" id="btnAddTest" type="button">+ Add test</button>
+          </div>
+          <div id="viewTestsCategory" class="testsGrid" role="tabpanel" aria-labelledby="testsBrowseCategory"></div>
+          <div id="viewTestsStandard" class="testsGrid" role="tabpanel" aria-labelledby="testsBrowseStandard" hidden></div>
+        </section>
+        <section class="panel" aria-label="Test details">
+          <div class="panelTop">
+            <div class="panelTitleGroup">
+              <button class="btn btnBack" id="detailBackBtn" type="button" hidden>Back</button>
+              <h2 class="panelTitle" id="detailTitle">Detalles</h2>
+            </div>
+            <div class="small" id="detailSub">
+              Selecciona una prueba para ver Why / How y laboratorio
+            </div>
+          </div>
+          <div class="detailBody" id="detailBody"></div>
+        </section>
+      </div>
+      <div class="featureRow" aria-label="Highlights">
+        <div class="featureCard">
+          <img src="/assets/validate-green.svg" alt="" aria-hidden="true" width="36" height="36" />
+          <div>
+            <div class="featureTitle" id="featureValidationTitle">Validation</div>
+            <div class="featureSub" id="featureValidationSub">Certified testing focused on safety.</div>
+          </div>
+        </div>
+        <div class="featureCard">
+          <img src="/assets/product-selector.svg" alt="" aria-hidden="true" width="36" height="36" />
+          <div>
+            <div class="featureTitle" id="featureSelectionTitle">Selection</div>
+            <div class="featureSub" id="featureSelectionSub">Find the right test by need.</div>
+          </div>
+        </div>
+        <div class="featureCard">
+          <img src="/assets/site-green.svg" alt="" aria-hidden="true" width="36" height="36" />
+          <div>
+            <div class="featureTitle" id="featureNetworkTitle">Laboratory network</div>
+            <div class="featureSub" id="featureNetworkSub">Key locations with local support.</div>
+          </div>
+        </div>
+      </div>
+      <section class="collageSection" aria-label="Collage">
+        <div class="collageGrid">
+          <img class="collageUnified" src="/assets/high_res_innovaition.png" alt="" width="1920" height="720" />
+          <div class="collageTile collageTall">
+          </div>
+          <div class="collageTile collageWide">
+          </div>
+          <div class="collageGlass">
+            <div class="collageTextInner">
+              <div class="collageTextTitle">TESTED TO PERFORM</div>
+              <div class="collageTextSub">Ensuring reliability and confidence worldwide.</div>
+            </div>
+          </div>
+          <div class="collageTile collageSquare collage3 collagePos3">
+          </div>
+          <div class="collageTile collageSquare collage4">
+          </div>
+          <div class="collageTile collageSquare collage5">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="siteFooter">
+      <div class="footerInner">
+        <span class="footerText">© 2026 Schneider Electric</span>
+        <a href="https://www.se.com/ww/en/about-us/sustainability/" target="_blank" rel="noreferrer">
+          <img src="/assets/impact-light.svg" alt="Light Impact" width="112" height="28" />
+        </a>
+      </div>
+    </footer>
+    <div class="modalOverlay" id="memberModalOverlay" aria-hidden="true">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="memberModalTitle">
+        <div class="modalTitle" id="memberModalTitle">Restricted access – SE Members</div>
+        <label class="modalLabel" for="memberPassword">Password</label>
+        <input class="modalInput" id="memberPassword" type="password" autocomplete="current-password" />
+        <div class="modalError" id="memberModalError" role="alert"></div>
+        <div class="modalActions">
+          <button class="btn ghost" id="memberCancelBtn" type="button">Cancel</button>
+          <button class="btn primary" id="memberAccessBtn" type="button">Access</button>
+        </div>
+      </div>
+    </div>
+    <div class="modalOverlay" id="adminEditorOverlay" aria-hidden="true">
+      <div class="modal adminEditorModal" role="dialog" aria-modal="true" aria-labelledby="adminEditorTitle">
+        <div class="modalTitle" id="adminEditorTitle">Edit test content</div>
+        <form id="adminEditorForm" class="adminEditorForm" novalidate>
+          <div class="adminEditorGrid adminEditorGrid--2">
+            <label class="modalLabel">Test ID
+              <input class="modalInput" name="id" type="text" required />
+            </label>
+            <label class="modalLabel">Category
+              <select class="modalInput" name="categoryId" required></select>
+            </label>
+          </div>
+          <div class="adminEditorGrid adminEditorGrid--2">
+            <label class="modalLabel">Standard ID
+              <input class="modalInput" name="refStdId" type="text" placeholder="IEC_62208, UL..." />
+            </label>
+            <label class="modalLabel">Clause
+              <input class="modalInput" name="refClause" type="text" />
+            </label>
+          </div>
+          <label class="adminCheck adminNoClause">
+            <input type="checkbox" name="noClause" />
+            <span>No clause</span>
+          </label>
+          <div class="adminLabs">
+            <label class="adminCheck">
+              <input type="checkbox" name="labsAll" />
+              <span>Performed in all labs</span>
+            </label>
+            <div class="adminLabList" id="adminLabList"></div>
+          </div>
+          <div class="adminLanguageHint">
+            Editing language: <strong id="adminEditorLangLabel">EN</strong>. Other languages are auto-translated on save.
+          </div>
+          <label class="modalLabel">Title
+            <input class="modalInput" name="title_text" type="text" />
+          </label>
+          <label class="modalLabel">Summary
+            <textarea class="modalInput adminTextarea" name="summary_text"></textarea>
+          </label>
+          <label class="modalLabel">WHY
+            <textarea class="modalInput adminTextarea" name="why_text"></textarea>
+          </label>
+          <label class="modalLabel">HOW
+            <textarea class="modalInput adminTextarea" name="how_text"></textarea>
+          </label>
+        </form>
+        <div class="modalError" id="adminEditorError" role="alert"></div>
+        <div class="modalActions">
+          <button class="btn ghost" id="adminDownloadTestsBtn" type="button">Download tests.json</button>
+          <button class="btn ghost" id="adminEditorCancelBtn" type="button">Cancel</button>
+          <button class="btn primary" id="adminEditorSaveBtn" type="button">Save</button>
+        </div>
+      </div>
+    </div>
+    <div class="videoOverlay" id="videoProceduresOverlay" aria-hidden="true">
+      <div class="videoDrawer" role="dialog" aria-modal="true" aria-labelledby="videoProceduresTitle">
+        <div class="videoDrawerTop">
+          <div class="videoDrawerTitle" id="videoProceduresTitle">Video procedures</div>
+          <button class="btn ghost" id="videoAddBtn" type="button">Add video</button>
+          <button class="iconBtn" id="videoProceduresCloseBtn" type="button" aria-label="Close video procedures">✕</button>
+        </div>
+        <div class="videoDrawerBody">
+          <div class="videoList" role="list" id="videoProceduresList">
+            <div class="videoCard" role="listitem">
+              <div class="videoThumb">
+                <img
+                  class="videoThumbImg"
+                  src="/assets/IPX%205%20PROCEDURE%20CAPELLADES.png"
+                  alt="IPX5 KP"
+                  id="videoProcedure1Thumb"
+                />
+              </div>
+              <div class="videoMeta">
+                <div class="videoTitle" id="videoProcedure1Title">IPX5 KP procedure</div>
+                <div class="videoSub" id="videoProcedure1Sub">9.9 Degree of protection IP</div>
+                <button
+                  class="videoBtn"
+                  type="button"
+                  data-video-title="IPX5 KP procedure"
+                  data-video-src="https://schneiderelectric.sharepoint.com/sites/UELABSTESTMANAGEMENTGroup/_layouts/15/stream.aspx?id=%2Fsites%2FUELABSTESTMANAGEMENTGroup%2FShared%20Documents%2FTEST%20REPORTS%20TEMPLATES%2FA%2E%20Empty%20enclosures%5FIEC%2062208%2F9%2E9%20Degree%20of%20protect%20IP%2FKP%20Instruction%2FIPX5%20KP%20PROCEDURE%2Emov&amp;referrer=StreamWebApp%2EWeb&amp;referrerScenario=AddressBarCopied%2Eview%2Edcbd052e%2D4bbe%2D48c9%2Db766%2D5cd0120cdb3e"
+                  id="videoProcedure1Btn"
+                >
+                  ▶ View procedure
+                </button>
+              </div>
+            </div>
+            <div class="videoCard" role="listitem">
+              <div class="videoThumb">
+                <img
+                  class="videoThumbImg"
+                  src="/assets/QUALITY_PERCEIVED.png"
+                  alt="QUALITY KP"
+                  id="videoProcedure2Thumb"
+                />
+              </div>
+              <div class="videoMeta">
+                <div class="videoTitle" id="videoProcedure2Title">Quality perceived KP</div>
+                <div class="videoSub" id="videoProcedure2Sub">Empty enclosures floor standing</div>
+                <button
+                  class="videoBtn"
+                  type="button"
+                  data-video-title="Quality perceived KP"
+                  data-video-src="https://schneiderelectric.sharepoint.com/sites/UELABSTESTMANAGEMENTGroup/_layouts/15/stream.aspx?id=%2Fsites%2FUELABSTESTMANAGEMENTGroup%2FShared%20Documents%2FTEST%20REPORTS%20TEMPLATES%2FB%2E%20Empty%20enclosures%20Floor%20standing%5FHors%20standard%20IEC%2FIT%5FAspect%5FDiagonales%20SFN%2FQUALITY%20PERCEIVED%20KP%2Emov&amp;referrer=StreamWebApp%2EWeb&amp;referrerScenario=AddressBarCopied%2Eview%2E2a869ac5%2D554a%2D4b35%2Db790%2D921826e3eeee"
+                  id="videoProcedure2Btn"
+                >
+                  ▶ View procedure
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="videoPlayer" aria-live="polite">
+            <div class="videoPlayerPlaceholder" id="videoProceduresPlaceholder">
+              Select a procedure to load the video.
+            </div>
+            <iframe
+              id="videoProceduresFrame"
+              class="videoFrame"
+              title="Video procedure"
+              loading="lazy"
+              allow="fullscreen"
+              hidden
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="templatesOverlay" id="templatesOverlay" aria-hidden="true">
+      <div class="templatesDrawer" role="dialog" aria-modal="true" aria-labelledby="templatesTitle">
+        <div class="templatesDrawerTop">
+          <div class="templatesDrawerTitle" id="templatesTitle">Automatized templates</div>
+          <button class="btn ghost" id="templatesAddBtn" type="button">Add template</button>
+          <button class="iconBtn" id="templatesCloseBtn" type="button" aria-label="Close templates">✕</button>
+        </div>
+        <div class="templatesDrawerBody">
+          <div class="templatesList" role="list" id="templatesList">
+            <div class="templateCard" role="listitem">
+              <div class="templateThumb">
+                <span id="template1Thumb">IEC 62208</span>
+              </div>
+              <div class="templateMeta">
+                <div class="templateTitle" id="template1Title">Template Ref. 9.9.2 of IEC 62208</div>
+                <div class="templateSub" id="template1Sub">Empty enclosures procedure template</div>
+                <a
+                  class="templateBtn"
+                  href="/assets/templates/Template%20Ref.%20%209.9.2%20of%20IEC%2062208.dotm"
+                  download
+                  id="template1Btn"
+                >
+                  Download template
+                </a>
+              </div>
+            </div>
+            <div class="templateCard" role="listitem">
+              <div class="templateThumb">
+                <span id="template2Thumb">REF-18</span>
+              </div>
+              <div class="templateMeta">
+                <div class="templateTitle" id="template2Title">Ref-18 Flammability 127mm UL (Automatized)</div>
+                <div class="templateSub" id="template2Sub">Empty enclosures floor standing</div>
+                <a
+                  class="templateBtn"
+                  href="/assets/templates/Ref-18%20Template%20Flammabilty%20127mm%20(5%20inches)%20UL%20(Automatized).dotm"
+                  download
+                  id="template2Btn"
+                >
+                  Download template
+                </a>
+              </div>
+            </div>
+            <div class="templateCard" role="listitem">
+              <div class="templateThumb">
+                <span id="template3Thumb">INTERNAL</span>
+              </div>
+              <div class="templateMeta">
+                <div class="templateTitle" id="template3Title">Internal Method Template Ref.</div>
+                <div class="templateSub" id="template3Sub">Internal methods template</div>
+                <a class="templateBtn" href="/assets/templates/Internal_Method_Template_Ref..dotm" download id="template3Btn">
+                  Download template
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="templatesNote" id="templatesNote">
+            These files are Word macro-enabled templates (.dotm). Download and open in Microsoft Word.
+          </div>
+          <div class="templatesHow">
+            <div class="templatesHowLead" id="templatesHowLead">How to enable macros</div>
+            <div class="templatesHowTitle" id="templatesHowTitle">!! INSTRUCTIONS !!</div>
+            <ol class="templatesSteps">
+              <li>
+                <div class="templatesStepText" id="templatesStep1">
+                  Step 1 – Download the file and click the blue folder icon “Show in folder” to locate the template.
+                </div>
+                <img class="templatesStepImage" id="templatesStepImage1" src="/assets/imagen1.jpg" alt="" />
+              </li>
+              <li>
+                <div class="templatesStepText" id="templatesStep2">
+                  Step 2 – Right-click the file → Properties → in the General tab, check Unblock (not in the Security tab).
+                </div>
+                <div class="templatesStepImages">
+                  <img class="templatesStepImage" id="templatesStepImage2" src="/assets/imagen2.jpg" alt="" />
+                  <img class="templatesStepImage" id="templatesStepImage3" src="/assets/imagen3.jpg" alt="" />
+                </div>
+              </li>
+              <li>
+                <div class="templatesStepText" id="templatesStep3">
+                  Step 3 – Click Apply, then OK. The template is ready to use.
+                </div>
+                <img class="templatesStepImage" id="templatesStepImage4" src="/assets/imagen4.jpg" alt="" />
+              </li>
+            </ol>
+            <div class="templatesPS" id="templatesPS">
+              P.S. You only need to do this once. You can save a copy on your desktop to keep the original file intact.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="templatesOverlay" id="internalMethodsOverlay" aria-hidden="true">
+      <div class="templatesDrawer" role="dialog" aria-modal="true" aria-labelledby="internalMethodsTitle">
+        <div class="templatesDrawerTop">
+          <div class="templatesDrawerTitle" id="internalMethodsTitle">Internal methods</div>
+          <button class="btn ghost" id="internalMethodsAddBtn" type="button">Add internal method</button>
+          <button class="iconBtn" id="internalMethodsCloseBtn" type="button" aria-label="Close internal methods">✕</button>
+        </div>
+        <div class="templatesDrawerBody">
+          <div class="templatesList" role="list" id="internalMethodsList">
+            <div class="templateCard" role="listitem">
+              <div class="templateThumb">
+                <span id="internalMethodThumb1">INTERNAL</span>
+              </div>
+              <div class="templateMeta">
+                <div class="templateTitle" id="internalMethodTitle1">Internal Method Template Ref.</div>
+                <div class="templateSub" id="internalMethodSub1">Internal methods template</div>
+                <a
+                  class="templateBtn"
+                  href="/assets/templates/Internal_Method_Template_Ref..dotm"
+                  download
+                  id="internalMethodBtn1"
+                >
+                  Download template
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="templatesNote">
+            Internal method templates for laboratory internal procedures.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="standardsOverlay" id="standardsOverlay" aria-hidden="true">
+      <div class="standardsDrawer" role="dialog" aria-modal="true" aria-labelledby="standardsTitle">
+        <div class="standardsDrawerTop">
+          <div class="standardsDrawerTitle" id="standardsTitle">Standards</div>
+          <button class="iconBtn" id="standardsCloseBtn" type="button" aria-label="Close standards">✕</button>
+        </div>
+        <div class="standardsDrawerBody">
+          <div class="standardsList" role="list">
+            <div class="standardCard" role="listitem">
+              <div class="standardThumb">
+                <span id="standard1Thumb">IEC 62208</span>
+              </div>
+              <div class="standardMeta">
+                <div class="standardTitle" id="standard1Title">IEC 62208 (ed.1.0)</div>
+                <div class="standardSub" id="standard1Sub">Empty enclosures — general requirements</div>
+                <a
+                  class="standardBtn"
+                  href="/data/Standards/iec62208%7Bed1.0%7Db.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="standard1Btn"
+                >
+                  Open standard
+                </a>
+              </div>
+            </div>
+            <div class="standardCard" role="listitem">
+              <div class="standardThumb">
+                <span id="standard2Thumb">IEC 61439-5</span>
+              </div>
+              <div class="standardMeta">
+                <div class="standardTitle" id="standard2Title">IEC 61439-5:2023</div>
+                <div class="standardSub" id="standard2Sub">Assemblies for public networks</div>
+                <a
+                  class="standardBtn"
+                  href="/data/Standards/IEC%2061439-5=2023.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="standard2Btn"
+                >
+                  Open standard
+                </a>
+              </div>
+            </div>
+            <div class="standardCard" role="listitem">
+              <div class="standardThumb">
+                <span id="standard3Thumb">UL 50</span>
+              </div>
+              <div class="standardMeta">
+                <div class="standardTitle" id="standard3Title">UL 50 (2024)</div>
+                <div class="standardSub" id="standard3Sub">Enclosures for electrical equipment</div>
+                <a
+                  class="standardBtn"
+                  href="/data/Standards/UL%2050_14%20(2024).pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="standard3Btn"
+                >
+                  Open standard
+                </a>
+              </div>
+            </div>
+            <div class="standardCard" role="listitem">
+              <div class="standardThumb">
+                <span id="standard4Thumb">UL 50E</span>
+              </div>
+              <div class="standardMeta">
+                <div class="standardTitle" id="standard4Title">UL 50E (Rev. Oct 2025)</div>
+                <div class="standardSub" id="standard4Sub">Environmental considerations</div>
+                <a
+                  class="standardBtn"
+                  href="/data/Standards/UL%2050E_3%20(2020_Rev%20Oct.2025).pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="standard4Btn"
+                >
+                  Open standard
+                </a>
+              </div>
+            </div>
+            <div class="standardCard" role="listitem">
+              <div class="standardThumb">
+                <span id="standard5Thumb">ISO 13347-1</span>
+              </div>
+              <div class="standardMeta">
+                <div class="standardTitle" id="standard5Title">ISO 13347-1:2004</div>
+                <div class="standardSub" id="standard5Sub">Sound power measurement</div>
+                <a
+                  class="standardBtn"
+                  href="/data/Standards/ISO-13347-1-2004.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="standard5Btn"
+                >
+                  Open standard
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="standardsNote" id="standardsNote">
+            Official technical standards (PDF). For internal use only.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mapDock" id="mapDock" aria-hidden="true">
+      <div class="mapPanel mapPanelInline" id="mapPanel">
+        <div id="mapWrap" aria-label="Laboratories map">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

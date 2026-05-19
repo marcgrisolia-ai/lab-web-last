@@ -1,0 +1,1839 @@
+[
+  {
+    "id": "IEC62208_99",
+    "categoryId": "CAT_ENV",
+    "icon": "🛡️",
+    "title": {
+      "en": "Ingress protection (IP)",
+      "es": "Protección contra ingreso (IP)",
+      "ca": "Protecció contra entrada (IP)",
+      "fr": "Indice de protection (IP)"
+    },
+    "summary": {
+      "en": "Verifies the declared IP protection against access to hazardous parts and ingress of solids and water.",
+      "es": "Verifica la protección IP declarada frente al acceso a partes peligrosas y la entrada de sólidos y agua.",
+      "ca": "Verifica la protecció IP declarada davant l’accés a parts perilloses i l’entrada de sòlids i aigua.",
+      "fr": "Vérifie l’indice IP déclaré contre l’accès aux parties dangereuses et la pénétration de solides et d’eau."
+    },
+    "why": {
+      "en": "IP performance is a primary barrier against contamination and moisture. Maintaining the declared protected space helps prevent tracking, corrosion, and short circuits, and reduces the likelihood of unsafe access to live parts.",
+      "es": "El rendimiento IP es una barrera principal frente a contaminación y humedad. Mantener el espacio protegido declarado ayuda a evitar corrientes de fuga, corrosión y cortocircuitos, y reduce el riesgo de acceso inseguro a partes activas.",
+      "ca": "El rendiment IP és una barrera principal davant la contaminació i la humitat. Mantenir l’espai protegit declarat ajuda a evitar corrents de fuga, corrosió i curtcircuits, i redueix el risc d’accés insegur a parts en tensió.",
+      "fr": "La performance IP est une barrière clé contre la contamination et l’humidité. Le maintien du volume protégé déclaré aide à éviter cheminements, corrosion et courts-circuits, et réduit le risque d’accès aux parties actives."
+    },
+    "how": {
+      "en": "Per IEC 62208 (IEC 60529 methods), we verify: (1) access probes do not enter the declared protected space; (2) solid ingress per the required IP numeral (e.g., talc test for IP5X with a witness watch glass; no visible talc for IP6X); and (3) water ingress using the relevant spray/jet arrangement. Water ingress is checked with dry absorbent indicator paper placed on the base of each protected space and near any uncovered apertures; indicator papers must remain dry after the test.",
+      "es": "Según IEC 62208 (métodos IEC 60529), verificamos: (1) que los calibres de acceso no entren en el espacio protegido declarado; (2) la entrada de sólidos según el primer dígito IP (p. ej., ensayo con talco para IP5X con superficie testigo; ausencia de talco visible para IP6X); y (3) la entrada de agua con el montaje de pulverización/chorro aplicable. La entrada de agua se comprueba con papel absorbente seco colocado en la base de cada espacio protegido y cerca de cualquier abertura sin protección; el papel debe permanecer seco tras el ensayo.",
+      "ca": "Segons IEC 62208 (mètodes IEC 60529), verifiquem: (1) que les sondes d’accés no entrin a l’espai protegit declarat; (2) l’entrada de sòlids segons el primer dígit IP (p. ex., assaig amb talc per a IP5X amb superfície testimoni; absència de talc visible per a IP6X); i (3) l’entrada d’aigua amb el muntatge de polvorització/raig aplicable. L’entrada d’aigua es comprova amb paper absorbent sec col·locat a la base de cada espai protegit i a prop de qualsevol obertura no protegida; el paper ha de romandre sec després de l’assaig.",
+      "fr": "Selon l’IEC 62208 (méthodes IEC 60529), nous vérifions : (1) les sondes d’accès ne pénètrent pas dans le volume protégé déclaré ; (2) la pénétration de solides selon le premier chiffre IP (p. ex., essai au talc pour IP5X avec surface témoin ; absence de talc visible pour IP6X) ; et (3) la pénétration d’eau avec le dispositif de pulvérisation/jet applicable. L’intrusion d’eau est contrôlée à l’aide de papier absorbant sec placé à la base de chaque volume protégé et à proximité de toute ouverture non protégée ; les papiers indicateurs doivent rester secs après l’essai."
+    },
+    "tags": [],
+    "labs": [
+      "molins",
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.9"
+  },
+  {
+    "id": "IEC62208_913",
+    "categoryId": "CAT_ENV",
+    "icon": "☀️",
+    "title": {
+      "en": "UV resistance",
+      "es": "Resistencia a UV",
+      "ca": "Resistència a UV",
+      "fr": "Résistance aux UV"
+    },
+    "summary": {
+      "en": "Assesses resistance of external materials and coatings to weathering (UV exposure) for outdoor use.",
+      "es": "Evalúa la resistencia a la intemperie (UV) de materiales y recubrimientos externos para uso exterior.",
+      "ca": "Avalua la resistència a la intempèrie (UV) de materials i recobriments externs per a ús exterior.",
+      "fr": "Évalue la résistance au vieillissement climatique (UV) des matériaux et revêtements externes pour usage extérieur."
+    },
+    "why": {
+      "en": "UV ageing can embrittle polymers and degrade coatings, reducing impact strength and compromising sealing interfaces over time. Weathering verification supports long-term mechanical integrity of doors, covers, and protected edges in outdoor service.",
+      "es": "El envejecimiento por UV puede fragilizar polímeros y degradar recubrimientos, reduciendo la resistencia al impacto y comprometiendo interfaces de sellado con el tiempo. La verificación a la intemperie respalda la integridad mecánica a largo plazo de puertas, tapas y bordes protegidos en exterior.",
+      "ca": "L’envelliment per UV pot fragilitzar polímers i degradar recobriments, reduint la resistència a l’impacte i comprometent les interfícies de segellat amb el temps. La verificació a la intempèrie dona suport a la integritat mecànica a llarg termini de portes, tapes i vores protegides en servei exterior.",
+      "fr": "Le vieillissement UV peut fragiliser les polymères et dégrader les revêtements, réduisant la résistance aux chocs et compromettant les interfaces d’étanchéité au fil du temps. La vérification au vieillissement climatique soutient l’intégrité mécanique à long terme des portes, couvercles et arêtes protégées en extérieur."
+    },
+    "how": {
+      "en": "Representative external material samples are exposed to a xenon-arc weathering cycle (ISO 4892-2, method A) with alternating wetting/dry periods for a defined total duration (e.g., 500 h). After exposure, we check that key mechanical properties retain the required level (e.g., flexural strength per ISO 178 and Charpy impact per ISO 179) and, for coated metal panels, that coating adhesion remains acceptable (ISO 2409). Samples are also verified for absence of cracks/deterioration and may be subjected to the IEC 62208 glow-wire verification used for insulating materials.",
+      "es": "Se exponen muestras representativas de material exterior a un ciclo de envejecimiento con lámpara de xenón (ISO 4892-2, método A) con alternancia de periodos de mojado y seco durante una duración total definida (p. ej., 500 h). Tras la exposición, se comprueba la retención de propiedades mecánicas clave (p. ej., resistencia a flexión según ISO 178 e impacto Charpy según ISO 179) y, en paneles metálicos pintados, la adherencia del recubrimiento (ISO 2409). También se verifica ausencia de grietas/deterioro y, cuando aplica, se realiza la verificación por hilo incandescente indicada en IEC 62208 para materiales aislantes.",
+      "ca": "S’exposen mostres representatives de material exterior a un cicle d’envelliment amb làmpada de xenó (ISO 4892-2, mètode A) amb alternança de períodes de mullat i sec durant una durada total definida (p. ex., 500 h). Després de l’exposició, es comprova la retenció de propietats mecàniques clau (p. ex., resistència a flexió segons ISO 178 i impacte Charpy segons ISO 179) i, en panells metàl·lics pintats, l’adherència del recobriment (ISO 2409). També es verifica l’absència d’esquerdes/deteriorament i, quan escau, es fa la verificació amb fil incandescent indicada a IEC 62208 per a materials aïllants.",
+      "fr": "Des éprouvettes représentatives des matériaux externes sont soumises à un cycle de vieillissement en xénon (ISO 4892-2, méthode A) alternant phases d’aspersion et de séchage pendant une durée totale définie (p. ex., 500 h). Après exposition, nous vérifions la rétention des propriétés mécaniques clés (p. ex., résistance en flexion selon ISO 178 et choc Charpy selon ISO 179) et, pour des panneaux métalliques revêtus, l’adhérence du revêtement (ISO 2409). L’absence de fissures/dégradations est également contrôlée et, le cas échéant, les échantillons peuvent être soumis à la vérification au fil incandescent utilisée par l’IEC 62208 pour les matériaux isolants."
+    },
+    "tags": [],
+    "labs": [
+      "molins"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.13"
+  },
+  {
+    "id": "IEC62208_914",
+    "categoryId": "CAT_ENV",
+    "icon": "🧂",
+    "title": {
+      "en": "Corrosion resistance",
+      "es": "Resistencia a la corrosión",
+      "ca": "Resistència a la corrosió",
+      "fr": "Résistance à la corrosion"
+    },
+    "summary": {
+      "en": "Verifies resistance of metallic parts and hardware to corrosion under humid and saline exposure.",
+      "es": "Verifica la resistencia a la corrosión de partes metálicas y herrajes bajo exposición húmeda y salina.",
+      "ca": "Verifica la resistència a la corrosió de parts metàl·liques i ferratges sota exposició humida i salina.",
+      "fr": "Vérifie la résistance à la corrosion des parties métalliques et de la quincaillerie sous humidité et atmosphère saline."
+    },
+    "why": {
+      "en": "Corrosion can seize hinges and locks, degrade fasteners, and damage coatings at sealing edges. Maintaining corrosion protection helps preserve mechanical function, protective bonding, and long-term enclosure integrity in the intended service environment.",
+      "es": "La corrosión puede gripar bisagras y cerraduras, degradar tornillería y dañar recubrimientos en bordes de sellado. Mantener la protección anticorrosión ayuda a preservar la función mecánica, la continuidad de protección y la integridad de la envolvente a largo plazo en el entorno previsto.",
+      "ca": "La corrosió pot gripar frontisses i panys, degradar la cargoleria i danyar recobriments a les vores de segellat. Mantenir la protecció anticorrosió ajuda a preservar la funció mecànica, la continuïtat de protecció i la integritat de l’envolvent a llarg termini en l’entorn previst.",
+      "fr": "La corrosion peut gripper charnières et serrures, dégrader la visserie et endommager les revêtements au niveau des arêtes d’étanchéité. La protection anticorrosion contribue à préserver la fonction mécanique, la liaison de protection et l’intégrité de l’enveloppe à long terme dans l’environnement visé."
+    },
+    "how": {
+      "en": "Per IEC 62208, new and clean enclosures or representative coated specimens (including hinges, locks, and fasteners) are mounted as in service and subjected to cyclic damp-heat exposure and salt-mist exposure. The number of cycles depends on whether the parts are intended for indoor or outdoor service. After conditioning, specimens are rinsed/washed, dried, stabilized under normal conditions, and visually examined for rust, coating deterioration, cracking, or other damage that would impair further use.",
+      "es": "Según IEC 62208, envolventes nuevas y limpias o probetas representativas (incluyendo bisagras, cerraduras y fijaciones) se montan como en servicio y se someten a ciclos de calor húmedo y a exposición a niebla salina. El número de ciclos depende de si las partes están destinadas a uso interior o exterior. Tras el acondicionamiento, se lavan/enjuagan, se secan, se estabilizan en condiciones normales y se inspeccionan visualmente para detectar óxido, deterioro del recubrimiento, grietas u otros daños que impidan su uso posterior.",
+      "ca": "Segons IEC 62208, envolvents noves i netes o provetes representatives (incloent frontisses, panys i fixacions) es munten com en servei i se sotmeten a cicles de calor humit i a exposició a boira salina. El nombre de cicles depèn de si les parts són per a ús interior o exterior. Després del condicionament, es renten/esbanden, s’assequen, s’estabilitzen en condicions normals i s’inspeccionen visualment per detectar òxid, deteriorament del recobriment, esquerdes o altres danys que n’impedeixin l’ús posterior.",
+      "fr": "Selon l’IEC 62208, des enveloppes neuves et propres ou des éprouvettes revêtues représentatives (y compris charnières, serrures et fixations) sont montées comme en service et soumises à des cycles de chaleur humide puis à une exposition au brouillard salin. Le nombre de cycles dépend de l’usage intérieur ou extérieur visé. Après conditionnement, les pièces sont rincées/lavées, séchées, stabilisées en conditions normales puis examinées visuellement (rouille, dégradation du revêtement, fissures ou tout dommage compromettant l’usage ultérieur)."
+    },
+    "tags": [],
+    "labs": [
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.14"
+  },
+  {
+    "id": "UL_RAIN",
+    "categoryId": "CAT_ENV",
+    "icon": "🌧️",
+    "title": {
+      "en": "Rain test",
+      "es": "Ensayo de lluvia",
+      "ca": "Assaig de pluja",
+      "fr": "Essai de pluie"
+    },
+    "summary": {
+      "en": "Assesses rain resistance under a controlled spray exposure for outdoor Type performance.",
+      "es": "Evalúa la resistencia a lluvia bajo una exposición controlada por pulverización para uso exterior.",
+      "ca": "Avalua la resistència a la pluja sota una exposició controlada per polvorització per a ús exterior.",
+      "fr": "Évalue la résistance à la pluie sous pulvérisation contrôlée pour la performance en extérieur."
+    },
+    "why": {
+      "en": "Rain can enter through seams, conduit entries, and external mechanisms. The rain verification checks that water does not accumulate inside and does not reach energized parts, supporting the enclosure’s environmental Type rating for outdoor installation.",
+      "es": "La lluvia puede entrar por juntas, entradas de conducto y mecanismos externos. La verificación confirma que no se acumula agua en el interior ni llega a partes energizadas, respaldando el tipo ambiental para instalación exterior.",
+      "ca": "La pluja pot entrar per juntes, entrades de conducte i mecanismes externs. La verificació confirma que no s’acumula aigua a l’interior ni arriba a parts energitzades, donant suport al tipus ambiental per a instal·lació exterior.",
+      "fr": "La pluie peut pénétrer par les joints, entrées de conduit et mécanismes externes. La vérification confirme l’absence d’accumulation d’eau et l’absence d’eau au niveau des parties sous tension, soutenant le Type environnemental en extérieur."
+    },
+    "how": {
+      "en": "Per UL 50E, the complete enclosure is mounted as in service with conduit connected (without thread-sealing compound) and positioned in the spray focal area. Water is applied through a multi-head spray rack at controlled pressure for 1 hour. The enclosure passes if there is no internal water accumulation and no water enters above the lowest live part (subject to the standard’s permitted constructions).",
+      "es": "Según UL 50E, la envolvente completa se monta como en servicio con conducto conectado (sin sellador de roscas) y se coloca en la zona focal de pulverización. Se aplica agua con un bastidor de varios rociadores a presión controlada durante 1 hora. Cumple si no hay acumulación interna y no entra agua por encima de la parte activa más baja (según las excepciones permitidas por la norma).",
+      "ca": "Segons UL 50E, l’envolvent complet es munta com en servei amb conducte connectat (sense segellador de rosca) i es col·loca a la zona focal de polvorització. S’aplica aigua amb un bastidor de diversos ruixadors a pressió controlada durant 1 hora. Compleix si no hi ha acumulació interna i no entra aigua per sobre de la part activa més baixa (segons les excepcions permeses per la norma).",
+      "fr": "Selon UL 50E, l’enveloppe complète est montée comme en service avec conduit raccordé (sans produit d’étanchéité de filetage) et placée dans la zone focale d’aspersion. L’eau est appliquée via une rampe multi-buses à pression contrôlée pendant 1 h. Réussite si aucune accumulation interne et aucune entrée d’eau au-dessus de la partie active la plus basse (selon les tolérances prévues par la norme)."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_DRIP",
+    "categoryId": "CAT_ENV",
+    "icon": "💧",
+    "title": {
+      "en": "Drip test",
+      "es": "Ensayo de goteo",
+      "ca": "Assaig de degoteig",
+      "fr": "Essai de goutte-à-goutte"
+    },
+    "summary": {
+      "en": "Verifies resistance to overhead dripping/spray water without internal pooling or wetting of live parts.",
+      "es": "Verifica la resistencia a goteo/pulverización desde arriba sin encharcamiento interno ni humedecimiento de partes activas.",
+      "ca": "Verifica la resistència a degoteig/polvorització des de dalt sense embassament intern ni humitejat de parts actives.",
+      "fr": "Vérifie la résistance à l’eau gouttante/pulvérisée par le dessus sans accumulation interne ni mouillage des parties sous tension."
+    },
+    "why": {
+      "en": "Dripping water from condensation or leaks can create conductive paths and accelerate corrosion. The drip verification ensures the enclosure manages vertical water exposure without creating hazardous wetting inside.",
+      "es": "El agua por condensación o fugas puede crear caminos conductores y acelerar la corrosión. La verificación asegura que la envolvente gestiona la exposición vertical al agua sin humedecer zonas críticas.",
+      "ca": "L’aigua per condensació o fuites pot crear camins conductors i accelerar la corrosió. La verificació assegura que l’envolvent gestiona l’exposició vertical a l’aigua sense humitejar zones crítiques.",
+      "fr": "L’eau gouttante (condensation ou fuites) peut créer des chemins conducteurs et accélérer la corrosion. La vérification garantit que l’enveloppe gère cette exposition verticale sans mouillage interne critique."
+    },
+    "how": {
+      "en": "Per UL 50E, the enclosure with conduit connected is subjected either to (A) a drip apparatus with uniformly distributed sources for a set time, or (B) a controlled top spray/rainfall rate for 1 hour at an angle up to 15° from vertical. Acceptance is based on no internal accumulation and no water entering above the lowest live part (with allowances only where permitted by the standard).",
+      "es": "Según UL 50E, la envolvente con conducto conectado se somete a (A) un equipo de goteo con fuentes uniformemente distribuidas durante un tiempo definido o (B) una pulverización superior controlada durante 1 hora con ángulo hasta 15° respecto a la vertical. Se acepta si no hay acumulación interna ni entrada de agua por encima de la parte activa más baja (salvo lo permitido por la norma).",
+      "ca": "Segons UL 50E, l’envolvent amb conducte connectat se sotmet a (A) un equip de degoteig amb fonts uniformement distribuïdes durant un temps definit o (B) una polvorització superior controlada durant 1 hora amb angle fins a 15° respecte a la vertical. S’accepta si no hi ha acumulació interna ni entrada d’aigua per sobre de la part activa més baixa (excepte el que permet la norma).",
+      "fr": "Selon UL 50E, l’enveloppe avec conduit raccordé est soumise soit à (A) un dispositif de goutte-à-goutte à sources uniformément réparties pendant une durée définie, soit à (B) une aspersion supérieure contrôlée pendant 1 h jusqu’à 15° de la verticale. Réussite si aucune accumulation interne et aucune entrée d’eau au-dessus de la partie active la plus basse (hors tolérances prévues par la norme)."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_DUST_HOSE",
+    "categoryId": "CAT_ENV",
+    "icon": "🌪️",
+    "title": {
+      "en": "Dust test (hose method)",
+      "es": "Ensayo de polvo (método manguera)",
+      "ca": "Assaig de pols (mètode mànega)",
+      "fr": "Essai de poussière (méthode tuyau)"
+    },
+    "summary": {
+      "en": "Outdoor dust test — hose method: challenges seams and joints with a high-flow directed stream.",
+      "es": "Ensayo de polvo exterior — método con manguera: somete juntas y uniones a un chorro dirigido de alto caudal.",
+      "ca": "Assaig de pols exterior — mètode amb mànega: sotmet juntes i unions a un raig dirigit d’alt cabal.",
+      "fr": "Essai poussière extérieur — méthode au tuyau : sollicite joints et assemblages par un jet dirigé à fort débit."
+    },
+    "why": {
+      "en": "Seams, joints, and external mechanisms are primary entry paths. This method stresses the sealing line at joints under a strong stream to reveal leakage paths that could also admit dust and contaminants in service.",
+      "es": "Juntas, uniones y mecanismos externos son vías principales de entrada. Este método fuerza la línea de estanqueidad con un chorro intenso para revelar vías de fuga que también podrían admitir polvo y contaminantes en servicio.",
+      "ca": "Juntes, unions i mecanismes externs són vies principals d’entrada. Aquest mètode força la línia d’estanqueïtat amb un raig intens per revelar vies de fuita que també podrien admetre pols i contaminants en servei.",
+      "fr": "Les joints, assemblages et mécanismes externes sont des voies d’entrée principales. Cette méthode sollicite la ligne d’étanchéité par un jet puissant afin de révéler des chemins de fuite susceptibles d’admettre aussi poussières et contaminants en service."
+    },
+    "how": {
+      "en": "Per UL 50E hose method, the enclosure and its external mechanisms are subjected to a stream from a 1-inch nozzle delivering at least 170 L/min. The stream is directed along all joints from 3.0–3.5 m while moving the nozzle along each joint, and the enclosure/nozzle is repositioned to cover representative accessible sides in worst-case intended orientation. The enclosure passes if no water enters.",
+      "es": "Según UL 50E (método con manguera), la envolvente y sus mecanismos externos se someten a un chorro desde una boquilla de 1\" con al menos 170 L/min. El chorro se dirige a lo largo de todas las juntas desde 3,0–3,5 m moviendo la boquilla a lo largo de cada junta, y se reorienta para cubrir lados representativos accesibles en la peor orientación prevista. Cumple si no entra agua.",
+      "ca": "Segons UL 50E (mètode amb mànega), l’envolvent i els seus mecanismes externs se sotmeten a un raig des d’una boquilla d’1\" amb almenys 170 L/min. El raig es dirigeix al llarg de totes les juntes des de 3,0–3,5 m movent la boquilla al llarg de cada junta, i es reorienta per cobrir costats representatius accessibles en la pitjor orientació prevista. Compleix si no entra aigua.",
+      "fr": "Selon UL 50E (méthode au tuyau), l’enveloppe et ses mécanismes externes sont soumis à un jet via une buse de 1\" délivrant au moins 170 L/min. Le jet est appliqué le long de tous les joints à 3,0–3,5 m en déplaçant la buse le long de chaque joint, puis en replaçant buse/enveloppe pour couvrir les faces accessibles représentatives dans la pire orientation prévue. Réussite si aucune entrée d’eau."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_ATOMIZED_A",
+    "categoryId": "CAT_ENV",
+    "icon": "🌫️",
+    "title": {
+      "en": "Atomized water (method A)",
+      "es": "Agua atomizada (método A)",
+      "ca": "Aigua atomizada (mètode A)",
+      "fr": "Eau atomisée (méthode A)"
+    },
+    "summary": {
+      "en": "Atomized-water Method A: verifies resistance to fine mist at potential entry locations.",
+      "es": "Agua atomizada (método A): verifica la resistencia a niebla fina en puntos potenciales de entrada.",
+      "ca": "Aigua atomitzada (mètode A): verifica la resistència a boira fina en punts potencials d’entrada.",
+      "fr": "Eau atomisée (méthode A) : vérifie la résistance à une fine brume aux points d’entrée potentiels."
+    },
+    "why": {
+      "en": "Atomized spray can penetrate smaller gaps than jets or drops. The method is useful to evaluate seam and gasket performance at external operating mechanisms and joints.",
+      "es": "La pulverización atomizada puede penetrar holguras más pequeñas que chorros o gotas. El método es útil para evaluar juntas y empaquetaduras en mecanismos externos y uniones.",
+      "ca": "La polvorització atomitzada pot penetrar holgures més petites que raigs o gotes. El mètode és útil per avaluar juntes i juntes d’estanqueïtat en mecanismes externs i unions.",
+      "fr": "La brumisation atomisée peut pénétrer des jeux plus petits que des jets ou des gouttes. La méthode sert à évaluer les joints et garnitures au niveau des mécanismes externes et des assemblages."
+    },
+    "how": {
+      "en": "Per UL 50E Method A, an atomized spray (defined pattern) is applied from a short distance with controlled air pressure, directing the spray once at each seam, joint, and external mechanism likely to admit ingress. The enclosure passes if no water enters.",
+      "es": "Según UL 50E (método A), se aplica una pulverización atomizada (patrón definido) desde corta distancia con presión de aire controlada, dirigiéndola una vez a cada junta, unión y mecanismo externo susceptible. Cumple si no entra agua.",
+      "ca": "Segons UL 50E (mètode A), s’aplica una polvorització atomitzada (patró definit) des de poca distància amb pressió d’aire controlada, dirigint-la una vegada a cada junta, unió i mecanisme extern susceptible. Compleix si no entra aigua.",
+      "fr": "Selon UL 50E (méthode A), une pulvérisation atomisée (motif défini) est appliquée à courte distance avec pression d’air contrôlée, dirigée une fois sur chaque joint, assemblage et mécanisme externe susceptible. Réussite si aucune entrée d’eau."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_ATOMIZED_B",
+    "categoryId": "CAT_ENV",
+    "icon": "💦",
+    "title": {
+      "en": "Atomized water (method B)",
+      "es": "Agua atomizada (método B)",
+      "ca": "Aigua atomizada (mètode B)",
+      "fr": "Eau atomisée (méthode B)"
+    },
+    "summary": {
+      "en": "Atomized-water Method B: verifies fine mist resistance using the alternate Method B setup.",
+      "es": "Agua atomizada (método B): verifica la resistencia a niebla fina con la configuración alternativa B.",
+      "ca": "Aigua atomitzada (mètode B): verifica la resistència a boira fina amb la configuració alternativa B.",
+      "fr": "Eau atomisée (méthode B) : vérifie la résistance à la brume avec la configuration alternative B."
+    },
+    "why": {
+      "en": "Method B uses a different nozzle distance/pressure and liquid application quantity. It helps validate sealing robustness under a fine spray delivered in the specified manner to seams and mechanisms.",
+      "es": "El método B usa distinta distancia/presión y cantidad aplicada. Ayuda a validar la robustez de la estanqueidad bajo una niebla fina aplicada según el método a juntas y mecanismos.",
+      "ca": "El mètode B utilitza una distància/pressió i quantitat aplicada diferents. Ajuda a validar la robustesa de l’estanqueïtat sota una boira fina aplicada segons el mètode a juntes i mecanismes.",
+      "fr": "La méthode B utilise une distance/pression et une quantité d’eau différentes. Elle valide la robustesse de l’étanchéité sous une fine pulvérisation appliquée selon le procédé aux joints et mécanismes."
+    },
+    "how": {
+      "en": "Per UL 50E Method B, an atomized spray is applied from the specified distance with controlled air pressure and a defined application quantity, directed once at points of potential entry (seams, joints, external mechanisms). The enclosure passes if no water enters.",
+      "es": "Según UL 50E (método B), se aplica una pulverización atomizada desde la distancia especificada con presión de aire controlada y cantidad definida, dirigida una vez a puntos de entrada potencial (juntas, uniones, mecanismos externos). Cumple si no entra agua.",
+      "ca": "Segons UL 50E (mètode B), s’aplica una polvorització atomitzada des de la distància especificada amb pressió d’aire controlada i quantitat definida, dirigida una vegada a punts d’entrada potencial (juntes, unions, mecanismes externs). Compleix si no entra aigua.",
+      "fr": "Selon UL 50E (méthode B), une pulvérisation atomisée est appliquée à la distance spécifiée avec pression d’air contrôlée et quantité d’application définie, dirigée une fois sur les points d’entrée potentiels (joints, assemblages, mécanismes externes). Réussite si aucune entrée d’eau."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_HOSEDOWN",
+    "categoryId": "CAT_ENV",
+    "icon": "🚿",
+    "title": {
+      "en": "Hose-down test",
+      "es": "Ensayo de manguera (hose-down)",
+      "ca": "Assaig de mànega (hose-down)",
+      "fr": "Essai au jet d’eau (hose-down)"
+    },
+    "summary": {
+      "en": "Hose-down test: verifies sealing under high-flow washdown along seams and joints.",
+      "es": "Ensayo de manguera (hose-down): verifica la estanqueidad bajo lavado de alto caudal en juntas y uniones.",
+      "ca": "Assaig de mànega (hose-down): verifica l’estanqueïtat sota rentat d’alt cabal en juntes i unions.",
+      "fr": "Essai au jet (hose-down) : vérifie l’étanchéité sous lavage à fort débit le long des joints."
+    },
+    "why": {
+      "en": "Washdown is common in industrial environments. The test demonstrates that hose-directed water does not force its way through seams, joints, and external mechanisms into the enclosure.",
+      "es": "El lavado con manguera es habitual en entornos industriales. El ensayo demuestra que el agua dirigida no se fuerza a través de juntas, uniones y mecanismos externos hacia el interior.",
+      "ca": "El rentat amb mànega és habitual en entorns industrials. L’assaig demostra que l’aigua dirigida no es força a través de juntes, unions i mecanismes externs cap a l’interior.",
+      "fr": "Le lavage au jet est courant en milieu industriel. L’essai démontre que l’eau dirigée ne force pas le passage à travers joints, assemblages et mécanismes externes vers l’intérieur."
+    },
+    "how": {
+      "en": "Per UL 50E, the enclosure and its external mechanisms are subjected to a hose stream from a 1-inch nozzle delivering at least 240 L/min. The stream is directed along all joints from 3.0–3.5 m and the nozzle is moved along each joint; the enclosure/nozzle is repositioned to test representative accessible sides in intended orientation. The enclosure passes if no water enters.",
+      "es": "Según UL 50E, la envolvente y sus mecanismos externos se someten a un chorro desde una boquilla de 1\" con al menos 240 L/min. El chorro se dirige a lo largo de todas las juntas desde 3,0–3,5 m moviendo la boquilla, y se reorienta para ensayar lados representativos accesibles. Cumple si no entra agua.",
+      "ca": "Segons UL 50E, l’envolvent i els seus mecanismes externs se sotmeten a un raig des d’una boquilla d’1\" amb almenys 240 L/min. El raig es dirigeix al llarg de totes les juntes des de 3,0–3,5 m movent la boquilla, i es reorienta per assajar costats representatius accessibles. Compleix si no entra aigua.",
+      "fr": "Selon UL 50E, l’enveloppe et ses mécanismes externes sont soumis à un jet via une buse de 1\" délivrant au moins 240 L/min. Le jet est appliqué le long de tous les joints à 3,0–3,5 m en déplaçant la buse, puis en replaçant buse/enveloppe pour tester des faces accessibles représentatives. Réussite si aucune entrée d’eau."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_CORR_INDOOR",
+    "categoryId": "CAT_ENV",
+    "icon": "🏭",
+    "title": {
+      "en": "Indoor corrosion protection",
+      "es": "Protección anticorrosión interior",
+      "ca": "Protecció anticorrosión interior",
+      "fr": "Protection anticorrosion intérieure"
+    },
+    "summary": {
+      "en": "Indoor corrosion protection verified by a 24-hour salt-spray exposure and visual evaluation.",
+      "es": "Protección anticorrosión interior verificada mediante 24 h de niebla salina y evaluación visual.",
+      "ca": "Protecció anticorrosió interior verificada mitjançant 24 h de boira salina i avaluació visual.",
+      "fr": "Protection anticorrosion intérieure vérifiée par 24 h de brouillard salin et évaluation visuelle."
+    },
+    "why": {
+      "en": "Even indoor locations can expose hardware and finishes to humidity and contaminants. Corrosion on hinges, fasteners, and mating surfaces can impair closure and reduce long-term mechanical reliability.",
+      "es": "Incluso en interior, herrajes y acabados pueden exponerse a humedad y contaminantes. La corrosión en bisagras, tornillería y superficies de contacto puede afectar el cierre y la fiabilidad mecánica a largo plazo.",
+      "ca": "Fins i tot en interior, ferratges i acabats poden exposar-se a humitat i contaminants. La corrosió en frontisses, cargoleria i superfícies de contacte pot afectar el tancament i la fiabilitat mecànica a llarg termini.",
+      "fr": "Même en intérieur, la quincaillerie et les finitions peuvent être exposées à l’humidité et des contaminants. La corrosion des charnières, fixations et surfaces d’appui peut gêner la fermeture et réduire la fiabilité mécanique à long terme."
+    },
+    "how": {
+      "en": "Per UL 50E, the enclosure (or representative parts/plaques) is exposed to a salt fog generated from a 5% sodium-chloride solution under controlled chamber temperature. After 24 hours, specimens are rinsed, dried, and examined. The enclosure passes if there is no rust except at points where protection is impractical (e.g., certain machined or sliding surfaces).",
+      "es": "Según UL 50E, la envolvente (o partes/placas representativas) se expone a una niebla salina generada con una solución de cloruro sódico al 5% y temperatura de cámara controlada. Tras 24 h, se enjuaga, se seca y se examina. Cumple si no hay óxido salvo en puntos donde la protección es impracticable (p. ej., ciertas superficies mecanizadas o deslizantes).",
+      "ca": "Segons UL 50E, l’envolvent (o parts/plaques representatives) s’exposa a una boira salina generada amb una solució de clorur sòdic al 5% i temperatura de cambra controlada. Després de 24 h, s’esbandeix, s’asseca i s’examina. Compleix si no hi ha rovell excepte en punts on la protecció és impracticable (p. ex., certes superfícies mecanitzades o lliscants).",
+      "fr": "Selon UL 50E, l’enveloppe (ou des pièces/plaques représentatives) est exposée à un brouillard salin généré à partir d’une solution de chlorure de sodium à 5 % avec température de chambre contrôlée. Après 24 h, les pièces sont rincées, séchées et examinées. Réussite si absence de rouille sauf aux points où la protection est impraticable (p. ex., certaines surfaces usinées ou glissantes)."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_CORR_ADDITIONAL",
+    "categoryId": "CAT_ENV",
+    "icon": "⚙️",
+    "title": {
+      "en": "Additional corrosion protection",
+      "es": "Protección anticorrosión adicional",
+      "ca": "Protecció anticorrosión adicional",
+      "fr": "Protection anticorrosion supplémentaire"
+    },
+    "summary": {
+      "en": "Additional corrosion protection for severe outdoor Types verified by extended salt-spray exposure.",
+      "es": "Protección anticorrosión adicional para tipos severos verificada mediante exposición prolongada a niebla salina.",
+      "ca": "Protecció anticorrosió addicional per a tipus severs verificada mitjançant exposició prolongada a boira salina.",
+      "fr": "Protection anticorrosion additionnelle pour Types sévères vérifiée par brouillard salin prolongé."
+    },
+    "why": {
+      "en": "Some Type ratings require enhanced corrosion resistance for harsh environments. This verification helps ensure materials and finishes withstand aggressive exposure without pitting or coating failure that would affect function and sealing.",
+      "es": "Algunos tipos requieren resistencia anticorrosión reforzada en ambientes agresivos. La verificación asegura que materiales y acabados resisten sin picaduras ni fallo de recubrimiento que afecte función y estanqueidad.",
+      "ca": "Alguns tipus requereixen resistència anticorrosió reforçada en ambients agressius. La verificació assegura que materials i acabats resisteixen sense picades ni fallada del recobriment que afecti funció i estanqueïtat.",
+      "fr": "Certains Types exigent une résistance anticorrosion renforcée en environnements agressifs. La vérification assure que matériaux et finitions résistent sans piqûres ni défaillance du revêtement affectant fonction et étanchéité."
+    },
+    "how": {
+      "en": "Per UL 50E, the enclosure or representative parts are subjected to a salt-spray exposure for an extended duration (additional corrosion sequence). Results are evaluated for pitting, cracking, or deterioration and compared against a specified stainless-steel reference performance where applicable.",
+      "es": "Según UL 50E, la envolvente o partes representativas se someten a exposición a niebla salina durante una duración extendida (secuencia de corrosión adicional). Se evalúan picaduras, grietas o deterioro y, cuando aplica, se compara con un rendimiento de referencia en acero inoxidable.",
+      "ca": "Segons UL 50E, l’envolvent o parts representatives se sotmeten a exposició a boira salina durant una durada estesa (seqüència de corrosió addicional). S’avaluen picades, esquerdes o deteriorament i, quan escau, es compara amb un rendiment de referència en acer inoxidable.",
+      "fr": "Selon UL 50E, l’enveloppe ou des pièces représentatives sont soumises à un brouillard salin pendant une durée prolongée (séquence de corrosion additionnelle). On évalue piqûres, fissures ou dégradations et, le cas échéant, on compare à une performance de référence en acier inoxydable."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_CORR_OUTDOOR_SALT_60H",
+    "categoryId": "CAT_ENV",
+    "icon": "🌊",
+    "title": {
+      "en": "Outdoor corrosion (salt spray 60h)",
+      "es": "Corrosión exterior (niebla salina 60h)",
+      "ca": "Corrosió exterior (niebla salina 60h)",
+      "fr": "Corrosion extérieure (brouillard salin 60h)"
+    },
+    "summary": {
+      "en": "Outdoor corrosion protection checked by extended corrosion exposure and comparison against reference performance.",
+      "es": "Protección anticorrosión exterior comprobada mediante exposición prolongada y comparación con una referencia.",
+      "ca": "Protecció anticorrosió exterior comprovada mitjançant exposició prolongada i comparació amb una referència.",
+      "fr": "Protection anticorrosion extérieure vérifiée par exposition prolongée et comparaison à une référence."
+    },
+    "why": {
+      "en": "Outdoor enclosures face long-duration wetting, salts, and pollutants that can drive pitting and coating undercut. Outdoor corrosion verification helps qualify finishes so the enclosure maintains structural and sealing integrity over time.",
+      "es": "Las envolventes exteriores se enfrentan a mojado prolongado, sales y contaminantes que pueden provocar picaduras y socavar recubrimientos. La verificación ayuda a calificar acabados para mantener integridad estructural y de estanqueidad con el tiempo.",
+      "ca": "Els envolvents exteriors s’enfronten a mullat prolongat, sals i contaminants que poden provocar picades i socavar recobriments. La verificació ajuda a qualificar acabats per mantenir la integritat estructural i d’estanqueïtat amb el temps.",
+      "fr": "Les enveloppes extérieures subissent une exposition prolongée à l’eau, aux sels et aux polluants pouvant entraîner piqûres et soulèvement des revêtements. La vérification aide à qualifier les finitions afin de maintenir l’intégrité structurelle et l’étanchéité dans le temps."
+    },
+    "how": {
+      "en": "Per UL 50E, finishes not covered by default outdoor corrosion constructions are subjected to an extended salt-spray exposure using the same apparatus principles as the indoor test but for a much longer duration. Performance is evaluated for pitting, cracking, and other deterioration and compared against an appropriate reference finish (e.g., G90 galvanized steel).",
+      "es": "Según UL 50E, acabados no cubiertos por las construcciones anticorrosión estándar se someten a una exposición prolongada a niebla salina usando principios de aparato similares al ensayo interior pero con mayor duración. Se evalúan picaduras, grietas y deterioro y se compara con un acabado de referencia adecuado (p. ej., acero galvanizado G90).",
+      "ca": "Segons UL 50E, acabats no coberts per les construccions anticorrosió estàndard se sotmeten a una exposició prolongada a boira salina amb principis d’aparell similars a l’assaig interior però amb més durada. S’avaluen picades, esquerdes i deteriorament i es compara amb un acabat de referència adequat (p. ex., acer galvanitzat G90).",
+      "fr": "Selon UL 50E, les finitions non couvertes par les constructions anticorrosion standard sont soumises à un brouillard salin prolongé selon les principes d’appareil de l’essai intérieur mais sur une durée bien plus longue. La performance est évaluée (piqûres, fissures, dégradations) et comparée à une finition de référence appropriée (p. ex., acier galvanisé G90)."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_OIL_EXCLUSION",
+    "categoryId": "CAT_ENV",
+    "icon": "🛢️",
+    "title": {
+      "en": "Oil exclusion",
+      "es": "Exclusión de aceite",
+      "ca": "Exclusión de oli",
+      "fr": "Exclusion d’huile"
+    },
+    "summary": {
+      "en": "Verifies exclusion of oil/coolant-like liquids using a directed wetting-agent stream.",
+      "es": "Verifica la exclusión de líquidos tipo aceite/refrigerante mediante chorro con agente humectante.",
+      "ca": "Verifica l’exclusió de líquids tipus oli/refrigerant mitjançant raig amb agent humectant.",
+      "fr": "Vérifie l’exclusion de liquides type huile/liquide de refroidissement via un jet avec agent mouillant."
+    },
+    "why": {
+      "en": "Liquids with reduced surface tension can migrate through seams and threads more readily than water. Oil exclusion helps ensure gaskets and entry interfaces prevent contamination of insulation and internal components.",
+      "es": "Los líquidos de baja tensión superficial pueden migrar por juntas y roscas más fácilmente que el agua. La exclusión de aceite ayuda a asegurar que juntas e interfaces de entrada evitan contaminar aislamiento y componentes internos.",
+      "ca": "Els líquids de baixa tensió superficial poden migrar per juntes i rosques més fàcilment que l’aigua. L’exclusió d’oli ajuda a assegurar que juntes i interfícies d’entrada eviten contaminar l’aïllament i components interns.",
+      "fr": "Les liquides à faible tension superficielle peuvent migrer plus facilement que l’eau à travers joints et filetages. L’exclusion d’huile vérifie que joints et interfaces d’entrée évitent la contamination de l’isolation et des composants internes."
+    },
+    "how": {
+      "en": "Per UL 50E, a test liquid consisting of water plus a wetting agent is directed onto the enclosure from all angles using a specified nozzle/flow arrangement for a defined duration, while externally operated mechanisms are cycled where applicable. The enclosure passes if no test liquid enters.",
+      "es": "Según UL 50E, se aplica sobre la envolvente desde todos los ángulos un líquido de ensayo de agua con agente humectante mediante una boquilla/caudal especificados durante un tiempo definido, accionando mecanismos externos cuando aplica. Cumple si no entra líquido de ensayo.",
+      "ca": "Segons UL 50E, s’aplica sobre l’envolvent des de tots els angles un líquid d’assaig d’aigua amb agent humectant mitjançant una boquilla/cabal especificats durant un temps definit, accionant mecanismes externs quan escau. Compleix si no entra líquid d’assaig.",
+      "fr": "Selon UL 50E, un liquide d’essai (eau + agent mouillant) est dirigé sur l’enveloppe sous tous les angles avec une buse/débit spécifiés pendant une durée définie, en manœuvrant les mécanismes externes si applicable. Réussite si aucun liquide d’essai ne pénètre."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_OIL_IMMERSION",
+    "categoryId": "CAT_ENV",
+    "icon": "🧴",
+    "title": {
+      "en": "Oil immersion",
+      "es": "Inmersión en aceite",
+      "ca": "Inmersión en oli",
+      "fr": "Immersion dans l’huile"
+    },
+    "summary": {
+      "en": "Checks gasket material compatibility with oil immersion by limiting swelling and shrinkage.",
+      "es": "Comprueba la compatibilidad de la junta con inmersión en aceite limitando hinchamiento y contracción.",
+      "ca": "Comprova la compatibilitat de la junta amb immersió en oli limitant inflor i contracció.",
+      "fr": "Contrôle la compatibilité des joints par immersion dans l’huile en limitant gonflement et retrait."
+    },
+    "why": {
+      "en": "Oil exposure can change gasket dimensions and hardness, reducing sealing force or creating gaps. Limiting swell/shrink helps maintain environmental sealing after contact with oils.",
+      "es": "La exposición a aceite puede cambiar dimensiones y dureza de la junta, reduciendo la fuerza de sellado o creando holguras. Limitar hinchamiento/contracción ayuda a mantener la estanqueidad tras contacto con aceites.",
+      "ca": "L’exposició a oli pot canviar dimensions i duresa de la junta, reduint la força de segellat o creant holgures. Limitar inflor/contracció ajuda a mantenir l’estanqueïtat després del contacte amb olis.",
+      "fr": "L’exposition à l’huile peut modifier dimensions et dureté des joints, réduisant la force d’étanchéité ou créant des jeux. Limiter gonflement/retrait aide à maintenir l’étanchéité après contact avec des huiles."
+    },
+    "how": {
+      "en": "Per UL 50E gasket oil-immersion verification, gasket specimens are immersed in a specified reference oil for a defined duration at controlled temperature, then measured for dimensional change. The material passes if swelling and shrinkage remain within the standard limits.",
+      "es": "Según UL 50E (inmersión en aceite de juntas), probetas de junta se sumergen en un aceite de referencia especificado durante un tiempo definido a temperatura controlada y luego se mide el cambio dimensional. Cumple si hinchamiento y contracción están dentro de los límites de la norma.",
+      "ca": "Segons UL 50E (immersió en oli de juntes), provetes de junta se submergeixen en un oli de referència especificat durant un temps definit a temperatura controlada i després es mesura el canvi dimensional. Compleix si la inflor i la contracció estan dins dels límits de la norma.",
+      "fr": "Selon UL 50E (immersion des joints), des éprouvettes de joint sont immergées dans une huile de référence spécifiée pendant une durée définie à température contrôlée, puis la variation dimensionnelle est mesurée. Réussite si gonflement et retrait restent dans les limites de la norme."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "IEC62208_98",
+    "categoryId": "CAT_MECH",
+    "icon": "💥",
+    "title": {
+      "en": "Impact resistance (IK)",
+      "es": "Resistencia a impactos (IK)",
+      "ca": "Resistència a impactos (IK)",
+      "fr": "Résistance aux chocs (IK)"
+    },
+    "summary": {
+      "en": "Verifies the declared IK impact rating and that impacts do not compromise enclosure serviceability.",
+      "es": "Verifica el índice IK declarado y que los impactos no comprometen la aptitud de la envolvente.",
+      "ca": "Verifica l’índex IK declarat i que els impactes no comprometen l’aptitud de l’envolvent.",
+      "fr": "Vérifie l’indice IK déclaré et que les chocs ne compromettent pas l’aptitude au service de l’enveloppe."
+    },
+    "why": {
+      "en": "Accidental impacts during installation or maintenance can crack housings or distort doors. The IK verification helps ensure mechanical shocks do not reduce the IP barrier or the dielectric separation that protects equipment and users.",
+      "es": "Los impactos accidentales durante instalación o mantenimiento pueden agrietar la envolvente o deformar puertas. La verificación IK ayuda a asegurar que los choques mecánicos no reducen la barrera IP ni la separación dieléctrica que protege a equipos y personas.",
+      "ca": "Els impactes accidentals durant la instal·lació o el manteniment poden esquerdar l’envolvent o deformar portes. La verificació IK ajuda a assegurar que els xocs mecànics no redueixen la barrera IP ni la separació dielèctrica que protegeix equips i persones.",
+      "fr": "Des chocs accidentels lors de l’installation ou de la maintenance peuvent fissurer l’enveloppe ou déformer les portes. La vérification IK aide à garantir que les impacts ne dégradent ni la barrière IP ni la séparation diélectrique protégeant l’équipement et les personnes."
+    },
+    "how": {
+      "en": "In accordance with IEC 62208 (IEC 62262/IEC 60068-2-75), the enclosure is fixed on a rigid support and subjected to impacts with a calibrated hammer at the energy corresponding to the declared IK code. Impacts are distributed over each exposed surface (multiple blows depending on enclosure size) and are not applied directly to components such as locks or hinges. After the impacts, we verify that doors and removable covers still operate, and that the enclosure continues to meet its IP protection and dielectric performance.",
+      "es": "De acuerdo con IEC 62208 (IEC 62262/IEC 60068-2-75), la envolvente se fija a un soporte rígido y se somete a impactos con un martillo calibrado con la energía correspondiente al IK declarado. Los impactos se distribuyen sobre cada superficie expuesta (varios golpes según el tamaño) y no se aplican directamente sobre componentes como cerraduras o bisagras. Tras los impactos, se verifica que puertas y tapas siguen operando y que la envolvente mantiene su protección IP y su desempeño dieléctrico.",
+      "ca": "D’acord amb IEC 62208 (IEC 62262/IEC 60068-2-75), l’envolvent es fixa a un suport rígid i se sotmet a impactes amb un martell calibrat amb l’energia corresponent a l’IK declarat. Els impactes es distribueixen sobre cada superfície exposada (diversos cops segons la mida) i no s’apliquen directament sobre components com panys o frontisses. Després dels impactes, es verifica que portes i tapes continuen operant i que l’envolvent manté la protecció IP i el rendiment dielèctric.",
+      "fr": "Conformément à l’IEC 62208 (IEC 62262/IEC 60068-2-75), l’enveloppe est fixée sur un support rigide et soumise à des impacts au marteau calibré avec l’énergie correspondant à l’IK déclaré. Les impacts sont répartis sur chaque face exposée (plusieurs coups selon la taille) et ne sont pas appliqués directement sur des composants tels que serrures ou charnières. Après impacts, on vérifie le fonctionnement des portes/couvercles et le maintien de la protection IP et des performances diélectriques."
+    },
+    "tags": [],
+    "labs": [
+      "molins",
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.8"
+  },
+  {
+    "id": "IEC62208_94",
+    "categoryId": "CAT_MECH",
+    "icon": "🏗️",
+    "title": {
+      "en": "Static load resistance",
+      "es": "Resistencia a carga estática",
+      "ca": "Resistència a càrrega estática",
+      "fr": "Résistance à la charge statique"
+    },
+    "summary": {
+      "en": "Checks resistance to static loads applied to mounting supports and doors without permanent distortion.",
+      "es": "Comprueba la resistencia a cargas estáticas en soportes de montaje y puerta sin deformación permanente.",
+      "ca": "Comprova la resistència a càrregues estàtiques en suports de muntatge i porta sense deformació permanent.",
+      "fr": "Contrôle la résistance aux charges statiques sur supports de montage et portes sans déformation permanente."
+    },
+    "why": {
+      "en": "Static loading from installed equipment and door-mounted components can bend panels and shift interfaces. The test confirms that load does not create cracks or deflections that would impair clearances, door operation, or sealing performance.",
+      "es": "Las cargas estáticas de equipos instalados y elementos en la puerta pueden deformar paneles y desplazar interfaces. El ensayo confirma que la carga no provoca grietas ni flechas que perjudiquen distancias, funcionamiento de la puerta o estanqueidad.",
+      "ca": "Les càrregues estàtiques d’equip instal·lat i elements a la porta poden deformar panells i desplaçar interfícies. L’assaig confirma que la càrrega no provoca esquerdes ni flexions que perjudiquin distàncies, funcionament de la porta o estanqueïtat.",
+      "fr": "Les charges statiques dues à l’équipement monté et aux éléments sur porte peuvent fléchir les parois et déplacer les interfaces. L’essai confirme l’absence de fissures ou de flèches susceptibles d’altérer les distances, le fonctionnement des portes ou l’étanchéité."
+    },
+    "how": {
+      "en": "Per IEC 62208, the enclosure is equipped as intended and loaded with 1.25× the declared maximum permissible load, distributed on the mounting plate/supports and on the door as specified by the manufacturer. The load is maintained for 1 hour with the door closed (performed at elevated temperature for insulating constructions where applicable), then the door is cycled open/closed. Acceptance is based on no cracks, no permanent distortion, and no deflection that would impair enclosure characteristics.",
+      "es": "Según IEC 62208, la envolvente se equipa como en servicio y se carga con 1,25× la carga máxima permisible declarada, distribuida sobre la placa/soportes y sobre la puerta según el fabricante. La carga se mantiene 1 hora con la puerta cerrada (a temperatura elevada en construcciones aislantes cuando aplica) y después se cicla la puerta. Se acepta si no hay grietas, deformación permanente ni flechas que perjudiquen las características de la envolvente.",
+      "ca": "Segons IEC 62208, l’envolvent s’equipa com en servei i es carrega amb 1,25× la càrrega màxima permissible declarada, distribuïda sobre la placa/suports i sobre la porta segons el fabricant. La càrrega es manté 1 hora amb la porta tancada (a temperatura elevada en construccions aïllants quan escau) i després es cíclica la porta. S’accepta si no hi ha esquerdes, deformació permanent ni flexions que perjudiquin les característiques de l’envolvent.",
+      "fr": "Selon l’IEC 62208, l’enveloppe est équipée comme en service et chargée à 1,25× la charge maximale déclarée, répartie sur la platine/les supports et sur la porte selon les instructions du fabricant. La charge est maintenue 1 h porte fermée (à température élevée pour les constructions isolantes lorsque applicable), puis la porte est cyclée. Réussite si absence de fissures, de déformation permanente et de flèches altérant les caractéristiques de l’enveloppe."
+    },
+    "tags": [],
+    "labs": [
+      "molins",
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.4"
+  },
+  {
+    "id": "IEC61439_1012",
+    "categoryId": "CAT_MECH",
+    "icon": "⚡",
+    "title": {
+      "en": "Static load resistance (power distribution)",
+      "es": "Carga estática (distribución potencia)",
+      "ca": "Càrrega estática (distribución potencia)",
+      "fr": "Charge statique (distribution)"
+    },
+    "summary": {
+      "en": "Verifies resistance to defined static roof and edge loads without loss of protection or electrical clearances.",
+      "es": "Verifica la resistencia a cargas estáticas definidas en techo y bordes sin pérdida de protección ni distancias eléctricas.",
+      "ca": "Verifica la resistència a càrregues estàtiques definides a sostre i vores sense pèrdua de protecció ni distàncies elèctriques.",
+      "fr": "Vérifie la résistance à des charges statiques définies sur le toit et les arêtes sans perte de protection ni des distances électriques."
+    },
+    "why": {
+      "en": "Static loading can distort the enclosure, impair door operation, and reduce clearances, increasing the risk of contact between live parts and the enclosure. This verification supports mechanical integrity of outdoor distribution assemblies under service and handling loads.",
+      "es": "Las cargas estáticas pueden deformar la envolvente, afectar el funcionamiento de la puerta y reducir distancias, aumentando el riesgo de contacto entre partes activas y la envolvente. Esta verificación respalda la integridad mecánica de conjuntos de distribución en exterior bajo cargas de servicio y manipulación.",
+      "ca": "Les càrregues estàtiques poden deformar l’envolvent, afectar el funcionament de la porta i reduir distàncies, augmentant el risc de contacte entre parts actives i l’envolvent. Aquesta verificació dona suport a la integritat mecànica de conjunts de distribució en exterior sota càrregues de servei i manipulació.",
+      "fr": "Les charges statiques peuvent déformer l’enveloppe, gêner le fonctionnement des portes et réduire les distances, augmentant le risque de contact entre parties actives et enveloppe. Cette vérification soutient l’intégrité mécanique des ensembles de distribution extérieurs sous charges de service et de manutention."
+    },
+    "how": {
+      "en": "Per IEC 61439-5, the enclosure is subjected to (1) an evenly distributed load applied to the roof for a short duration and (2) a defined force applied to the front and back upper roof edges. After the test, we verify that the minimum degree of protection remains compliant, door/locking operation is not impaired, electrical clearances remain satisfactory throughout the test, and (for metallic enclosures) no contact between live parts and the enclosure occurred due to temporary or permanent distortion.",
+      "es": "Según IEC 61439-5, la envolvente se somete a (1) una carga uniformemente distribuida aplicada al techo durante un tiempo corto y (2) una fuerza definida aplicada en los bordes superiores delantero y trasero del techo. Tras el ensayo, se verifica que se mantiene el grado mínimo de protección, que la puerta y los cierres no quedan afectados, que las distancias eléctricas son satisfactorias durante el ensayo y que (en envolventes metálicas) no ha habido contacto entre partes activas y la envolvente por deformaciones temporales o permanentes.",
+      "ca": "Segons IEC 61439-5, l’envolvent se sotmet a (1) una càrrega uniformement distribuïda aplicada al sostre durant un temps curt i (2) una força definida aplicada a les vores superiors davantera i posterior del sostre. Després de l’assaig, es verifica que es manté el grau mínim de protecció, que la porta i els tancaments no queden afectats, que les distàncies elèctriques són satisfactoris durant l’assaig i que (en envolvents metàl·lics) no hi ha hagut contacte entre parts actives i l’envolvent per deformacions temporals o permanents.",
+      "fr": "Selon l’IEC 61439-5, l’enveloppe est soumise à (1) une charge uniformément répartie sur le toit pendant une courte durée et (2) une force définie appliquée successivement sur les arêtes supérieures avant et arrière du toit. Après essai, on vérifie le maintien du degré minimal de protection, l’absence d’altération du fonctionnement des portes/verrouillages, le maintien des distances électriques pendant l’essai et (pour les enveloppes métalliques) l’absence de contact entre parties actives et enveloppe dû à des déformations temporaires ou permanentes."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "IEC_61439_5",
+    "refClause": "10.2.101.2"
+  },
+  {
+    "id": "IEC61439_1013",
+    "categoryId": "CAT_MECH",
+    "icon": "🧨",
+    "title": {
+      "en": "Shock load resistance",
+      "es": "Resistencia a carga de choque",
+      "ca": "Resistència a càrrega de choque",
+      "fr": "Résistance à la charge de choc"
+    },
+    "summary": {
+      "en": "Verifies resistance to shock load from a defined sandbag impact on visible enclosure surfaces.",
+      "es": "Verifica la resistencia a choque mediante impacto definido con saco de arena sobre superficies visibles.",
+      "ca": "Verifica la resistència a xoc mitjançant un impacte definit amb sac de sorra sobre superfícies visibles.",
+      "fr": "Vérifie la résistance au choc par impact défini d’un sac de sable sur les faces visibles de l’enveloppe."
+    },
+    "why": {
+      "en": "Shock events can occur during transport, installation, or accidental impact. The test confirms the assembly maintains protection and electrical integrity after a localized blow, without impairing doors, locking points, or internal clearances.",
+      "es": "Pueden producirse choques durante transporte, instalación o impactos accidentales. El ensayo confirma que el conjunto mantiene la protección y la integridad eléctrica tras un golpe localizado, sin afectar a puertas, puntos de cierre ni distancias internas.",
+      "ca": "Es poden produir xocs durant el transport, la instal·lació o impactes accidentals. L’assaig confirma que el conjunt manté la protecció i la integritat elèctrica després d’un cop localitzat, sense afectar portes, punts de tancament ni distàncies internes.",
+      "fr": "Des chocs peuvent survenir lors du transport, de l’installation ou d’impacts accidentels. L’essai confirme le maintien de la protection et de l’intégrité électrique après un coup localisé, sans altérer portes, points de verrouillage ni distances internes."
+    },
+    "how": {
+      "en": "Per IEC 61439-5, a sandbag of defined mass is raised to a set height and allowed to impact the upper part of each vertical surface visible in normal service position (for cylindrical forms, multiple impacts around the perimeter). After impact, we verify the degree of protection remains compliant, door/locking operation is not impaired, electrical clearances remain satisfactory, and no live-part contact with the enclosure occurred due to distortion. For insulating enclosures, minor dents or superficial cracking may be acceptable when not detrimental to serviceability.",
+      "es": "Según IEC 61439-5, un saco de arena de masa definida se eleva a una altura establecida y se deja impactar en la parte superior de cada superficie vertical visible en posición de servicio (en formas cilíndricas, varios impactos repartidos). Tras el impacto, se verifica que se mantiene el grado de protección, que la puerta y cierres no quedan afectados, que las distancias eléctricas son satisfactorias y que no ha habido contacto de partes activas con la envolvente por deformación. En envolventes aislantes, pequeñas abolladuras o fisuras superficiales pueden aceptarse si no afectan a la aptitud de servicio.",
+      "ca": "Segons IEC 61439-5, un sac de sorra de massa definida s’eleva a una alçada establerta i es deixa impactar a la part superior de cada superfície vertical visible en posició de servei (en formes cilíndriques, diversos impactes repartits). Després de l’impacte, es verifica que es manté el grau de protecció, que la porta i els tancaments no queden afectats, que les distàncies elèctriques són satisfactoris i que no hi ha hagut contacte de parts actives amb l’envolvent per deformació. En envolvents aïllants, petites abonyegades o esquerdes superficials poden acceptar-se si no afecten l’aptitud de servei.",
+      "fr": "Selon l’IEC 61439-5, un sac de sable de masse définie est levé à une hauteur donnée puis laissé retomber pour frapper la partie supérieure de chaque face verticale visible en position de service (pour une forme cylindrique, plusieurs impacts répartis). Après impact, on vérifie le maintien du degré de protection, l’absence d’altération du fonctionnement des portes/verrouillages, le maintien des distances électriques et l’absence de contact entre parties actives et enveloppe dû à une déformation. Pour les enveloppes isolantes, de petites bosses ou fissurations superficielles peuvent être tolérées si elles ne nuisent pas à l’aptitude au service."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "IEC_61439_5",
+    "refClause": "10.2.101.3"
+  },
+  {
+    "id": "IEC61439_1014",
+    "categoryId": "CAT_MECH",
+    "icon": "🌀",
+    "title": {
+      "en": "Torsional stress resistance",
+      "es": "Resistencia a torsión",
+      "ca": "Resistència a torsión",
+      "fr": "Résistance à la torsion"
+    },
+    "summary": {
+      "en": "Verifies resistance to torsional stress (twisting) without loss of protection, door function, or clearances.",
+      "es": "Verifica la resistencia a esfuerzos de torsión sin pérdida de protección, funcionamiento de puerta ni distancias.",
+      "ca": "Verifica la resistència a esforços de torsió sense pèrdua de protecció, funcionament de porta ni distàncies.",
+      "fr": "Vérifie la résistance aux efforts de torsion sans perte de protection, de fonctionnement des portes ni des distances."
+    },
+    "why": {
+      "en": "Twisting loads can occur from uneven mounting, handling, or ground movement. Torsional verification ensures that deformation does not compromise sealing interfaces or bring conductive parts too close to live components.",
+      "es": "Las torsiones pueden aparecer por montaje irregular, manipulación o movimientos del soporte. La verificación asegura que la deformación no compromete interfaces de sellado ni acerca partes conductoras a componentes activos.",
+      "ca": "Les torsions poden aparèixer per muntatge irregular, manipulació o moviments del suport. La verificació assegura que la deformació no compromet interfícies de segellat ni acosta parts conductores a components actius.",
+      "fr": "Des efforts de torsion peuvent résulter d’un montage irrégulier, de la manutention ou de mouvements du support. La vérification garantit que la déformation ne compromet pas les interfaces d’étanchéité ni ne rapproche des parties conductrices des éléments sous tension."
+    },
+    "how": {
+      "en": "Per IEC 61439-5, the assembly is rigidly fixed at its base and a frame is fitted over the enclosure to apply torsional loading. With the door(s) closed, defined forces are applied to twist the enclosure in both clockwise and anti-clockwise directions for a set duration. After the test, we verify that the degree of protection remains compliant, doors and locking points operate correctly, electrical clearances remain satisfactory, and no live-part contact with the enclosure occurred due to distortion (minor superficial damage may be disregarded for insulating enclosures when not detrimental).",
+      "es": "Según IEC 61439-5, el conjunto se fija rígidamente en la base y se coloca un bastidor para aplicar torsión. Con la(s) puerta(s) cerrada(s), se aplican fuerzas definidas para torsionar en sentido horario y antihorario durante un tiempo establecido. Tras el ensayo, se verifica que se mantiene el grado de protección, que puertas y puntos de cierre funcionan correctamente, que las distancias eléctricas son satisfactorias y que no ha habido contacto de partes activas con la envolvente por deformación (puede ignorarse daño superficial menor en envolventes aislantes si no afecta a la aptitud de servicio).",
+      "ca": "Segons IEC 61439-5, el conjunt es fixa rígidamente a la base i es col·loca un bastidor per aplicar torsió. Amb la(es) porta(es) tancada(es), s’apliquen forces definides per torsionar en sentit horari i antihorari durant un temps establert. Després de l’assaig, es verifica que es manté el grau de protecció, que portes i punts de tancament funcionen correctament, que les distàncies elèctriques són satisfactoris i que no hi ha hagut contacte de parts actives amb l’envolvent per deformació (es pot ignorar dany superficial menor en envolvents aïllants si no afecta l’aptitud de servei).",
+      "fr": "Selon l’IEC 61439-5, l’ensemble est rigidement fixé à sa base et un cadre est ajusté sur l’enveloppe pour appliquer la torsion. Portes fermées, des forces définies sont appliquées pour tordre l’enveloppe dans les deux sens pendant une durée donnée. Après essai, on vérifie le maintien du degré de protection, le bon fonctionnement des portes/points de verrouillage, le maintien des distances électriques et l’absence de contact entre parties actives et enveloppe dû à la déformation (des dommages superficiels mineurs peuvent être ignorés pour les enveloppes isolantes s’ils ne nuisent pas à l’aptitude au service)."
+    },
+    "tags": [],
+    "labs": [
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_61439_5",
+    "refClause": "10.2.101.4"
+  },
+  {
+    "id": "IEC61439_1016",
+    "categoryId": "CAT_MECH",
+    "icon": "🚪",
+    "title": {
+      "en": "Door mechanical strength",
+      "es": "Resistencia mecánica de puertas",
+      "ca": "Resistència mecànica de portes",
+      "fr": "Résistance mécanique des portes"
+    },
+    "summary": {
+      "en": "Verifies mechanical strength of hinged doors under a defined load when fully open.",
+      "es": "Verifica la resistencia mecánica de puertas con bisagra bajo una carga definida con la puerta totalmente abierta.",
+      "ca": "Verifica la resistència mecànica de portes amb frontissa sota una càrrega definida amb la porta totalment oberta.",
+      "fr": "Vérifie la résistance mécanique des portes sur charnière sous une charge définie porte entièrement ouverte."
+    },
+    "why": {
+      "en": "Doors are a frequent access point and a critical sealing interface. The test confirms that door loading does not damage hinges/locks or reduce the degree of protection after closing, supporting safe access and durable sealing.",
+      "es": "Las puertas son un punto de acceso frecuente y una interfaz crítica de estanqueidad. El ensayo confirma que la carga no daña bisagras/cierres ni reduce el grado de protección tras el cierre, garantizando acceso seguro y sellado durable.",
+      "ca": "Les portes són un punt d’accés freqüent i una interfície crítica d’estanqueïtat. L’assaig confirma que la càrrega no danya frontisses/tancaments ni redueix el grau de protecció després del tancament, garantint accés segur i segellat durador.",
+      "fr": "Les portes sont un point d’accès fréquent et une interface d’étanchéité critique. L’essai confirme que la charge n’endommage pas charnières/verrouillages et ne réduit pas le degré de protection après fermeture, assurant un accès sûr et une étanchéité durable."
+    },
+    "how": {
+      "en": "Per IEC 61439-5, with the door fully open against its designed restraint, a defined force is applied near the top edge at a specified distance from the hinge line and maintained briefly. After the load is removed, the door is closed and we verify the degree of protection remains compliant and that hinges and locking points are not impaired. If the door becomes unhinged during the test, it is not a failure if it can be reinstalled without tools and function is maintained.",
+      "es": "Según IEC 61439-5, con la puerta totalmente abierta y apoyada en su tope, se aplica una fuerza definida cerca del borde superior a una distancia especificada de la bisagra durante un tiempo breve. Tras retirar la carga, se cierra la puerta y se verifica que se mantiene el grado de protección y que bisagras y cierres no quedan afectados. Si la puerta se desengancha durante el ensayo, no se considera fallo si puede reinstalarse sin herramientas y mantiene su funcionamiento.",
+      "ca": "Segons IEC 61439-5, amb la porta totalment oberta i recolzada al seu topall, s’aplica una força definida a prop de la vora superior a una distància especificada de la frontissa durant un temps breu. Després de retirar la càrrega, es tanca la porta i es verifica que es manté el grau de protecció i que frontisses i tancaments no queden afectats. Si la porta es desfrontissa durant l’assaig, no es considera fallada si es pot reinstal·lar sense eines i manté el funcionament.",
+      "fr": "Selon l’IEC 61439-5, porte entièrement ouverte contre sa butée, une force définie est appliquée près du bord supérieur à une distance spécifiée de la charnière pendant un court instant. Après retrait, la porte est refermée et l’on vérifie le maintien du degré de protection et l’absence d’altération des charnières/verrouillages. Si la porte se dégonde pendant l’essai, ce n’est pas un échec si elle peut être remise en place sans outil et si le fonctionnement reste correct."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "IEC_61439_5",
+    "refClause": "10.2.101.6"
+  },
+  {
+    "id": "IEC61386_102",
+    "categoryId": "CAT_MECH",
+    "icon": "🧱",
+    "title": {
+      "en": "Crushing resistance (tubes)",
+      "es": "Resistencia al aplastamiento (tubos)",
+      "ca": "Resistència al aplastamiento (tubos)",
+      "fr": "Résistance à l’écrasement (tubes)"
+    },
+    "summary": {
+      "en": "Verifies that conduit/tube systems resist compressive loads without collapse, cracking, or loss of protective function.",
+      "es": "Verifica que los tubos/conductos resisten cargas de compresión sin colapsar, agrietarse ni perder su función protectora.",
+      "ca": "Verifica que els tubs/conductes resisteixen càrregues de compressió sense col·lapsar, esquerdar-se ni perdre la funció protectora.",
+      "fr": "Vérifie que les conduites/tubes résistent aux charges de compression sans écrasement, fissuration ni perte de fonction de protection."
+    },
+    "why": {
+      "en": "Crushing can occur during installation (clamping, routing through structures) or service (accidental loads). Loss of section can pinch conductors, damage insulation, and reduce mechanical protection, increasing the likelihood of electrical faults.",
+      "es": "El aplastamiento puede producirse durante la instalación (abrazaderas, paso por estructuras) o en servicio (cargas accidentales). La pérdida de sección puede pellizcar conductores, dañar el aislamiento y reducir la protección mecánica, aumentando la probabilidad de fallos eléctricos.",
+      "ca": "L’aixafament pot produir-se durant la instal·lació (abraçadores, pas per estructures) o en servei (càrregues accidentals). La pèrdua de secció pot pessigar conductors, danyar l’aïllament i reduir la protecció mecànica, augmentant la probabilitat d’avaries elèctriques.",
+      "fr": "L’écrasement peut survenir lors de l’installation (colliers, passage en structure) ou en service (charges accidentelles). La réduction de section peut pincer les conducteurs, endommager l’isolation et diminuer la protection mécanique, augmentant le risque de défauts électriques."
+    },
+    "how": {
+      "en": "Representative tube specimens are conditioned as required for the material category, then compressed in a controlled rig between platens to the specified load. Deformation and any reduction of internal diameter are checked, and the specimen is inspected for cracks and sharp edges. The tube passes if it maintains its protective function after loading.",
+      "es": "Las probetas representativas se acondicionan según la categoría de material y se comprimen en un equipo controlado entre platos hasta la carga especificada. Se verifica la deformación y la reducción del diámetro interior y se inspecciona la presencia de grietas o aristas. El tubo cumple si mantiene su función protectora tras la carga.",
+      "ca": "Les provetes representatives es condicionen segons la categoria de material i es comprimeixen en un equip controlat entre plats fins a la càrrega especificada. Es verifica la deformació i la reducció del diàmetre interior i s’inspecciona la presència d’esquerdes o arestes. El tub compleix si manté la funció protectora després de la càrrega.",
+      "fr": "Des éprouvettes représentatives sont conditionnées selon la catégorie de matériau puis comprimées dans un dispositif contrôlé entre plateaux jusqu’à la charge spécifiée. On vérifie la déformation et la réduction du diamètre intérieur, puis on inspecte fissures et arêtes vives. Le tube est conforme s’il conserve sa fonction de protection après charge."
+    },
+    "tags": [],
+    "labs": [
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_61386_1",
+    "refClause": "10.2"
+  },
+  {
+    "id": "IEC61386_103",
+    "categoryId": "CAT_MECH",
+    "icon": "🔨",
+    "title": {
+      "en": "Shock resistance (tubes)",
+      "es": "Resistencia al choque (tubos)",
+      "ca": "Resistència al choque (tubos)",
+      "fr": "Résistance au choc (tubes)"
+    },
+    "summary": {
+      "en": "Verifies shock/impact resistance of conduit/tube systems without cracking or loss of protection.",
+      "es": "Verifica la resistencia a choques/impactos de tubos/conductos sin grietas ni pérdida de protección.",
+      "ca": "Verifica la resistència a xocs/impactes de tubs/conductes sense esquerdes ni pèrdua de protecció.",
+      "fr": "Vérifie la résistance aux chocs/impacts des conduites/tubes sans fissuration ni perte de protection."
+    },
+    "why": {
+      "en": "Accidental impacts during handling and installation can crack tubes and create sharp edges or openings. Maintaining impact resistance helps keep cable protection intact and avoids damage to conductors during routing.",
+      "es": "Los impactos accidentales durante manipulación e instalación pueden agrietar tubos y crear aristas u aberturas. Mantener la resistencia a impacto preserva la protección del cable y evita daños a conductores durante el tendido.",
+      "ca": "Els impactes accidentals durant manipulació i instal·lació poden esquerdar tubs i crear arestes o obertures. Mantenir la resistència a impacte preserva la protecció del cable i evita danys als conductors durant el pas.",
+      "fr": "Des impacts accidentels lors de la manutention et de l’installation peuvent fissurer les tubes et créer des arêtes ou ouvertures. La résistance aux chocs contribue à préserver la protection des câbles et à éviter d’endommager les conducteurs lors du tirage."
+    },
+    "how": {
+      "en": "Specimens are conditioned as required, then subjected to controlled impacts with a calibrated drop-weight/hammer arrangement at representative locations. After impact, we inspect for cracking, splitting, and deformation and confirm the tube still allows safe cable routing and retains its protective function.",
+      "es": "Las probetas se acondicionan y se someten a impactos controlados con un sistema calibrado de caída/martillo en ubicaciones representativas. Tras el impacto, se inspeccionan grietas, roturas y deformaciones y se confirma que el tubo permite el paso seguro del cable y mantiene su función protectora.",
+      "ca": "Les provetes es condicionen i se sotmeten a impactes controlats amb un sistema calibrat de caiguda/martell en ubicacions representatives. Després de l’impacte, s’inspeccionen esquerdes, trencaments i deformacions i es confirma que el tub permet el pas segur del cable i manté la funció protectora.",
+      "fr": "Les éprouvettes sont conditionnées puis soumises à des impacts contrôlés avec un dispositif de chute/marteau étalonné sur des zones représentatives. Après impact, on inspecte fissures, ruptures et déformations et on confirme que le tube permet encore un cheminement sûr des câbles et conserve sa fonction de protection."
+    },
+    "tags": [],
+    "labs": [
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_61386_1",
+    "refClause": "10.3"
+  },
+  {
+    "id": "UL_IMPACT",
+    "categoryId": "CAT_MECH",
+    "icon": "🥊",
+    "title": {
+      "en": "Impact resistance",
+      "es": "Resistencia al impacto",
+      "ca": "Resistència al impacte",
+      "fr": "Résistance aux chocs"
+    },
+    "summary": {
+      "en": "Verifies resistance to impact energy without creating hazardous openings or degrading insulation.",
+      "es": "Verifica la resistencia a impactos sin crear aberturas peligrosas ni degradar el aislamiento.",
+      "ca": "Verifica la resistència a impactes sense crear obertures perilloses ni degradar l’aïllament.",
+      "fr": "Vérifie la résistance aux impacts sans créer d’ouvertures dangereuses ni dégrader l’isolation."
+    },
+    "why": {
+      "en": "Impacts during installation or service can crack enclosures and expose wiring or live parts. Impact verification helps ensure mechanical shock does not compromise mechanical protection and the enclosure’s ability to meet its intended performance.",
+      "es": "Impactos durante instalación o servicio pueden agrietar envolventes y exponer cableado o partes activas. La verificación ayuda a asegurar que el choque no compromete la protección mecánica ni la aptitud prevista.",
+      "ca": "Impactes durant la instal·lació o el servei poden esquerdar envolvents i exposar cablejat o parts actives. La verificació ajuda a assegurar que el xoc no compromet la protecció mecànica ni l’aptitud prevista.",
+      "fr": "Des impacts lors de l’installation ou en service peuvent fissurer l’enveloppe et exposer câblage ou parties actives. La vérification aide à garantir que le choc ne compromet pas la protection mécanique ni l’aptitude prévue."
+    },
+    "how": {
+      "en": "Following UL 50 impact-resistance verification, the required impact energy is applied to representative locations using a defined striker (e.g., steel ball/impact device) with drop height set to achieve the specified energy. After impacts, the enclosure is examined to confirm that integrity, insulation, and mechanical protection are not adversely affected.",
+      "es": "Siguiendo la verificación de resistencia al impacto de UL 50, se aplica la energía de impacto requerida en ubicaciones representativas usando un percutor definido (p. ej., bola de acero/dispositivo de impacto) ajustando la altura de caída para lograr la energía especificada. Tras los impactos, se examina la envolvente para confirmar que integridad, aislamiento y protección mecánica no quedan afectados.",
+      "ca": "Seguint la verificació de resistència a l’impacte d’UL 50, s’aplica l’energia d’impacte requerida en ubicacions representatives amb un percussor definit (p. ex., bola d’acer/dispositiu d’impacte) ajustant l’alçada de caiguda per assolir l’energia especificada. Després dels impactes, s’examina l’envolvent per confirmar que integritat, aïllament i protecció mecànica no queden afectats.",
+      "fr": "Selon la vérification UL 50 de résistance aux impacts, l’énergie d’impact requise est appliquée sur des zones représentatives avec un percuteur défini (p. ex., bille d’acier/dispositif d’impact) en réglant la hauteur de chute pour atteindre l’énergie spécifiée. Après impacts, l’enveloppe est examinée pour confirmer que l’intégrité, l’isolation et la protection mécanique ne sont pas dégradées."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_IMPACT_OBS_OPENINGS",
+    "categoryId": "CAT_MECH",
+    "icon": "👀",
+    "title": {
+      "en": "Impact resistance (observation openings)",
+      "es": "Impacto (aberturas de observación)",
+      "ca": "Impacte (aberturas de observación)",
+      "fr": "Chocs (ouvertures d’observation)"
+    },
+    "summary": {
+      "en": "Verifies impact resistance of observation windows and their retention within the enclosure.",
+      "es": "Verifica la resistencia al impacto de mirillas/ventanas de observación y su sujeción en la envolvente.",
+      "ca": "Verifica la resistència a l’impacte de finestres d’observació i la seva retenció a l’envolvent.",
+      "fr": "Vérifie la résistance aux impacts des hublots/fenêtres d’observation et leur maintien dans l’enveloppe."
+    },
+    "why": {
+      "en": "Observation windows are potential weak points. If a window cracks or becomes dislodged, it can create access to internal parts and compromise environmental integrity.",
+      "es": "Las ventanas de observación son puntos débiles potenciales. Si se agrietan o se desprenden, pueden permitir acceso a partes internas y comprometer la integridad ambiental.",
+      "ca": "Les finestres d’observació són punts febles potencials. Si s’esquerden o es desplacen, poden permetre accés a parts internes i comprometre la integritat ambiental.",
+      "fr": "Les fenêtres d’observation sont des points faibles potentiels. Si elles fissurent ou se délogent, elles peuvent permettre l’accès aux parties internes et compromettre l’intégrité environnementale."
+    },
+    "how": {
+      "en": "Per UL 50, observation windows are evaluated as part of the enclosure impact verification. The required impact energy is applied so that the overall enclosure and the window area are challenged, then the window and its mounting are inspected for cracking, breakage, loosening, or any condition that would create an opening or reduce mechanical protection.",
+      "es": "Según UL 50, las ventanas de observación se evalúan como parte de la verificación de impacto de la envolvente. Se aplica la energía requerida de forma que se soliciten la envolvente y la zona de la ventana, y luego se inspeccionan ventana y fijación para detectar grietas, rotura, aflojamiento o cualquier condición que cree una abertura o reduzca la protección mecánica.",
+      "ca": "Segons UL 50, les finestres d’observació s’avaluen com a part de la verificació d’impacte de l’envolvent. S’aplica l’energia requerida de manera que es sol·licitin l’envolvent i la zona de la finestra, i després s’inspeccionen finestra i fixació per detectar esquerdes, trencament, afluixament o qualsevol condició que creï una obertura o redueixi la protecció mecànica.",
+      "fr": "Selon UL 50, les fenêtres d’observation sont évaluées dans le cadre de la vérification d’impact de l’enveloppe. L’énergie requise est appliquée afin de solliciter l’enveloppe et la zone de la fenêtre, puis la fenêtre et sa fixation sont inspectées (fissures, rupture, desserrage ou toute condition créant une ouverture ou réduisant la protection mécanique)."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_CRUSHING",
+    "categoryId": "CAT_MECH",
+    "icon": "🪨",
+    "title": {
+      "en": "Crushing resistance",
+      "es": "Resistencia al aplastamiento",
+      "ca": "Resistència al aplastamiento",
+      "fr": "Résistance à l’écrasement"
+    },
+    "summary": {
+      "en": "Crushing resistance under multiple platen loads applied to exposed surfaces.",
+      "es": "Resistencia al aplastamiento bajo cargas mediante placas aplicadas a superficies expuestas.",
+      "ca": "Resistència a l’aixafament sota càrregues amb plaques aplicades a superfícies exposades.",
+      "fr": "Résistance à l’écrasement sous charges appliquées par plaques sur les surfaces exposées."
+    },
+    "why": {
+      "en": "Crushing loads can occur from stacking, handling, or accidental compression. The test confirms the enclosure does not deform in a way that reduces spacings, makes live parts accessible, or damages insulation.",
+      "es": "Las cargas de aplastamiento pueden ocurrir por apilado, manipulación o compresión accidental. El ensayo confirma que la envolvente no se deforma reduciendo distancias, haciendo accesibles partes activas o dañando el aislamiento.",
+      "ca": "Les càrregues d’aixafament poden aparèixer per apilat, manipulació o compressió accidental. L’assaig confirma que l’envolvent no es deforma reduint distàncies, fent accessibles parts actives o danyant l’aïllament.",
+      "fr": "Des charges d’écrasement peuvent survenir lors d’empilage, de manutention ou de compression accidentelle. L’essai confirme que l’enveloppe ne se déforme pas en réduisant les distances, en rendant des parties actives accessibles ou en endommageant l’isolation."
+    },
+    "how": {
+      "en": "Per UL 50, samples are supported on the mounting side and a specified compressive force is applied for a defined time through flat applicators on the exposed surfaces (multiple applicators as the specimen can accommodate). The enclosure passes if minimum spacings are maintained, no internal wiring/live parts become accessible, insulation is not adversely affected, and no condition increasing shock or fire risk is created.",
+      "es": "Según UL 50, las muestras se apoyan por el lado de montaje y se aplica una fuerza de compresión especificada durante un tiempo definido mediante aplicadores planos sobre superficies expuestas (varios aplicadores según el tamaño). Cumple si se mantienen distancias mínimas, no se hace accesible cableado/partes activas, no se afecta el aislamiento y no se crea condición que aumente riesgo de choque o incendio.",
+      "ca": "Segons UL 50, les mostres es recolzen pel costat de muntatge i s’aplica una força de compressió especificada durant un temps definit amb aplicadors plans sobre superfícies exposades (diversos aplicadors segons la mida). Compleix si es mantenen les distàncies mínimes, no es fa accessible cablejat/parts actives, no s’afecta l’aïllament i no es crea cap condició que augmenti el risc de xoc o incendi.",
+      "fr": "Selon UL 50, les échantillons sont supportés côté montage et une force de compression spécifiée est appliquée pendant une durée définie via des applicateurs plats sur les surfaces exposées (plusieurs applicateurs selon la taille). Réussite si les distances minimales sont maintenues, si aucun câblage/parties actives ne devient accessible, si l’isolation n’est pas dégradée et si aucune condition n’augmente le risque de choc ou d’incendie."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_DEFLECTION",
+    "categoryId": "CAT_MECH",
+    "icon": "📏",
+    "title": {
+      "en": "Deflection",
+      "es": "Deflexión",
+      "ca": "Deflexión",
+      "fr": "Déflexion"
+    },
+    "summary": {
+      "en": "Door/cover deflection under a defined force to limit inward movement.",
+      "es": "Flecha de puerta/tapa bajo fuerza definida para limitar la deformación hacia el interior.",
+      "ca": "Fletxa de porta/tapa sota força definida per limitar la deformació cap a l’interior.",
+      "fr": "Flèche de porte/couvercle sous force définie afin de limiter la déformation vers l’intérieur."
+    },
+    "why": {
+      "en": "Excessive door or cover deflection can reduce internal clearances or compromise the sealing line. The deflection test confirms stiffness of closures under external loading.",
+      "es": "Una deformación excesiva puede reducir distancias internas o comprometer la línea de sellado. El ensayo confirma la rigidez de cierres bajo carga externa.",
+      "ca": "Una deformació excessiva pot reduir distàncies internes o comprometre la línia de segellat. L’assaig confirma la rigidesa dels tancaments sota càrrega externa.",
+      "fr": "Une déflexion excessive peut réduire les distances internes ou compromettre la ligne d’étanchéité. L’essai confirme la rigidité des fermetures sous charge externe."
+    },
+    "how": {
+      "en": "Per UL 50, with the enclosure resting on a rigid surface and the door closed/secured as intended, a defined vertical force is applied at specified points using a flat-faced applicator. Inward deflection is measured and must not exceed the allowed limit for the relevant construction.",
+      "es": "Según UL 50, con la envolvente apoyada sobre una superficie rígida y la puerta cerrada/asegurada, se aplica una fuerza vertical definida en puntos especificados mediante un aplicador plano. Se mide la deformación hacia el interior y no debe superar el límite permitido para la construcción aplicable.",
+      "ca": "Segons UL 50, amb l’envolvent recolzat sobre una superfície rígida i la porta tancada/assegurada, s’aplica una força vertical definida en punts especificats amb un aplicador pla. Es mesura la deformació cap a l’interior i no ha de superar el límit permès per a la construcció aplicable.",
+      "fr": "Selon UL 50, l’enveloppe reposant sur une surface rigide et la porte fermée/maintenue, une force verticale définie est appliquée à des points spécifiés via un applicateur à face plane. La déflexion vers l’intérieur est mesurée et ne doit pas dépasser la limite autorisée pour la construction concernée."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_COMPARATIVE_DEFLECTION",
+    "categoryId": "CAT_MECH",
+    "icon": "📐",
+    "title": {
+      "en": "Comparative deflection",
+      "es": "Deflexión comparativa",
+      "ca": "Deflexión comparativa",
+      "fr": "Déflexion comparative"
+    },
+    "summary": {
+      "en": "Compares enclosure wall deflection against a reference construction to demonstrate stiffness.",
+      "es": "Compara la deflexión de paredes con una referencia para demostrar rigidez.",
+      "ca": "Compara la deflexió de parets amb una referència per demostrar rigidesa.",
+      "fr": "Compare la déflexion des parois à une référence afin de démontrer la rigidité."
+    },
+    "why": {
+      "en": "When thinner materials are used, the enclosure still needs adequate stiffness. Comparative deflection provides an objective way to show the tested construction is not more flexible than the reference thickness expected for the application.",
+      "es": "Cuando se usan materiales más delgados, la envolvente debe mantener rigidez suficiente. La deflexión comparativa permite demostrar que la construcción ensayada no es más flexible que la referencia esperada.",
+      "ca": "Quan s’utilitzen materials més prims, l’envolvent ha de mantenir rigidesa suficient. La deflexió comparativa permet demostrar que la construcció assajada no és més flexible que la referència esperada.",
+      "fr": "Lorsque des matériaux plus minces sont utilisés, l’enveloppe doit conserver une rigidité suffisante. La déflexion comparative permet de démontrer que la construction testée n’est pas plus flexible que la référence attendue."
+    },
+    "how": {
+      "en": "Per UL 50, forces are applied to end, side, and rear walls of both the tested enclosure and a reference enclosure, sufficient to produce measurable deflection. The tested construction is acceptable if its deflection is not greater than that of the reference under comparable loading.",
+      "es": "Según UL 50, se aplican fuerzas a paredes de extremo, laterales y trasera de la envolvente ensayada y de una envolvente de referencia, suficientes para obtener deflexión medible. La construcción es aceptable si su deflexión no es mayor que la de la referencia bajo carga comparable.",
+      "ca": "Segons UL 50, s’apliquen forces a parets d’extrem, laterals i posterior de l’envolvent assajat i d’un envolvent de referència, suficients per obtenir una deflexió mesurable. La construcció és acceptable si la seva deflexió no és superior a la de la referència sota càrrega comparable.",
+      "fr": "Selon UL 50, des forces sont appliquées sur les parois d’extrémité, latérales et arrière de l’enveloppe testée et d’une enveloppe de référence, suffisantes pour obtenir une déflexion mesurable. La construction est acceptable si sa déflexion n’est pas supérieure à celle de la référence sous charge comparable."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_MOLD_STRESS_RELIEF",
+    "categoryId": "CAT_MECH",
+    "icon": "🧬",
+    "title": {
+      "en": "Mold stress-relief",
+      "es": "Alivio de tensiones (moldeo)",
+      "ca": "Alivio de tensiones (moldeo)",
+      "fr": "Relaxation des contraintes (moulage)"
+    },
+    "summary": {
+      "en": "Heat conditioning to reveal shrinkage/warpage of insulating materials (mold stress relief).",
+      "es": "Acondicionamiento térmico para revelar contracción/alabeo de materiales aislantes (alivio de tensiones de moldeo).",
+      "ca": "Condicionament tèrmic per revelar contracció/alabeig de materials aïllants (alleujament de tensions de motlle).",
+      "fr": "Conditionnement thermique pour révéler retrait/voilage des matériaux isolants (relaxation des contraintes de moulage)."
+    },
+    "why": {
+      "en": "Molded polymers can deform when exposed to elevated temperature, reducing spacings or interfering with operation. Stress-relief verification helps ensure thermal exposure does not create conditions that increase shock/fire risk or prevent proper servicing.",
+      "es": "Los polímeros moldeados pueden deformarse con temperatura elevada, reduciendo distancias o interfiriendo con el funcionamiento. La verificación asegura que la exposición térmica no crea condiciones que aumenten riesgo eléctrico/incendio o impidan el mantenimiento.",
+      "ca": "Els polímers modelats poden deformar-se amb temperatura elevada, reduint distàncies o interferint amb el funcionament. La verificació assegura que l’exposició tèrmica no crea condicions que augmentin el risc elèctric/incendi o impedeixin el manteniment.",
+      "fr": "Les polymères moulés peuvent se déformer sous température élevée, réduisant les distances ou gênant le fonctionnement. La vérification assure que l’exposition thermique ne crée pas de conditions augmentant les risques de choc/incendie ou empêchant la maintenance."
+    },
+    "how": {
+      "en": "Per UL 50, a representative assembled sample is placed in a circulating-air oven at a temperature above the measured maximum material temperature (and not less than a minimum threshold) for a defined duration. After cooling, the enclosure must show no softening and no shrinkage/warpage that reduces required spacings, makes wiring/live parts accessible, defeats enclosure integrity, or interferes with intended operation or servicing.",
+      "es": "Según UL 50, una muestra representativa montada se coloca en un horno de aire circulante a una temperatura superior a la máxima medida del material (y no inferior a un mínimo) durante un tiempo definido. Tras enfriar, no debe haber reblandecimiento ni contracción/alabeo que reduzca distancias requeridas, haga accesible cableado/partes activas, comprometa la integridad de la envolvente o interfiera con funcionamiento o mantenimiento.",
+      "ca": "Segons UL 50, una mostra representativa muntada es col·loca en un forn d’aire circulant a una temperatura superior a la màxima mesurada del material (i no inferior a un mínim) durant un temps definit. Després de refredar, no hi ha d’haver estovament ni contracció/alabeig que redueixi distàncies requerides, faci accessible cablejat/parts actives, comprometi la integritat de l’envolvent o interfereixi amb el funcionament o manteniment.",
+      "fr": "Selon UL 50, un échantillon représentatif assemblé est placé dans une étuve à air circulant à une température supérieure à la température maximale mesurée du matériau (et non inférieure à un minimum) pendant une durée définie. Après refroidissement, il ne doit y avoir ni ramollissement ni retrait/voilage réduisant les distances requises, rendant câblage/parties actives accessibles, compromettant l’intégrité de l’enveloppe ou gênant fonctionnement/maintenance."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_MISALIGNMENT",
+    "categoryId": "CAT_MECH",
+    "icon": "🧭",
+    "title": {
+      "en": "Misalignment",
+      "es": "Desalineación",
+      "ca": "Desalineación",
+      "fr": "Désalignement"
+    },
+    "summary": {
+      "en": "Misalignment test: evaluates conduit/hub-induced bending stress and confirms continued environmental performance.",
+      "es": "Ensayo de desalineación: evalúa esfuerzo por conducto/entrada y confirma desempeño ambiental posterior.",
+      "ca": "Assaig de desalineació: avalua l’esforç per conducte/entrada i confirma el rendiment ambiental posterior.",
+      "fr": "Essai de désalignement : évalue les contraintes de flexion via conduit/raccord et confirme la performance environnementale."
+    },
+    "why": {
+      "en": "Field-installed conduit can be misaligned, applying bending moment to hubs and enclosure walls. The test checks that this mechanical stress does not crack non-metallic constructions or permanently distort metallic ones, and that sealing performance is retained.",
+      "es": "El conducto instalado en campo puede quedar desalineado, aplicando momento de flexión a racores y paredes. El ensayo comprueba que el esfuerzo no agrieta construcciones no metálicas ni deforma permanentemente las metálicas, y que se mantiene la estanqueidad.",
+      "ca": "El conducte instal·lat a camp pot quedar desalineat, aplicant moment de flexió a racors i parets. L’assaig comprova que l’esforç no esquerdi construccions no metàl·liques ni deformi permanentment les metàl·liques, i que es manté l’estanqueïtat.",
+      "fr": "Le conduit installé sur site peut être désaligné, appliquant un moment de flexion aux raccords et parois. L’essai vérifie que la contrainte ne fissure pas les constructions non métalliques ni ne déforme durablement les métalliques, et que l’étanchéité est conservée."
+    },
+    "how": {
+      "en": "Based on UL 50E, a long steel conduit is threaded into a detachable hub installed in the enclosure and tightened to the specified torque. The free end of the conduit is displaced in multiple directions to apply the required bending moment. The test passes if non-metallic constructions show no cracking/breakage, metallic ones show no permanent distortion, and the enclosure still meets its applicable environmental tests (e.g., drip/rain/dust/hose/oil) for its Type rating.",
+      "es": "Basado en UL 50E, se rosca un conducto de acero largo en un racor desmontable instalado en la envolvente y se aprieta con el par especificado. El extremo libre del conducto se desplaza en varias direcciones para aplicar el momento de flexión requerido. El ensayo se considera conforme si las envolventes no metálicas no presentan grietas/roturas, las metálicas no presentan deformación permanente y la envolvente sigue cumpliendo los ensayos ambientales aplicables (goteo/lluvia/polvo/manguera/aceite) para su tipo.",
+      "ca": "Basat en UL 50E, es rosca un conducte d’acer llarg en un racor desmuntable instal·lat a l’envolvent i s’estreny amb el parell especificat. L’extrem lliure del conducte es desplaça en diverses direccions per aplicar el moment de flexió requerit. L’assaig es considera conforme si els envolvents no metàl·lics no presenten esquerdes/trencaments, els metàl·lics no presenten deformació permanent i l’envolvent continua complint els assajos ambientals aplicables (degoteig/pluja/pols/mànega/oli) per al seu tipus.",
+      "fr": "Basé sur l’UL 50E, un long conduit en acier est fileté dans un raccord démontable installé sur l’enveloppe et serré au couple spécifié. L’extrémité libre du conduit est déplacée dans plusieurs directions pour appliquer le moment de flexion requis. L’essai est conforme si les constructions non métalliques ne présentent ni fissuration/rupture, les métalliques ne présentent pas de déformation permanente, et l’enveloppe satisfait encore aux essais environnementaux applicables (goutte/pluie/poussière/jet/huile) correspondant à son Type."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_TENSILE_ELONG",
+    "categoryId": "CAT_MECH",
+    "icon": "↔️",
+    "title": {
+      "en": "Gasket tensile & elongation",
+      "es": "Juntas: tracción y elongación",
+      "ca": "Juntas: tracción i elongación",
+      "fr": "Joints : traction et allongement"
+    },
+    "summary": {
+      "en": "Gasket tensile strength and elongation retention after heat ageing.",
+      "es": "Retención de resistencia a tracción y elongación de juntas tras envejecimiento térmico.",
+      "ca": "Retenció de resistència a tracció i elongació de juntes després d’envelliment tèrmic.",
+      "fr": "Rétention de la résistance à la traction et de l’allongement des joints après vieillissement thermique."
+    },
+    "why": {
+      "en": "Gaskets must remain strong and ductile after ageing to avoid tearing, cracking, or loss of sealing under repeated door operation and thermal exposure.",
+      "es": "Las juntas deben conservar resistencia y ductilidad tras el envejecimiento para evitar desgarros, grietas o pérdida de sellado con maniobras repetidas y calor.",
+      "ca": "Les juntes han de conservar resistència i ductilitat després de l’envelliment per evitar esquinçades, esquerdes o pèrdua de segellat amb maniobres repetides i calor.",
+      "fr": "Les joints doivent conserver résistance et ductilité après vieillissement afin d’éviter déchirures, fissures ou perte d’étanchéité avec les manœuvres répétées et l’exposition thermique."
+    },
+    "how": {
+      "en": "Per UL 50E, gasket specimens are heat-aged in circulating air, then tested for tensile strength and elongation and compared to unaged specimens. Acceptance is based on meeting the required retention levels and showing no visible deterioration such as deformation, melting, or cracking.",
+      "es": "Según UL 50E, probetas de junta se envejecen en aire circulante y luego se ensayan a tracción y elongación comparándolas con probetas sin envejecer. Se acepta si se alcanzan los niveles de retención requeridos y no hay deterioro visible (deformación, fusión o grietas).",
+      "ca": "Segons UL 50E, provetes de junta s’envellixen en aire circulant i després s’assaigen a tracció i elongació comparant-les amb provetes sense envellir. S’accepta si s’assoleixen els nivells de retenció requerits i no hi ha deteriorament visible (deformació, fusió o esquerdes).",
+      "fr": "Selon UL 50E, des éprouvettes de joint sont vieillies à chaud en air circulant puis soumises à des essais de traction/allongement et comparées à des éprouvettes non vieillies. Réussite si les niveaux de rétention requis sont atteints et si aucune dégradation visible (déformation, fusion, fissuration) n’apparaît."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_COMPRESSION",
+    "categoryId": "CAT_MECH",
+    "icon": "⬇️",
+    "title": {
+      "en": "Gasket compression",
+      "es": "Juntas: compresión",
+      "ca": "Juntas: compresión",
+      "fr": "Joints : compression"
+    },
+    "summary": {
+      "en": "Gasket compression-set and cracking resistance after heat and cold conditioning.",
+      "es": "Asentamiento por compresión y resistencia a fisuración de juntas tras acondicionamiento en calor y frío.",
+      "ca": "Assentament per compressió i resistència a fissuració de juntes després de condicionament en calor i fred.",
+      "fr": "Tassement à la compression et résistance à la fissuration des joints après conditionnement chaud et froid."
+    },
+    "why": {
+      "en": "Compression set reduces sealing force over time, while cold conditioning can embrittle elastomers. The compression sequence confirms the gasket recovers thickness and does not crack after ageing and low-temperature exposure.",
+      "es": "El asentamiento por compresión reduce la fuerza de sellado con el tiempo y el frío puede fragilizar elastómeros. La secuencia confirma que la junta recupera espesor y no se fisura tras envejecimiento y baja temperatura.",
+      "ca": "L’assentament per compressió redueix la força de segellat amb el temps i el fred pot fragilitzar elastòmers. La seqüència confirma que la junta recupera gruix i no es fissura després d’envelliment i baixa temperatura.",
+      "fr": "Le tassement à la compression réduit la force d’étanchéité avec le temps, et le froid peut fragiliser les élastomères. La séquence confirme que le joint récupère son épaisseur et ne fissure pas après vieillissement et exposition au froid."
+    },
+    "how": {
+      "en": "Per UL 50E, gasket specimens are compressed under a defined pressure for a set time, allowed to recover, and measured to calculate compression set. The sequence is repeated after heat ageing and after cold conditioning with impact exposures. Specimens must meet the compression-set limit and show no deterioration or cracking.",
+      "es": "Según UL 50E, probetas de junta se comprimen con una presión definida durante un tiempo, se dejan recuperar y se miden para calcular el asentamiento por compresión. La secuencia se repite tras envejecimiento térmico y tras acondicionamiento en frío con impactos. Las probetas deben cumplir el límite y no mostrar deterioro ni fisuras.",
+      "ca": "Segons UL 50E, provetes de junta es comprimeixen amb una pressió definida durant un temps, es deixen recuperar i es mesuren per calcular l’assentament per compressió. La seqüència es repeteix després d’envelliment tèrmic i després de condicionament en fred amb impactes. Les provetes han de complir el límit i no mostrar deteriorament ni fissures.",
+      "fr": "Selon UL 50E, des éprouvettes de joint sont comprimées sous une pression définie pendant une durée donnée, laissées au repos puis mesurées pour calculer le tassement à la compression. La séquence est répétée après vieillissement à chaud puis après conditionnement à froid avec impacts. Les éprouvettes doivent respecter la limite et ne présenter ni dégradation ni fissuration."
+    },
+    "tags": [],
+    "labs": [
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_RMCC_GENERAL",
+    "categoryId": "CAT_MECH",
+    "icon": "🔌",
+    "title": {
+      "en": "Conduit connection (general)",
+      "es": "Conexión de conducto (general)",
+      "ca": "Conexión de conducto (general)",
+      "fr": "Raccordement de conduit (général)"
+    },
+    "summary": {
+      "en": "Verifies robustness of conduit connections to enclosures under pullout, torque, bending, and breakout loads.",
+      "es": "Verifica la robustez de conexiones de conducto bajo tracción, par, flexión y cargas sobre troqueles (breakouts).",
+      "ca": "Verifica la robustesa de connexions de conducte sota tracció, parell, flexió i càrregues sobre troqueles (breakouts).",
+      "fr": "Vérifie la robustesse des raccordements de conduit sous efforts d’arrachement, de couple, de flexion et sur pastilles (breakouts)."
+    },
+    "why": {
+      "en": "Conduit entries transmit mechanical loads into the enclosure wall. Failures at hubs/openings can crack polymeric enclosures, strip threads, or loosen fittings, compromising environmental integrity and stressing wiring.",
+      "es": "Las entradas de conducto transmiten esfuerzos mecánicos a la pared. Fallos en racores/aberturas pueden agrietar envolventes poliméricas, dañar roscas o aflojar fijaciones, comprometiendo estanqueidad y sometiendo a esfuerzo el cableado.",
+      "ca": "Les entrades de conducte transmeten esforços mecànics a la paret. Fallades en racors/obertures poden esquerdar envolvents polimèrics, danyar rosques o afluixar fixacions, comprometent l’estanqueïtat i sotmetent a esforç el cablejat.",
+      "fr": "Les entrées de conduit transmettent des efforts mécaniques à la paroi. Des défaillances au niveau des raccords/ouvertures peuvent fissurer des enveloppes polymères, détériorer les filetages ou desserrer des fixations, compromettant l’étanchéité et sollicitant le câblage."
+    },
+    "how": {
+      "en": "Per UL 50 conduit-connection verification, conduit is installed as intended and the enclosure is subjected to defined pullout force, tightening torque, and bending moment. If breakouts are provided, they are also loaded to confirm they remain in place. The connection passes if the enclosure does not crack/break or pull apart and no damage occurs that would impair safety or environmental performance.",
+      "es": "Según UL 50, se instala el conducto como previsto y se somete la envolvente a una fuerza de tracción, un par de apriete y un momento de flexión definidos. Si existen troqueles (breakouts), también se cargan para confirmar que permanecen en su sitio. Cumple si la envolvente no se agrieta/rompe ni se separa y no hay daños que afecten a seguridad o desempeño ambiental.",
+      "ca": "Segons UL 50, s’instal·la el conducte com està previst i es sotmet l’envolvent a una força de tracció, un parell d’estrenyiment i un moment de flexió definits. Si hi ha troqueles (breakouts), també es carreguen per confirmar que romanen al seu lloc. Compleix si l’envolvent no s’esquerda/trenca ni se separa i no hi ha danys que afectin seguretat o rendiment ambiental.",
+      "fr": "Selon UL 50, le conduit est installé comme prévu puis l’enveloppe est soumise à une force d’arrachement, un couple de serrage et un moment de flexion définis. Si des pastilles (breakouts) existent, elles sont également sollicitées pour confirmer leur maintien en place. Réussite si l’enveloppe ne fissure/casse pas, ne se désassemble pas et si aucun dommage ne compromet sécurité ou performance environnementale."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_POLY_RMCC_PULLOUT",
+    "categoryId": "CAT_MECH",
+    "icon": "🪝",
+    "title": {
+      "en": "Conduit connection — pullout",
+      "es": "Conexión de conducto — extracción",
+      "ca": "Conexión de conducto — extracción",
+      "fr": "Raccordement — arrachement"
+    },
+    "summary": {
+      "en": "Pullout resistance of conduit connection: verifies the enclosure does not separate or crack under axial load.",
+      "es": "Resistencia a tracción de conexión de conducto: verifica que no haya separación ni grietas bajo carga axial.",
+      "ca": "Resistència a tracció de connexió de conducte: verifica que no hi hagi separació ni esquerdes sota càrrega axial.",
+      "fr": "Résistance à l’arrachement du raccordement de conduit : vérifie l’absence de séparation/fissuration sous charge axiale."
+    },
+    "why": {
+      "en": "Axial pull on conduit can occur from cable tension, installation forces, or accidental loads. The pullout test confirms the conduit/hub interface remains mechanically secure.",
+      "es": "La tracción axial puede ocurrir por tensión de cables, fuerzas de instalación o cargas accidentales. El ensayo confirma que la interfaz conducto/racor permanece mecánicamente segura.",
+      "ca": "La tracció axial pot aparèixer per tensió de cables, forces d’instal·lació o càrregues accidentals. L’assaig confirma que la interfície conducte/racor roman mecànicament segura.",
+      "fr": "Des efforts axiaux sur le conduit peuvent provenir de la tension des câbles, des forces d’installation ou de charges accidentelles. L’essai confirme la tenue mécanique de l’interface conduit/raccord."
+    },
+    "how": {
+      "en": "Per UL 50 polymeric enclosure conduit connection test, the enclosure is suspended by conduit installed in one wall and an axial pulling force is applied to a conduit in the opposite wall for a defined duration. The enclosure must not pull apart or crack.",
+      "es": "Según UL 50 (conexión de conducto en envolvente polimérica), la envolvente se suspende por un conducto instalado en una pared y se aplica una fuerza de tracción axial a un conducto en la pared opuesta durante un tiempo definido. La envolvente no debe separarse ni agrietarse.",
+      "ca": "Segons UL 50 (connexió de conducte en envolvent polimèric), l’envolvent es suspèn per un conducte instal·lat en una paret i s’aplica una força de tracció axial a un conducte a la paret oposada durant un temps definit. L’envolvent no s’ha de separar ni esquerdar.",
+      "fr": "Selon UL 50 (raccordement de conduit sur enveloppe polymère), l’enveloppe est suspendue par un conduit installé sur une paroi et une force d’arrachement axiale est appliquée sur un conduit de la paroi opposée pendant une durée définie. L’enveloppe ne doit ni se désassembler ni fissurer."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_POLY_RMCC_TORQUE",
+    "categoryId": "CAT_MECH",
+    "icon": "🔩",
+    "title": {
+      "en": "Conduit connection — torque",
+      "es": "Conexión de conducto — par",
+      "ca": "Conexión de conducto — par",
+      "fr": "Raccordement — couple"
+    },
+    "summary": {
+      "en": "Torque resistance of conduit connection: checks threads and wall do not fail under tightening torque.",
+      "es": "Resistencia al par de conexión de conducto: comprueba que rosca y pared no fallan bajo par de apriete.",
+      "ca": "Resistència al parell de connexió de conducte: comprova que rosca i paret no fallen sota parell d’estrenyiment.",
+      "fr": "Résistance au couple du raccordement de conduit : vérifie que filetage et paroi ne cèdent pas sous le couple de serrage."
+    },
+    "why": {
+      "en": "Over-tightening or installation torque can crack polymeric walls or strip threads, leading to loss of mechanical retention and leakage paths. Torque verification supports robust field installation.",
+      "es": "El par de instalación puede agrietar paredes poliméricas o barrer roscas, provocando pérdida de retención y vías de fuga. La verificación asegura una instalación robusta.",
+      "ca": "El parell d’instal·lació pot esquerdar parets polimèriques o esgarrapar rosques, provocant pèrdua de retenció i vies de fuita. La verificació assegura una instal·lació robusta.",
+      "fr": "Le couple de serrage à l’installation peut fissurer des parois polymères ou détériorer les filetages, entraînant perte de retenue et chemins de fuite. La vérification soutient une installation terrain robuste."
+    },
+    "how": {
+      "en": "Per UL 50, the enclosure is mounted as intended and tightening torque is applied to the installed conduit in the direction that tightens the connection. The connection passes if no cracking/breaking occurs and the enclosure remains serviceable.",
+      "es": "Según UL 50, la envolvente se monta como previsto y se aplica un par de apriete al conducto instalado en el sentido de cierre. La conexión cumple si no hay grietas/roturas y la envolvente sigue siendo apta.",
+      "ca": "Segons UL 50, l’envolvent es munta com està previst i s’aplica un parell d’estrenyiment al conducte instal·lat en el sentit de tancament. La connexió compleix si no hi ha esquerdes/trencaments i l’envolvent continua sent apte.",
+      "fr": "Selon UL 50, l’enveloppe est montée comme prévu et un couple de serrage est appliqué au conduit installé dans le sens de serrage. Réussite si aucune fissuration/rupture n’apparaît et si l’enveloppe reste apte au service."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_POLY_RMCC_BENDING",
+    "categoryId": "CAT_MECH",
+    "icon": "➰",
+    "title": {
+      "en": "Conduit connection — bending",
+      "es": "Conexión de conducto — flexión",
+      "ca": "Conexión de conducto — flexión",
+      "fr": "Raccordement — flexion"
+    },
+    "summary": {
+      "en": "Bending resistance of conduit connection: verifies hub/opening withstands bending moment without damage.",
+      "es": "Resistencia a flexión de conexión de conducto: verifica que racor/abertura soporta momento sin daño.",
+      "ca": "Resistència a flexió de connexió de conducte: verifica que racor/obertura suporta moment sense dany.",
+      "fr": "Résistance à la flexion du raccordement de conduit : vérifie que raccord/ouverture supporte le moment sans dommage."
+    },
+    "why": {
+      "en": "Long conduit runs act as levers and can apply significant bending moment at the enclosure wall. The bending check confirms the connection does not crack or loosen under these stresses.",
+      "es": "Los tramos largos actúan como palanca y aplican momento en la pared. La verificación confirma que la conexión no se agrieta ni se afloja bajo estos esfuerzos.",
+      "ca": "Els trams llargs actuen com a palanca i apliquen moment a la paret. La verificació confirma que la connexió no s’esquerda ni s’afluixa sota aquests esforços.",
+      "fr": "De longues longueurs de conduit agissent comme un levier et appliquent un moment important sur la paroi. La vérification confirme que le raccordement ne fissure pas et ne se desserre pas sous ces contraintes."
+    },
+    "how": {
+      "en": "Per UL 50, a length of conduit is installed and the enclosure is mounted so the conduit extends horizontally. Bending is applied by deflecting the conduit end up to the specified displacement or until the required bending moment is achieved. The enclosure passes if it does not crack/break and remains serviceable.",
+      "es": "Según UL 50, se instala un tramo de conducto y se monta la envolvente de modo que el conducto quede horizontal. Se aplica flexión deflectando el extremo hasta el desplazamiento especificado o hasta alcanzar el momento requerido. Cumple si no hay grietas/roturas y sigue siendo apta.",
+      "ca": "Segons UL 50, s’instal·la un tram de conducte i es munta l’envolvent perquè el conducte quedi horitzontal. S’aplica flexió deflectant l’extrem fins al desplaçament especificat o fins assolir el moment requerit. Compleix si no hi ha esquerdes/trencaments i continua sent apte.",
+      "fr": "Selon UL 50, une longueur de conduit est installée et l’enveloppe est montée de sorte que le conduit soit horizontal. La flexion est appliquée en défléchissant l’extrémité jusqu’au déplacement spécifié ou jusqu’à atteindre le moment requis. Réussite si aucune fissuration/rupture n’apparaît et si l’enveloppe reste apte au service."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "UL_POLY_RMCC_BREAKOUT",
+    "categoryId": "CAT_MECH",
+    "icon": "🕳️",
+    "title": {
+      "en": "Conduit connection — breakout",
+      "es": "Conexión de conducto — rotura",
+      "ca": "Conexión de conducto — rotura",
+      "fr": "Raccordement — rupture"
+    },
+    "summary": {
+      "en": "Breakout retention: verifies a breakout remains in place under a defined applied force.",
+      "es": "Retención de troquel (breakout): verifica que permanece en su sitio bajo una fuerza definida.",
+      "ca": "Retenció de troquel (breakout): verifica que roman al seu lloc sota una força definida.",
+      "fr": "Maintien des pastilles (breakouts) : vérifie qu’elles restent en place sous une force définie."
+    },
+    "why": {
+      "en": "Breakouts are potential weak points and leakage paths. The test confirms they are not easily displaced by incidental force and that the enclosure wall remains intact around entry locations.",
+      "es": "Los troqueles son puntos débiles y posibles vías de fuga. El ensayo confirma que no se desplazan con facilidad por fuerzas incidentales y que la pared permanece íntegra alrededor de entradas.",
+      "ca": "Els troqueles són punts febles i possibles vies de fuita. L’assaig confirma que no es desplacen fàcilment per forces incidentals i que la paret roman íntegra al voltant de les entrades.",
+      "fr": "Les pastilles (breakouts) sont des points faibles et des chemins de fuite potentiels. L’essai confirme qu’elles ne se déplacent pas facilement sous une force incidente et que la paroi reste intacte autour des entrées."
+    },
+    "how": {
+      "en": "Per UL 50, a mandrel is applied at right angles to the breakout at the point most likely to cause movement, with a defined force. The breakout must remain in place after the load.",
+      "es": "Según UL 50, se aplica un mandril perpendicular al troquel en el punto más susceptible de movimiento, con una fuerza definida. El troquel debe permanecer en su sitio tras la carga.",
+      "ca": "Segons UL 50, s’aplica un mandrí perpendicular al troquel al punt més susceptible de moviment, amb una força definida. El troquel ha de romandre al seu lloc després de la càrrega.",
+      "fr": "Selon UL 50, un mandrin est appliqué perpendiculairement sur la pastille au point le plus susceptible de se déplacer, avec une force définie. La pastille doit rester en place après charge."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "IEC62208_911",
+    "categoryId": "CAT_ELEC",
+    "icon": "⚡",
+    "title": {
+      "en": "Dielectric strength",
+      "es": "Rigidez dieléctrica",
+      "ca": "Rigidez dieléctrica",
+      "fr": "Rigidité diélectrique"
+    },
+    "summary": {
+      "en": "Verifies dielectric withstand of insulating enclosures between the external surface and the protected space.",
+      "es": "Verifica la rigidez dieléctrica de envolventes aislantes entre la superficie externa y el espacio protegido.",
+      "ca": "Verifica la rigidesa dielèctrica d’envolvents aïllants entre la superfície externa i l’espai protegit.",
+      "fr": "Vérifie la tenue diélectrique des enveloppes isolantes entre la surface externe et le volume protégé."
+    },
+    "why": {
+      "en": "Dielectric withstand confirms that insulation does not break down under overvoltage conditions. This reduces the risk of flashover to accessible surfaces and supports the enclosure’s role as an insulating barrier.",
+      "es": "La rigidez dieléctrica confirma que el aislamiento no se perfora bajo sobretensiones. Reduce el riesgo de contorneo hacia superficies accesibles y respalda el papel de la envolvente como barrera aislante.",
+      "ca": "La rigidesa dielèctrica confirma que l’aïllament no es perfora sota sobretensions. Redueix el risc de contornament cap a superfícies accessibles i dona suport al paper de l’envolvent com a barrera aïllant.",
+      "fr": "La tenue diélectrique confirme que l’isolation ne se dégrade pas sous surtension. Elle réduit le risque de contournement vers des surfaces accessibles et soutient le rôle de barrière isolante de l’enveloppe."
+    },
+    "how": {
+      "en": "Per IEC 62208, specimens are preconditioned for 48 h in a high-humidity environment (around 40°C, >90% RH). A sine-wave r.m.s. voltage is then applied for 1 minute between a metal foil on the outside surface and either (a) a foil placed inside at the boundary of the protected space or (b) a bar bonded to internal metallic parts. The voltage is ramped from ≤50% to full value. The enclosure passes if no flashover or breakdown occurs and no damage is produced that would impair further use.",
+      "es": "Según IEC 62208, las muestras se preacondicionan 48 h en alta humedad (aprox. 40°C, >90% HR). Después se aplica durante 1 minuto una tensión eficaz de onda casi sinusoidal entre una lámina metálica en la superficie exterior y (a) una lámina en el interior en el límite del espacio protegido o (b) una barra conectada a las partes metálicas internas. La tensión se incrementa desde ≤50% hasta el valor completo. Se acepta si no hay contorneo ni perforación y no se produce daño que impida el uso posterior.",
+      "ca": "Segons IEC 62208, les mostres es precondicionen 48 h en alta humitat (aprox. 40°C, >90% HR). Després s’aplica durant 1 minut una tensió eficaç d’ona gairebé sinusoïdal entre una làmina metàl·lica a la superfície exterior i (a) una làmina a l’interior al límit de l’espai protegit o (b) una barra connectada a les parts metàl·liques internes. La tensió s’incrementa des de ≤50% fins al valor complet. S’accepta si no hi ha contornament ni perforació i no es produeix cap dany que n’impedeixi l’ús posterior.",
+      "fr": "Selon l’IEC 62208, les éprouvettes sont préconditionnées 48 h en atmosphère très humide (env. 40 °C, >90 % HR). Une tension efficace quasi sinusoïdale est ensuite appliquée 1 min entre une feuille métallique au contact de la surface externe et (a) une feuille placée à l’intérieur à la limite du volume protégé ou (b) une barre reliée aux parties métalliques internes. La tension est montée de ≤50 % à la valeur nominale. Réussite si aucun contournement ni claquage n’apparaît et si aucun dommage n’altère l’usage ultérieur."
+    },
+    "tags": [],
+    "labs": [],
+    "refStdId": "IEC_62208",
+    "refClause": "9.11"
+  },
+  {
+    "id": "IEC62208_912",
+    "categoryId": "CAT_ELEC",
+    "icon": "🌍",
+    "title": {
+      "en": "Earth continuity",
+      "es": "Continuidad de tierra",
+      "ca": "Continuïtat de terra",
+      "fr": "Continuité de terre"
+    },
+    "summary": {
+      "en": "Verifies continuity of the protective circuit between exposed conductive parts and the earthing terminal.",
+      "es": "Verifica la continuidad del circuito de protección entre masas accesibles y el borne de tierra.",
+      "ca": "Verifica la continuïtat del circuit de protecció entre masses accessibles i el born de terra.",
+      "fr": "Vérifie la continuité du circuit de protection entre masses accessibles et borne de terre."
+    },
+    "why": {
+      "en": "Effective protective bonding limits touch voltage and ensures fault current has a low-impedance return path. This is essential for metallic parts such as doors, frames, and gland plates that may become energized during a fault.",
+      "es": "Una buena equipotencialidad limita la tensión de contacto y garantiza un retorno de baja impedancia para la corriente de defecto. Es esencial en partes metálicas como puerta, marco o placas de entrada que podrían energizarse en un fallo.",
+      "ca": "Una bona equipotencialitat limita la tensió de contacte i garanteix un retorn de baixa impedància per al corrent de defecte. És essencial en parts metàl·liques com porta, bastidor o plaques d’entrada que es podrien energitzar en una avaria.",
+      "fr": "Une liaison de protection efficace limite la tension de contact et assure un retour à faible impédance du courant de défaut. C’est essentiel pour des pièces métalliques (portes, châssis, plaques d’entrée) susceptibles d’être mises sous tension en cas de défaut."
+    },
+    "how": {
+      "en": "Per IEC 62208, we pass a test current (≥10 A a.c./d.c.) between each exposed conductive part and the earthing point and measure the voltage drop. The protective-circuit resistance is calculated from current and voltage drop and must not exceed 0.1 Ω. Measurements are repeated until a consistent result is obtained if needed.",
+      "es": "Según IEC 62208, se hace circular una corriente de ensayo (≥10 A c.a./c.c.) entre cada masa accesible y el punto de tierra y se mide la caída de tensión. La resistencia del circuito de protección se calcula a partir de corriente y caída de tensión y no debe superar 0,1 Ω. Si es necesario, se repite hasta obtener una medida consistente.",
+      "ca": "Segons IEC 62208, es fa circular un corrent d’assaig (≥10 A c.a./c.c.) entre cada massa accessible i el punt de terra i es mesura la caiguda de tensió. La resistència del circuit de protecció es calcula a partir del corrent i la caiguda de tensió i no ha de superar 0,1 Ω. Si cal, es repeteix fins a obtenir un resultat consistent.",
+      "fr": "Selon l’IEC 62208, on fait circuler un courant d’essai (≥10 A c.a./c.c.) entre chaque masse accessible et la borne de terre et on mesure la chute de tension. La résistance du circuit de protection est calculée et doit être ≤ 0,1 Ω. En cas de doute, on répète jusqu’à obtenir une mesure cohérente."
+    },
+    "tags": [],
+    "labs": [
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.12"
+  },
+  {
+    "id": "IEC62208_9101",
+    "categoryId": "CAT_FIRE",
+    "icon": "🌡️",
+    "title": {
+      "en": "Thermal stability",
+      "es": "Estabilidad térmica",
+      "ca": "Estabilidad térmica",
+      "fr": "Stabilité thermique"
+    },
+    "summary": {
+      "en": "Checks thermal stability of insulating materials after prolonged exposure to elevated temperature.",
+      "es": "Comprueba la estabilidad térmica de materiales aislantes tras exposición prolongada a temperatura elevada.",
+      "ca": "Comprova l’estabilitat tèrmica de materials aïllants després d’una exposició prolongada a temperatura elevada.",
+      "fr": "Contrôle la stabilité thermique des matériaux isolants après exposition prolongée à température élevée."
+    },
+    "why": {
+      "en": "Long heat exposure can cause surface tackiness, distortion, or cracking in polymeric enclosures. Thermal stability verification supports dimensional integrity and helps ensure that the enclosure does not create new gaps or loss of function after ageing.",
+      "es": "La exposición prolongada al calor puede provocar pegajosidad, deformación o grietas en envolventes poliméricas. La verificación de estabilidad térmica respalda la integridad dimensional y ayuda a asegurar que no se generen holguras ni pérdida de función tras el envejecimiento.",
+      "ca": "L’exposició prolongada a la calor pot provocar enganxositat, deformació o esquerdes en envolvents polimèrics. La verificació d’estabilitat tèrmica dona suport a la integritat dimensional i ajuda a assegurar que no es generin holgures ni pèrdua de funció després de l’envelliment.",
+      "fr": "Une exposition prolongée à la chaleur peut rendre les surfaces collantes, provoquer des déformations ou des fissures sur des enveloppes polymères. La vérification de stabilité thermique soutient l’intégrité dimensionnelle et évite l’apparition de jeux ou de pertes de fonction après vieillissement."
+    },
+    "how": {
+      "en": "Per IEC 62208, the enclosure (or a representative sample) mounted as for normal use is kept in a ventilated heating cabinet at about 70°C for 7 days. Afterward, it is conditioned for at least 4 days at ambient temperature and controlled humidity. We then verify there are no visible cracks and that the material is not sticky/greasy (checked by pressing with a rough dry cloth at a defined force).",
+      "es": "Según IEC 62208, la envolvente (o una muestra representativa) montada como en uso normal se mantiene en una estufa ventilada a ~70°C durante 7 días. Después se acondiciona al menos 4 días a temperatura ambiente y humedad controlada. Se verifica que no haya grietas visibles y que el material no esté pegajoso/grasiento (comprobado presionando con un paño seco rugoso con fuerza definida).",
+      "ca": "Segons IEC 62208, l’envolvent (o una mostra representativa) muntat com en ús normal es manté en una estufa ventilada a ~70°C durant 7 dies. Després es condiciona com a mínim 4 dies a temperatura ambient i humitat controlada. Es verifica que no hi hagi esquerdes visibles i que el material no sigui enganxós/greixós (comprovat pressionant amb un drap sec rugós amb força definida).",
+      "fr": "Selon l’IEC 62208, l’enveloppe (ou un échantillon représentatif) montée comme en usage normal est maintenue dans une étuve ventilée à ~70 °C pendant 7 jours. Elle est ensuite conditionnée au moins 4 jours à température ambiante et humidité contrôlée. On vérifie l’absence de fissures visibles et l’absence d’aspect collant/gras (contrôle par pression avec un chiffon sec rugueux à une force définie)."
+    },
+    "tags": [],
+    "labs": [
+      "sarre"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.10.1"
+  },
+  {
+    "id": "IEC62208_9102",
+    "categoryId": "CAT_FIRE",
+    "icon": "♨️",
+    "title": {
+      "en": "Resistance to normal heat",
+      "es": "Resistencia al calor normal",
+      "ca": "Resistència al calor normal",
+      "fr": "Résistance à la chaleur normale"
+    },
+    "summary": {
+      "en": "Evaluates resistance of insulating surfaces to deformation at normal heat using a ball-pressure method.",
+      "es": "Evalúa la resistencia de superficies aislantes a la deformación por calor normal mediante ensayo a la bola.",
+      "ca": "Avalua la resistència de superfícies aïllants a la deformació per calor normal mitjançant assaig a la bola.",
+      "fr": "Évalue la résistance des surfaces isolantes à la déformation sous chaleur normale par essai à la bille."
+    },
+    "why": {
+      "en": "Materials that soften or creep at operating temperature can reduce clearances, deform sealing interfaces, and compromise mechanical fit. The ball-pressure result provides a controlled indicator of heat-induced deformation tendency.",
+      "es": "Materiales que se ablandan o fluyen a temperatura de servicio pueden reducir distancias, deformar interfaces de sellado y comprometer el ajuste. El ensayo a la bola proporciona un indicador controlado de la tendencia a deformarse por calor.",
+      "ca": "Materials que s’estoven o flueixen a temperatura de servei poden reduir distàncies, deformar interfícies de segellat i comprometre l’ajust. L’assaig a la bola dona un indicador controlat de la tendència a deformar-se per calor.",
+      "fr": "Des matériaux qui ramollissent ou fluagent à la température de service peuvent réduire les distances, déformer les interfaces d’étanchéité et compromettre l’ajustement. L’essai à la bille fournit un indicateur contrôlé de la déformation sous l’effet de la chaleur."
+    },
+    "how": {
+      "en": "Per IEC 62208, a 5 mm steel ball is pressed against a horizontal test surface with a specified force while the sample is held at about 70°C for 1 hour. The sample is then rapidly cooled and the indentation diameter is measured. The enclosure material passes if the indentation does not exceed the specified limit.",
+      "es": "Según IEC 62208, una bola de acero de 5 mm se presiona sobre una superficie horizontal con una fuerza especificada mientras la muestra se mantiene a ~70°C durante 1 hora. Luego se enfría rápidamente y se mide el diámetro de la huella. El material cumple si la huella no supera el límite especificado.",
+      "ca": "Segons IEC 62208, una bola d’acer de 5 mm es pressiona sobre una superfície horitzontal amb una força especificada mentre la mostra es manté a ~70°C durant 1 hora. Després es refreda ràpidament i es mesura el diàmetre de l’empremta. El material compleix si l’empremta no supera el límit especificat.",
+      "fr": "Selon l’IEC 62208, une bille d’acier de 5 mm est pressée sur une surface horizontale avec une force spécifiée, l’échantillon étant maintenu à ~70 °C pendant 1 h. L’échantillon est ensuite refroidi rapidement et le diamètre de l’empreinte est mesuré. Le matériau est conforme si l’empreinte ne dépasse pas la limite spécifiée."
+    },
+    "tags": [],
+    "labs": [
+      "molins"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.10.2"
+  },
+  {
+    "id": "IEC62208_9103",
+    "categoryId": "CAT_FIRE",
+    "icon": "🔥",
+    "title": {
+      "en": "Resistance to abnormal heat & fire",
+      "es": "Resistencia a calor anormal y fuego",
+      "ca": "Resistència a calor anormal i foc",
+      "fr": "Résistance à la chaleur anormale et au feu"
+    },
+    "summary": {
+      "en": "Assesses resistance to abnormal heat and fire using a glow-wire ignition source.",
+      "es": "Evalúa la resistencia a calor anormal y al fuego mediante ensayo de hilo incandescente.",
+      "ca": "Avalua la resistència a calor anormal i al foc mitjançant assaig de fil incandescent.",
+      "fr": "Évalue la résistance à la chaleur anormale et au feu par essai au fil incandescent."
+    },
+    "why": {
+      "en": "Under fault conditions, overheated components or arcs can ignite nearby insulating parts. Glow-wire verification checks that materials do not sustain flaming and do not ignite surrounding materials, supporting containment of thermal faults.",
+      "es": "En condiciones de fallo, componentes sobrecalentados o arcos pueden encender partes aislantes cercanas. El ensayo de hilo incandescente verifica que los materiales no mantengan llama y no enciendan materiales circundantes, ayudando a contener fallos térmicos.",
+      "ca": "En condicions d’avaria, components sobreescalfats o arcs poden encendre parts aïllants properes. L’assaig de fil incandescent verifica que els materials no mantinguin flama i no encenguin materials del voltant, ajudant a contenir avaries tèrmiques.",
+      "fr": "En cas de défaut, des composants surchauffés ou des arcs peuvent enflammer des pièces isolantes proches. L’essai au fil incandescent vérifie que les matériaux ne maintiennent pas de flamme et n’enflamment pas les matériaux environnants, contribuant au confinement des défauts thermiques."
+    },
+    "how": {
+      "en": "Per IEC 62208 (IEC 60695-2-10/-2-11 principles), conditioned specimens are exposed to a heated glow-wire applied for a fixed time. The glow-wire temperature depends on the function of the part under test (higher for parts retaining current-carrying components). We record ignition and extinguishing behaviour and verify that any flames/glowing self-extinguish within the allowed time and that indicator tissue does not ignite or scorch.",
+      "es": "Según IEC 62208 (principios IEC 60695-2-10/-2-11), muestras acondicionadas se exponen a un hilo incandescente durante un tiempo fijo. La temperatura depende de la función de la pieza (más alta para partes que retienen componentes con corriente). Se registra la ignición y extinción y se verifica que la llama/incandescencia se extingue en el tiempo permitido y que el papel indicador no se enciende ni se chamusca.",
+      "ca": "Segons IEC 62208 (principis IEC 60695-2-10/-2-11), mostres condicionades s’exposen a un fil incandescent durant un temps fix. La temperatura depèn de la funció de la peça (més alta per a parts que retenen components amb corrent). Es registra la ignició i l’extinció i es verifica que la flama/incandescència s’apaga dins el temps permès i que el paper indicador no s’encén ni s’ennegreix.",
+      "fr": "Selon l’IEC 62208 (principes IEC 60695-2-10/-2-11), des éprouvettes conditionnées sont exposées à un fil incandescent appliqué pendant un temps défini. La température dépend de la fonction de la pièce (plus élevée pour les parties retenant des éléments parcourus par courant). On enregistre l’allumage et l’extinction et on vérifie que flamme/lueur s’éteignent dans le délai requis et que le papier indicateur ne s’enflamme pas et ne se carbonise pas."
+    },
+    "tags": [],
+    "labs": [
+      "molins",
+      "sarre"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.10.3"
+  },
+  {
+    "id": "UL_FLAMM_127",
+    "categoryId": "CAT_FIRE",
+    "icon": "🔥",
+    "title": {
+      "en": "Flammability",
+      "es": "Inflamabilidad",
+      "ca": "Inflamabilitat",
+      "fr": "Inflammabilite"
+    },
+    "summary": {
+      "en": "Flammability verification using the 127 mm (5 inch) flame method for polymeric materials.",
+      "es": "Verificación de inflamabilidad mediante método de llama 127 mm (5\") para materiales poliméricos.",
+      "ca": "Verificació d’inflamabilitat mitjançant el mètode de flama 127 mm (5\") per a materials polimèrics.",
+      "fr": "Vérification d’inflammabilité par la méthode de flamme 127 mm (5\") pour matériaux polymères."
+    },
+    "why": {
+      "en": "If an internal fault creates a flame source, enclosure plastics should not promote sustained burning or flaming drips. Flammability classification supports fire-risk assessment of polymeric parts used in the enclosure system.",
+      "es": "Si un fallo interno genera una llama, los plásticos no deben mantener combustión ni gotear en llamas. La clasificación apoya la evaluación del riesgo de incendio de partes poliméricas de la envolvente.",
+      "ca": "Si una avaria interna genera una flama, els plàstics no han de mantenir combustió ni degotar en flames. La classificació dona suport a l’avaluació del risc d’incendi de parts polimèriques de l’envolvent.",
+      "fr": "Si un défaut interne génère une flamme, les plastiques ne doivent pas entretenir la combustion ni produire des gouttes enflammées. La classification aide à l’évaluation du risque incendie des pièces polymères de l’enveloppe."
+    },
+    "how": {
+      "en": "Per UL 50, polymeric materials used in enclosures may be evaluated by the 127 mm flame method referenced to UL 94 classifications. Specimens are exposed to a controlled flame in the specified orientation and the afterflame/afterglow behaviour and dripping are assessed to determine the applicable material class.",
+      "es": "Según UL 50, los materiales poliméricos pueden evaluarse con el método de llama 127 mm referenciado a clasificaciones UL 94. Las probetas se exponen a una llama controlada en la orientación especificada y se evalúan posllama/posincandescencia y goteo para determinar la clase.",
+      "ca": "Segons UL 50, els materials polimèrics es poden avaluar amb el mètode de flama 127 mm referenciat a classificacions UL 94. Les provetes s’exposen a una flama controlada en l’orientació especificada i s’avaluen postflama/postincandescència i degoteig per determinar la classe.",
+      "fr": "Selon UL 50, les matériaux polymères peuvent être évalués par la méthode de flamme 127 mm en référence aux classifications UL 94. Les éprouvettes sont exposées à une flamme contrôlée dans l’orientation spécifiée et l’on évalue post-flamme/post-incandescence et gouttes pour déterminer la classe."
+    },
+    "tags": [],
+    "labs": [
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "IEC62208_93",
+    "categoryId": "CAT_MARK",
+    "icon": "🏷️",
+    "title": {
+      "en": "Marking check",
+      "es": "Verificación de marcado",
+      "ca": "Verificació de marcat",
+      "fr": "Vérification du marquage"
+    },
+    "summary": {
+      "en": "Verifies durability and legibility of required markings on the enclosure.",
+      "es": "Verifica la durabilidad y legibilidad de las marcas obligatorias de la envolvente.",
+      "ca": "Verifica la durabilitat i la llegibilitat dels marcatges obligatoris de l’envolvent.",
+      "fr": "Vérifie la durabilité et la lisibilité des marquages requis sur l’enveloppe."
+    },
+    "why": {
+      "en": "Markings provide identification and installation information used in the field. Ensuring they remain legible after handling and cleaning reduces the risk of misuse, incorrect installation, or loss of traceability.",
+      "es": "El marcado aporta identificación e información de instalación utilizada en campo. Asegurar que sigue legible tras manipulación y limpieza reduce el riesgo de uso incorrecto, instalación errónea o pérdida de trazabilidad.",
+      "ca": "El marcatge aporta identificació i informació d’instal·lació utilitzada a camp. Assegurar que continua llegible després de manipulació i neteja redueix el risc d’ús incorrecte, instal·lació errònia o pèrdua de traçabilitat.",
+      "fr": "Le marquage fournit des informations d’identification et d’installation utilisées sur site. Garantir sa lisibilité après manipulation et nettoyage réduit les risques de mauvaise utilisation, d’installation incorrecte ou de perte de traçabilité."
+    },
+    "how": {
+      "en": "Per IEC 62208, markings made by moulding/pressing are exempt. Other markings are rubbed by hand for 15 s with a cloth soaked in water and then for 15 s with a cloth soaked with petroleum spirit. The marking passes if it remains easily legible after the rubbing.",
+      "es": "Según IEC 62208, los marcados por moldeo o estampado están exentos. Los demás se frotan a mano 15 s con un paño humedecido con agua y luego 15 s con un paño humedecido con esencia de petróleo. El marcado cumple si sigue siendo fácilmente legible tras el frotado.",
+      "ca": "Segons IEC 62208, els marcatges per motlle o estampació estan exempts. La resta es frega a mà 15 s amb un drap humitejat amb aigua i després 15 s amb un drap humitejat amb essència de petroli. El marcatge compleix si continua sent fàcilment llegible després del fregat.",
+      "fr": "Selon l’IEC 62208, les marquages moulés/emboutis ne sont pas soumis à l’essai. Les autres marquages sont frottés à la main 15 s avec un chiffon imbibé d’eau puis 15 s avec un chiffon imbibé d’essence minérale. Le marquage est conforme s’il reste facilement lisible après frottement."
+    },
+    "tags": [],
+    "labs": [
+      "molins",
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.3"
+  },
+  {
+    "id": "IEC61386_7C",
+    "categoryId": "CAT_MARK",
+    "icon": "🧽",
+    "title": {
+      "en": "Conformity of marking",
+      "es": "Conformidad del marcado",
+      "ca": "Conformidad del marcat",
+      "fr": "Conformité du marquage"
+    },
+    "summary": {
+      "en": "Verifies that required markings are present, correct, and consistent with the declared tube/conduit classification.",
+      "es": "Verifica que el marcado obligatorio está presente, es correcto y coherente con la clasificación declarada del tubo/conducto.",
+      "ca": "Verifica que el marcatge obligatori és present, és correcte i coherent amb la classificació declarada del tub/conducte.",
+      "fr": "Vérifie que les marquages requis sont présents, corrects et cohérents avec la classification déclarée du tube/conduit."
+    },
+    "why": {
+      "en": "Marking is used for traceability and for confirming the intended application and performance category. Incorrect or missing marking can lead to misapplication, inspection findings, and loss of confidence in declared characteristics.",
+      "es": "El marcado se usa para trazabilidad y para confirmar la aplicación prevista y categoría de desempeño. Un marcado incorrecto o ausente puede conducir a uso inadecuado, no conformidades en inspección y pérdida de confianza en las características declaradas.",
+      "ca": "El marcatge s’utilitza per a traçabilitat i per confirmar l’aplicació prevista i la categoria de rendiment. Un marcatge incorrecte o absent pot conduir a ús inadequat, no conformitats en inspecció i pèrdua de confiança en les característiques declarades.",
+      "fr": "Le marquage sert à la traçabilité et à confirmer l’usage prévu et la catégorie de performance. Un marquage incorrect ou absent peut conduire à une mauvaise application, des non-conformités en inspection et une perte de confiance dans les caractéristiques déclarées."
+    },
+    "how": {
+      "en": "We check the marking content and placement against the product technical file and the relevant marking requirements (manufacturer identification, type/size, and any required classification or approval information). Deviations are recorded as nonconformities.",
+      "es": "Se comprueba el contenido y la ubicación del marcado frente al expediente técnico y requisitos aplicables (identificación del fabricante, tipo/tamaño y cualquier información de clasificación o aprobación). Las desviaciones se registran como no conformidades.",
+      "ca": "Es comprova el contingut i la ubicació del marcatge respecte de l’expedient tècnic i els requisits aplicables (identificació del fabricant, tipus/mida i qualsevol informació de classificació o aprovació). Les desviacions es registren com a no conformitats.",
+      "fr": "On vérifie le contenu et l’emplacement du marquage par rapport au dossier technique et aux exigences applicables (identification du fabricant, type/dimension et toute information de classification ou d’approbation requise). Les écarts sont consignés comme non-conformités."
+    },
+    "tags": [],
+    "labs": [
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_61386_1",
+    "refClause": "7"
+  },
+  {
+    "id": "IEC61386_7MR",
+    "categoryId": "CAT_MARK",
+    "icon": "✅",
+    "title": {
+      "en": "Marking resistance",
+      "es": "Resistencia del marcado",
+      "ca": "Resistència del marcat",
+      "fr": "Résistance du marquage"
+    },
+    "summary": {
+      "en": "Verifies that markings remain legible and adherent after handling and cleaning exposure.",
+      "es": "Verifica que el marcado permanece legible y adherido tras exposición a manipulación y limpieza.",
+      "ca": "Verifica que el marcatge roman llegible i adherit després d’exposició a manipulació i neteja.",
+      "fr": "Vérifie que les marquages restent lisibles et adhérents après exposition à la manipulation et au nettoyage."
+    },
+    "why": {
+      "en": "Markings that smear, peel, or disappear reduce traceability and can remove important safety or identification information. Durability checks confirm that marking survives typical installation and maintenance actions.",
+      "es": "Un marcado que se emborrona, se despega o desaparece reduce trazabilidad y puede eliminar información de seguridad o identificación. La durabilidad confirma que el marcado resiste acciones típicas de instalación y mantenimiento.",
+      "ca": "Un marcatge que s’emborroneix, es desenganxa o desapareix redueix la traçabilitat i pot eliminar informació de seguretat o identificació. La durabilitat confirma que el marcatge resisteix accions típiques d’instal·lació i manteniment.",
+      "fr": "Un marquage qui bave, se décolle ou disparaît réduit la traçabilité et peut supprimer des informations de sécurité/identification. La durabilité confirme que le marquage résiste aux actions typiques d’installation et de maintenance."
+    },
+    "how": {
+      "en": "Marked specimens are subjected to controlled rubbing/abrasion and exposure to representative cleaning agents, then assessed for legibility and adhesion (smearing, fading, peeling). The marking passes if it remains readable and securely attached.",
+      "es": "Las muestras marcadas se someten a frotado/abrasión controlados y exposición a agentes de limpieza representativos, y luego se evalúa legibilidad y adhesión (emborronado, decoloración, despegue). Cumple si sigue siendo legible y está firmemente adherido.",
+      "ca": "Les mostres marcades se sotmeten a fregat/abrasió controlats i exposició a agents de neteja representatius, i després s’avalua la llegibilitat i l’adhesió (emborroneig, decoloració, despreniment). Compleix si continua sent llegible i fermament adherit.",
+      "fr": "Les échantillons marqués sont soumis à un frottement/abrasion contrôlés et à des agents de nettoyage représentatifs, puis évalués (lisibilité et adhérence : bavure, décoloration, décollement). Réussite si le marquage reste lisible et solidement fixé."
+    },
+    "tags": [],
+    "labs": [
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_61386_1",
+    "refClause": "7"
+  },
+  {
+    "id": "FX_QUALITY_PERCEIVED",
+    "categoryId": "CAT_MARK",
+    "icon": "👁️",
+    "title": {
+      "en": "Perceived quality check",
+      "es": "Revisión de calidad percibida",
+      "ca": "Revisión de qualitat percibida",
+      "fr": "Contrôle de qualité perçue"
+    },
+    "summary": {
+      "en": "Structured visual and dimensional check of finish, alignment, and perceived build quality.",
+      "es": "Inspección visual y dimensional estructurada de acabado, alineación y calidad percibida.",
+      "ca": "Inspecció visual i dimensional estructurada d’acabat, alineació i qualitat percebuda.",
+      "fr": "Contrôle visuel et dimensionnel structuré de la finition, de l’alignement et de la qualité perçue."
+    },
+    "why": {
+      "en": "Surface defects, inconsistent gaps, or poor alignment can indicate manufacturing or assembly issues that may also affect sealing, operation, and durability. A defined quality-perceived check provides early detection before functional problems appear in service.",
+      "es": "Defectos de superficie, holguras inconsistentes o mala alineación pueden indicar problemas de fabricación o montaje que también afecten estanqueidad, operación y durabilidad. Un control definido permite detectar temprano antes de que aparezcan fallos funcionales.",
+      "ca": "Defectes de superfície, holgures inconsistents o mala alineació poden indicar problemes de fabricació o muntatge que també afectin estanqueïtat, operació i durabilitat. Un control definit permet detectar-ho aviat abans que apareguin fallades funcionals.",
+      "fr": "Des défauts de surface, des jeux incohérents ou un mauvais alignement peuvent indiquer des problèmes de fabrication/assemblage pouvant aussi affecter étanchéité, fonctionnement et durabilité. Un contrôle défini permet une détection précoce avant l’apparition de problèmes fonctionnels en service."
+    },
+    "how": {
+      "en": "We inspect the enclosure under controlled lighting using a checklist for surface finish, coating uniformity, edge quality, and assembly alignment. Gap/flushness at doors, hinges, and gasket seats is checked with simple gauges or measurements where relevant. Findings are documented with photos and measurements and assessed against defined acceptance criteria.",
+      "es": "Se inspecciona la envolvente con iluminación controlada mediante una lista de verificación de acabado superficial, uniformidad de recubrimiento, calidad de bordes y alineación de montaje. Se comprueban holguras y enrase en puertas, bisagras y asientos de junta con galgas o medidas cuando aplica. Se documentan hallazgos con fotos y medidas y se evalúan contra criterios de aceptación definidos.",
+      "ca": "S’inspecciona l’envolvent amb il·luminació controlada mitjançant una llista de verificació d’acabat superficial, uniformitat de recobriment, qualitat de vores i alineació de muntatge. Es comproven holgures i enrasament a portes, frontisses i seients de junta amb galgues o mesures quan escau. Es documenten els resultats amb fotos i mesures i s’avaluen contra criteris d’acceptació definits.",
+      "fr": "On inspecte l’enveloppe sous éclairage contrôlé avec une checklist (finition de surface, uniformité de revêtement, qualité des arêtes, alignement d’assemblage). Les jeux et affleurements aux portes, charnières et portées de joints sont contrôlés par jauges ou mesures si pertinent. Les constats sont documentés (photos/mesures) et évalués selon des critères d’acceptation définis."
+    },
+    "tags": [],
+    "labs": [
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "ISO13347_SOUND",
+    "categoryId": "CAT_ACOU",
+    "icon": "🔊",
+    "title": {
+      "en": "Sound power level measurement",
+      "es": "Medición de potencia sonora",
+      "ca": "Medición de potencia sonora",
+      "fr": "Mesure de la puissance acoustique"
+    },
+    "summary": {
+      "en": "Determines sound power level under standardized laboratory conditions (overall and in frequency bands).",
+      "es": "Determina el nivel de potencia sonora en condiciones de laboratorio estandarizadas (global y por bandas).",
+      "ca": "Determina el nivell de potència sonora en condicions de laboratori estandarditzades (global i per bandes).",
+      "fr": "Détermine le niveau de puissance acoustique en conditions de laboratoire normalisées (global et par bandes)."
+    },
+    "why": {
+      "en": "Sound power level is a source characteristic that enables comparison independent of distance and room effects. Reporting standardized sound power helps assess acoustic impact, verify noise requirements, and support selection of equipment such as fan-cooled assemblies.",
+      "es": "El nivel de potencia sonora es una característica de la fuente que permite comparar sin depender de distancia ni de la sala. Informar la potencia sonora normalizada ayuda a evaluar el impacto acústico, verificar requisitos de ruido y seleccionar equipos como conjuntos con ventilación.",
+      "ca": "El nivell de potència sonora és una característica de la font que permet comparar sense dependre de la distància ni de la sala. Informar la potència sonora normalitzada ajuda a avaluar l’impacte acústic, verificar requisits de soroll i seleccionar equips com conjunts amb ventilació.",
+      "fr": "Le niveau de puissance acoustique est une caractéristique de la source permettant des comparaisons indépendamment de la distance et des effets de salle. Une puissance acoustique normalisée aide à évaluer l’impact sonore, vérifier des exigences de bruit et choisir des équipements (par exemple des ensembles ventilés)."
+    },
+    "how": {
+      "en": "Following ISO 13347-1 principles, the device (typically a fan or fan-equipped assembly) is tested in a defined installation configuration and acoustic environment. Sound pressure (or intensity) is measured with calibrated instrumentation at specified positions, then converted to sound power level with the applicable corrections. Results are reported in one-third-octave bands and as overall/A-weighted sound power levels.",
+      "es": "Siguiendo los principios de ISO 13347-1, el equipo (normalmente un ventilador o un conjunto con ventilación) se ensaya en una configuración de instalación definida y en un entorno acústico controlado. Se mide la presión sonora (o intensidad) con instrumentación calibrada en posiciones especificadas y se convierte a potencia sonora con las correcciones aplicables. Los resultados se informan por bandas de tercio de octava y como niveles globales/A-ponderados.",
+      "ca": "Seguint els principis d’ISO 13347-1, l’equip (normalment un ventilador o un conjunt amb ventilació) s’assaig en una configuració d’instal·lació definida i en un entorn acústic controlat. Es mesura la pressió sonora (o intensitat) amb instrumentació calibrada en posicions especificades i es converteix a potència sonora amb les correccions aplicables. Els resultats s’informen per bandes de terç d’octava i com a nivells globals/A-ponderats.",
+      "fr": "Selon les principes de l’ISO 13347-1, l’équipement (souvent un ventilateur ou un ensemble ventilé) est essayé dans une configuration d’installation définie et un environnement acoustique maîtrisé. La pression sonore (ou l’intensité) est mesurée avec une instrumentation étalonnée à des positions spécifiées, puis convertie en puissance acoustique avec les corrections applicables. Les résultats sont donnés par bandes de tiers d’octave et en niveaux globaux/A-pondérés."
+    },
+    "tags": [],
+    "labs": [],
+    "refStdId": "ISO_13347_1",
+    "refClause": ""
+  },
+  {
+    "id": "IEC62208_96",
+    "categoryId": "CAT_ASSEMBLY",
+    "icon": "⚙️",
+    "title": {
+      "en": "Mechanical operation",
+      "es": "Operación mecánica",
+      "ca": "Operació mecànica",
+      "fr": "Fonctionnement mécanique"
+    },
+    "summary": {
+      "en": "Checks that doors, hinges, latches, and mechanisms operate reliably after repeated use.",
+      "es": "Comprueba que puertas, bisagras, cierres y mecanismos funcionen de forma fiable tras uso repetido.",
+      "ca": "Comprova que portes, frontisses, tancaments i mecanismes funcionin de manera fiable després d’ús repetit.",
+      "fr": "Contrôle le fonctionnement fiable des portes, charnières, verrous et mécanismes après cycles d’utilisation."
+    },
+    "why": {
+      "en": "Loss of mechanical function can lead to forced closing, misalignment, and uneven gasket compression. Reliable operation supports consistent sealing and safe access for maintenance throughout the enclosure life.",
+      "es": "La pérdida de función mecánica puede provocar cierres forzados, desalineación y compresión irregular de la junta. Un funcionamiento fiable ayuda a mantener la estanqueidad y un acceso seguro durante la vida útil.",
+      "ca": "La pèrdua de funció mecànica pot provocar tancaments forçats, desalineació i compressió irregular de la junta. Un funcionament fiable ajuda a mantenir l’estanqueïtat i un accés segur durant la vida útil.",
+      "fr": "Une perte de fonction mécanique peut conduire à des fermetures forcées, du désalignement et une compression irrégulière des joints. Un fonctionnement fiable contribue à une étanchéité constante et à un accès sûr pour la maintenance tout au long de la vie de l’enveloppe."
+    },
+    "how": {
+      "en": "We cycle doors/covers and locking points through a defined number of operations, checking for loosening, wear, or deformation. Function is verified by consistent engagement of latches/locks, smooth hinge movement, and repeatable closure with uniform gasket compression and no abnormal play.",
+      "es": "Se ciclan puertas/tapas y puntos de cierre un número definido de operaciones, comprobando aflojamientos, desgaste o deformaciones. La función se verifica por enganche consistente de cierres/pestillos, movimiento suave de bisagras y cierre repetible con compresión uniforme de junta y sin holguras anómalas.",
+      "ca": "Es cíclica portes/tapes i punts de tancament un nombre definit d’operacions, comprovant afluixaments, desgast o deformacions. La funció es verifica per l’enganxament consistent de tancaments/pestells, moviment suau de frontisses i tancament repetible amb compressió uniforme de junta i sense holgures anòmales.",
+      "fr": "On cycle portes/couvercles et points de verrouillage sur un nombre défini de manœuvres, en contrôlant desserrage, usure ou déformations. La conformité est vérifiée par un enclenchement constant des verrous/loquets, un mouvement fluide des charnières et une fermeture répétable avec compression uniforme du joint et sans jeu anormal."
+    },
+    "tags": [],
+    "labs": [
+      "molins",
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.6"
+  },
+  {
+    "id": "IEC62208_95",
+    "categoryId": "CAT_ASSEMBLY",
+    "icon": "🏋️",
+    "title": {
+      "en": "Lifting / handling",
+      "es": "Elevación / manipulación",
+      "ca": "Elevación / manipulació",
+      "fr": "Levage / manutention"
+    },
+    "summary": {
+      "en": "Verifies lifting provisions withstand handling of a loaded enclosure without damage.",
+      "es": "Verifica que los medios de izado soportan la manipulación de la envolvente cargada sin daños.",
+      "ca": "Verifica que els mitjans d’elevació suporten la manipulació de l’envolvent carregat sense danys.",
+      "fr": "Vérifie que les dispositifs de levage supportent la manutention d’une enveloppe chargée sans dommage."
+    },
+    "why": {
+      "en": "During logistics and installation, lifting points are critical interfaces. The test confirms that handling forces do not introduce cracks or distortions that could later affect sealing, alignment, or mechanical safety.",
+      "es": "Durante logística e instalación, los puntos de izado son interfaces críticas. El ensayo confirma que las fuerzas de manipulación no generan grietas ni deformaciones que luego afecten a estanqueidad, alineación o seguridad mecánica.",
+      "ca": "Durant la logística i la instal·lació, els punts d’elevació són interfícies crítiques. L’assaig confirma que les forces de manipulació no generen esquerdes ni deformacions que després afectin l’estanqueïtat, l’alineació o la seguretat mecànica.",
+      "fr": "Lors de la logistique et de l’installation, les points de levage sont des interfaces critiques. L’essai confirme que les efforts de manutention ne créent ni fissures ni déformations susceptibles d’affecter ensuite l’étanchéité, l’alignement ou la sécurité mécanique."
+    },
+    "how": {
+      "en": "Per IEC 62208, the enclosure is loaded as for the static-load test, door closed, and lifted using the specified lifting means. It is raised vertically several times, suspended for a defined period at about 1 m height, then moved horizontally and set down in repeated cycles. Acceptance is based on no cracks, no permanent distortion, and no deflection that would impair enclosure characteristics while the load remains in place.",
+      "es": "Según IEC 62208, la envolvente se carga como en el ensayo de carga estática, con la puerta cerrada, y se eleva con los medios de izado especificados. Se eleva verticalmente varias veces, se mantiene suspendida un periodo definido a ~1 m, luego se desplaza horizontalmente y se deposita en ciclos repetidos. Se acepta si no hay grietas ni deformación permanente ni flechas que perjudiquen características, con la carga aplicada.",
+      "ca": "Segons IEC 62208, l’envolvent es carrega com en l’assaig de càrrega estàtica, amb la porta tancada, i s’eleva amb els mitjans d’elevació especificats. S’eleva verticalment diverses vegades, es manté suspès un període definit a ~1 m, després es desplaça horitzontalment i es deixa a terra en cicles repetits. S’accepta si no hi ha esquerdes ni deformació permanent ni flexions que perjudiquin característiques, amb la càrrega aplicada.",
+      "fr": "Selon l’IEC 62208, l’enveloppe est chargée comme pour l’essai de charge statique, porte fermée, puis levée avec les moyens de levage spécifiés. Elle est levée verticalement plusieurs fois, suspendue pendant une durée définie à ~1 m, puis déplacée horizontalement et reposée au sol en cycles répétés. Réussite si absence de fissures, de déformation permanente et de flèches altérant les caractéristiques, charge appliquée."
+    },
+    "tags": [],
+    "labs": [
+      "sarre",
+      "capellades"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.5"
+  },
+  {
+    "id": "IEC62208_97",
+    "categoryId": "CAT_ASSEMBLY",
+    "icon": "🧲",
+    "title": {
+      "en": "Metal insert axial load",
+      "es": "Carga axial de insertos metálicos",
+      "ca": "Càrrega axial de insertos metálicos",
+      "fr": "Charge axiale des inserts métalliques"
+    },
+    "summary": {
+      "en": "Checks that threaded metal inserts resist specified axial extraction loads without movement or cracking.",
+      "es": "Comprueba que los insertos metálicos roscados resisten cargas axiales de extracción sin movimiento ni grietas.",
+      "ca": "Comprova que els inserts metàl·lics roscats resisteixen càrregues axials d’extracció sense moviment ni esquerdes.",
+      "fr": "Contrôle que les inserts métalliques filetés résistent aux efforts axiaux d’extraction sans déplacement ni fissuration."
+    },
+    "why": {
+      "en": "Threaded inserts are often used to retain mounting plates and supports. If an insert pulls out or cracks the surrounding material, internal equipment can loosen and clearances/sealing can be affected during service or maintenance.",
+      "es": "Los insertos roscados se usan para fijar placas y soportes. Si un inserto se extrae o agrieta el material circundante, el equipamiento interno puede aflojarse y afectar distancias/estanqueidad durante servicio o mantenimiento.",
+      "ca": "Els inserts roscats s’utilitzen per fixar plaques i suports. Si un insert s’extreu o esquerdà el material del voltant, l’equip intern pot afluixar-se i afectar distàncies/estanqueïtat durant servei o manteniment.",
+      "fr": "Les inserts filetés servent souvent à retenir des platines et supports. Si un insert s’arrache ou fissure le matériau environnant, l’équipement interne peut se desserrer et les distances/étanchéité peuvent être affectées en service ou lors de la maintenance."
+    },
+    "how": {
+      "en": "Per IEC 62208, the enclosure is fully supported and an axial force (set by insert thread size) is applied for a short duration to attempt to extract the insert. The insert must remain in its original position; movement or cracks/splits in the surrounding material are not acceptable.",
+      "es": "Según IEC 62208, la envolvente se apoya completamente y se aplica una fuerza axial (según el tamaño de rosca del inserto) durante un corto periodo para intentar extraerlo. El inserto debe permanecer en su posición original; no se aceptan movimientos ni grietas/roturas en el material circundante.",
+      "ca": "Segons IEC 62208, l’envolvent es recolza completament i s’aplica una força axial (segons la mida de rosca de l’insert) durant un curt període per intentar extreure’l. L’insert ha de romandre en la posició original; no s’accepten moviments ni esquerdes/trencaments al material del voltant.",
+      "fr": "Selon l’IEC 62208, l’enveloppe est entièrement supportée et une force axiale (en fonction de la taille de filetage) est appliquée pendant une courte durée pour tenter d’extraire l’insert. L’insert doit rester en position ; tout déplacement ou fissuration/rupture du matériau environnant est inacceptable."
+    },
+    "tags": [],
+    "labs": [
+      "molins"
+    ],
+    "refStdId": "IEC_62208",
+    "refClause": "9.7"
+  },
+  {
+    "id": "FX_LOCK",
+    "categoryId": "CAT_ASSEMBLY",
+    "icon": "🔒",
+    "title": {
+      "en": "Lock test",
+      "es": "Ensayo de cierre",
+      "ca": "Assaig de tancament",
+      "fr": "Essai de verrou"
+    },
+    "summary": {
+      "en": "Verifies that the lock mechanism maintains secure closure and reliable operation over repeated use.",
+      "es": "Verifica que el mecanismo de cierre mantiene un cierre seguro y un funcionamiento fiable con uso repetido.",
+      "ca": "Verifica que el mecanisme de tancament manté un tancament segur i un funcionament fiable amb ús repetit.",
+      "fr": "Vérifie que le mécanisme de verrouillage maintient une fermeture sûre et un fonctionnement fiable après cycles."
+    },
+    "why": {
+      "en": "A lock that loosens, jams, or fails to fully engage can reduce gasket compression, degrade environmental sealing, and allow unintended access. The lock test supports consistent closure performance over the enclosure life.",
+      "es": "Un cierre que se afloja, se atasca o no engancha completamente puede reducir compresión de junta, degradar estanqueidad y permitir accesos no deseados. El ensayo respalda un cierre consistente durante la vida útil.",
+      "ca": "Un tancament que s’afluixa, s’encalla o no enganxa completament pot reduir compressió de junta, degradar estanqueïtat i permetre accessos no desitjats. L’assaig dona suport a un tancament consistent durant la vida útil.",
+      "fr": "Un verrou qui se desserre, se bloque ou ne s’enclenche pas complètement peut réduire la compression du joint, dégrader l’étanchéité et permettre un accès non souhaité. L’essai soutient une fermeture constante sur la durée de vie."
+    },
+    "how": {
+      "en": "The lock is cycled through a defined number of operations. We check operating torque/force, latch engagement, and alignment, and inspect for loosening, wear, or deformation. The mechanism passes if it maintains secure engagement and the door closes uniformly without abnormal play.",
+      "es": "Se cicla el cierre un número definido de maniobras. Se comprueban par/fuerza de accionamiento, enganche y alineación, e inspecciona aflojamiento, desgaste o deformación. Cumple si mantiene enganche seguro y la puerta cierra de forma uniforme sin holguras anómalas.",
+      "ca": "Es cíclica el tancament un nombre definit de maniobres. Es comproven parell/força d’accionament, enganxament i alineació, i s’inspecciona afluixament, desgast o deformació. Compleix si manté un enganxament segur i la porta tanca de manera uniforme sense holgures anòmales.",
+      "fr": "Le verrou est cyclé sur un nombre défini de manœuvres. On contrôle couple/force de manœuvre, enclenchement et alignement, puis on inspecte desserrage, usure ou déformation. Réussite si l’engagement reste sûr et si la porte se ferme uniformément sans jeu anormal."
+    },
+    "tags": [],
+    "labs": [
+      "sarre"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  },
+  {
+    "id": "FX_COLD_BEND",
+    "categoryId": "CAT_ASSEMBLY",
+    "icon": "❄️",
+    "title": {
+      "en": "Cold bending",
+      "es": "Plegado en frío",
+      "ca": "Plegado en fred",
+      "fr": "Pliage à froid"
+    },
+    "summary": {
+      "en": "Assesses flexibility of plastic parts at low temperature by bending around a defined radius without cracking.",
+      "es": "Evalúa la flexibilidad de piezas plásticas a baja temperatura doblándolas sobre un radio definido sin agrietarse.",
+      "ca": "Avalua la flexibilitat de peces plàstiques a baixa temperatura doblegant-les sobre un radi definit sense esquerdar-se.",
+      "fr": "Évalue la flexibilité des pièces plastiques à basse température par flexion sur un rayon défini sans fissuration."
+    },
+    "why": {
+      "en": "Polymers can become brittle in cold conditions. A cold-bend check verifies that parts can be handled and installed without cracking, preserving mechanical fit and protective function in low-temperature environments.",
+      "es": "Los polímeros pueden volverse frágiles en frío. El ensayo verifica que las piezas pueden manipularse e instalarse sin agrietarse, manteniendo ajuste y función protectora en baja temperatura.",
+      "ca": "Els polímers poden tornar-se fràgils amb fred. L’assaig verifica que les peces es poden manipular i instal·lar sense esquerdar-se, mantenint ajust i funció protectora a baixa temperatura.",
+      "fr": "Les polymères peuvent devenir fragiles au froid. Le contrôle de flexion à froid vérifie que les pièces peuvent être manipulées et installées sans fissurer, en conservant l’ajustement et la fonction de protection en basse température."
+    },
+    "how": {
+      "en": "Parts are conditioned at the target low temperature, then bent around a mandrel/fixture of defined radius at a controlled rate. We inspect for cracking, whitening, or fracture and confirm the part still fits and functions as intended after the bend.",
+      "es": "Las piezas se acondicionan a la temperatura baja objetivo y luego se doblan sobre un mandril/útil de radio definido a velocidad controlada. Se inspeccionan grietas, blanqueo o rotura y se confirma que la pieza sigue ajustando y funcionando tras la flexión.",
+      "ca": "Les peces es condicionen a la temperatura baixa objectiu i després es dobleguen sobre un mandrí/útil de radi definit a velocitat controlada. S’inspeccionen esquerdes, emblanquiment o trencament i es confirma que la peça continua ajustant i funcionant després de la flexió.",
+      "fr": "Les pièces sont conditionnées à la basse température cible puis fléchies autour d’un mandrin/dispositif de rayon défini à vitesse contrôlée. On inspecte fissures, blanchiment ou rupture et on confirme que la pièce reste conforme (ajustement/fonction) après flexion."
+    },
+    "tags": [],
+    "labs": [
+      "sarre"
+    ],
+    "refStdId": "",
+    "refClause": ""
+  }
+]

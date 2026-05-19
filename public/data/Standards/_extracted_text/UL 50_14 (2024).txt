@@ -1,0 +1,3986 @@
+
+
+--- Page 1 ---
+UL 50
+STANDARD FOR SAFETY
+Enclosures for Electrical Equipment,
+Non-Environmental Considerations
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 2 ---
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 3 ---
+FEBRUARY29,2024-UL50 tr1
+ULStandardforSafetyforEnclosuresforElectricalEquipment,Non-EnvironmentalConsiderations,UL50
+FourteenthEdition,DatedFebruary29,2024
+SummaryofTopics
+ThisnewFourteenthEditionofANSI/UL50datedFebruary29,2024includes(a)Optional
+PerformanceTestsforCertainConstructionRequirements;(b)RevisionstoTable6.6;(c)
+CorrectionstoAnnexBandAnnexF;(d)RevisionofSketchFofFigure6.10;(e)AdditionofAnnex
+G
+The new and revised requirements are substantially in accordance with Proposal(s) on this subject dated
+December16,2022andJune23,2023.
+All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or
+transmitted in any form by any means, electronic, mechanical photocopying, recording, or otherwise
+withoutpriorpermissionofULSEInc.(ULSE).
+ULSE provides this Standard "as is" without warranty of any kind, either expressed or implied, including
+butnotlimitedto,theimpliedwarrantiesofmerchantabilityorfitnessforanypurpose.
+In no event will ULSE be liable for any special, incidental, consequential, indirect or similar damages,
+including loss of profits, lost savings, loss of data, or any other damages arising out of the use of or the
+inabilitytousethisStandard,evenifULSEoranauthorizedULSErepresentativehasbeenadvisedofthe
+possibilityofsuchdamage.InnoeventshallULSE'sliabilityforanydamageeverexceedthepricepaidfor
+thisStandard,regardlessoftheformoftheclaim.
+Users of the electronic versions of UL's Standards for Safety agree to defend, indemnify, and hold ULSE
+harmless from and against any loss, expense, liability, damage, claim, or judgment (including reasonable
+attorney's fees) resulting from any error or deviation introduced while purchaser is storing an electronic
+Standardonthepurchaser'scomputersystem.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 4 ---
+tr2 FEBRUARY29,2024-UL50
+NoTextonThisPage
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 5 ---
+AssociationofStandardizationandCertification
+NMX-J-235/1-ANCE-2024
+FourthEdition
+CSAGroup
+CSAC22.2No.94.1:24
+ThirdEdition
+ULSEInc.
+UL50
+FourteenthEdition
+Enclosures for Electrical Equipment, Non-Environmental
+Considerations
+February29,2024
+ANSI/UL50-2024
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 6 ---
+CommitmentforAmendments
+This standard is issued jointly by the Association of Standardization and Certification (ANCE), the
+Canadian Standards Association (operating as “CSA Group”), and ULSE Inc. (ULSE). Comments or
+proposalsforrevisionsonanypartofthestandardmaybesubmittedtoANCE,CSAGroup,orULSEat
+anytime. Revisions to this standard will be made only after processing according to the standards
+development procedures of ANCE, CSA Group, and ULSE. CSA Group and ULSE will issue revisions
+to this standard by means of a new edition or revised or additional pages bearing their date of issue.
+ANCE will incorporate the same revisions into a new edition of the standard bearing the same date of
+issueastheCSAGroupandULSEpages.
+Copyright©©2024ANCE
+RightsreservedinfavorofANCE.
+ISBN978-1-4883-5040-5©©2024CanadianStandardsAssociation
+All rights reserved. No part of this publication may be reproduced in any form whatsoever without the
+priorpermissionofthepublisher.
+ThisStandardissubjecttoreviewwithinfiveyearsfromthedateofpublication,andsuggestionsforits
+improvement will be referred to the appropriate committee. To submit a proposal for change, please
+send the following information to inquiries@csagroup.org and include "Proposal for change" in the
+subject line: Standard designation (number); relevant clause, table, and/or figure number; wording of
+theproposedchange;andrationaleforthechange.
+TopurchaseCSAGroupStandardsandrelatedpublications,visitCSAGroup’sOnlineStoreat
+www.csagroup.org/store/orcalltoll-free1-800-463-6727or416-747-4044.
+Copyright©©2024ULSEINC.
+Our Standards for Safety are copyrighted by ULSE Inc. Neither a printed nor electronic copy of a
+Standard should be altered in any way. All of our Standards and all copyrights, ownerships, and rights
+regardingthoseStandardsshallremainthesoleandexclusivepropertyofULSEInc.
+This ANSI/UL Standard for Safety consists of the Fourteenth Edition. The most recent designation of
+ANSI/UL 50 as an American National Standard (ANSI) occurred on February 29, 2024. ANSI approval
+for a standard does not include the Cover Page, Transmittal Pages, Title Page (front and back), or the
+Preface.
+Comments or proposals for revisions on any part of the Standard may be submitted to ULSE at any
+time. Proposals should be submitted via a Proposal Request in the Collaborative Standards
+DevelopmentSystem(CSDS)athttps://csds.ul.com.
+ForinformationonULSEStandards,visithttp://www.shopulstandards.com,calltollfree1-888-853-3503
+oremailusatClientService@shopULStandards.com.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 7 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 3
+CONTENTS
+Preface.............................................................................................................................................5
+1 Scope..................................................................................................................................7
+2 UnitsofMeasurement...........................................................................................................7
+3 Components.........................................................................................................................7
+4 References...........................................................................................................................8
+5 Definitions............................................................................................................................8
+6 Construction.......................................................................................................................11
+6.1 General....................................................................................................................11
+6.2 Observationwindows.................................................................................................12
+6.3 Openings..................................................................................................................12
+6.4 Sheetmetalenclosures..............................................................................................14
+6.5 Castmetalenclosures...............................................................................................24
+6.6 Polymericmaterials...................................................................................................24
+6.7 Coversanddoors......................................................................................................26
+6.8 Hinges......................................................................................................................34
+6.9 Latchesandhandles..................................................................................................36
+6.10 Connectionsforwiringsystems.................................................................................36
+6.11 Conduithubs...........................................................................................................37
+6.12 Field-installedaccessories/kits..................................................................................38
+7 Marking..............................................................................................................................38
+7.1 Enclosuresandaccessories/kits.................................................................................38
+7.2 Castmetalenclosure.................................................................................................38
+7.3 Cast-aluminumenclosure...........................................................................................38
+7.4 Extension .................................................................................................................39
+7.5 Insulatingmaterial.....................................................................................................39
+7.6 Polymericenclosure..................................................................................................39
+7.7 Conduithubs,closureplates,andotherequipment......................................................39
+7.8 Ventilatedenclosures.................................................................................................39
+8 Tests..................................................................................................................................39
+8.1 Comparativedeflectiontest(enclosure).......................................................................39
+8.2 Deflectiontest(doorsandcovers)...............................................................................40
+8.3 Hingestrengthtest....................................................................................................40
+8.4 Multipleknockoutstest...............................................................................................40
+8.5 Polymericenclosures–bondingtest ..........................................................................41
+8.6 Polymericenclosures–rigidmetallicconduitconnectiontest........................................41
+8.7 Metallicenclosurethreadedopeningtest.....................................................................43
+8.8 Metallicenclosureconduithubtest..............................................................................44
+8.9 Rodentrytest............................................................................................................44
+8.10 Crushingresistancetest...........................................................................................44
+8.11 Moldstressrelieftest...............................................................................................45
+8.12 Coverpulltest.........................................................................................................46
+8.13 Sidewalldeflectiontest............................................................................................47
+9 CabinetsandCutoutBoxes..................................................................................................49
+9.1 General....................................................................................................................49
+9.2 Sheetmetalcabinets.................................................................................................49
+10 JunctionandPullBoxes.....................................................................................................49
+10.1 General...................................................................................................................49
+10.2 Coversanddoors....................................................................................................50
+10.3 Conduitopenings.....................................................................................................50
+10.4 Equipmentgrounding...............................................................................................51
+10.5 Removablesides.....................................................................................................52
+10.6 Markingdetails........................................................................................................52
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 8 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+4 50 FEBRUARY29,2024
+10.7 Airhandlingspaces..................................................................................................53
+10.8 Volume...................................................................................................................53
+10.9 Performance...........................................................................................................53
+ANNEXA(Normative)–STANDARDSFORCOMPONENTS ...........................................................56
+ANNEXB(Normative)–REFERENCESTANDARDS.......................................................................57
+ANNEXC(Normative–USOnlyRequirement)–MARKING............................................................59
+C1 Markingformultiplemanufacturinglocations.......................................................................59
+C2 Componentsinenclosures(USrequirements)....................................................................59
+ANNEXD(Informative)–KNOCKOUTDIMENSIONS ......................................................................60
+ANNEXE(Normative)–ADHESIVES,ENCLOSURES,NON-MECHANICALMEANSOF
+SECUREMENT ..................................................................................................................61
+E1 General............................................................................................................................61
+E2 Tests................................................................................................................................61
+E2.1 General..................................................................................................................61
+E2.2 Adhesiveagingtestsequence..................................................................................61
+E2.3 Mechanicaltests.....................................................................................................62
+ANNEXF(Informative)–ENDPRODUCTCONSIDERATION...........................................................64
+F1 General............................................................................................................................64
+F2 EncapsulatedProducts......................................................................................................64
+F2.1 Definitions...............................................................................................................64
+F2.2 Construction............................................................................................................64
+F2.3 Tests......................................................................................................................64
+ANNEXG(Normative–MexicoOnlyRequirement)–RESISTANCETOIMPACT.............................67
+G1 General...........................................................................................................................67
+G2 ResistancetoImpactTest.................................................................................................67
+G2.1 Hand-supportedequipment.....................................................................................67
+G2.2 Permanentlywiredequipment,orfloor-supportedequipment.....................................68
+G3 ConditioningforEquipmentIntendedforOutdoorUseandIndoorEquipmentIntendedforUse
+inColdLocations..............................................................................................................71
+G4 ImpactTestResults..........................................................................................................71
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 9 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 5
+Preface
+This is the harmonized ANCE, CSA Group, and ULSE standard for Enclosures for Electrical Equipment,
+Non-Environmental Considerations. It is the fourth edition of NMX-J-235/1-ANCE, the third edition of
+CAN/CSA C22.2 No. 94.1, and the fourteenth edition of UL 50. This edition of NMX-J-235/1-ANCE
+supersedes the previous edition published on October 16, 2015. This edition of CSA C22.2 No. 94.1
+supersedesthepreviousedition publishedin 2015.This edition ofUL50 supersedesthepreviousedition
+publishedonOctober16,2015.
+This harmonized standard was prepared by the Association of Standardization and Certification (ANCE),
+CSA Group, and ULSE. The efforts and support of the CANENA Technical Harmonization Committee
+70/31EnclosuresWorkingGrouparegratefullyacknowledged.
+This Standard is considered suitable for use for conformity assessment within the stated scope of the
+standard.
+The present Mexican standard was developed by the CT CDI Control y Distribución Industrial from the
+Comité de Normalización de la Asociación de Normalización y Certificación, A.C., CONANCE, with the
+collaborationoftheenclosuresmanufacturersandusers.
+ThisStandardwasreviewedbytheCSAIntegratedCommitteeonEnclosures,underthejurisdictionofthe
+CSA Technical Committee on Industrial Products and the CSA Strategic Steering Committee on
+Requirements for Electrical Safety, and has been formally approved by the CSA Technical Committee.
+This Standard has been developed in compliance with Standards Council of Canada requirements for
+NationalStandardsofCanada.IthasbeenpublishedasaNationalStandardofCanadabyCSAGroup.
+ApplicationofStandard
+Wherereferenceismadetoaspecificnumberofsamplestobetested,thespecifiednumberisconsidered
+aminimumquantity.
+Note: Although the intended primary application of this standard is stated in its scope, it is important to note that it remains the
+responsibilityoftheusersofthestandardtojudgeitssuitabilityfortheirparticularpurpose.
+Levelofharmonization
+ThisstandardusestheIECformatbutisnotbasedon,norisitconsideredequivalentto,anIECstandard.
+ThisstandardispublishedasanequivalentstandardforANCE,CSAGroup,andULSE.
+Anequivalentstandardisastandardthatissubstantiallythesameintechnicalcontent,exceptasfollows:
+Technical national differences are allowed for codes and governmental regulations as well as those
+recognizedasbeinginaccordancewithNAFTAArticle905,forexample,becauseoffundamentalclimatic,
+geographical, technological, or infrastructural factors, scientific justification, or the level of protection that
+thecountryconsidersappropriate.Presentationiswordforwordexceptforeditorialchanges.
+ReasonsfordifferencesfromIEC
+The THSC investigated and found no existing IEC standards or work programs covering the scope of the
+productsinthisStandard.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 10 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+6 50 FEBRUARY29,2024
+Interpretations
+The interpretation by the standards development organization of an identical or equivalent standard is
+basedontheliteraltexttodeterminecompliancewiththestandardinaccordancewiththeproceduralrules
+of the standards development organization. If more than one interpretation of the literal text has been
+identified, a revision is to be proposed as soon as possible to each of the standards development
+organizationstomoreaccuratelyreflecttheintent.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 11 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 7
+ENCLOSURES FOR ELECTRICAL EQUIPMENT, NON-
+ENVIRONMENTAL CONSIDERATIONS
+1 Scope
+1.1 Thisstandardappliestoenclosuresforelectricalequipmentintendedtobeinstalledandusedinnon-
+hazardouslocationsinaccordancewiththeCanadianElectricalCode,PartI,CSAC22.1,theprovisionsof
+the National Electrical Code, NFPA 70, and the provisions of Mexico's Electrical Installations, NOM-001-
+SEDE,asfollows:
+a)Enclosuresforindoorlocations,Types1,2,5,12,12K,and13;and
+b)Enclosuresforindoororoutdoorlocations,Types3,3X,3R,3RX,3S,3SX,4,4X,6,and6P.
+1.2 This standard covers the non-environmental construction and performance requirements for
+enclosures to provide a degree of protection to personnel against incidental contact with the enclosed
+equipment. The additional environmental construction and performance requirements for enclosures are
+located in CSA C22.2 No. 94.2, UL 50E, and NMX-J-235/2-ANCE (SeeAnnex B, Ref.No. 15), which are
+intendedtobeusedinconjunctionwiththisstandard.
+1.3 Where an individual product standard contains requirements that are at variance with those of this
+standard,therequirementsoftheindividualproductstandardtakeprecedence.
+1.4 IntheUnitedStatesandMexico,cabinetsandcutoutboxesandjunctionandpullboxesarecovered
+by Clauses 9 and 10 of this Standard. In Canada, junction boxes, cutout boxes, and pull boxes are
+coveredbyCSAC22.2No.40andarenotcoveredbythisstandard.SeeAnnexB,Ref.No.12.
+1.5 Outlet boxes having a volume of not more than 1640 cm3 (100 in3) are covered by CSA C22.2 No.
+18.1, NMX-J-023/1-ANCE, and the UL 514 series (see Annex B, Ref. No. 6 and 13) and are not covered
+bythisstandard.
+1.6 InCanadaandtheUnitedStates,swimmingpooltypejunctionboxesarecoveredbyCSAC22.2No.
+89andUL1241(seeAnnexB,Ref.No.11)andarenotcoveredbythisstandard.
+2 UnitsofMeasurement
+2.1 The values given in SI (metric) units shall be normative. Any other values given shall be for
+informationalpurposesonly.
+3 Components
+3.1 Exceptasindicatedin3.2,acomponentofaproductcovered bythisstandard shallcomplywiththe
+requirementsforthatcomponent.SeeAnnexAforalistofstandardscoveringcomponentsgenerallyused
+in the products covered by this standard. A component shall comply with the ANCE, CSA Group, or UL
+standardsasappropriateforthecountrywheretheproductistobeused.
+3.2 Acomponentisnotrequiredtocomplywithaspecificrequirementthat:
+a) Involves a feature or characteristic not required in the application of the component in the
+productcoveredbythisstandard,or
+b)Issupersededbyarequirementinthisstandard.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 12 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+8 50 FEBRUARY29,2024
+3.3 A component shall be used in accordance with its rating established for the intended conditions of
+use.
+3.4 Specific components are incomplete in construction features or restricted in performance
+capabilities. Such components are intended for use only under limited conditions, such as certain
+temperaturesnotexceedingspecifiedlimits,andshallbeusedonlyunderthosespecificconditions.
+4 References
+4.1 Forundatedreferencestostandards,suchreferenceshallbeconsideredtorefertothelatestedition
+and all revisions to that edition up to the time when this standard was approved. For dated references to
+standards, such reference shall be considered to refer to the dated edition and all revisions published up
+tothetimethestandardwasapproved.
+4.2 InCanada,generalrequirementsareasindicatedinAnnexB,Ref.No.10.
+5 Definitions
+5.1 Thefollowingdefinitionsapplyinthisstandard:
+5.2 ACCESSIBLE EDGES – Edges that are subject to contact by persons installing, using, or
+maintainingtheproduct.
+5.3 BOX–Thatportionofanenclosurenotincludingthecoverordoor.
+5.4 BREAKOUT – A portion of a wall of a cast or molded enclosure so fashioned, usually by the use of
+oneormorerings ofreduced thicknessofthewall material,thatthematerial withintheouterperimeterof
+the ring to be removed may be readily broken away at the time of installation in order to provide an
+openingsimilartothatprovidedbyaknockout.
+5.5 CABINET–SeeAnnexB,Ref.No.17.
+5.6 COVER–Anunhingedportionofanenclosurethatcoversanopening.
+5.7 CUTOUTBOX–SeeAnnexB,Ref.No.17.
+5.8 DEGREE OF PROTECTION – The extent of protection provided by an enclosure against access to
+parts which result in a risk of injury, ingress offoreign solid objects, and/or ingress of water as verified by
+standardizedtestmethods.
+5.9 DESIGNTESTS–Teststodemonstrateperformanceofaproductdesignedtoapplicablestandards;
+theyarenotintendedtobeproductiontests.
+5.10 DOOR–Ahingedportionofanenclosurethatcoversanopening.
+5.11 ENCLOSURE – A surrounding case constructed to provide a degree of protection to personnel
+against access to hazardous parts and to provide a degree of protection to the enclosed equipment
+against specified environmental conditions. The specific enclosure types, their applications, and the
+environmentalconditionsforwhichtheyaredesignedtoprotectagainstareasfollows:
+TYPE 1 – Enclosures constructed for indoor use to provide a degree of protection to personnel
+against access to hazardous parts and to provide a degree of protection against ingress of solid
+foreignobjects(fallingdirt).
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 13 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 9
+TYPE 2 – Enclosures constructed for indoor use to provide a degree of protection to personnel
+againstaccesstohazardousparts;toprovideadegreeofprotectionagainstingressofsolidforeign
+objects (falling dirt); and to provide a degree of protection with respect to harmful effects on the
+equipmentduetotheingressofwater(drippingandlightsplashing).
+TYPE3–Enclosuresconstructedforeitherindoororoutdoorusetoprovideadegreeofprotection
+to personnel against access to hazardous parts; to provide a degree of protection against ingress
+of solid foreign objects (falling dirt and windblown dust); to provide a degree of protection with
+respecttoharmfuleffectsontheequipmentduetotheingressofwater(rain,sleet,andsnow);and
+thatwillbeundamagedbytheexternalformationoficeontheenclosure.
+TYPE 3R – Enclosures constructed for either indoor or outdoor use to provide a degree of
+protection to personnel against access to hazardous parts; to provide a degree of protection
+againstingressofsolidforeignobjects(fallingdirt);toprovideadegreeofprotectionwithrespectto
+harmfuleffectsontheequipmentduetotheingressofwater(rain,sleet,andsnow);andthatwillbe
+undamagedbytheexternalformationoficeontheenclosure.
+TYPE 3S – Enclosures constructed for either indoor or outdoor use to provide a degree of
+protection to personnel against access to hazardous parts; to provide a degree of protection
+against ingress of solid foreign objects (falling dirt and windblown dust); to provide a degree of
+protectionwithrespecttoharmfuleffectsontheequipmentduetotheingressofwater(rain,sleet,
+andsnow);andforwhichtheexternalmechanism(s)remainoperablewheniceladen.
+TYPE 3X – Enclosures constructed for either indoor or outdoor use to provide a degree of
+protection to personnel against access to hazardous parts; to provide a degree of protection
+against ingress of solid foreign objects (falling dirt and windblown dust); to provide a degree of
+protectionwithrespecttoharmfuleffectsontheequipmentduetotheingressofwater(rain,sleet,
+and snow); that provide an increased level of protection against corrosion; and that will be
+undamagedbytheexternalformationoficeontheenclosure.
+TYPE 3RX – Enclosures constructed for either indoor or outdoor use to provide a degree of
+protection to personnel against access to hazardous parts; to provide a degree of protection
+againstingressofsolidforeignobjects(fallingdirt);toprovideadegreeofprotectionwithrespectto
+harmfuleffectsontheequipmentduetotheingressofwater(rain,sleet,andsnow);thatprovidean
+increased level of protection against corrosion; and that will be undamaged by the external
+formationoficeontheenclosure.
+TYPE 3SX – Enclosures constructed for either indoor or outdoor use to provide a degree of
+protection to personnel against access to hazardous parts; to provide a degree of protection
+against ingress of solid foreign objects (falling dirt and windblown dust); to provide a degree of
+protectionwithrespecttoharmfuleffectsontheequipmentduetotheingressofwater(rain,sleet,
+and snow); that provide an increased level of protection against corrosion; and for which the
+externalmechanism(s)remainoperablewheniceladen.
+TYPE4–Enclosuresconstructedforeitherindoororoutdoorusetoprovideadegreeofprotection
+to personnel against access to hazardous parts; to provide a degree of protection against ingress
+of solid foreign objects (falling dirt and windblown dust); to provide a degree of protection with
+respecttoharmfuleffectsontheequipmentduetotheingressofwater(rain,sleet,snow,splashing
+water,andhose-directedwater)andthatwillbeundamagedbytheexternalformationoficeonthe
+enclosure.
+TYPE 4X – Enclosures constructed for either indoor or outdoor use to provide a degree of
+protection to personnel against access to hazardous parts ; to provide a degree of protection
+against ingress of solid foreign objects (falling dirt and windblown dust); to provide a degree of
+protectionwithrespecttoharmfuleffectsontheequipmentduetotheingressofwater(rain,sleet,
+snow, splashing water, and hose-directed water); that provides an increased level of protection
+againstcorrosion;andthatwillbeundamagedbytheexternalformationoficeontheenclosure.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 14 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+10 50 FEBRUARY29,2024
+TYPE 5 – Enclosures constructed for indoor use to provide a degree of protection to personnel
+againstaccesstohazardousparts;toprovideadegreeofprotectionagainstingressofsolidforeign
+objects (falling dirt and settling airborne dust, lint, fibers, and flyings); and to provide a degree of
+protection with respect to harmful effects on the equipment due to the ingress of water (dripping
+andlightsplashing).
+TYPE6–Enclosuresconstructedforeitherindoororoutdoorusetoprovideadegreeofprotection
+to personnel against access to hazardous parts; to provide a degree of protection against ingress
+ofsolidforeignobjects(fallingdirt);toprovideadegreeofprotectionwithrespecttoharmfuleffects
+on the equipment due to the ingress of water (rain, sleet, snow, hose-directed water and the entry
+of water during occasional temporary submersion at a limited depth); and that will be undamaged
+bytheexternalformationoficeontheenclosure.
+TYPE 6P – Enclosures constructed for either indoor or outdoor use to provide a degree of
+protection to personnel against access to hazardous parts; to provide a degree of protection
+againstingressofsolidforeignobjects(fallingdirt);toprovideadegreeofprotectionwithrespectto
+harmful effects on the equipment due to the ingress of water (rain, sleet, snow, hose-directed
+water, and the entry of water during prolonged submersion at a limited depth); and that will be
+undamagedbytheexternalformationoficeontheenclosure.
+TYPE 12 – Enclosures constructed (without knockouts) for indoor use to provide a degree of
+protection to personnel against access to hazardous parts; to provide a degree of protection
+against ingress of solid foreign objects (falling dirt and circulating dust, lint, fibers, and flyings); to
+provide a degree of protection with respectto harmful effects on the equipment due to the ingress
+ofwater(drippingandlightsplashing);andtoprovideadegreeofprotectionagainstlightsplashing
+andconsequentseepageofoilandnon-corrosivecoolants.
+TYPE 12K – Enclosures constructed (with knockouts) for indoor use to provide a degree of
+protection to personnel against access to hazardous parts; to provide a degree of protection
+against ingress of solid foreign objects (falling dirt and circulating dust, lint, fibers, and flyings); to
+provide a degree of protection with respectto harmful effects on the equipment due to the ingress
+ofwater(drippingandlightsplashing);andtoprovideadegreeofprotectionagainstlightsplashing
+andconsequentseepageofoilandnon-corrosivecoolants.
+TYPE 13 – Enclosures constructed for indoor use to provide a degree of protection to personnel
+against access to hazardous parts ; to provide a degree of protection against ingress of solid
+foreign objects (falling dirt and circulating dust, lint, fibers, and flyings); to provide a degree of
+protection with respect to harmful effects on the equipment due to the ingress of water (dripping
+and light splashing); and to provide a degree of protection against the spraying, splashing, and
+seepageofoilandnon-corrosivecoolants.
+5.12 INDOORLOCATIONS–Areasthatareprotectedfromexposuretotheweather.
+5.13 JUNCTION OR PULL BOX – An enclosure which is provided with a cover secured by fasteners
+otherthanhinges.
+5.14 KNOCKOUT – A portion of a wall of a sheet metal enclosure so fashioned that it may be removed
+readily by a hammer, screwdriver, and pliers at the time of installation in order to provide a hole for the
+attachmentofanauxiliarydeviceorraceway,cable,orfitting.
+5.15 NONVENTILATED– Constructed so as to provide no intentional circulation of external air through
+theenclosure.
+5.16 OIL-RESISTANTGASKETS–Gasketsmadeofmaterialthatisresistanttooilandoilfumes.
+5.17 OUTDOORLOCATIONS–Areasthatareexposedtotheweather.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 15 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 11
+5.18 THREADED CONDUIT ENTRY – A conduit entry that is threaded so as to secure a rigid conduit
+withouttheuseofabushingorlocknut.
+5.19 VENTILATED–Constructedsoastoprovideforthecirculationofexternalairthroughtheenclosure
+toremoveexcessheat,fumes,orvapors.
+6 Construction
+6.1 General
+6.1.1 Anenclosureshallcompletelyenclosealllivepartsthatmaybehousedinit.
+6.1.2 All enclosures, other than those designed to be free standing or those designed for a specific
+installation, such as a cast-metal box intended to be installed in poured concrete, shall be provided with
+meansformounting.
+6.1.3 Anypartthatisnotrequiredinordertocomplywiththerequirementsinthisstandardanddoesnot
+serve to maintain the mechanical, electrical, or environmental integrity of the enclosure need not comply
+withtherequirementsofthisstandard.
+6.1.4 An enclosure, frame, or similar device shall not have accessible edges that are sharp or pointed
+such that they constitute a risk of injury to persons during normal installation, maintenance, and use,
+unless:
+a) Accessible edges are protected by guards or the use of handles to minimize access to sharp
+edgesorpoints,or
+b)Anaccessibleedgeorportionofanaccessibleedgeisrequiredtobesharpinordertoperforma
+workingfunction,or
+c) If it is possible to avoid the hazard through proper procedures, then signs, labels or the
+manufacturer’s instructions shall describe the procedure to avoid the hazard during installation,
+maintenance,anduse.
+Whenconsideringsharpedgesandpoints,allstagesoftheinstallationprocessshallbeconsidered.
+6.1.5 Whenever reference measurements are necessary to determine that a part as mentioned in 6.1.4
+isnotsufficientlysharptoconstituteariskofinjurytopersons,themethoddescribedinAnnexB,Ref.No.
+9,shallapply.InCanada,6.1.5shallnotapply.
+6.1.6 Anenclosureshallhavethenecessarystrengthandrigiditytomaintainitsshapesothatdoorswill
+closetightly.
+6.1.7 Metalintowhichscrewsarethreadedshallprovidefortheengagementofatleasttwofullthreads,
+otherthanaspermittedby6.1.8.Sheetmetalshallbepermittedtobeextrudedatatappedholetogivethe
+thickness necessary for two full threads if the original thickness is not less than the pitch of the thread.
+Rivets, screws, bolts, and similar fastenings in a sheet-metal enclosure shall have a diameter at least 50
+percentgreaterthanthethicknessofthefinishedsheetmetalwithwhichtheyareused.
+6.1.8 The following combinations of minimum number of threads and minimum thickness steel shall be
+consideredacceptable:
+a)32threadsper25.4mm(32threadsperinch)installedin1.35mm(0.053in);
+b)28threadsper25.4mm(28threadsperinch)installedin1.70mm(0.067in);
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 16 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+12 50 FEBRUARY29,2024
+c)24threadsper25.4mm(24threadsperinch)installedin2.03mm(0.080in);
+d)20threadsper25.4mm(20threadsperinch)installedin2.36mm(0.093in);
+e)18threadsper25.4mm(18threadsperinch)installedin2.74mm(0.108in);and
+f)16threadsper25.4mm(16threadsperinch)installedin3.12mm(0.123in).
+6.1.9 Afastenerforusewithaconventionalscrew,otherthanatappedholeornut,shallbeacceptableif
+ithasthenecessarymechanicalstrengthandisotherwiseacceptablefortheapplication.
+6.1.10 Other than the following items, both the inside and outside surfaces of an enclosure made of
+ferrousmaterialshallbeprotectedagainstcorrosionasspecifiedin7.2ofAnnexB,Ref.No.15:
+a)Bearings,slidingsurfacesofahingeorshaft,andthelike,locatedontheexteriorofenclosures;
+b)Shearedorcutedgesandpunchedholesofgalvanizedsheetsteel;and
+c)Partssuchasadecorativegrille,andthelike,thatarenotrequiredtoformpartoftheenclosure.
+6.2 Observationwindows
+6.2.1 A material used for an observation window and forming a part of the enclosure shall be reliably
+secured in such a manner that it cannot be readily displaced in service in accordance with 6.2.5 or 6.2.6
+andshallprovidemechanicalprotectionoftheenclosedparts,inaccordancewith6.2.2or6.2.4.
+6.2.2 Except as permitted by 6.2.3, glass used for an observation window not more than 102 mm (4
+inches) in any dimension and not less than 1.40 mm (0.055 inch) thick or glass used for an observation
+window having no dimension greater than 305 mm (12 inches) and not less than 2.92 mm (0.115 inch)
+thickneed notbe subjectto additionalevaluation. Glassused to covera largeropeningshall complywith
+the Crushingresistance test (see 8.10)and Resistanceto impact (normal only) test specifiedin Annex B,
+Ref.No.1.
+6.2.3 For glass made of clear safety type or wire-reinforced type designated AS2 to ANSI Z26.1, 6.2.2
+doesnotapply.
+6.2.4 Apolymericmaterialusedasanobservationwindowshallcomplywiththerequirementsof6.6.
+6.2.5 In the United States, a material used for an observation window shall be mechanically secured or
+shall be secured using an adhesive complying with the adhesive requirements specified in Annex B, Ref.
+No.16,orAnnexE.
+6.2.6 In Canada, a material used for an observation window shall be mechanically secured or shall be
+securedusinganadhesivecomplyingwithAnnexE.
+6.3 Openings
+6.3.1 General
+6.3.1.1 Other than as covered in 6.3.1.2,openings provided in any enclosure type shallcomply with the
+applicabletestsinAnnexB,Ref.No.15,withtheseopeningsunfilled.
+6.3.1.2 Openings in accordance with 6.3.2, 6.3.4, and 6.3.5 shall be appropriately filled to maintain the
+environmentalintegrityoftheenclosure.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 17 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 13
+6.3.2 Equipmentopenings
+6.3.2.1 Enclosures may be provided with openings that are intended to be closed by field installed
+equipment(suchaspushbuttonswitches,doorlatches,etc.)iftheseenclosuresaremarkedinaccordance
+with7.7.
+6.3.2.2 Openings that comply with Table 6.1 do not require the enclosures to be marked in accordance
+with7.7.
+Table6.1
+Equipment-MountingHoles
+Maximumlineardimension Areaoflargestsurfaceof Maximumareaofanyone
+ofenclosure enclosure Maximumtotalareaofholes hole
+mm(inch) mm2(squareinch) mm2(squareinch) mm2(squareinch)
+457(18) 87000(135) 193(0.30) 45.2(0.07)
+Over457(18) Over87000(135) 335(0.52) 83.9(0.13)
+6.3.3 Ventilation
+6.3.3.1 Ventilated enclosures shall comply with NMX-J-235/2-ANCE/CSA C22.2 No. 94.2/UL 50E,
+7.3.5.1.
+6.3.4 Mountingopenings
+6.3.4.1 For Type 1, 2, 3R, 3RX, or 5 enclosures, mounting means may be provided internal to the
+equipmentcavityifthemountingopeningscomplywithTable6.2.
+6.3.4.2 If mounting openings other than as noted in Table 6.2 are provided in Type 1, 2, 3R, 3RX, or 5
+enclosures, instructions shall be included with the enclosure that indicate how to maintain the
+environmentalintegrityoftheenclosurewhenmounted.
+Table6.2
+Enclosure-MountingHoles
+Maximumlineardimension Areaoflargestsurfaceof
+ofenclosure enclosure Maximumtotalareaofholes
+mm(inches) mm2(squareinch) Maximumnumberofholes mm2(squareinches)
+178(7) 20600(32) 4 774(1.2)
+457(18) 87000(135) 6 774(1.2)
+1020(40) 254000(1000) 6 970(1.5)
+Over1020(40) Over254000(1000) 8 1290(2.0)
+6.3.4.3 Mounting openings for enclosures constructed from a polymeric material shall additionally
+comply with 6.6.5. Mounting openings requirements for enclosure Types 3, 3X, 3S, 3SX, 4, 4X, 6, 6P,12,
+12K,and13arein7.3.4ofAnnexB,Ref.No.15.
+6.3.5 Breakouts,knockoutsandconduitopenings
+6.3.5.1 Allbreakouts,knockouts,andconduitopeningsshallcomplywith6.10.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 18 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+14 50 FEBRUARY29,2024
+6.3.5.2 AType 12 enclosure shall not contain breakouts or knockouts but may have conduit openings if
+theseopeningscomplywith6.10.
+6.3.6 Additionalopenings
+6.3.6.1 AType1enclosuremaybeprovidedwithnomorethanfouradditionalopeningsfortheescapeof
+airorforthedrainageofpaintduringthepaintingprocessandthelike.Thesizeoftheseopeningsshallbe
+no larger than two 3.2 by 3.2 mm (1/8 by 1/8 inch) openings and two 6.4 by 6.4 mm (1/4 by 1/4 inch)
+openingsforenclosuresnotmorethan457mm(18inches)longorwideinwhichthelargestsurfacedoes
+notexceed87,100mm2(135in2).Inalargerenclosure,anopeningshallnotbelargerthan6.4by6.4mm
+(1/4by1/4inch).
+6.4 Sheetmetalenclosures
+6.4.1 Thickness
+6.4.1.1 Otherthanaspermittedby6.4.1.2,aboxshallnotbethinnerthanspecifiedinTable6.3orTable
+6.4.
+Table6.3
+ThicknessofSheetMetalforBoxes,Steel
+Withoutsupportingframe Withsupportingframeorequivalentreinforcing
+Maximumwidtha Maximumlengthb Maximumwidtha Maximumlengthb Minimumthicknessc
+mm (inches) mm (inches) mm (inches) mm (inches) mm (inch)
+457 (18.0) Notlimited 686 (27.0) Notlimited 1.35 (0.053)
+508 (20.0) 635 (25.0) 737 (29.0) 914 (36.0)
+559 (22.0) Notlimited 838 (33.0) Notlimited 1.52 (0.060)
+635 (25.0) 787 (31.0) 889 (35.0) 1092 (43.0)
+635 (25.0) Notlimited 991 (39.0) Notlimited 1.70 (0.067)
+737 (29.0) 914 (36.0) 1041 (41.0) 1295 (51.0)
+838 (33.0) Notlimited 1295 (51.0) Notlimited 2.03 (0.080)
+965 (38.0) 1194 (47.0) 1372 (54.0) 1676 (66.0)
+1067 (42.0) Notlimited 1626 (64.0) Notlimited 2.36 (0.093)
+1194 (47.0) 1499 (59.0) 1727 (68.0) 2134 (84.0)
+1321 (52.0) Notlimited 2032 (80.0) Notlimited 2.74 (0.108)
+1524 (60.0) 1880 (74.0) 2134 (84.0) 2616 (103.0)
+1600 (63.0) Notlimited 2464 (97.0) Notlimited 3.12 (0.123)
+1844 (73.0) 2286 (90.0) 2616 (103.0) 3226 (127.0)
+aThesmallerdimensionofarectangularsheetmetalpiecethatispartofanenclosure.Adjacentsurfacesofanenclosuremay
+havesupportsincommonandbemadeofasinglesheet.
+b“Notlimited”appliesonlyiftheedgeofthesurfaceisflangedatleast12.7mm(1/2inch)orfastenedtoadjacentsurfacesnot
+normallyremovedinuse.
+cTheminimumthicknessreferstothebasematerialanddoesnotincludeacoatingthickness.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 19 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 15
+Table6.4
+MinimumThicknessofSheetMetalforBoxes–Aluminum,Copper,orBrass
+Withoutsupportingframe Withsupportingframeorequivalent
+Maximumwidtha Maximumlengthb Maximumwidtha Maximumlengthb
+Minimumthickness
+mm (inches) mm (inches) mm (inches) mm (inches) mm (inch)
+457 (18.0) Notlimited 1067 (42.0) Notlimited 1.91 (0.075)
+508 (20.0) 635 (25.0) 1143 (45.0) 1397 (55.0)
+635 (25.0) Notlimited 1524 (60.0) Notlimited 2.41 (0.095)
+737 (29.0) 914 (36.0) 1626 (64.0) 1981 (78.0)
+940 (37.0) Notlimited 2210 (87.0) Notlimited 3.10 (0.122)
+1067 (42.0) 1346 (53.0) 2362 (93.0) 2896 (114.0)
+1321 (52.0) Notlimited 3124 (123.0) Notlimited 3.89 (0.153)
+1524 (60.0) 1880 (74.0) 3302 (130.0) 4064 (160.0)
+aThesmallerdimensionofarectangularsheetmetalpiecethatispartofanenclosure.Adjacentsurfacesofanenclosuremay
+havesupportsincommonandbemadeofasinglesheet.
+b"Notlimited”appliesonlyiftheedgeofthesurfaceisflangedatleast12.7mm(1/2inch)orfastenedtoadjacentsurfacesnot
+normallyremovedinuse.
+6.4.1.2 A box without a supporting frame may be thinner than required by 6.4.1.1 if it complies with the
+Deflectiontestdescribedin8.1,butitshallnotbelessthan1.35mm(0.053inch)excludinganycoating.
+6.4.1.3 A supporting frame shall be formed of angles, channels, folded rigid sections of sheet metal, or
+the equivalent, rigidly fastened together and having essentially the same outside dimensions as the
+surfacesoftheenclosure.Aconstructionshallnotbeconsideredtohaveasupportingframeifitis:
+a)Asinglesheetwithsingleformedflanges(formededges);
+b)Asinglesheetthatiscorrugatedorribbed;or
+c)Anenclosureformedorfabricatedfromsheetmetal.
+6.4.2 Jointsandfastenings
+6.4.2.1 Allseams,joints,orsplicesatcornersorbackedgesofanenclosureshallbeclosedby:
+a)Overlappingflangesformedofsheetmetalfromwhichtheenclosureismade;
+b)Metalsurfacesoverlappingadjacentsurfacesorsupportingframe;
+c)Separateoverlappingflanges;or
+d)Continuousweldingthatprovidesaconstructionequivalenttoanintegral-flangedconstruction.
+6.4.2.2 The overlap required by 6.4.2.1 shall be at least 11.1 mm (7/16 inch) and shall extend
+approximatelythefulllengthoftheseam.SeeFigure6.1.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 20 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+16 50 FEBRUARY29,2024
+Figure6.1
+OverlapBetweenFlatCoverandEnclosureFlangeandatCornerorEnclosureSeam
+Thefigureillustratesthemethodofdeterminingtheamountofcontactbetweenaflatcoverandaflangedenclosurewallandthe
+amountofoverlapatacornerorenclosureseam.Iftheradiusoftheflangebendissmall,theflangewidthandoverlapisconsidered
+tobeW ,orW ,dependingupontheactualconstruction,andshallnotbelessthan11.1mm(7/16inch).Iftheradiusoftheflange
+1 2
+bendisexcessiveoriftheflatsheetisontheinsideoftheflange,theoverlap,W ,orW ,shallbemeasuredoveronlythatportion
+3 4
+wherethetwopiecesofmetalareactuallyincontactwitheachother,andshallnotbelessthan11.1mm(7/16inch).
+NOTE:Todeterminewhetheratelescopingcovercomplieswiththerequirementin6.7.6.3,thecovershallbeinitsnormally
+closedposition,andamarkshallbescribedonallwallsoftheenclosurealongtheedgeoftheflange.Theoverlapisthe
+measured distance, W, between the scribed marks and the edges of the enclosure walls, as illustrated. In scribing the
+marks,thecovershallbeheldinafixedpositionsoastopreventdisplacementofthecoverbythescribingtool,butwithout
+bendingordistortinganyportionoftheenclosure,thecover,orotherpartoftheenclosure.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 21 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 17
+6.4.2.3 Aflangejoiningadjacentsides,includingtopandbottom,ofanenclosureshallhaveatleastone
+fasteningforeach76.2mm(3inches),orfractionthereof,ofenclosuredepth.Onesuchfasteningshallbe
+locatednotmorethan38.1mm(1-1/2inches)fromthefrontedgeoftheenclosure.
+6.4.2.4 An enclosurehaving integralflanges andnotover 102mm (4inches)deepshallbepermittedto
+employasinglefasteningateachfrontcorneroftheenclosuretosecureadjacentsides,includingtopand
+bottom.
+6.4.2.5 A flange at the backedge of an enclosure shall have fastenings located not more than 38.1 mm
+(1-1/2inches)fromeachendandnotmorethan152mm(6inches)apart.
+6.4.2.6 Foranenclosureemployingametalsupportingframe,thefasteningssecuringametalsurfaceto
+theframeshallcomplywith6.7.3andFigure6.2andFigure6.3.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 22 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+18 50 FEBRUARY29,2024
+Figure6.2
+PermissibleLocationsofFastenings
+A–610mm(24inches)
+B–152mm(6inches)maximum(fromcornerofbox)
+C–216mm(8-1/2inches)maximum
+D–32900mm2(51squareinches)maximumarea(cover)
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 23 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 19
+Figure6.3
+PermissibleLocationsofFastenings
+A–610mm(24inches)maximum
+B–152mm(6inches)maximum(fromedgeofenclosure)
+C–216mm(8-1/2inches)maximum
+Note:32900mm2(51squareinches)maximumarea(cover)
+6.4.2.7 Aseparateflangeshallnothavelessthantwofasteningsoneachsideofaseam.
+6.4.2.8 With reference to the requirements in 6.4.2.3 to 6.4.2.6, rivets, welds, bolts and screws having
+machine-screwthreadsshallbeacceptableformsoffastenings.
+6.4.3 Notches
+6.4.3.1 A flange shall be permitted to be notched to accommodate knockouts and breakouts, as
+illustratedinFigure6.4underthefollowingconditions:
+a) No individual notch shall be larger than is necessary to accommodate a conduit bushing
+correspondinginsizetotheadjacentknockoutandbreakout;
+b) Each notch shall be circular and approximately concentric with the center of the knockout or
+breakout;
+c)Notchesshallbepermittedtooverlapeach otheronlyifthewidthoftheflangebetweenthemis
+notreducedtolessthan12.7mm(1/2inch);and
+d) The flange width between any notch and the inside wall of the enclosure shall not be less than
+3.2mm(1/8inch).
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 24 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+20 50 FEBRUARY29,2024
+Figure6.4
+NotchedFlangeConstruction
+6.4.3.2 The bottom end of a corner flange shall be permitted to be cut away at an angle to facilitate
+forming.
+6.4.3.3 The front edge of each of the two side walls of an enclosure may have one notch for each
+enclosure door, for the purpose of holding the door in the open position, when the construction complies
+with6.4.3.4or6.4.3.5.
+6.4.3.4 The notch shall not be more than 17.5 mm (11/16 inch) wide, and the flange of the closed door
+shalloverlapthedeepestedgeofthenotchbyatleast3.2mm(1/8inch).SeeFigure6.5.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 25 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 21
+Figure6.5
+NotchforHoldingCoverOpen
+6.4.3.5 The notch size limitation, the minimum cover flange overlap, or both do not apply to a notch
+located behind a fixed side flange, such as a hood, that overlaps the notch by at least 3.2 mm (1/8 inch),
+and if the space between adjacent surfaces of the fixed side flange and the side of the enclosure is not
+morethan3.2mm(1/8inch)plusthethicknessofthecoverflangemetal.SeeFigure6.6.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 26 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+22 50 FEBRUARY29,2024
+Figure6.6
+NotchBehindFixedFlange,FrontView
+A–Spacebetweenadjacentsurfacesofthefixedsideflangeandthesideoftheenclosureshallnotbemorethan3.2mm(1/8inch)
+plusthethicknessofcoverflangemetal.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 27 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 23
+6.4.3.6 The overlap and spacing at a flanged enclosure door and hood or vertically-ganged overlapping
+covers shall be within the limits shown in Figure 6.7. A hole in a cover is determined to be the same as a
+notchforpurposesoftheoverlapandspacingrequirements.
+Figure6.7
+OverlapandSpacingatHoodandOverlappingCover
+A–Maximum3.2mm(1/8inch),exceptnolimitifBdoesnotexceed1.6mm(1/16inch).
+B–Maximum3.2mm(1/8inch).
+C–Widthofslotnottoexceedthreetimesthethicknessofthemetalofthesidewall.
+D – Space between adjacent surfaces of fixed side flange and side of enclosure shall not be more than 3.2 mm (1/8 inch) plus
+thicknessofcoverflangemetal.
+E–3.2mm(1/8inch)minimum.
+F–12.7mm(1/2inch)minimum.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 28 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+24 50 FEBRUARY29,2024
+6.5 Castmetalenclosures
+6.5.1 A cast metal enclosure shall be not less than 2.4 mm (3/32 inch) thick for an area greater than 15
+500mm2(24inch2)orhavinganydimensiongreaterthan152mm(6inches)andshallnotbelessthan1.6
+mm (1/16 inch) thick for an area of 15,500 mm2 (24 inch2) or less and having no dimension greater than
+152 mm (6 inches). The area limitation for metal 1.6 mm (1/16 inch) thick may be obtained by providing
+reinforcingribssubdividingalargerarea.
+6.5.2 Exceptaspermittedin6.5.3and6.5.4,thethicknessofacastmetalenclosureshallbeasspecified
+in Table 6.5 in any area where tapped holes for the connection of conduit are provided or intended to be
+tappedinthefield.(See7.2and7.3.)
+6.5.3 The maximum thickness specified in Table 6.5 may be exceeded if holes for smaller size conduit
+arecounter-boredandtappedifthetappedportioncomplieswiththetablefortheconduitsizeinvolved.
+6.5.4 In Mexico and the United States the following applies: The minimum thickness specified in Table
+6.5maybelessifthecastmetalboxissubjectedtothetestspecifiedin8.8,butnotlessthan3.2mm(1/8
+inch).
+6.5.5 Anenclosuremaybeconstructedofiron,steel,copper,brass,oraluminumcastmetal.Aluminum-
+basecastmetalcontaininglessthan80%aluminumshallnotbeused.Magnesium-basecastmetalshall
+notbeused.Zinc-basecastmetalshallnotbeusedforanenclosure.
+Table6.5
+CastMetalEnclosureThicknessatTappedHolesforConduit
+Tradesizeofconduit Thicknessofmetal,mm(inch)
+Minimum Maximum
+1/2–3/4 5.6 (7/32) 12.7 (1/2)
+1–2 6.7 (17/64) 17.9 (45/64)
+2-1/2–6 9.5 (3/8) 28.6 (1-1/8)
+6.6 Polymericmaterials
+6.6.1 General
+6.6.1.1 Other than as detailed in 6.6.1.3 and 6.6.1.4, a polymeric electrical enclosure or polymeric part
+(such as a plug or other closure) that is relied upon to complete and maintain the integrity of an electrical
+enclosureshallcomplywiththe:
+a)Flammability–5inch(127mm)flametestspecifiedinAnnexB,Ref.No.2;
+b)Resistancetoimpact(bothnormalandcold)testsspecifiedinAnnexB,Ref.No.3;
+c)Crushingresistancetest(see8.10);
+d)Moldstressreliefdistortiontest(see8.11);and
+e)Additionalrequirementsspecifiedin8.6.
+6.6.1.2 Polymeric parts may be tested on their own or may be tested as part of the overall electrical
+enclosure.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 29 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 25
+6.6.1.3 A polymeric plug or other closure made of a material classed in accordance with Annex B, Ref.
+No.4,andthatservestocompleteandmaintaintheintegrityofanelectricalenclosureshallbeacceptable
+iftheopeningtheplugfillsortheopeningtheclosurecoversis:
+a)Notmorethan650mm2(1in2)inareaandthematerialis:
+1)Class5VA,5VB,V-0,V-1,orV-2;or
+2) Class HB and acceptable in accordance with the Flammability – 5 inch (127 mm) flame
+testspecifiedinAnnexB,Ref.No.2;or
+b)Morethan650mm2(1in2)inareaandthematerialis:
+1) Class 5VA or 5VB and is subjected to the Resistance to impact (both normal and cold)
+testspecifiedinAnnexB,Ref.No.3;or
+2) Class V-0, V-1, V-2 or HB and is subjected to the Flammability – 127 mm (5 inch) flame
+and the resistance to impact (both normal and cold) test specified in Annex B, Ref. No. 2
+andNo.3.
+6.6.1.4 Polymeric fastenings and/or hinges that are relied upon to maintain the integrity of an electrical
+enclosure need not be subjected directly to the testing detailed in 6.6.1.1. However, the strength and
+rigidity of these polymeric parts would be indirectly tested when the overall polymeric electrical enclosure
+issubjectedtotheCrushingresistance,Resistancetoimpact(bothnormalandcold)andMoldstressrelief
+distortiontestsdetailedin6.6.1.1.
+6.6.1.5 In the United States, an adhesive that is used as the sole means of securement of a polymeric
+plug or other closure shall comply with the adhesive requirements specified in Annex B, Ref. No. 16, or
+AnnexE.
+6.6.1.6 In Canada, an adhesive that is used as the sole means of securement of a polymeric plug or
+otherclosureshallcomplywiththeadhesiverequirementsspecifiedinAnnexE.
+6.6.2 Electricalcontinuity
+6.6.2.1 An enclosure made of insulating material, either wholly or in part, shall have an acceptable
+bondingmeanstoprovidecontinuityofgroundingbetweenmultipleconduitopeningsintheenclosure.The
+bonding means shall comply with the electrical continuity test in 8.5. Except as permitted in 6.6.2.2, the
+bondingmeansshallbecompletelyassembledontheenclosure.
+6.6.2.2 Thebondingmeansmaybeprovidedasaseparateaccessory/kitforfieldinstallationif:
+a)Thebondingmeansaccessory/kitcomplieswith6.12;and
+b)Theenclosureismarkedinaccordancewith7.5.
+6.6.2.3 The continuity of a conduit system shall be provided by metal-to-metal contact not relying on a
+polymericmaterial.
+6.6.2.4 Aseparatebondingconductor,whetherinaplasticormetalenclosure,shallbecopper,acopper
+alloy,orothermaterialacceptableforuseasanelectricalconductor.Ferrousmetalpartsinthegrounding
+path shall be protected against corrosion by enamelling, plating, or other equivalent means. A separate
+bondingconductorshall:
+a) Be protected from mechanical damage or be located within the confines of the outer enclosure
+orframe;and
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 30 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+26 50 FEBRUARY29,2024
+b) Not be secured by a removable fastener used for any purpose other than bonding, unless the
+bondingconductorisunlikelytobeomittedafterremovalandreplacementofthefastener.
+6.6.2.5 Other than exposed metal parts such as hinge pins, metal latches, screws, rivets, and metal
+inserts in polymeric enclosures, an enclosure shall be so constructed that all exposed conductive non-
+current carrying parts that could become energized are electrically interconnected with the equipment
+groundingconductor.
+6.6.3 Rigidnonmetallicconduit
+6.6.3.1 A polymeric enclosure intended for use with rigid nonmetallic conduit – glued, threaded, or the
+like–shallcomplywiththeapplicablerequirementsofAnnexB,Ref.No.6.
+6.6.4 Rigidmetallicconduit
+6.6.4.1 A polymeric enclosure intended for connection to a rigid metallic conduit system shall comply
+withtherequirementsin8.6.
+6.6.5 Provisionsforsupportormounting
+6.6.5.1 If constructed of conductive materials, provisions for support or other mounting means shall be
+outside the polymeric enclosure, unless the enclosure is constructed so that the conductors within the
+enclosurecannotcontacttheconductivematerials.
+6.6.5.2 To comply with 6.6.5.1, a hole in an enclosure intended for an eyelet, a nail, a rivet, or a screw
+shall be located in a recess designed so that there will be a spacing of not less than 0.8 mm (1/32 inch)
+between the plane of the top of the recess and the head of the largest eyelet, nail, rivet, or screw that is
+provided with the enclosure. If a screw or a nail is not provided with an enclosure, this spacing shall be
+measured:
+a)Usingthelargestroundheadscrewthatcanbeinsertedinaholethatisnotchamfered;or
+b)Usingthelargestflatheadscrewthatcanbeinsertedinaholethatischamfered.
+6.7 Coversanddoors
+6.7.1 General
+6.7.1.1 A door shall shut closely against a 6.4 mm (1/4 inch) rabbet as illustrated in Figure 6.8, or the
+equivalent.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 31 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 27
+Figure6.8
+Rabbet
+6.7.1.2 The enclosure shall be constructed so that all doors are able to be opened to a minimum of 90°
+fromtheclosedposition.
+6.7.2 Thickness
+6.7.2.1 Otherthanaspermittedby6.7.2.2and6.7.2.3,asheet-metaldoor,front,cover,orauxiliarydoor
+shallnotbethinnerthanasspecifiedinTable6.6andshallcomplywiththerequirementsin6.1.7.
+Table6.6
+MinimumThicknessofSheetMetalforCoversandDoors
+Minimumthicknessbasedonmaximumdimension,mma(inch)
+Maximumdimensionsb
+Flush-mountedenclosure
+Surface-mountedenclosure
+Linear Area
+square Aluminum, Aluminum,
+mm (inches) mm2 Steeld
+inches Steeld copper,orbrass copper,orbrass
+178 (7) 20650 (32) 1.35 (0.053) 1.91 (0.075) 1.35 (0.053) 1.91 (0.075)
+457 (18) 87100 (135) 1.70 (0.067) 2.41 (0.095) 1.35 (0.053) 1.91 (0.075)
+610 (24) 232250 (360) 1.70 (0.067) 2.41 (0.095) 1.35c (0.053c) 1.91c (0.075c)
+1020 (40) 645200 (1000) 2.36 (0.093) 3.10 (0.122) 1.70c (0.067c) 2.41c (0.095c)
+1520 (60) 967750 (1500) 2.36 (0.093) 3.10 (0.122) 2.36 (0.093) 3.10 (0.122)
+Over (Over60) Over (Over 3.12 (0.123) 3.89 (0.153) 3.12 (0.123) 3.89 (0.153)
+1520 967750 1500)
+aThethicknessofaseparatedomeusedinconjunctionwithaflatsheetmaybebasedonthedimensionsofthedome.
+bThedimensionsgivenarethoseoftheopeningintheenclosure.Neitherthelineardimensionnortheareaoftheopeningshall
+exceedtheindicatedvalueinordertousetheminimumthicknessspecifiedinthatline.Theextensionrequiredby6.7.6.1isnot
+includedinmeasuringthedimensionsofacover.
+cIfasurface-mountedenclosurehasaframeortrimandinadditionadoor-in-doorconstruction,thethicknessofsheetmetalused
+fortheframe,trim,anddoorsshallbeasspecifiedforaflush-mountedenclosure.
+dTheminimumthicknessreferstothebasematerialanddoesnotincludeacoatingthickness.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 32 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+28 50 FEBRUARY29,2024
+6.7.2.2 Adrawn,embossed,flanged,orsimilarlystrengtheneddoor,front,orcovershallbepermittedto
+employ metal having a thickness not less than 1.35 mm (0.053 inch) if steel or 1.91 mm (0.075 inch) if
+aluminum,copper,orbrass,providedthatthedoor,front,orcoverhasthestrengthandrigiditytomaintain
+itsshapewhenopenorunmountedandcomplieswiththerequirementin8.2.1.
+6.7.2.3 A door that covers an opening not greater than 50 mm (2 inches) in any dimension, such as an
+opening intended for latches and locks, shall not be less than 0.81 mm (0.032 inch) thick if steel or 1.27
+mm(0.050inch)ifaluminum,copperorbrass.
+6.7.2.4 The cover flange mentioned in 6.7.4.3(b) shall have a thickness not less than that of the
+enclosurewall.
+6.7.2.5 Aflatstripusedtoprovidearabbet,orananglestripfastenedtotheedgesofadoor,shallnotbe
+thinner than 60 percent of the thickness of the metal of the box proper. It shall be secured at two or more
+pointsnotmorethan 38.1mm(1-1/2 inches)fromeachendofthestrip,andatpointsbetweenthese end
+fasteningsnotmorethan152mm(6inches)apart.
+6.7.2.6 Aformedstripshallbepermittedtobemadeofmetalthinnerthanthatrequiredforaflatstripifit
+isformedandattachedsothatitprovidesanequivalentrabbet.
+6.7.3 Fastenings
+6.7.3.1 Anydoororcovershallbeprovidedwithmeansforholdingitsecurelyinplace.
+6.7.3.2 Other than as permitted by 6.7.3.3, a cover shall be fastened to the box with four or more
+fastenings.
+6.7.3.3 Two fastenings, one at the center of each short side of two opposite sides shall be permitted to
+beused to fastena coverhaving anarea ofnot morethan 32,900mm2(51 in2) andhavingno dimension
+greaterthan216mm(8-1/2inches),providedthatthecoverdoesnotextendmorethan19.1mm(3/4inch)
+beyondtheedgeoftheboxinanydirection.
+6.7.3.4 A fastening screw or a screw of a clamp that secures a cover in position shall be M4, No. 8, or
+larger for a cover 232,300 mm2 (360 in2) or less in area, and shall be M4.5, No. 10, or larger for a cover
+morethan232,300mm2(360in2)inarea.
+6.7.3.5 Other than as detailed in 6.7.3.6 and 6.7.3.7, there shall be one or more fastenings located not
+more than 152 mm (6 inches) from each of the four corners of an enclosure. The spacing between
+adjacentfasteningsshallnotbemorethan610mm(24inches).SeeFigure6.2andFigure6.3.
+6.7.3.6 Fastenings may be omitted along the vertical edge of a cover that is adjacent to an opening for
+installed equipment, if the vertical edge is flanged at least 12.7 mm (1/2 inch) for the full length of the
+openingandallotheredgesofthesurfacearesecuredbytherequiredfastenings.
+6.7.3.7 Anunflangedcoverthatdoesnotextendmorethan19.1mm(3/4inch)beyondtheedgesofthe
+boxforwhichitisintendedmayhavefasteningslocatedatnotmorethan152mm(6inches)fromadjacent
+edgesofthebox,216mm(8-1/2inches)fromthecorner,if:
+a) The thickness of the cover of a surface-mounted enclosure is not less than that required for a
+flush-mountedcoverforaboxofthesamesize;and
+b)Theboxisnotmorethan508mm(20inches)wide.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+- 5:41
+AM
+
+--- Page 33 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 29
+6.7.3.8 Other than as permitted by 6.7.3.9, a flanged cover shall be securely fastened to the box by
+screwsorothermeansthathavebeenfoundtobeequivalent.Thenumberandlocationoffasteningsshall
+beasspecifiedin6.7.3.2to6.7.3.5forthefasteningsofaflatcover.
+6.7.3.9 A flanged cover may be fastened to the box by a combination of pins or similar projections,
+cooperatingwithholesorindentationsandscrews,orbyscrewsalone,providedthat:
+a) If the cover area is not more than 32,900 mm2 (51 in2) in area and has no dimension greater
+than216mm(8-1/2inches),notlessthaneither1screwand1pinor2screwsareused;or
+b) If the cover area is not more than 232,300 mm2 (360 in2) in area and has no dimension greater
+than 610 mm (24 inches), not less than 2 screws and 1 pin, 1 screw and 2 pins, or 3 screws are
+used.
+6.7.3.10 Thecoverflangementionedin6.7.4.3(b)shallbepermanentlysecuredtotheenclosurebytwo
+ormore fastenings, suchasspot weldsorrivets. There shallbe oneormore ofthese fastenings for each
+76.2 mm (3 inches) or fraction thereof along the length of the enclosure flange, and there shall be one or
+moreofthesefasteningswithin38.1mm(1-1/2inches)ofeachoftheenclosureflange.
+6.7.4 Notchedflanges
+6.7.4.1 Theflangeofacoverotherthanasnotedin6.7.4.2to6.7.4.4shallnotbenotched.
+6.7.4.2 Theedgeofaflangedcoverthatisintendedtobefastenedtotheboxbyfourormorefastenings
+maybenotchedtoprovidespacearoundaknockoutintheboxif:
+a)Thenotchisacircularsegment,concentricwiththeknockoutwhenthecoverisinplace;
+b)Thewidthofthecoverflangeisnotlessthan3.2mm(1/8inch)atanypoint;and
+c)Thefrontedgesoftheboxareflangedinaccordancewith6.7.4.3.
+6.7.4.3 Theflangementionedin6.7.4.2(c)maybeeither:
+a) Integral with the enclosure wall, that is, formed from the same sheet as and comprising an
+extensionoftheenclosurewall;or
+b) A separate flange that complies with the requirement in 6.7.3.10 and is attached to the side of
+theenclosure.
+TheflangeshallhaveawidthandlengthinaccordancewithFigure6.9.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 34 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+30 50 FEBRUARY29,2024
+Figure6.9
+Notched-Cover-FlangeConstruction
+A–Depthofcoverflangeatnotch–minimum3.2mm(1/8inch),measureinsidecover.
+B–Anypointonedgeofnotchincoverflange.
+C–Anypointonedgeofcover.
+D–DistancefromBtoC.
+E–PointonedgeofenclosurecoincidentwithC.
+F–Anypointonedgeofenclosureflange.
+G–DistancefromEtoF.TheshapeanddimensionsofthenotchandenclosureflangearetobesuchthatDplusGisnotlessthan
+12.7mm(1/2inch)forallpointsB,C,E,andF.
+H–Depthofenclosureflangeatnotch–minimum3.2mm(1/8inch),measuredinsideflange.DimensionHandthedottedlineare
+applicableonlytotheattachedenclosureflange.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 35 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 31
+6.7.4.4 A notch in an attached flange shall be a circular segment, concentric with the knockout and, on
+thefaceoftheflangeattachedtotheenclosure,shallhaveawidthofnotlessthan3.2mm(1/8inch).
+6.7.5 Depthofflange
+6.7.5.1 Otherthanaspermittedby6.7.5.2and6.7.5.3,theflangeonacoverordoorshall:
+a)ComplywithFigure6.10orbeevaluatedinaccordancewithFigure6.11;
+b)FitcloselywiththeoutsidewalloftheenclosureproperinaccordancewithFigure6.10;
+c)HaveawidthinaccordancewithFigure6.10;
+d)Exceptaspermittedby6.7.4.2,haveflangesforthefulllength;and
+e) Where a telescoping cover meets the box of a surface mounted enclosure (see Drawing H of
+Figure6.10),overlapalledgesinaccordancewithFigure6.10.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 36 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+32 50 FEBRUARY29,2024
+Figure6.10
+FlangedCoverandDoorConstructionsa
+A
+W
+B B
+C W W S b C C A C
+W
+B A B
+A S b W = B+C
+A B C D
+B
+W b A D A C W S W
+C A C W W
+D W D B
+W B
+b
+S A
+E F G H
+s2766c
+aSeethefollowingTableforthedimensionsofsketchesA–H.
+bThesurfaces"S"maybeinlinewithoneanother–notasshown.
+DimensionsforFigure6.10
+W A B C D
+Minimumflange Maximumspace Maximumgap Minimumoverlap Minimumbarrier
+Figure
+widtha,b betweenparts extension
+mm (inch) mm (inch) mm (inch) mm (inch) mm (inch)
+A 12.7 (1/2) 3.2 (1/8) 3.2 (1/8) 11.1 (7/16) – –
+A 19.1 (3/4) 4.8 (3/16) 4.8 (3/16) 15.9 (5/8) – –
+A 25.4 (1) 6.4 (1/4) 6.4 (1/4) 22.2 (7/8) – –
+B 12.7 (1/2) 3.2 (1/8) 3.2 (1/8) 11.1 (7/16) – –
+B 19.1 (3/4) 4.8 (3/16) 4.8 (3/16) 15.9 (5/8) – –
+B 25.4 (1) 6.4 (1/4) 6.4 (1/4) 22.2 (7/8) – –
+C 12.7 (1/2) 4.8 (3/16) 4.8 (3/16) 6.4 (1/4) – –
+C 19.1 (3/4) 6.4 (1/4) 6.4 (1/4) 11.1 (7/16) – –
+D 12.7 (1/2) 2.4 (3/32) – – 11.1 (7/16) – –
+E 12.7 (1/2) 3.2 (1/8) 3.2 (1/8) 11.1 (7/16) 6.4 (1/4)
+F 12.7 (1/2) 3.2 (1/8) 6.4 (1/4) 11.1 (7/16) – –
+Gc 12.7 (1/2) – – 0.8 (1/32) – – 12.7 (1/2)
+H 6.4 (1/4) 3.2 (1/8) – – 4.8 (3/16) – –
+aTodeterminewhetheraflangedcovercomplieswiththisrequirement,thedistancebetweentheflatportionofthecover-clearof
+formingradii,beads,draws,orthelike–andastraightedgeplacedacrossanytwoflangesatanypointshallbemeasured.
+bTolerances–minus1.6mm(1/16inch).
+cEquipmentwithintheenclosureshallbelocatedonthesideofthebarrierextensionDthatisoppositethegapB.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 37 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 33
+Figure6.11
+MeasurementofOverlap
+6.7.5.2 Aconstructionmayemploynotches,holes,andindentationsasspecifiedin6.4.3.3and6.4.3.6.
+6.7.5.3 A construction employing an enclosure and a cover, both of which are flanged, as specified in
+6.7.5.5and6.7.6.4maybeused.
+6.7.5.4 To determine whether a flanged cover complies with the requirement in 6.7.5.1, the distance
+betweentheflatportionofthecover–clearofformingradii,beads,draws,orthelike–andastraightedge
+placedacrossanytwoflangesatanypointshallbemeasured.
+6.7.5.5 For the construction described in 6.7.5.1, the flange on the upper edge of a cover may be
+reducedindepthormaybeomittedifthecovercooperateswiththetopwalloftheenclosureandaflange
+formedfromthetopwalloverlapsthecoveratleast12.7mm(1/2inch)andeither:
+a)Thecoverisnotmorethan254mm(10inches)wide;or
+b)Acovermorethan254mm(10inches)widecomplieswiththerequirementin8.2.2.
+6.7.6 Overlap
+6.7.6.1 Anunflangedcoverattachedtoaboxforflushmountingshallextendatleast12.7mm(1/2inch)
+beyond each of the outer walls of the box. The extension may be bent inward for reinforcement not more
+than1.6mm(1/16inch)fromtheplaneofthefaceofthecover,otherthanasmodifiedby6.7.6.2.
+6.7.6.2 The extension allowed by 6.7.6.1 may be bent more than 1.6 mm (1/16 inch) but not more than
+4.8mm(3/16inch)fromtheplaneofthefaceofthecoveriftheboxismarkedinaccordancewith7.4.
+6.7.6.3 If an unflanged cover is attached to a box intended for surface mounting, each wall of the box
+shallhaveaflange,atrightanglestothewall.Theminimummetal-to-metalcontactbetweenthecoverand
+theflangeontheboxshallnotbelessthan11.1mm(7/16inch).SeeFigure6.1.
+6.7.6.4 Theoverlapofatelescopingcovermaybenotlessthan6.4mm(1/4inch)if:
+a)Thecoverissecuredinplacebyscrewsorbyacombinationofhingesandscrews;and
+b)ThecoverandtheboxwallareflangedinaccordancewithSketchHofFigure6.10.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 38 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+34 50 FEBRUARY29,2024
+6.8 Hinges
+6.8.1 Butthinges
+6.8.1.1 A hinge for a door shall be sufficiently strong to perform its intended function without distortion
+andshallbesecurelyfastened:
+a)Attwoormorepointstotheboxortrimandtothedoor;
+b)Byasinglefastenerifadditionalmeans,suchasabossorflange,isprovidedtomaintainhinge
+alignmentandtherearetwoormorehinges;
+c)Byasingleweldforahingenotlargerthan25.4mm2(1in2)providedthehingeremainsinplace
+afterthedoorhasbeensubjectedtoabusesuchasmightbeexpectedinservice;or
+d)Byotherhingesecuringconstructionsiffoundtobeequivalentinperformance.
+6.8.1.2 Unlessthedooristestedinaccordancewith8.3,hingepinsshall:
+a)Foradoor232,300mm2(360in2)orlessinarea,benotlessthan4.0mm(5/32inch)indiameter
+ifmadeofbrassoraluminumandnotlessthan3.2mm(1/8inch)indiameterifmadeofsteel;or
+b)Foralargerdoor,benotlessthan4.8mm(3/16inch)indiameter.
+6.8.1.3 Twoormorehingesshallbeprovidedforeachdoor,exceptthat:
+a)Asinglehingeshallbepermittedoneithersideofadoornotexceeding127by229mm(5by9
+inches)providedthelengthofthehingeisnotlessthanone-thirdthelengthofthelongersideand
+iscenteredonthedoor;
+b)Asinglehingeshallbepermittedonadoorhavingdimensionsgreaterthan127by229mm(5by
+9inches)providedthelengthofthehingeisnotlessthan80percentthefulllengthofthedoorand
+iscenteredonthedoor;or
+c)Asinglehingethatextendsapproximatelythefulllengthofthedoorshallbepermitted.
+6.8.1.4 HingesshallbespacedasspecifiedinTable6.7.Thespacingbetweenhingesshallbemeasured
+betweencentersofthehinges;thespacingbetweenahingeandtheendofadoorshallbemeasuredfrom
+theedgeofthehinge.
+Table6.7
+HingeSpacingsforMetallicEnclosures
+Maximumspacing Constructionofdoororcover
+Fromeachendofdoor Betweenhingecenters Flangewidth Metalandminimumthicknessc
+orcover
+mm (inch) mm (inch) mm (inch) mm (inches)
+102 (4) 610 (24) None None – –
+102 (4) 813 (32) None None steel 2.36 (0.093)
+orAl,Cu, 3.09 (0.122)
+orbrass
+102 (4) 914 (36) 12.7 (1/2) – –
+Table6.7ContinuedonNextPage
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 39 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 35
+Table6.7Continued
+Maximumspacing Constructionofdoororcover
+Fromeachendofdoor Betweenhingecenters Flangewidth Metalandminimumthicknessc
+orcover
+mm (inch) mm (inch) mm (inch) mm (inches)
+152 (6)a 914 (36) 12.7 (1/2) – –
+254 (10)b 914 (36) 12.7 (1/2) – –
+229 (9) 914 (36) 25.4 (1/2) – –
+305 (12) 1016 (40) 25.4 (1/2) steel 2.36 (0.093)
+orAl,Cu, 3.09 (0.122)
+orbrass
+aHingesshallbepermittedtobespaced152mm(6inches)fromtheendofadoororacovernotmorethan1.14m(45inches)
+longonthehingesside.
+bHingesshallbepermittedtobespaced254mm(10inches)fromtheendofadoororacoverhavingthreehinges.
+cSeeTable6.3andTable6.4.
+6.8.2 Ear-typehinges
+6.8.2.1 An ear-type hinge consists of projections on a pair of opposite side or end walls, and
+corresponding projections on flanges on the door cooperating with them by means of rivets or bolts that
+serveashingepins.
+6.8.2.2 Hingesoftheeartypeshallnotbespacedmorethan610mm(24inches)apart.
+6.8.3 Formedhinges
+6.8.3.1 Aformedhingeconsistsofastripofsheetmetalsecuredtoorintegralwiththeboxortrimformed
+sothatitwillcooperatewithaslotinthedoortoformahinge.
+6.8.3.2 Formedhingesshallnotbeusedforadoorhavinganyedgelongerthan610mm(24inches)and
+havinganareaofmorethan232,300mm2(360in2).
+6.8.3.3 Formedhingesshallbelocatednotmorethan102mm(4inches)fromtheendsofthedoorand
+not more than 254 mm (10 inches) apart. Hinge spacings shall be measured from the centers of the
+hinges.Exceptaspermittedby6.8.3.4,atleasttwohingesshallbeprovidedforeachdoor.
+6.8.3.4 Asinglehingeshallbepermittedontheshortersideofadoorifthelengthofthehingeisnotless
+thanone-thirdthatofthelongersideofthedoor.
+6.8.3.5 For formed hinges used with a door having turned flanges or on a door in a trim, the width of a
+hingethatisapartoftheboxortrim,orthatisaseparatestrip securedatonlyoneend, shallnotbeless
+than25.4mm(1inch).Thewidthofahingeformedfromaseparatestripsecuredatbothendsshallnotbe
+lessthan12.7mm(1/2inch).
+6.8.3.6 The thickness of a separate strip shall not be less than 1.35 mm (0.053 inch), other than as
+follows.Metalnotlessthan1.27mm(0.050inch)thickmaybeusedifthesmallerdimensionofthedooris
+not more than 114 mm (4-1/2 inches) and the length of the hinged side is not more than 178 mm (7
+inches).
+6.8.3.7 The slot in a door shall not be less than 3.2 mm (1/8 inch) from the edge of the metal and only
+slightlylongerthanthewidthofthehinge.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 40 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+36 50 FEBRUARY29,2024
+6.9 Latchesandhandles
+6.9.1 Each door shall be provided with a latch that is positive in action and of substantial design and
+construction, except that screw fastenings or locks shall be permitted in place of a latch for an enclosure
+thathasadoor.
+6.9.2 Double doors that overlap shall be secured at a minimum of two latched points, one located at
+each end. Latches are only required on the door that closes last. Double-doors that do not overlap shall
+havetwolatchedpointsperdoor,onelocatedateachendofeachdoor.
+6.9.3 A door more than 1.22 m (48 inches) long on the hinged side shall be fastened at two or more
+latchedpoints.
+6.9.4 Foradoorthathasflangededgesandthatdoesnotexceed457mm(18inches)inwidthorlength,
+alatchmayconsistof:
+a)Abuttonstampedinthesidewalloftheenclosureengaginganindentationorclose-fittingholein
+thedoorflange;or
+b)Abuttonstampedonthedoorflangeengaginganindentationorclose-fittingholeinthesidewall
+oftheenclosure.
+6.9.5 An enclosure having a door 457 mm (18 inches) or less in both dimensions may employ a snap
+catchprovidingafasteningequivalenttothebuttoncatch.
+6.9.6 Aspringlatchconsistingofasteelstripspot-weldedorrivetedtothewallofaboxandcooperating
+withaslotinthedoorshallengagetheedgeofthedoorslotawayfromthewall,orshallbeadjustableso
+astomaintaintheeffectivenessofthelatchinholdingthedoorclosed.
+6.9.7 A substantial knob, a door handle, or an equivalent means shall be provided for opening a
+rabbeteddoorunlessapin-tumbler,self-lockinglatchisused.
+6.10 Connectionsforwiringsystems
+6.10.1 General
+6.10.1.1 Openings in enclosures for conduit or threaded connectors shall be of such sizes and so
+locatedthattheconduitcanbereadilyinsertedandshallpermittheproperseatingofaconduitbushingor
+locknut(seeAnnexDforknockoutdimensioninformation).
+6.10.1.2 In an enclosure, an opening for connection of a wiring system that in some cases will not be
+usedshallbeclosedbyaknockout,cover,orplug.Theclosureshallbeformedofmetalnotlessthan1.35
+mm (0.053 inches) thick or of a non-metallic material acceptable for the purpose. The closure shall be
+suchthatitmaybereadilyremoved,butwillnotdropoutinordinaryhandling.
+6.10.2 Knockouts
+6.10.2.1 Knockouts shall be so formed that they are capable of being readily removed but will not drop
+out during ordinary handling. Multiple ring knockouts shall have sufficient strength to meet the test
+requirementsof8.4.
+6.10.3 Breakouts
+6.10.3.1 Breakoutsshallbesoformedthat:
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 41 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 37
+a)Thematerialcanbereadilyremoved,usingordinarycare,toprovideanopeningoftherequired
+sizewithoutdamagingtheremainderoftheenclosureoranyouterrings;and
+b)Thestrengthofanyremainingringswillwithstandtheloadingtestspecifiedin8.4.3(b).
+6.10.4 Threadedopenings
+6.10.4.1 Notwithstanding 6.10.4.2 to 6.10.4.5, in Canada, threaded conduit entries for the connection of
+conduit shall comply with the requirements of Annex B, Ref. No. 7, except two full threads shall be
+acceptableifthethreadedopeningcomplieswiththeMetallicenclosurethreadedopeningtestin8.7.
+6.10.4.2 A threaded hole for the connection of conduit that is tapped all the way through an enclosure
+shall be provided with not less than three full threads, except as permitted by 6.10.4.3. The construction
+shallbesuchthataconduitbushingcanbeproperlyattachedasintended.
+6.10.4.3 Two full threads shall be acceptable if the threaded opening complies with the Metallic
+enclosurethreadedopeningtestin8.7.
+6.10.4.4 If the threads for the connection of conduit are not tapped all the way through a hole in an
+enclosurewall,conduithub,orthelike,thereshallnotbelessthanfivefullthreadsinthemetal.
+6.10.4.5 Theinletholeshall:
+a) Be smooth and rounded to afford protection to the conductors equivalent to that provided by a
+standardconduitbushing;and
+b) Have an internal diameter approximately the same as that of the corresponding trade size of
+rigidconduit.
+6.10.5 Nonmetallic-sheathedcableclamps
+6.10.5.1 A separable or integral clamp provided as part of a factory assembled enclosure and intended
+for securement of nonmetallic-sheathed cable shall comply with the applicable requirements of Annex B,
+Ref.No.5andNo.6.Sizeofopeningsshallcomplywith6.10.5.2.
+6.10.5.2 A separable or integral clamp provided as part of a factory assembled enclosure and intended
+for securement of nonmetallic-sheathed cable shall substantially close the opening in the enclosure as
+determinedbythefollowing:
+a) the clamp, constructed or mounted as part of the factory assembled enclosure with no cable
+installed,shallinhibitthepassageofa2.5mm(3/32inch)diameterprobe,noforcebeingappliedto
+theprobethatwouldresultinrepositioningoftheclamp;or
+b)theclampshallbeprovided,atthefactory,withameanstoindividuallycloseeachopening.
+6.11 Conduithubs
+6.11.1 A conduit hub shall be threaded and shall have a wall thickness before threading not less than
+thatforthecorrespondingtradesizeofconduit.
+6.11.2 Aconduithubshallnotdependuponfrictionalonetopreventitsturning
+6.11.3 A conduit hub intended to be secured to a metallic enclosure shall either have been evaluated in
+accordance with Annex B, Ref. No. 5, or shall be subjected to the Metallic enclosure conduit hub test
+describedin8.8.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 42 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+38 50 FEBRUARY29,2024
+6.12 Field-installedaccessories/kits
+6.12.1 These requirements apply to enclosure accessories/kits intended to be installed on an enclosure
+inthefield.
+6.12.2 Theseaccessory/kitsshallcomplywiththefollowing:
+a) Each accessory/kit shall be acceptable for the intended use and when installed in the intended
+mannershallcomplywithallapplicablerequirementsofthisstandard.
+b) Each accessory/kit shall be capable of being installed without the use of a special tool unless
+suchatool,andinstructionsforitsuse,arefurnishedwitheachaccessory/kit.
+c) Each accessory/kit shall be provided with installation instructions that identify all parts involved
+andthatspecifythemethodofinstallation.
+d)Eachaccessory/kitshallbemarkedinaccordancewith7.1.
+7 Marking
+AdvisoryNote:InCanada,therearetwoofficiallanguages,EnglishandFrench.Markingsrequiredbythis
+standard will in some cases have to be provided in other languages to conform with the language
+requirementsofthecountrywheretheproductistobeused.
+7.1 Enclosuresandaccessories/kits
+7.1.1 Enclosures and accessories/kits for use with enclosures shall be marked with the manufacturer's
+nameortrademarkandthecatalognumberorequivalent.
+7.1.2 If the cover or door is shipped separately from the box, then both the cover or door and the box
+shallbearthismarking.
+7.1.3 If an enclosure that employs a notched flanged cover is not shipped complete – that is, with the
+cover not included with the box – the cover and the box shall be marked so that it can be readily
+determinedwhichcoverisspecificallyintendedforusewithwhichbox.
+7.2 Castmetalenclosure
+7.2.1 Ifamanufacturerintendsthatacastmetalenclosure beacceptableforfielddrillingandtappingof
+holes for conduit connections, the enclosure shall be marked to indicate the location and trade sizes of
+conduitforwhichtheenclosureisacceptable.Ifcounter-boringisnecessarytoaccommodatecertainsizes
+of conduit, such information shall be given. The instructions may be provided on an instruction sheet
+providedwiththeenclosureormarkedonthepackagingcarton.
+7.3 Cast-aluminumenclosure
+7.3.1 If it is intended that a cast-aluminum enclosure be acceptable for use in concrete or cinder fill and
+the enclosure has been found to be acceptable for such use, the enclosure or packaging carton shall be
+marked,"Suitableforuseinconcreteorcinderfill",ortheequivalent.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 43 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 39
+7.4 Extension
+7.4.1 Anenclosureconstructedaspermittedby6.7.6.2shallbemarkedtoindicatethatifflushmounted
+inawallofcombustiblematerialtheenclosureshallprotrude3.2mm(1/8inch)fromthefinishedsurfaceof
+thewall.
+7.5 Insulatingmaterial
+7.5.1 Themarkingrequiredforenclosuresthataremadeofinsulatingmaterialinaccordancewith6.6.2.1
+shall:
+a)Belocatedwherevisibleduringinstallation,suchasinsidethecover;and
+b) Consist of the following or the equivalent, "Bonding between conduit connections is not
+automaticandshallbeprovidedasapartoftheinstallation."
+7.6 Polymericenclosure
+7.6.1 Apolymericenclosurethatisintendedforconnectiontoarigidmetallicconduitsystemthathasnot
+been subjected to the Torque test described in 8.6.3, and that is not provided with a pre-assembled hub,
+shall have instructions stating that the hub shall be connected to the conduit before the hub is connected
+totheenclosure.
+7.7 Conduithubs,closureplates,andotherequipment
+7.7.1 Enclosuresintendedforusewithconduithubs,closureplates,andotherequipment(suchaspush-
+buttonswitches)intendedtobefieldinstalledshallbemarkedorprovidedwithinstructionsthatidentifythe
+equipmentnecessarytomaintaintheenvironmentalintegrityoftheenclosure.Thismaybeaccomplished
+by identifying the necessary environmental type designation or by identifying the specific manufacturer
+andmodelnumberofthefieldinstalledequipment.
+7.8 Ventilatedenclosures
+7.8.1 Ventilatedenclosuresinwhichtheequipmenttobeinstalledisnotknown,andinwhichcompliance
+with 8.9 depends upon the location of such equipment, shall be marked to indicate the area in which live
+partsaretobeinstalled.
+8 Tests
+8.1 Comparativedeflectiontest(enclosure)
+8.1.1 When subjected to the deflection test in 8.1.2, an enclosure that is thinner than that specified in
+Table 6.3 and Table 6.4 (see 6.4.1.2) shall be constructed so that its deflection is shown to be not more
+thanthatofasheet-metalenclosureofthemaximumlengthandwidthandhavingtherequiredthickness.
+8.1.2 Force shall be applied to the end, side, and rear walls of each enclosure. The value of force and
+limit of deflection are not specified, but the force on each wall of both the test and reference enclosures
+shall be sufficient to result in a measurable deflection of the test enclosure. For the test, the enclosure
+shall rest on a smooth, solid, horizontal surface. A vertical force shall be applied, at any point, through a
+rodhavinga12.7mm(1/2inch)squareflatsteelface.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 44 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+40 50 FEBRUARY29,2024
+8.2 Deflectiontest(doorsandcovers)
+8.2.1 Adoororcoverconstructedaspermittedby6.7.2.1shallnotdeflectinwardmorethan6.4mm(1/4
+inch) when a vertical force of 445 N (100 pounds) is applied at any point on the door, or cover. The force
+shall be applied through a rod having a 12.7 mm (1/2 inch) square flat steel face. For the test, the
+enclosure shall rest on its back on a smooth, solid, horizontal surface with the door closed and the cover
+secured as intended. If more than one test is necessary, separate samples may be used for additional
+tests.
+8.2.2 If a flange on the upper edge of a telescoping door or cover is reduced in depth or is omitted as
+indicatedin6.7.5.5(b),thedoororcovershallnotdeflectmorethan9.5mm(3/8inch)whensubjectedtoa
+force of 445 N (100 pounds) applied at any point 25.4 mm (1 inch) from the edges. The test shall be
+conducted with the door or cover mounted on the enclosure in the intended manner, and the enclosure
+placedwithitsbackonasmooth,solid,horizontalsurface.Theforceshallbeappliedthroughtheendofa
+rodhavinga12.7mm(1/2inch)squareflatsteelface.
+8.3 Hingestrengthtest
+8.3.1 Forconstructionsrequiringtestsaspermittedby6.8.1.2,adoorshallwithstandaloadof4timesits
+weightbutnotlessthan9.1kg(20pounds)withoutcausingpermanentdeformationofthehinge.Theload
+shallbeappliedverticallydownwardthroughthecenterofgravityofthedoor.
+8.4 Multipleknockoutstest
+8.4.1 This clause provides test requirements to determine that a combination consisting of an inner
+knockout surrounded by additional rings has been manufactured such that when one or more of its
+elements are removed there will be no change to the remaining rings, if any, or to the enclosure in which
+thecombinationislocated,eitherduringtheremovalorwhenconduithasbeenproperlysecuredinplace.
+8.4.2 Samples for testing shall be in the form of either complete enclosures or sample plates that fulfill
+therequirementsofFigure8.1.
+8.4.3 WithasampleenclosuresecurelyheldoratestplatesupportedasinFigure8.1,thefollowingtests
+shallbeapplied:
+a) The knockout shall remain in place when subjected to a load of 44 N (9.9 pounds) steadily
+appliedfornotlessthan1minutenormaltothefaceoftheplatebymeansofamandrelwitha6.35
+mm (1/4 inch) diameter flat end. The mandrel shall be applied at the point most liable to cause
+movementoftheknockoutinthedirectioninwhichitwasoriginallypunched;and
+b) A load of 220 N (49.4 pounds) shall be steadily applied for not less than 1 minute, first in
+compression and second in tension, through a conduit properly installed in the knockout opening.
+When this test is being conducted, the conduit shall not be more than 5° from the normal to the
+surface.Thereshallbenoappreciabledistortionoftheringsorfractureoftheties.
+8.4.4 Theknockoutandeachadditionalring,startingatthesmallest,shallbecapableofbeingeasilyand
+cleanly removed without disturbing the other rings or distorting the enclosure. The sample, if a test plate,
+shallbesupportedasshowninFigure8.1.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 45 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 41
+Figure8.1
+DiagramofTestPlate
+8.5 Polymericenclosures–bondingtest
+8.5.1 The resistance between two parts that are required to be bonded together shall not be more than
+0.005 Ω . The resistance shall be determined by a resistance measuring instrument, except that if
+unacceptableresultsare recorded,analternatingordirectcurrentofatleast20Afromapowersupplyof
+notmorethan12Vshallbepassedfromthepointofconnectiontotheequipmentgroundingmeanstothe
+metal part in the grounding circuit. The resulting drop in potential and the test current shall be measured
+between the two points. The resistance in ohms shall be determined by dividing the drop in potential in
+voltsbythecurrentinamperes.
+8.6 Polymericenclosures–rigidmetallicconduitconnectiontest
+8.6.1 Criteria
+8.6.1.1 A polymeric enclosure intended for connection to a rigid metallic conduit system shall not pull
+apart or sustain damage such as cracking and breaking as a result of the pullout, torque, and bending
+proceduresdescribedin8.6.2to8.6.4.Ifbreakoutsareincorporatedintheenclosure,theyshallremainin
+placefollowingtheproceduredescribedin8.6.5.
+8.6.1.2 Thetorquetestneednotbeconductedonanenclosurethatisnotprovidedwithapreassembled
+hubandthatcomplieswith7.6.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 46 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+42 50 FEBRUARY29,2024
+8.6.2 Pullout
+8.6.2.1 The enclosure shall be suspended by a length of rigid conduit installed in one wall of the
+enclosureormountedasintendedinserviceandapullingforceof890N(200pounds)shallbeappliedfor
+5minutestoalengthofconduitintheoppositewall.
+8.6.3 Torque
+8.6.3.1 The enclosure shall be securely mounted as intended in service. A torque in accordance with
+Table 8.1 shall be applied to a length of installed conduit in a direction tending to tighten the connection.
+Theleverarmshallbemeasuredfromthecenteroftheconduit.
+Table8.1
+TighteningTorque
+Tighteningtorquea
+Tradesizeofconduit N·m (pound-inches)
+3/4andsmaller 90.4 (800)
+1,1-1/4,and1-1/2 113.0 (1000)
+2andlarger 181.0 (1600)
+aInaccordancewith1.3,othervaluesmaybespecifiedbyend-useproductstandards.
+8.6.3.2 An end-of-line enclosure, an enclosure that is intended to be connected at the end of a run of
+conduit and has only one 3/4 maximum trade size opening for the connection of conduit, need only be
+subjectedtoatighteningtorqueof22N·m(200pound-inches).
+8.6.4 Bending
+8.6.4.1 A3.0mminimum(9feet–10-7/64inch)lengthofconduitoftheintendedsizeshallbeinstalled:
+a)Inahuboranopeningifprovidedaspartoftheenclosure;or
+b)Ifahuboropeningisnotprovided,inthecenterofthelargestunreinforcedsurfaceintendedfor
+theconnectionofconduit.
+8.6.4.2 The enclosure shall be securely mounted as intended in service, but positioned so that the
+installed conduit extends in a horizontal plane. The test shall be terminated once the deflection of the
+conduitendexceeds255mm(10inches).Ifaweightisnecessarytocausetheconduitendtodeflect,the
+test shall be terminated once the deflection of the conduit end exceeds 255 mm (10 inches) or once a
+bendingmomentasspecifiedinTable8.2isachieved.
+FortheSIsystemofunits,themagnitudeoftheweightshallbedeterminedfromtheequation:
+inwhich,
+WandCaremeasuredinkilograms;
+MisinNewton-meters;and
+Lisinmeters.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 47 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 43
+Forinch-poundunits,themagnitudeoftheweightshallbedeterminedfromtheequation:
+inwhich,
+Wistheweight,inpounds,tobehungattheendoftheconduit;
+L is the length of the conduit, in inches, from the wall of the enclosure to the point at which the
+weightissuspended;
+Cistheweightoftheconduit,inpounds;and
+Misthebendingmomentrequired,inpound-inches.
+Table8.2
+BendingMoment
+Bendingmomentformetallicconduit
+Normalmountingplaneof
+enclosuresurfacea Conduittradesize N·m (pound-inches)b
+Horizontal All 33.9 (300)
+Vertical 1/2–3/4 33.9 (300)
+1andlarger 67.8 (600)
+aIftheenclosuresurfacemaybeinstalledineitherahorizontaloraverticalplane,theverticalbendingmomentvalueshallbe
+used.
+bForanend-of-lineenclosureasdefinedin8.6.3.2,thebendingmomentshallbe17.0N·m(150pound-inches).
+8.6.5 Breakouts
+8.6.5.1 Abreakoutshallbesubjectedtoaforceof89N(20pounds)appliedatrightanglesbymeansof
+amandrelwitha6.4mm(1/4inch)diameterflatend.Themandrelshallbeappliedatthepointmostlikely
+tocausemovementofthebreakout.
+8.7 Metallicenclosurethreadedopeningtest
+8.7.1 General
+8.7.1.1 Athreadedholefortheconnectionofconduit(see6.10.4.1)shallbesubjectedtotheTorquetest
+in8.7.2andtheBendingmomenttestin8.7.3.Threadsshallnotstripandthewallsoftheenclosureshall
+notfracture.
+8.7.2 Torque
+8.7.2.1 With conduit installed and the enclosure rigidly mounted, the tightening torque shall be applied
+for5minutesasspecifiedinTable8.1.
+8.7.3 Bendingmoment
+8.7.3.1 With conduit installed and the enclosure rigidly mounted, a bending moment of 68 N·m (600
+pound-inches)shallbeappliedtoitsaxis.Theleverarmshallbemeasuredfromthewalloftheenclosure
+tothepointofapplicationoftheforce.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 48 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+44 50 FEBRUARY29,2024
+8.8 Metallicenclosureconduithubtest
+8.8.1 A conduit hub (see 6.11.3) shall withstand the tightening torque specified in Table 8.1 applied to a
+shortlengthofrigidconduitthreadedintothehubintheintendedmanner.Thereshallbenoturningofthe
+hubintheenclosureandnostrippingofanythreads.Theenclosureshallbesecurely(rigidly)mountedor
+supportedduringthetest.
+8.9 Rodentrytest
+Note:Thistestisintendedtosimulateincidentalcontactwithenclosedequipment.
+8.9.1 Ventilatedenclosurestestmethod
+8.9.1.1 For ventilated enclosures with live parts located less than 102 mm (less than 4 inches) from the
+openings,thistestshallbemadebyattemptingtoinsertarodhavingadiameterof12.7mm(1/2inch).
+8.9.1.2 For ventilated enclosures with live parts located 102 mm or more (4 inches or more) from the
+openings,thistestshallbemadebyattemptingtoinsertarodhavingadiameterof19mm(3/4inch).
+8.9.2 Evaluation
+8.9.2.1 The enclosure shall be considered to have met the requirement if the rod cannot enter the
+enclosure.
+8.10 Crushingresistancetest
+8.10.1 Three samples of equipment shall be supported on the mounting side by a fixed rigid supporting
+surface, in the position that is recommended by the manufacturer. Crushing force shall be applied to the
+exposed surfaces of the enclosure. The compression force shall be applied by flat surfaces each 102 by
+254 mm (4 by 10 inches). Each force applicator shall exert 445 N (100 pounds) on the sample for 1
+minute. As many applicators shall be applied as the sample can accommodate, up to a maximum of 8,
+baseduponanarrangementofapplicatorsasindicatedinFigure8.2.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 49 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 45
+Figure8.2
+LocationofApplicatorsforCrush-ResistanceTest
+8.10.2 Thetestshallbeconsideredsuccessfulifattheconclusionnoneofthefollowingoccur:
+a)Spacingsarereducedbelowtheminimumacceptablevalues;
+b)Barelivepartsorinternalwiringaremadeaccessibletocontact;
+c)Breakage,cracking,rupture,andthelikeproduceanadverseeffectontheinsulation;and
+d)Anyotherconditionthatwouldincreasethelikelihoodofelectricshockorfire,orboth,duringuse
+oftheequipment.
+8.11 Moldstressrelieftest
+8.11.1 One representative sample of the insulating material (except for rigid thermosetting materials)
+assembled as intended shall be placed in a full draft circulating air oven maintained at a uniform
+temperatureatleast10°C(50°F)higherthanthemaximumtemperatureofthematerialmeasuredduring
+thetemperaturetest,butnotlessthan70°C(178°F)inanycase.Thesampleshallremainintheovenfor
+7hours.Afteritsremovalfromtheovenandreturntoroomtemperature,thesampleshallbeinvestigated
+forcompliancewith8.11.2.
+8.11.2 Conditioning of the equipment as described in 8.11.1 shall not cause softening of the material as
+determined by handling immediately after the conditioning, nor shall there be any shrinkage, warpage, or
+otherdistortion,asjudgedaftercoolingtoroomtemperature,thatresultsinanyofthefollowing:
+a)Reductionofspacingsbetweenuninsulatedlivepartsofoppositepolarity,uninsulatedliveparts
+and accessible grounded metal, uninsulated live parts and the enclosure below the minimum
+acceptablevalues;
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 50 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+46 50 FEBRUARY29,2024
+b)Makinguninsulatedlivepartsorinternalwiringaccessibletocontact,ordefeatingtheintegrityof
+the enclosure so that acceptable mechanical protection is not afforded to internal parts of the
+equipment;or
+c)Causinginterferencewiththeintendedoperationorservicingoftheequipment.
+8.12 Coverpulltest
+8.12.1 For tests permitted by 9.2.3, a cover that is fastened as intended to a fully assembled box shall
+notpermitanopeningof12.7mm(1/2inch)orgreatertobecreatedbetweenthecoverandthebox,when
+subjectedtoa156N(35lb)pullforce(seeFigure8.3).
+Figure8.3
+CoverPullTest
+FORCE SHOULD BE APPLIED IN THE
+DIRECTION MOST LIKELY TO REMOVE
+THE COVER FROM THE ENCLOSURE.
+CENTERED BETWEEN THE FASTENERS
+BETWEEN THE COVER AND ENCLOSURE
+ENCLOSURE
+COVER
+FASTENER
+FASTENER
+su4984
+NOTE:Forceiscenteredbetweenthetwofurthestfastenersandmaybetheworstcaserepresentativeinaproductline.
+8.12.2 To determine compliance with 8.12.1, the force shall be gradually applied (creating no impulse
+force) through a 12.7 mm (1/2 inch) square flat surface, at the point on the cover edge that is centered
+betweenadjacentfasteners,andinthedirectionperpendiculartotheplaneofthecoverandawayfromthe
+boxinordertocreateseparationbetweenthecoverandthebox.
+8.12.3 Thecovershallbeconsideredtohavemettherequirementifnoopeningof12.7mm(1/2inch)or
+greateriscreated,whenmeasuredbyacceptablemeans.Ifagageisused,itshallbeintheshapeofarod
+with a diameter of 12.7 mm (1/2 inch). No additional force shall be exerted by or through the gage that
+resultsingreaterthan156N(35lb)oftotalforcebeingappliedtothetestlocation,similarly,noadditional
+forceshallbeappliedtothegagethattendstoincreasethesizeoftheopeningbeingmeasured.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 51 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 47
+8.13 Sidewalldeflectiontest
+8.13.1 For tests permitted by 9.2.3, the side walls of a box, when fully assembled and fastened to a
+cover, shall not permit an opening of 12.7 mm (1/2 inch) or greater to be created between the cover and
+thebox,whensubjectedtoa220N(49.5lb)pullforce.
+8.13.2 To determine compliance with 8.13.1, the force shall be gradually applied (creating no impulse
+force), at a point on the side wall that is centered between adjacent fasteners, and in the direction
+perpendiculartotheplaneofthesidewallinordertocreateseparationbetweentheedgeofthecoverand
+theboxsidewall,asfollows(seeFigure8.4):
+a) Using any convenient means, the force shall be applied to the end of an attached conduit (or
+similar means if there is no knockout at the location) resulting in a compressive load tending to
+deflectthesidewallintotheenclosure;
+b) Using any convenient means, the force shall be applied to the end of an attached conduit (or
+similarmeansifthereisnoknockoutatthelocation)resultinginatensileloadtendingtodeflectthe
+sidewalloutward.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 52 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+48 50 FEBRUARY29,2024
+Figure8.4
+SideWallDeflectionTest
+a)Conduitinstalledinaknockoutoranopening,providedasapartoftheenclosure.
+POINT OF FORCE
+APPLICATION
+FASTENER
+FASTENER
+CL
+BETWEEN FASTENERS
+su4985
+b)Createdholeatthecenterofthelargestdistancebetweenadjacentfastenings
+POINT OF FORCE
+APPLICATION
+FASTENER
+FASTENER
+CL
+BETWEEN FASTENERS
+su4986
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 53 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 49
+8.13.3 Theboxsidewallsshallbeconsideredtohavemettherequirementifnoopeningof12.7mm(1/2
+inch)orgreateriscreated,whenmeasuredbyacceptablemeans.Ifagageisused,itshallbeintheshape
+ofarodwithadiameterof12.7mm(1/2inch).Noadditionalforceshallbeexertedbyorthroughthegage
+that results in greater than 220 N (49.5 lb) of total force being applied to the test location, similarly, no
+additionalforceshallbeappliedtothegagethattendstoincreasethesizeoftheopeningbeingmeasured.
+9 CabinetsandCutoutBoxes
+9.1 General
+9.1.1 In Mexico and the United States, a cabinet or cutout box shall comply with the requirements for
+enclosures. However, the requirements in 9.2 shall supersede equivalent requirements for enclosures. In
+Canada,thisrequirementdoesnotapply.
+9.2 Sheetmetalcabinets
+9.2.1 Notches
+9.2.1.1 The front flange of each of the two side walls of a Type 1 enclosure intended for use with a
+panelboard may have one notch to accommodate means for installing the cover. Each notch shall not be
+morethan17.5mm(11/16inch)wide.
+9.2.2 Slotandtabfastenings
+9.2.2.1 Slotandtabfastenings,consistingofasmallcutoutontheinnerflangesurfaceandatabcreated
+by pushing in a small segment of metal from the overlapping flange, are considered as an acceptable
+fastening only when used in Type 1 enclosures and are used in combination with a rivet, weld, bolt, or
+screwhavingmachinescrewthreadsinatleastoneofthefollowinglocationsoneachlengthofaflange:
+a)Atthebackedgeoftheenclosure,providedthatthedistancebetweenthefastenings (including
+theslotandtabfastenings)complywith6.4.2.5;or
+b)Joiningadjacentsides,includingatoporbottomside,tocomplywith6.4.2.3,exceptthatarivet,
+weld, bolt or screw having machine screw threads shall be used to secure the front edge of the
+enclosureinaccordancewith6.4.2.3and6.4.2.4.
+9.2.3 Boxandcover(Alternativetoconstructionrequirement)
+9.2.3.1 Alternative to the construction requirements of 6.7.6.3, a box and cover shall be permitted to be
+unflanged if the combination complies with the Cover Pull Test described in 8.12 and the Side Wall
+DeflectionTestdescribedin8.13.
+9.2.3.2 WhenthesecabinetsandcutoutboxesareratedotherthanType1,theapplicableenvironmental
+testsshallbeconductedwiththesamesampleafterithascompletedtestsin8.12and8.13.
+10 JunctionandPullBoxes
+10.1 General
+10.1.1 In Mexico and the United States, the requirements in 10.1 to 10.9 apply. In Canada, these
+requirementsdonotapply.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 54 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+50 50 FEBRUARY29,2024
+10.1.2 In addition to the requirements in 10.2 to 10.9, a junction or pull box shall comply with the
+requirements for enclosures. However, the requirements in 10.2 to 10.9 shall supersede equivalent
+requirementsforenclosures.
+10.1.3 Ajunctionorpullboxshallnotincludeventilationopenings.
+10.2 Coversanddoors
+10.2.1 Ajunctionorpullboxcovershallhavenodoorandshallbesecuredtotheboxbyscrews,bolts,or
+theequivalent.
+10.3 Conduitopenings
+10.3.1 Other than as permitted by 10.3.2 and 10.3.3, a junction or pull box provided with one or more
+integralconduithubs,for3/4tradesizeorlarger,shallcomplywiththefollowing:
+a) The inside dimensions of the box between opposite walls shall not be less than eight times the
+diameterofanysizeconduitopeninginsuchwalls;and
+b)Theinsidedimensionoftheboxbetweeneachconduitopeningandtheoppositewallofthebox
+shallnotbelessthansixtimesthediameterofthelargestconduitplusthesumofthediametersof
+allotherconduitopeningsinthesamewallofthebox.
+10.3.2 Ifpermanentbarriersareinstalledinabox,eachsectionshallbeconsideredasaseparatebox.
+10.3.3 Aboxmaybesmallerifmarkedinaccordancewith10.6.4.
+10.3.4 If the conduit opening is in the wall of the box opposite a removable cover, the distance from the
+walltothecovermaybeasspecifiedinTable10.1.
+Table10.1
+DistancefromRemovableCovertoOppositeWallwithRacewayOpening
+Minimumdistance,walltocover
+Tradediameterofracewayopening mm (inches)
+1 63.5 (2-1/2)
+1-1/4 88.9 (3-1/2)
+1-1/2 102.0 (4)
+2 127.0 (5)
+2-1/2 152.0 (6)
+3 203.0 (8)
+3-1/2 254.0 (10)
+4 254.0 (10)
+4-1/2 305.0 (12)
+5 305.0 (12)
+6 305.0 (12)
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 55 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 51
+10.4 Equipmentgrounding
+10.4.1 Other than aspermitted in10.4.2 and10.4.3,a junctionor pullboxshall beprovided withmeans
+forconnectionofanequipment-groundingconductor.
+10.4.2 Ajunctionorpullboxthatismarkedinaccordancewith10.6.1or10.6.2neednotbeprovidedwith
+meansforconnectionofanequipmentgroundingconductor.
+10.4.3 Acastmetaljunctionorpullboxneednotbeprovidedwithmeansforconnectionofanequipment
+groundingconductor.
+10.4.4 Anequipmentgroundingterminalorterminalassemblyandassociatedpartsshallbeofametalor
+metalsthatarenotlikelytobeadverselyaffectedinservicebyelectrolysis.
+10.4.5 Metalemployedforanequipmentgroundingterminalshallbenonferrous,stainlesssteel,orother
+metal thatis inherently resistantto corrosion,or it shallbe protectedby a coatingof zinc orcadmium that
+complieswiththemetalliccoatingthicknesstestdescribedinAnnexB,Ref.No.8.
+10.4.6 A protective coating of zinc or cadmium on other than a mounting screw or wire-binding screw
+shallbesuchthatitwillwithstandthemetalliccoatingthicknesstestfortheintervalspecifiedinTable10.2.
+Table10.2
+MetallicCoatingThicknessTest
+Temperature Time,seconds
+°C (°F) Zinc Cadmium
+18.3 (65) 106 78
+21.1 (70) 102 76
+23.9 (75) 98 72
+26.7 (80) 94 70
+29.4 (85) 90 68
+32.2 (90) 86 64
+35.0 (95) 84 62
+10.4.7 A pressure wire connector employed at an equipment grounding terminal shall comply with the
+requirementsofAnnexB,Ref.No.14,exceptthat:
+a)Itmaybeofironorsteel;
+b)Itneednotcomplywiththerequirementsforthetemperaturetest;and
+c)Asingleopeningoftheconnectorisconsideredtobeacceptableforonlyone8AWG(8.4mm2)
+orlargerconductorandfornotmorethanthree10AWG(5.3mm2)orsmallerconductors.
+10.4.8 Wheninstalledasintended,anequipmentgroundingterminalshall:
+a)Provideareliablebondtotheenclosure;and
+b) Be such that the resistance of the connection between an installed equipment grounding
+conductorandtheenclosureisnotmorethan0.005Ω.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 56 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+52 50 FEBRUARY29,2024
+10.4.9 To determine if a connection complies with the requirements in 10.4.8(b), a current of 30 A shall
+bepassedthroughthebondingconnection.Theresultingvoltagedropshallbemeasuredbetweenapoint
+(file mark) on the conductor 1.6 mm (1/16 inch) from the connection and a similar point on the enclosure
+notlessthan1.6mm(1/16inch)fromthebondingconnection.
+10.4.10 Other than as permitted by 10.4.11, an equipment grounding terminal or assembly shall be
+greenortheheadsoftheterminalscrewsthereonshallbegreen.
+10.4.11 The color identification specified in 10.4.10 is not required to be provided when the equipment
+grounding terminal or assembly is identified by the marking "Equipment Grounding Terminal" or an
+equivalent abbreviation, or the symbol (from IEC Publication 60417, Symbol 5019), adjacent to the
+terminaloronawiringdiagram.
+10.4.12 A tapped hole provided for a grounding screw shall have a minimum of two full threads or shall
+complywith10.4.13.
+10.4.13 Thethreadsofholesprovidedinaboxforattachmentofagroundscrewhavingfewerthan2full
+threads shall not strip when a No. 8 screw is tightened to a torque of 2.26 N·m (20 lbf-in), or a No. 10
+screw is tightened to a torque of 3.96 N·m (35 lbf-in). During the test, a plated flat steel washer of a size
+appropriate for the screw shall be centered under the head of the screw. Holes having at least two full
+threadsarenotrequiredtobetested.
+10.4.14 WirebindingscrewsofequipmentgroundingterminalsshallcomplywithAnnexB,Ref.No.18.
+10.5 Removablesides
+10.5.1 A junction or pull box may have, in addition to the cover, one or more removable sides. The
+fasteningsforthesesidesshallcomplywiththerequirementsin6.4.2.
+10.6 Markingdetails
+10.6.1 A junction or pull box that is not provided with a means of terminating equipment grounding
+conductorsandthatdoesnothaveameansforthefieldinstallationofanequipmentgroundingassembly,
+see10.6.2,shallbemarkedtoindicatethatthejunctionorpullboxshallbeusedinaninstallationinwhich
+equipmentisgroundedbyconnectiontometalracewayormetalliccablesheaths.
+10.6.2 Other than as permitted by 10.6.3, if an equipment grounding terminal or terminal assembly is
+intended for field installation, the junction or pull box in which the terminal or assembly is intended to be
+usedshallbemarkedtoindicate:
+a)Thecatalogortypenumberoftheterminalorassemblyintendedtobeusedtherein;and
+b)Properinstallationinstructionsandinformationstatingthewiresizeofterminalsavailable.
+10.6.3 The information required by 10.6.2 may be provided on or in the individual shipping package or
+cartonoftheterminalorterminalassemblyinsteadofonthebox.
+10.6.4 Ajunctionorpullboxthatissmallerthanrequiredby10.3.1(see10.3.2)shallbemarkedwiththe
+following:
+“When used as a pull box, installation shall be in accordance with Section 370-28 of Mexico’s Electrical
+Installations,NOM-001-SEDE,andSection314.28oftheNationalElectricalCode,NFPA70.”
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 57 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 53
+10.6.5 Junction and pull boxes with a volume of less than 1640 cm3 (100 in3) shall be marked with the
+enclosurevolumeinaccordancewith10.8.1.
+10.7 Airhandlingspaces
+10.7.1 General
+10.7.1.1 Nonmetallic junction and pull boxes intended to enclose only wires, barriers, or terminals as
+allowed by Section 300.22(C) of the National Electrical Code, intended to be installed in air-handling
+spaces shall additionally comply with the requirements in the Standard for Fire Test for Heat and Visible
+SmokeReleaseforDiscreteProductsandTheirAccessoriesInstalledinAir-HandlingSpaces,UL2043.
+Note:Productsevaluatedinaccordancewiththeserequirementsareconsideredtocomplywith thefireretardantandlowsmoke
+producingrequirementsofSection300.22(C)(3)ofNFPA70,Chapter4ofNFPA90A,Section602oftheInternationalMechanical
+Code,andSection602oftheUniformMechanicalCode.
+10.7.2 Markings
+10.7.2.1 A junction or pull box intended for installation in air handling spaces and complying with 10.7.1
+shall be marked as appropriate, ″Suitable for Use In Air Handling Spaces Only When Containing Wiring
+Methods andAccessories as Allowed in Section 300.22(C) of the National Electrical Code″, orequivalent
+wording.
+10.8 Volume
+10.8.1 A junction or pull box with an internal volume of less than 1640 cm3 (100 in3) shall be marked in
+accordance with 10.6.5 and the internal volume measured by test in accordance with 10.9 or by another
+equivalentmeans.
+10.9 Performance
+10.9.1 Volumemeasurementofboxes
+10.9.1.1 Each box with an internal volume of less than 1640 cm3 (100 in3) shall hold a volume of water
+equal to or greater than the marked volume when three samples are tested in accordance with this
+Clause.
+10.9.1.2 All separable cable clamps, fixture/luminaire studs, grounding conductors, internal screws, and
+other internal accessories shall be removed. Any projections that extend outside the plane of the open
+face of a box, such as ears for mounting a cover or a flush device, shall be ground flush with the face of
+thebox.
+10.9.1.3 All large openings shall be closed by flat, rigid plates clamped in place across the openings.
+Oneoftheplatesshallcontaintwosmallholes,onefortheentranceofwaterandtheotherforventingair.
+SeeFigure10.1andFigure10.2.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 58 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+54 50 FEBRUARY29,2024
+Figure10.1
+VolumeMeasurement
+Figure10.2
+VolumeMeasurement,Cast-MetalBoxes
+10.9.1.4 Usingmodelingclay,putty,glazingcompound,orsimilarmaterial:
+a) Holes through the side or bottom of the sample and a hole between the sample and the plate
+specifiedin10.9.1.3shallbefilledflushwiththeinsidesurface.
+b)Internalhubs,whentappedthrough,shallbefilledflushwiththeendofthehub.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 59 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 55
+c)Openingsthatarebushedshallbefilledflushwiththeconduitstop.
+10.9.1.5 A clean, graduated vessel, pipette, or the equivalent, having a volume equal to or greater than
+the marked volume of the test sample, shall be filled with water at room temperature, and the volume of
+the water shall be measured. The water shall then be transferred from the vessel to the test sample
+through the hole in the plate as specified in 10.9.1.3 until the test sample is filled. The difference in the
+volumeofwaterinthesupplyvessel,asmeasuredbeforeandafterthefillingofthetestsample,indicates
+thevolumeofthetestsample.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 60 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+56 50 FEBRUARY29,2024
+ANNEXA(Normative)–STANDARDSFORCOMPONENTS
+A1.1 TheANCE,CSAGroup,andULStandardslistedbelowareusedforevaluationofcomponentsand
+features of products covered by this standard. Components need only comply with the applicable
+componentstandardacceptableinthecountrywheretheproductistobeused.Thesestandardsshallbe
+consideredtorefertothelatesteditionandallrevisionspublishedtothatedition.
+A1.2 Standardsunderwhichcomponentsoftheproductscoveredbythisstandardareevaluatedinclude
+thefollowing:
+ANCEStandards
+NMX-J-017-ANCE,Conduit,TubingandCableFittings
+NMX-J-023/1-ANCE,MetallicOutletBoxes
+NMX-J-515-ANCE,IndustrialDistributionandControlEquipment
+CSAGroupStandards
+C22.1,CanadianElectricalCode,PartI
+C22.2No.0.15,AdhesiveLabels
+CSAC22.2No.0.17,EvaluationofPropertiesofPolymericMaterials
+C22.2No.18.3,Conduit,Tubing,andCableFittings
+C22.2No.41,GroundingandBondingEquipment
+ULStandards
+UL94,TestsforFlammabilityofPlasticMaterialsforPartsinDevicesandAppliances
+UL467,GroundingandBondingEquipment
+UL514B,Conduit,TubingandCableFittings
+UL746C,PolymericMaterials–UseinElectricalEquipmentEvaluations
+UL969,MarkingandLabelingSystems
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 61 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 57
+ANNEXB(Normative)–REFERENCESTANDARDS
+Ref. ClauseNo. Canada Mexico UnitedStates
+No.
+1 6.2.2 NoEquivalent.Forguidance, EnclosuresforElectrical PolymericMaterials–Usein
+refertoClause4.2.5.8inCSA Equipment,Non- ElectricalEquipment
+C22.2No.14Industrial Environmental Evaluations,UL746C
+ControlEquipment Considerations,UL50,Annex
+G
+2 6.6.1.1(a), CSAC22.2No.14,Industrial EnclosuresforElectrical PolymericMaterials–Usein
+6.6.1.3(a)(2), ControlEquipment,Clause Equipment,Non- ElectricalEquipment
+6.6.1.3(b)(2) 6.15.2 Environmental Evaluations,UL746C
+Considerations,UL50,Annex
+G
+3 6.6.1.1(b), CSAC22.2No.14,Industrial EnclosuresforElectrical PolymericMaterials–Usein
+6.6.1.3(b)(1)& ControlEquipment,Clause Equipment,Non- ElectricalEquipment
+(2),E2.3.4.1.1, 6.15.3andClause6.15.4, Environmental Evaluations,UL746C
+F2.3.2,F2.3.3, respectively Considerations,UL50,Annex
+F2.3.4,F2.3.5 G
+4 6.6.1.3 CSAC22.2No.0.17, NMX-J-565/3-ANCE, TestsforFlammabilityof
+EvaluationofPropertiesof FlammabilityofPlastic PlasticMaterialsforPartsin
+PolymericMaterials MaterialsforPartsinDevices DevicesandAppliances,UL
+andAppliances 94
+5 6.10.5.1,6.11.3 CSAC22.2No.18.3,Conduit, NMX-J-017-ANCE,Conduit, Conduit,TubingandCable
+Tubing,andCableFittings TubingandCableFittings Fittings,UL514B
+6 1.5,6.6.3.1, CSAC22.2No18.2, NoEquivalent Non-MetallicOutletBoxes,
+6.10.5.1 NonmetallicOutletBoxes Flush-DeviceBoxesand
+Covers,UL514C
+7 6.10.4.1 CSAC22.2No.0.5,Threaded NoEquivalent NoEquivalent
+ConduitEntries
+8 10.4.5 NoEquivalent NoEquivalent ASTMB555-86(R2002),
+StandardGuidefor
+Measurementof
+ElectrodepositedMetallic
+CoatingThicknessBythe
+DroppingTest
+9 6.1.5 NoEquivalent NoEquivalent TestsforSharpnessofEdges
+onEquipment,UL1439
+10 4.2 CSAC22.2No.0,General NoEquivalent NoEquivalent
+Requirements–Canadian
+ElectricalCode,PartII,CSA
+C22.2No.0.4,Bondingof
+ElectricalEquipment;CSA
+C22.2No.0.5,Threaded
+ConduitEntries
+11 1.6 CSAC22.2No.89, NoEquivalent JunctionBoxesforSwimming
+Swimming-PoolLuminaires, PoolLuminaires,UL1241
+SubmersibleLuminaires,and
+Accessories
+12 1.4 CSAC22.2No.40,Cutout, NMX-J-235/1-ANCE, EnclosuresforElectrical
+Junction,andPullBoxes EnclosuresforElectrical Equipment,Non-
+Equipment,Non- Environmental
+EnvironmentalConsiderations Considerations,UL50
+13 1.5 CSAC22.2No.18.1,Metallic NMX-J-023/1-ANCE,Metallic MetallicOutletBoxes,UL
+OutletBoxes OutletBoxes 514A
+14 10.4.7 CSAC22.2No.41,Grounding NoEquivalent GroundingandBonding
+andBondingEquipment Equipment,UL467
+15 1.2,6.1.10, CSAC22.2No.94.2, NMX-J-235/2-ANCE, EnclosuresForElectrical
+6.3.1.1,6.3.4.3 EnclosuresForElectrical EnclosuresForElectrical Equipment,Environmental
+Equipment,Environmental Equipment,Environmental Considerations,UL50E
+Considerations Considerations
+16 6.2.5,6.2.6, AnnexE NoEquivalent PolymericMaterials–Usein
+6.6.1.5and ElectricalEquipment
+6.6.1.6 Evaluations,UL746C
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 62 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+58 50 FEBRUARY29,2024
+Ref. ClauseNo. Canada Mexico UnitedStates
+No.
+17 5.5and5.7 C22.1,CanadianElectrical NOM-001-SEDE, NFPA70,NationalElectrical
+Code InstalacionesElectricas Code
+(utilizacion)
+18 10.4.12 NoEquivalent MetallicOutletBoxes,NMX-J- MetallicOutletBoxes,UL
+023/1-ANCE 514A
+19 E2.3.3.1 CSAC22.2No.60065,Audio, NoEquivalent Audio,Video,andSimilar
+VideoandSimilarElectronic ElectronicApparatus–Safety
+Apparatus,Clause12.1.3 Requirements,UL60065,
+Clause12.1.3
+20 E2.2.6.3 ASTMStandardG155, NoEquivalent ASTMStandardG155,
+StandardPracticefor StandardPracticefor
+OperatingXenonArcLight OperatingXenonArcLight
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 63 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 59
+ANNEXC(Normative–USOnlyRequirement)–MARKING
+C1 Markingformultiplemanufacturinglocations
+C1.1 If a manufacturer produces or assembles enclosures at more than one factory, each enclosure
+shall have a distinctive marking by which it may be identified as the product of a particular factory. If the
+frontisshippedseparatelyfromthebodyoftheenclosure,thenboththefrontandthebodyshallbearthis
+marking.
+C2 Componentsinenclosures(USrequirements)
+C2.1 Other than as permitted by C2.1.1, factory-installed parts such as neutral terminals, equipment-
+grounding terminals, partitions, barriers, or similar parts in an enclosure shall be judged under the
+requirementsofthisstandardandamarkingontheenclosureshallidentifytheseparts.
+C2.1.1 An enclosure need not be marked to identify such factory-installed parts as neutral terminals or
+equipment-groundingterminalsiftheenclosureismarkedforusewithotherequipment.
+C2.1.2 An enclosure containing components other than metal mounting brackets or studs, or
+componentsinaccordancewithC2.1andC2.1.2shallbemarked:
+a) Investigation of the enclosure (or cabinet box, cutout, junction or pull box) does not include
+investigationofanyequipmentormaterialcontainedtherein;or
+b) Investigation of the enclosure (or cabinet box, cutout box, junction or pull box) covers the
+enclosureonly.
+C2.1.3 An enclosurenotcontaining anyoftheitemsmentionedin C2.1andC2.1.2need notbemarked
+withanysupplementaryinformation.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 64 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+60 50 FEBRUARY29,2024
+ANNEXD(Informative)–KNOCKOUTDIMENSIONS
+TableD.1
+KnockoutDimensions
+Knockoutdiameter
+mm(inches)
+Minimum Nominal Maximum
+Conduittrade
+size mm (inch) mm (inch) mm (inch)
+1/2 21.82 (0.859) 22.23 (0.875) 23.01 (0.906)
+3/4 27.79 (1.094) 28.17 (1.109) 28.98 (1.141)
+1 34.52 (1.359) 34.93 (1.375) 35.71 (1.406)
+1-1/4 43.66 (1.719) 44.04 (1.734) 44.86 (1.766)
+1-1/2 49.73 (1.958) 50.39 (1.984) 51.21 (2.016)
+2 61.80 (2.433) 62.71 (2.469) 63.50 (2.500)
+2-1/2 74.12 (2.918) 75.41 (2.969) 76.20 (3.000)
+3 90.50 (3.563) 91.29 (3.594) 93 (3.661)
+3-1/2 103.20 (4.063) 104.78 (4.125) 106 (4.173)
+4 115.90 (4.563) 117.88 (4.641) 119 (4.685)
+5 142.88 (5.625) 145.26 (5.719) 147 (5.787)
+6 170.18 (6.700) 173.05 (6.813) 175 (6.890)
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 65 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 61
+ANNEXE(Normative)–ADHESIVES,ENCLOSURES,NON-MECHANICALMEANSOF
+SECUREMENT
+E1 General
+E1.1 This Annex is applicable to enclosures relying on adhesives to maintain enclosure integrity or as
+solemeansofassemblysecurement ofassociatedcomponents,suchascovers,plugs,windows,hinges,
+locks,clasps,mountingpanels,andconduithubs.
+E1.2 This Annex does not apply to the use of adhesives as the sole mechanical means of securing any
+conductiveparts.
+E1.3 Associated components necessary for compliance with enclosure requirements shall not be
+securedsolelybyadhesives,unlesstheadhesivecomplieswiththetestsofClauseE2.
+E2 Tests
+E2.1 General
+E2.1.1 TheadhesiveagingtestslistedinE2.2shallbeperformed,asapplicable,foreachcombinationof
+adhesivesandmaterialsbondedbytheadhesive.
+E2.1.2 The testsamples shallbe actual productionenclosures or, where necessary to performthe tests
+describedbelow, consistoftestspecimens thatapproximate theadhesivebond withrespecttomaterials,
+length,shapeandapplication.
+E2.1.3 Immediately after the adhesive aging tests, the samples shall be tested for mechanical and
+environmentaltests.
+E2.2 Adhesiveagingtestsequence
+E2.2.1 General
+E2.2.1.1 Each sample shall be subjected to the accelerated aging test sequence of E2.2.2 to E2.2.6 as
+applicable.
+E2.2.2 Pre-conditioning
+E2.2.2.1 Alltestspecimensshallbepreconditionedat23°C±2°Candarelativehumidityof50±5%for
+atleast24h.
+E2.2.3 Agingbyincreasedtemperature
+E2.2.3.1 Alltestspecimensshallbeplacedinanaircirculatingovenat:
+a)100°C±1°Cfor168hours,or
+b)82°C±1°Cfor1,344hours.
+E2.2.4 Agingbylowtemperaturecycling
+E2.2.4.1 AdhesivesthatbondmetalsurfacesshallbetestedinaccordancewithE2.2.4.2.
+E2.2.4.2 The test specimen shall be placed in a freezer at a temperature of minus 40 °C ±5 °C for a
+periodof4±0.25h.Thetestspecimenshallthenberemovedfromthefreezerandplacedat23°C±2°C
+temperature for 16 ±0.5 h. The test specimen shall then be returned to the freezer at a temperature of
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 66 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+62 50 FEBRUARY29,2024
+minus 40 °C ±5 °C for a further period of 4 ±0.25 h and then removed from the freezer and placed at
+normalroomtemperature(23±5°C)foratleast24h.
+E2.2.5 Heat-cold-humiditycycling
+E2.2.5.1 Adhesives that join polymeric surfaces or a combination of polymeric and metal surfaces shall
+betestedinaccordancewithE2.2.5.2.
+E2.2.5.2 Thetestspecimenshallbesubjectedtoheat-cold-humiditycycling,asfollows:
+a) The test specimen shall be placed vertically in a forced-air oven at an elevated temperature of
+100 °C for a plastic application surface, and 80 °C for other applications, for a period of 168 ±1 h,
+andthenallowedtoreturntonormalroomtemperature(23±5°C)foratleast24h.
+b) The test specimen shall then be placed in a freezer at minus 40 ±5 °C for 2 h and then be
+removedfromthefreezerandallowedtoreturntonormalroomtemperature(23±5°C)foratleast
+1h.
+c) The test specimen shall be placed in a humidity cabinet at 40 ±2 °C and 95 ±5 % relative
+humidityfor3handthen allowedtoreturn tonormalroomtemperature(23 ±5°C) foratleast1h.
+Testing shall be repeated in accordance with (a) to (c) for a total of three cycles, except that the
+timedurationof(a)shallbereducedto3hinthesecondandthirdcycles.
+Attheendofthethirdcycle,thetestspecimenshallbeplacedatnormalroomtemperature(23±5°C)for
+atleast24hbeforefurtherevaluation.
+E2.2.6 Agingbyexposuretoenvironmentalconditions
+E2.2.6.1 General
+E2.2.6.1.1 ThetestspecimenshallbesubjectedtothehumiditycyclingtestofE2.2.6.2andE2.2.6.3.
+Note:TestsinE2.2.6.3arenotrequiredwheretheadhesiveisnotexposedtosunlightorothersourcesofultra-violetradiation.
+E2.2.6.2 Agingbyhumidity
+E2.2.6.2.1 Thetestspecimenshallbeplacedverticallyinahumiditycabinetatatemperatureof40±2°C
+andarelativehumidityof95±5%foraperiodof72±0.5h.Thetestspecimenshallthenberemovedfrom
+thecabinetandplacedatnormalroomtemperature(23±5°C)foratleast24hbeforefurthertesting.
+E2.2.6.3 Agingbyexposuretosunlight
+E2.2.6.3.1 All the test specimens shall be subjected to xenon arc light for 250 ±2 h in accordance with
+ASTM Standard G 155, Cycle 1. The apparatus shall be operated without water spray, but with humidity
+control at 30 %, at 0.35W/m2 at 340 nm. The black panel temperature shall be 63 °C +2.5 °C. The inner
+and outer filters shall be borosilicate glass, simulating natural daylight throughout the actinic region. The
+test specimen shall then be removed from the cabinet and placed at normal room temperature (23 °C
+±5°C)foratleast24hbeforefurthertesting.
+E2.3 Mechanicaltests
+E2.3.1 General
+E2.3.1.1 After the adhesive aging tests of E2.2.2 to E2.2.6, the effectiveness of the adhesive shall be
+verified by subjecting the specimen to the mechanical tests required by the end-product standard, or,
+where no equivalent mechanical test is required in the end-product standard, the tests of E2.3.2 – E2.3.4
+shallbeapplied.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 67 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 63
+E2.3.2 Resistancetoexternalforces
+E2.3.2.1 Except as provided by E2.3.3, a test force in accordance with E2.3.2.2 or E2.3.2.3 shall be
+appliedtothespecimeninadirectionthatwillhavethegreatesttendencytoseparatetheadhesivejoint.
+E2.3.2.2 For a cover or door or the like, the test force shall be in accordance with the Crushing
+ResistanceTestin8.10.
+E2.3.2.3 For a hinge, lock, clasp, or support of a hanging part, the test force shall be four times the
+weight of the door or cover supported by such a hinge, lock or cover or four times the weight of the
+supportedpart.
+E2.3.3 Vibrationtest
+E2.3.3.1 Parts not capable of being subjected to the Resistance to External Forces Test, E2.3.2, due to
+size,shapeorapplication,shallbesubjectedtoaVibrationTestasspecifiedinAnnexB,Ref.No.19.
+E2.3.3.2 The apparatus is fastened in its intended positions of use to the vibration-generator by means
+ofstrapsaroundtheenclosure.Thedirectionofvibrationisvertical,andtheseverityis:
+a)Duration30min.
+b)Amplitude0.35mm.
+c)Frequencyrange10Hzto55Hzto10Hz.
+d)Sweeprateapproximately1octave/min.
+E2.3.3.3 Thetestshallbeconsideredsuccessfulif,attheconclusion,noneofthefollowingoccur:
+a)Connectionorpart,thelooseningofwhichmightimpairsafety,haveloosened;
+b)Breakage,cracking,ruptureandthelike,produceanadverseeffectontheadhesive;
+c) Creation of an opening that would prevent the enclosure from complying with the environment
+testsapplicableforitsTyperating;and
+d)Anyotherconditionthatwouldincreasethelikelihoodofelectricshockorfire,orboth,duringuse
+oftheequipment.
+E2.3.4 Resistancetoimpacttest
+E2.3.4.1 General
+E2.3.4.1.1 TheoverallenclosureandallobservationwindowsshallcomplywiththeResistancetoImpact
+TestspecifiedinAnnexB,Ref.No.3.
+Toapplytherequiredimpactenergy,thecorrectheightiscalculatedbyh=E/(gxm),where:
+histheverticaldistanceinmeters,
+EistheimpactenergyinJoules,
+gisthegravitationalaccelerationof9.91m/s2
+misthemassofthesteelballinkilograms.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 68 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+64 50 FEBRUARY29,2024
+ANNEXF(Informative)–ENDPRODUCTCONSIDERATION
+F1 General
+F1.1 The requirements of this annex apply to the enclosures of electrical equipment in which the end
+productincludestheenclosure,electricalcomponents,orothercomponentsorfeaturesnotaddressedby
+theothersectionsofthisstandard.
+F2 EncapsulatedProducts
+F2.1 Definitions
+F2.1.1 ENCAPSULANT–amaterialthatleavesnointernalfreevolumetotheenclosureorportionofthe
+enclosure, adheres to and completely surrounds all components or devices in the enclosure or portion of
+theenclosure,andissolidinitscuredstate.
+F2.2 Construction
+F2.2.1 Accessible surfaces of an encapsulant that serves as an enclosure or part of an enclosure shall
+complywith6.6.1withthefollowingexceptionsormodifications.
+F2.2.2 AnencapsulantisnotrequiredtobeclassedHB,V-2,V-1,V-0,5VBor5VAandisnotrequiredto
+complywiththeFlammability–5inch(127mm)flametest.
+F2.2.3 In lieu of the conditioning required for the resistance to impact (both normal and cold) test, the
+numberofsamplesandconditioningshallbeasrequiredinF2.3.1.
+F2.2.4 Therequirementsof8.6arenotapplicable.
+F2.2.5 Themoldstressrelieftest,8.11,isnotapplicable.
+F2.2.6 Therequirementsof6.6.1.2arenotapplicable.
+F2.2.7 Therequirementsof6.6.1.4arenotapplicable.
+F2.3 Tests
+F2.3.1 In lieu of the conditioning required for the resistance to impact (both normal and cold) test, the
+number of samples and conditioning shall be as required in F2.3.2 – F2.3.5 prior to the resistance to
+impacttest.
+F2.3.2 Three representative samples employing the encapsulating material applied as intended in the
+end use shall be tested. The test samples shall be mounted as intended. Each assembly shall be
+conditioned for 1000 hours at the oven temperature taken from the respective thermal-endurance-profile
+lineinFigureF2.1,wherethetemperatureindexTisthemaximumsurfacetemperatureoftheencapsulant
+seen during normal operation, but not less than 70 °C (140 °F). Following the conditioning, each sample
+shall be examined for cracking and hardening of the encapsulating material and loss of adherence
+between the encapsulating material and enclosure. There shall be no visible cracking or loss of
+adherence.Thesamplesshallthen besubjecttotheResistancetoimpacttestspecifiedinAnnexB,Ref.
+No.3.
+F2.3.3 Three representative samples employing the encapsulating material applied as intended in the
+end use shall be tested. The test samples shall be mounted as intended. Each assembly shall be
+conditioned at a temperature of 0 °C for indoor rated enclosures and minus 35 °C for outdoor rated
+enclosuresorthemanufacturer’slowestdeclaredoperatingtemperature,whicheverislower,incirculating
+airfor24hours.Followingtheconditioning,eachsampleshallbeexaminedforcrackingandhardeningof
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 69 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 65
+the encapsulating material and loss of adherence between the encapsulating material and enclosure.
+There shall be no visible cracking or loss of adherence. The samples shall then be subject to the
+ResistancetoimpacttestspecifiedinAnnexB,Ref.No.3.
+F2.3.4 Three representative samples employing the encapsulating material applied as intended in the
+end use shall be tested. The test samples shall be mounted as intended. Each assembly shall be
+conditioned 7 days at 95 – 100 percent relative humidity at 60.0 ±1.0 °C (140.0 ±1.8 °F). Following the
+conditioning,eachsampleshallbeexaminedforcrackingandhardeningoftheencapsulatingmaterialand
+lossofadherencebetweentheencapsulatingmaterialandenclosure.Thereshallbenovisiblecrackingor
+loss of adherence. The samples shall then be subject to the Resistance to impact test specified in Annex
+B,Ref.No.3.
+F2.3.5 Three representative samples employing the encapsulating material applied as intended in the
+end use shall be tested. The test samples shall be mounted as intended. Each assembly shall be
+subjectedto threecomplete cycles oftheconditioning indicated inTable F2.1.Followingthe conditioning,
+each sample shall be examined for cracking and hardening of the encapsulating material and loss of
+adherencebetweentheencapsulatingmaterialandenclosure.Thereshallbenovisiblecrackingorlossof
+adherence.Thesamplesshallthen besubjecttotheResistancetoimpacttestspecifiedinAnnexB,Ref.
+No.3.
+TableF2.1
+CyclingConditions
+Forindoorend-useapplication Foroutdoorend-useapplications
+24hoursatTfollowedimmediatelybyatleast96hoursat35.0 Aminimumof24hoursat25.0±2.0°C(77.0±3.6°F)95–100
+±2.0°C(95.0±3.6°F),90percentrelativehumidity,followedby percentrelativehumidity;followedimmediatelyby24hoursatT
+8hoursat0.0±2.0°C(32.0±3.6°F). followedimmediatelybyatleast96hoursat35.0±2.0°C(95.0
+±3.6°F),90percentrelativehumidity;followedby8hoursat
+minus35.0±2.0°C(minus31.0±3.6°F).
+Note:Tisthemaximumnormaloperatingtemperature,butnotlessthan70°C(158°F).
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 70 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+66 50 FEBRUARY29,2024
+FigureF2.1
+ConditioningTimeVersusOvenTemperatureIndexofEncapsulants
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 71 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 67
+ANNEXG(Normative–MexicoOnlyRequirement)–RESISTANCETOIMPACT
+G1 General
+G1.1 The equipment shall withstand the impact described in G2.1 or G2.2, whichever is applicable.
+Equipment intended for outdoor and indoor equipment intended for use in cold locations shall be
+conditionedasdescribedinClauseG3andsubjecttothetestinG2.1orG2.2,whicheverisapplicable.
+G2 ResistancetoImpactTest
+G2.1 Hand-supportedequipment
+G2.1.1 Hand-supported equipment shall be subjected to the drop impact test described in G2.1.2 and
+G2.1.3.
+G2.1.2 Each of three samples of the equipment is to be dropped through 0.91 m (3 ft) to strike a
+hardwood surface in the position most likely to produce adverse results. The hardwood surface is to
+consistofalayerofnominal25mm(1inch)tongue-and-grooveoakflooring[actualsize18by57mm(3/4
+by2-1/4inch)]mountedontwolayersofnominal19mm(3/4inch)plywood.Theassemblyistorestona
+concretefloororanequivalentnon-resilientfloorduringthetest.
+G2.1.3 Eachsampleistobedroppedthreetimessothat,ineachdrop,thesamplestrikesthesurfacein
+a position different from those in the other two drops. Three samples shall be employed for the test;
+however, if the manufacturer so elects, fewer samples may be used in accordance with Figure G2.1. The
+overall performance is acceptable upon completion of any one of the procedures represented in Figure
+G2.1. If any sample does not comply on its first series of three drops, the results of the test are
+unacceptable.
+FigureG2.1
+Proceduresforimpacttests
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 72 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+68 50 FEBRUARY29,2024
+G2.2 Permanentlywiredequipment,orfloor-supportedequipment
+G2.2.1 Permanently wired equipment, or floor-supported equipment or equipment not likely to be
+dropped during intended use – such as counter-supported equipment – shall be subjected to the ball
+impacttestdescribedinG2.2.2.
+G2.2.2 Each of three samples of the appliance shall be subjected to a single impact of thevalue shown
+in Table G2.1 for the applicable equipment type, on any surface that can be exposed to a blow during
+intended use. This impact is to be produced by dropping a steel sphere, 50.8 mm (2 inches) in diameter,
+andweighing0.535kg±10g(1.18lb)massfromtheheightnecessarytoproducethespecifiedimpactas
+shown in Figure G2.2. The steel sphere shall strike the surface in a location different from those in the
+othertwoimpacts.Forsurfacesotherthanthetoponanenclosure,eitherthesamplecouldbesupported
+onthesideandsubjectedtotheballimpactmentionedabove,orthesteelsphereistobesuspendedbya
+cord and swung as a pendulum, dropping through the vertical distance necessary to cause it to strike the
+surfacewiththespecifiedimpactasshowninFigureG2.2.Threesamplesshallbeemployedforthetests
+intheequipmentrestrainedmode.However,ifthemanufacturersoelects,fewersamplesmaybeusedin
+accordance with Figure G2.1. The overall performance is acceptable upon completion of any one of the
+sequencesrepresentedinFigureG2.1.
+TableG2.1
+BallImpactTest
+Easilymovedequipment
+Countersupporteda,b Floorsupportedc Allotherequipment
+Joules(foot-pounds) Joules(foot-pounds) Joules(foot-pounds)
+1.02(0.75) 6.8(5.0) 6.8(5.0)
+aIndividualproductrequirementsmayrequireahigherlevelofimpactresistance.
+bCounter-supportedequipmentisthatwhichistypicallysupportedbyacounter,table,orbenchduringtheperformanceofits
+intendedelectricallyoperatedfunctions.Referenceistobemadetothespecificequipment’sUseandCareLiteraturein
+establishingtheintendedelectricallyoperatedfunctionsoftheequipment.
+cFloor-supportedequipmentisthatwhichistypicallysupportedbythefloorduringtheperformanceofitsintendedelectrically
+operatedfunctions.Referenceistobemadetothespecificequipment’sUseandCareLiteratureinestablishingtheintended
+electricallyoperatedfunctionsoftheequipment.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 73 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 69
+FigureG2.2
+BallImpactTest
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 74 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+70 50 FEBRUARY29,2024
+Where:
+Hindicatestheverticaldistancethespheremusttraveltoproducethedesiredimpact.
+NOTE 1: For the ball-pendulum impact test the sphere is to contact the test sample when the string is in the vertical position as
+shown.
+NOTE2:Thebackingsurfaceistoconsistof19mm(3/4inch)plywoodoverarigidsurfaceofconcrete.Anequivalentnon-resilient
+backingsurfacemaybeused.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 75 ---
+NMX-J-235/1-ANCE-2024♦CSAC22.2No.94.1:24♦UL
+FEBRUARY29,2024 50 71
+G3 ConditioningforEquipmentIntendedforOutdoorUseandIndoorEquipmentIntendedforUse
+inColdLocations
+G3.1 In lieu of conducting the room temperature test described in G2.1 or G2.2, three specimens of
+equipmentintendedforoutdooruseshallbecooledtoatemperatureofminus35.0±2.0°C(minus31.0±
+3.6°F)andmaintainedatthistemperaturefor3hours.Threespecimensofindoorequipmentintendedfor
+use in locations where the temperature may be less than actual room conditions, such as unheated
+warehouses or garages, approximately 23 °C (73 °F), shall be cooled to a temperature of 0.0 ± 2.0 °C
+(32.0 ± 3.6 °F) and maintained at this temperature for 3 hours. While the unit is still cold, the specimens
+shallbesubjectedtotheimpactdescribedinG2.1orG2.2asapplicable.
+G4 ImpactTestResults
+G4.1 AftertheimpacttestinG2.1orG2.2,theequipmentshallnot:
+a)Maketheuninsulatedlivepartsaccessibletocontact(usetheaccessibilityprobeoftheproduct
+standardforthisevaluation),
+b)Produceaconditionthatmightaffectthemechanicalperformanceoftheequipment;or
+c)Produceaconditionthatwouldincreasethelikelihoodofanelectricshock.
+With reference to (b), cracking or denting of the enclosure shall not affect the function of any safety
+controlsorconstructionalfeaturessuchasthermostats,overloadprotectivedevices,waterseals,orstrain
+relief.Crackingordentingoftheenclosureshallnotresultinexposureofmovingpartscapableofcausing
+injurytopersons.
+With reference to (c), the equipment is to comply with the dielectric voltage-withstand requirements
+applicabletotheequipmentafterbeingsubjectedtotheimpact.
+ULSE INC. COPYRIGHTED MATERIAL – NOTAUTHORIZED FOR FURTHER
+REPRODUCTION OR DISTRIBUTION WITHOUT PERMISSION FROM ULSE INC.
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM
+
+--- Page 76 ---
+333 Pfingsten Road
+Northbrook, Illinois 60062–2096
+847.272.8800
+ForotherlocationsintheULfamilyofcompanies,
+pleasevisitUL.com/contact
+Document
+Was
+Downloaded
+By
+Nuria
+Bas
+For
+Use
+By
+SCHNEIDER
+ELECTRIC
+ESPANA
+S
+A
+Bas,
+Nuria
+:
+11/6/2025
+-
+5:41
+AM

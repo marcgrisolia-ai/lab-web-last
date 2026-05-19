@@ -1,0 +1,114 @@
+[
+  {
+    "id": "CAT_ENV",
+    "icon": "🌧️",
+    "title": {
+      "en": "Environmental exposure",
+      "es": "Exposición ambiental",
+      "ca": "Exposició ambiental",
+      "fr": "Exposition environnementale"
+    },
+    "subtitle": {
+      "en": "Water, dust, corrosion, UV, oils — real-world conditions",
+      "es": "Agua, polvo, corrosión, UV, aceites — condiciones reales",
+      "ca": "Aigua, pols, corrosió, UV, olis — condicions reals",
+      "fr": "Eau, poussière, corrosion, UV, huiles — conditions réelles"
+    }
+  },
+  {
+    "id": "CAT_MECH",
+    "icon": "🛠️",
+    "title": {
+      "en": "Mechanical robustness",
+      "es": "Robustez mecánica",
+      "ca": "Robustez mecànica",
+      "fr": "Robustesse mécanique"
+    },
+    "subtitle": {
+      "en": "Impacts, loads, bending, deformation — handling & durability",
+      "es": "Impactos, cargas, flexión, deformación — durabilidad",
+      "ca": "Impactos, cargas, flexión, deformació — durabilitat",
+      "fr": "Chocs, charges, flexion, déformation — durabilité"
+    }
+  },
+  {
+    "id": "CAT_ELEC",
+    "icon": "⚡",
+    "title": {
+      "en": "Electrical safety",
+      "es": "Seguridad eléctrica",
+      "ca": "Seguretat elèctrica",
+      "fr": "Sécurité électrique"
+    },
+    "subtitle": {
+      "en": "Insulation and grounding — safe use",
+      "es": "Aislamiento y puesta a tierra — uso seguro",
+      "ca": "Aislamiento i puesta a terra — uso seguro",
+      "fr": "Isolation et mise à la terre — usage sûr"
+    }
+  },
+  {
+    "id": "CAT_FIRE",
+    "icon": "🔥",
+    "title": {
+      "en": "Fire & heat behavior",
+      "es": "Comportamiento al fuego y calor",
+      "ca": "Comportament al foc i calor",
+      "fr": "Feu & comportement thermique"
+    },
+    "subtitle": {
+      "en": "Heat resistance and flammability — safety in abnormal conditions",
+      "es": "Resistencia al calor e inflamabilidad — seguridad",
+      "ca": "Resistència al calor e inflamabilidad — seguretat",
+      "fr": "Résistance à la chaleur et inflammabilité — sécurité"
+    }
+  },
+  {
+    "id": "CAT_MARK",
+    "icon": "🏷️",
+    "title": {
+      "en": "Marking, appearance & usability",
+      "es": "Marcado, apariencia y usabilidad",
+      "ca": "Marcat, aparença i usabilitat",
+      "fr": "Marquage, apparence & usage"
+    },
+    "subtitle": {
+      "en": "Labels, information, perceived quality — easy to understand and compliant",
+      "es": "Etiquetas, información, calidad percibida — claridad y conformidad",
+      "ca": "Etiquetas, información, qualitat percibida — claridad i conformidad",
+      "fr": "Étiquettes, information, qualité perçue — clarté et conformité"
+    }
+  },
+  {
+    "id": "CAT_ACOU",
+    "icon": "🔊",
+    "title": {
+      "en": "Acoustics & noise",
+      "es": "Acústica y ruido",
+      "ca": "Acústica i soroll",
+      "fr": "Acoustique & bruit"
+    },
+    "subtitle": {
+      "en": "Understand sound levels — for comfort and specification",
+      "es": "Conocer niveles de ruido — confort y especificación",
+      "ca": "Conocer niveles de soroll — confort i especificación",
+      "fr": "Comprendre les niveaux sonores — confort et spécification"
+    }
+  },
+  {
+    "id": "CAT_ASSEMBLY",
+    "icon": "🔩",
+    "title": {
+      "en": "Assembly & operation checks",
+      "es": "Montaje y operación",
+      "ca": "Muntatge i operació",
+      "fr": "Montage & fonctionnement"
+    },
+    "subtitle": {
+      "en": "Practical checks related to use, operation and components",
+      "es": "Comprobaciones prácticas sobre uso, operación y componentes",
+      "ca": "Comprobaciones prácticas sobre uso, operació i componentes",
+      "fr": "Vérifications pratiques liées à l’usage et aux composants"
+    }
+  }
+]

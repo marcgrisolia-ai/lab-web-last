@@ -1,0 +1,178 @@
+export type Lang = 'en' | 'es' | 'fr' | 'ca';
+
+export type TranslatedText = Partial<Record<Lang, string>>;
+
+export interface Lab {
+  id: string;
+  color: string;
+  coords: [number, number];
+  name: TranslatedText;
+  address: TranslatedText;
+  desc: TranslatedText;
+  overview?: TranslatedText;
+  location?: TranslatedText;
+  img?: string;
+}
+
+export interface Category {
+  id: string;
+  icon: string;
+  title: TranslatedText;
+  subtitle: TranslatedText;
+}
+
+export interface Test {
+  id: string;
+  categoryId: string;
+  icon: string;
+  title: TranslatedText;
+  summary: TranslatedText;
+  why: TranslatedText;
+  how: TranslatedText;
+  tags: string[];
+  labs: string[] | null;
+  refStdId?: string;
+  refClause?: string;
+}
+
+export interface UiStrings {
+  uiTitle: string;
+  uiSubtitle: string;
+  searchPlaceholder: string;
+  fit: string;
+  expandMap: string;
+  closeMap: string;
+  mapTitle: string;
+  mapSub: string;
+  navTitle: string;
+  navSub: string;
+  categoriesLabel: string;
+  backCategories: string;
+  prevPage: string;
+  nextPage: string;
+  tabTests: string;
+  tabLabs: string;
+  detailTitle: string;
+  detailSub: string;
+  whyTitle: string;
+  whySub: string;
+  howTitle: string;
+  howSub: string;
+  whereTitle: string;
+  whereSub: string;
+  labsIntro: string;
+  labsHint: string;
+  labOverviewTitle: string;
+  labOverviewSub: string;
+  labLocationTitle: string;
+  labLocationSub: string;
+  labTestsTitle: string;
+  labTestsSummary: string;
+  labTestsTopLabSelf: string;
+  labTestsTopLabOther: string;
+  labTestsTopCategory: string;
+  labChartCategoryTitle: string;
+  labChartLabTitle: string;
+  labChartStandardTitle: string;
+  labChartTabCategory: string;
+  labChartTabStandard: string;
+  emptyTitle: string;
+  emptySub: string;
+  emptyHint: string;
+  searchEmptyTitle: string;
+  searchEmptySub: string;
+  coords: string;
+  exportPdf: string;
+  exportExcel: string;
+  navTestsLabel: string;
+  navLabsLabel: string;
+  navOverviewLabel: string;
+  testsBrowseCategory: string;
+  testsBrowseStandard: string;
+  testsOverviewTitle: string;
+  testsOverviewShow: string;
+  testsOverviewHide: string;
+  testsOverviewCategoryTitle: string;
+  testsOverviewStandardTitle: string;
+  overviewTitle: string;
+  overviewSub: string;
+  overviewIntro: string;
+  overviewValueNumbers: string;
+  overviewValuePercent: string;
+  navLabAbout: string;
+  navLabTests: string;
+  navCompanyLabel: string;
+  navVideoProceduresLabel: string;
+  navTemplatesLabel: string;
+  navStandardsLabel: string;
+  navMethodsLabel: string;
+  videoProceduresTitle: string;
+  videoProcedure1Thumb: string;
+  videoProcedure1Title: string;
+  videoProcedure1Sub: string;
+  videoProcedure1Btn: string;
+  videoProcedure2Thumb: string;
+  videoProcedure2Title: string;
+  videoProcedure2Sub: string;
+  videoProcedure2Btn: string;
+  videoProceduresPlaceholder: string;
+  templatesTitle: string;
+  template1Thumb: string;
+  template1Title: string;
+  template1Sub: string;
+  template1Btn: string;
+  template2Thumb: string;
+  template2Title: string;
+  template2Sub: string;
+  template2Btn: string;
+  template3Thumb: string;
+  template3Title: string;
+  template3Sub: string;
+  template3Btn: string;
+  templatesNote: string;
+  templatesHowLead: string;
+  templatesHowTitle: string;
+  templatesStep1: string;
+  templatesStep2: string;
+  templatesStep3: string;
+  templatesPS: string;
+  standardsTitle: string;
+  standard1Thumb: string;
+  standard1Title: string;
+  standard1Sub: string;
+  standard1Btn: string;
+  standard2Thumb: string;
+  standard2Title: string;
+  standard2Sub: string;
+  standard2Btn: string;
+  standard3Thumb: string;
+  standard3Title: string;
+  standard3Sub: string;
+  standard3Btn: string;
+  standard4Thumb: string;
+  standard4Title: string;
+  standard4Sub: string;
+  standard4Btn: string;
+  standard5Thumb: string;
+  standard5Title: string;
+  standard5Sub: string;
+  standard5Btn: string;
+  standardsNote: string;
+  featureValidationTitle: string;
+  featureValidationSub: string;
+  featureSelectionTitle: string;
+  featureSelectionSub: string;
+  featureNetworkTitle: string;
+  featureNetworkSub: string;
+}
+
+export interface AppState {
+  lang: Lang;
+  selectedCategoryId: string | null;
+  selectedTestId: string | null;
+  selectedLabId: string | null;
+  searchQuery: string;
+  testPage: number;
+  mapW: number;
+  mapH: number;
+}

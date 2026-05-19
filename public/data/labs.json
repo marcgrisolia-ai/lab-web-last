@@ -1,0 +1,119 @@
+[
+  {
+    "id": "molins",
+    "color": "#23d9a6",
+    "coords": [
+      41.40272114885691,
+      2.0243904952263594
+    ],
+    "name": {
+      "en": "Molins de Rei Laboratory",
+      "es": "Laboratorio Molins de Rei",
+      "ca": "Laboratori de Molins de Rei",
+      "fr": "Laboratoire de Molins de Rei"
+    },
+    "address": {
+      "en": "Carrer Llobregat, 11, 08750 Molins de Rei, Barcelona, Spain",
+      "es": "Carrer Llobregat, 11, 08750 Molins de Rei, Barcelona, España",
+      "ca": "Carrer Llobregat, 11, 08750 Molins de Rei, Barcelona, Espanya",
+      "fr": "Carrer Llobregat, 11, 08750 Molins de Rei, Barcelona, Espagne"
+    },
+    "desc": {
+      "en": "Strategic production site for Schneider Electric in Spain, focused on enclosures for electrical equipment.",
+      "es": "Sitio industrial estratégico en España, centrado en envolventes para equipos eléctricos.",
+      "ca": "Lloc de producció estratègic de Schneider Electric a Espanya, centrat en envolvents per a equips elèctrics.",
+      "fr": "Site industriel stratégique en Espagne, axé sur les coffrets et armoires."
+    },
+    "overview": {
+      "en": "The Molins de Rei facility is a strategic industrial production site for Schneider Electric in Spain, focused on manufacturing  boxes and enclosures for electrical equipment. It advanced products such as PanelSet PLM, PLA, and PLS for Spain and other European markets. The site includes a showroom and an innovation hub supporting industrial digital transformation.",
+      "es": "La planta de Molins de Rei es un sitio industrial estratégico de Schneider Electric en España, centrado en la fabricación de cajas y armarios metálicos para equipos eléctricos. Fabrica envolventes y armarios metálicos para conjuntos eléctricos y produce productos avanzados como PanelSet PLM, PLA y PLS para España y otros mercados europeos. El sitio incluye un showroom y un hub de innovación que apoya la transformación digital industrial.",
+      "ca": "La planta de Molins de Rei és un emplaçament industrial estratègic de Schneider Electric a Espanya, centrat en la fabricació de caixes i armaris metàl·lics per a equips elèctrics. Fabrica envolvents i armaris metàl·lics per a conjunts elèctrics i produeix productes avançats com PanelSet PLM, PLA i PLS per a Espanya i altres mercats europeus. El centre inclou un showroom i un hub d’innovació que dona suport a la transformació digital industrial.",
+      "fr": "Le site de Molins de Rei est un site industriel stratégique de Schneider Electric en Espagne, axé sur la fabrication de coffrets et d’armoires  pour équipements électriques. Il fabrique des enveloppes et armoires  pour assemblages électriques et produit des gammes avancées comme PanelSet PLM, PLA et PLS pour l’Espagne et d’autres marchés européens. Le site comprend un showroom et un hub d’innovation pour la transformation digitale industrielle."
+    },
+    "location": {
+      "en": "Employs over 160 people in a diverse and inclusive environment. Hosts advanced sustainability initiatives, including decarbonization projects and an on-site microgrid with solar panels and energy storage. Aims to become a zero CO₂ emissions factory.",
+      "es": "Emplea a más de 160 personas en un entorno diverso e inclusivo. Impulsa iniciativas avanzadas de sostenibilidad, incluyendo proyectos de descarbonización y una microred con paneles solares y almacenamiento de energía. Busca convertirse en una fábrica con emisiones netas cero de CO₂.",
+      "ca": "Ocupa més de 160 persones en un entorn divers i inclusiu. Impulsa iniciatives avançades de sostenibilitat, incloent projectes de descarbonització i una microxarxa in situ amb panells solars i emmagatzematge d’energia. Vol esdevenir una fàbrica amb emissions netes zero de CO₂.",
+      "fr": "Emploie plus de 160 personnes dans un environnement divers et inclusif. Met en œuvre des initiatives avancées de durabilité, notamment la décarbonation et une micro‑grille avec panneaux solaires et stockage d’énergie. Vise une usine à zéro émission nette de CO₂."
+    },
+    "img": "/assets/labs/molins.jpg"
+  },
+  {
+    "id": "capellades",
+    "color": "#5aa6ff",
+    "coords": [
+      41.532715612007735,
+      1.6860457017899761
+    ],
+    "name": {
+      "en": "Capellades Laboratory",
+      "es": "Laboratorio Capellades",
+      "ca": "Laboratori de Capellades",
+      "fr": "Laboratoire de Capellades"
+    },
+    "address": {
+      "en": "Carrer del Call, 64, 08786 Capellades, Barcelona, Spain",
+      "es": "Carrer del Call, 64, 08786 Capellades, Barcelona, España",
+      "ca": "Carrer del Call, 64, 08786 Capellades, Barcelona, Espanya",
+      "fr": "Carrer del Call, 64, 08786 Capellades, Barcelona, Espagne"
+    },
+    "desc": {
+      "en": "Historic industrial production center for electrical equipment and a key reference within Schneider Electric in Spain.",
+      "es": "Centro histórico de producción industrial de equipos eléctricos y referencia clave de Schneider Electric en España.",
+      "ca": "Centre històric de producció industrial d’equipament elèctric i referència clau de Schneider Electric a Espanya.",
+      "fr": "Centre de production industriel historique d’équipements électriques et référence clé de Schneider Electric en Espagne."
+    },
+    "overview": {
+      "en": "The Schneider Electric plant in Capellades is a historic industrial production center for electrical equipment, operating since the mid-20th century and recognized as a key reference within Schneider Electric in Spain. Founded in 1958 as Hispano Radio / Hispano Mecano Eléctrica (HIMEL), it later became part of Schneider Electric’s global manufacturing network.",
+      "es": "La planta de Schneider Electric en Capellades es un centro histórico de producción industrial de equipos eléctricos, operativo desde mediados del siglo XX y reconocido como referencia clave de Schneider Electric en España. Fundada en 1958 como Hispano Radio / Hispano Mecano Eléctrica (HIMEL), pasó a formar parte de la red global de fabricación de Schneider Electric.",
+      "ca": "La planta de Schneider Electric a Capellades és un centre històric de producció industrial d’equipament elèctric, operatiu des de mitjan segle XX i reconegut com a referència clau de Schneider Electric a Espanya. Fundada el 1958 com a Hispano Radio / Hispano Mecano Eléctrica (HIMEL), va passar a formar part de la xarxa global de fabricació de Schneider Electric.",
+      "fr": "L’usine Schneider Electric de Capellades est un centre historique de production d’équipements électriques, actif depuis le milieu du XXe siècle et reconnu comme référence clé de Schneider Electric en Espagne. Fondée en 1958 sous le nom de Hispano Radio / Hispano Mecano Eléctrica (HIMEL), elle a ensuite intégré le réseau industriel mondial de Schneider Electric."
+    },
+    "location": {
+      "en": "Specializes in the production of metal enclosures for electrical installations. Production area of approximately 28,000 m², employing more than 200 people. One of Schneider Electric’s largest global centers for universal enclosure manufacturing, adapting continuously to market changes.",
+      "es": "Especializada en la producción de envolventes metálicas para instalaciones eléctricas. Superficie de producción de aproximadamente 28.000 m², con más de 200 empleados. Es uno de los mayores centros globales de Schneider Electric para la fabricación de envolventes universales, adaptándose continuamente a los cambios del mercado.",
+      "ca": "Especialitzada en la producció d’envolvents metàl·lics per a instal·lacions elèctriques. Superfície de producció d’aproximadament 28.000 m², amb més de 200 persones. És un dels centres globals més grans de Schneider Electric per a la fabricació d’envolvents universals, adaptant-se contínuament als canvis del mercat.",
+      "fr": "Spécialisée dans la production d’enveloppes métalliques pour installations électriques. Surface de production d’environ 28 000 m², plus de 200 employés. L’un des plus grands centres mondiaux de Schneider Electric pour la fabrication d’enveloppes universelles, en adaptation continue aux évolutions du marché."
+    },
+    "img": "/assets/labs/capellades.jpg"
+  },
+  {
+    "id": "sarre",
+    "color": "#ffb55e",
+    "coords": [
+      48.93042881702102,
+      7.0981527602185785
+    ],
+    "name": {
+      "en": "Sarre-Union / Sarel Laboratory",
+      "es": "Laboratorio Sarre-Union / Sarel",
+      "ca": "Laboratori Sarre-Union / Sarel",
+      "fr": "Laboratoire Sarre-Union / Sarel"
+    },
+    "address": {
+      "en": "52 Rte de Phalsbourg, 67260 Sarre-Union, France",
+      "es": "52 Rte de Phalsbourg, 67260 Sarre-Union, Francia",
+      "ca": "52 Rte de Phalsbourg, 67260 Sarre-Union, França",
+      "fr": "52 Rte de Phalsbourg, 67260 Sarre-Union, France"
+    },
+    "desc": {
+      "en": "Major production site for electrical enclosures within Schneider Electric’s industrial offering.",
+      "es": "Gran sitio de producción de envolventes eléctricas dentro de la oferta industrial de Schneider Electric.",
+      "ca": "Gran centre de producció d’envolvents elèctrics dins de l’oferta industrial de Schneider Electric.",
+      "fr": "Site majeur de production d’enveloppes électriques au sein de l’offre industrielle de Schneider Electric."
+    },
+    "overview": {
+      "en": "The Sarel plant in Alsace, France, is part of Schneider Electric’s industrial offering and is widely recognized as a major production site for electrical enclosures. Sarel was founded in 1956 and integrated into Schneider Electric in 1984, developing extensive industrial cooperation within the group.",
+      "es": "La planta de Sarel en Alsacia (Francia) forma parte de la oferta industrial de Schneider Electric y es ampliamente reconocida como un sitio de producción clave de envolventes eléctricas. Sarel fue fundada en 1956 e integrada en Schneider Electric en 1984, desarrollando una amplia cooperación industrial dentro del grupo.",
+      "ca": "La planta Sarel a l’Alsàcia (França) forma part de l’oferta industrial de Schneider Electric i és àmpliament reconeguda com un centre clau de producció d’envolvents elèctrics. Sarel es va fundar el 1956 i es va integrar a Schneider Electric el 1984, desenvolupant una àmplia cooperació industrial dins del grup.",
+      "fr": "L’usine Sarel en Alsace (France) fait partie de l’offre industrielle de Schneider Electric et est largement reconnue comme un site majeur de production d’enveloppes électriques. Sarel a été fondée en 1956 et intégrée à Schneider Electric en 1984, développant une coopération industrielle étendue au sein du groupe."
+    },
+    "location": {
+      "en": "Produces electrical cabinets, enclosures, panels, racks, and industrial furniture. Processes include cutting, bending, punching, welding, painting, and finishing. Invested in energy efficiency (LED lighting, process optimization) and is transitioning toward full electrification of facilities by 2025–2026, using low‑carbon and ecological steel.",
+      "es": "Produce armarios eléctricos, envolventes, paneles, racks y mobiliario industrial. Incluye procesos de corte, plegado, punzonado, soldadura, pintura y acabado. Ha invertido en eficiencia energética (iluminación LED y optimización de procesos) y está en transición hacia la electrificación total de las instalaciones para 2025–2026, usando acero ecológico de bajas emisiones.",
+      "ca": "Produeix armaris elèctrics, envolvents, panells, racks i mobiliari industrial. Els processos inclouen tall, plegat, punxonat, soldadura, pintura i acabat. Ha invertit en eficiència energètica (il·luminació LED i optimització de processos) i està en transició cap a l’electrificació total de les instal·lacions el 2025–2026, amb acer baix en carboni i ecològic.",
+      "fr": "Produit des armoires électriques, enveloppes, panneaux, racks et mobilier industriel. Les procédés incluent découpe, pliage, poinçonnage, soudure, peinture et finition. Investissements en efficacité énergétique (éclairage LED, optimisation des processus) et transition vers l’électrification complète des installations en 2025–2026, avec acier bas carbone et écologique."
+    },
+    "img": "/assets/labs/sarre.jpg"
+  }
+]
