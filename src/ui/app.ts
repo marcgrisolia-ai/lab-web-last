@@ -18,6 +18,7 @@ const CATEGORY_COLORS: Record<string, string> = {
 };
 const TESTS_PER_PAGE = 12;
 const LOCAL_ADMIN_TESTS_KEY = 'lab_admin_tests_draft';
+const GITHUB_TESTS_EDIT_URL = 'https://github.com/marcgrisolia-ai/lab-web-last/edit/main/public/data/tests.json';
 
 function getCategoryColor(categoryId: string | null | undefined): string {
   if (!categoryId) return '#3dcd58';
@@ -76,6 +77,10 @@ function downloadJson(filename: string, data: unknown): void {
   link.click();
   link.remove();
   URL.revokeObjectURL(url);
+}
+
+function testsJson(tests: Test[]): string {
+  return `${JSON.stringify(tests, null, 2)}\n`;
 }
 
 export type InitAppParams = {
@@ -2259,6 +2264,8 @@ export async function initApp({
     const adminEditorCancelBtn = document.getElementById('adminEditorCancelBtn');
     const adminEditorSaveBtn = document.getElementById('adminEditorSaveBtn');
     const adminDownloadTestsBtn = document.getElementById('adminDownloadTestsBtn');
+    const adminCopyTestsBtn = document.getElementById('adminCopyTestsBtn');
+    const adminOpenGithubBtn = document.getElementById('adminOpenGithubBtn');
 
     const setTestsBrowseTabA11y = (mode: 'category' | 'standard'): void => {
       testsBrowseTabs.forEach((btn) => {
@@ -2533,6 +2540,29 @@ export async function initApp({
     });
     adminDownloadTestsBtn?.addEventListener('click', () => {
       downloadJson('tests.json', tests);
+    });
+    adminCopyTestsBtn?.addEventListener('click', async () => {
+      const error = document.getElementById('adminEditorError');
+      try {
+        await navigator.clipboard.writeText(testsJson(tests));
+        if (error) {
+          error.textContent =
+            'Copied updated tests.json. Open GitHub editor, replace all content, and commit with your GitHub user.';
+        }
+      } catch {
+        downloadJson('tests.json', tests);
+        if (error) {
+          error.textContent = 'Clipboard is unavailable. Downloaded tests.json instead.';
+        }
+      }
+    });
+    adminOpenGithubBtn?.addEventListener('click', () => {
+      const error = document.getElementById('adminEditorError');
+      if (error) {
+        error.textContent =
+          'In GitHub: replace the full file content with the copied tests.json, then commit to main or open a pull request.';
+      }
+      window.open(GITHUB_TESTS_EDIT_URL, '_blank', 'noopener');
     });
     templatesAddBtn?.addEventListener('click', () => {
       const title = window.prompt('Template title');

@@ -90,16 +90,18 @@ Setup:
 
 ### Admin editor (SE Member)
 - After unlocking `SE Member`, a `Content editor` entry appears in nav, plus `+ Add test` and `Edit test`.
-- On GitHub Pages, the editor runs in static mode: changes are saved in browser `localStorage` and can be exported with `Download tests.json`.
-- To publish edits, replace `public/data/tests.json` with the downloaded file and commit it to `main`; GitHub Actions redeploys the site.
+- On GitHub Pages, the editor runs in static mode: changes are saved in browser `localStorage`.
+- To publish edits with no backend/cost, the technician uses `Copy tests.json`, opens `Open GitHub editor`, replaces `public/data/tests.json`, and commits with their own GitHub user.
+- A technician needs write access to commit directly to `main`; otherwise GitHub will guide them to create a fork/pull request.
+- After the commit lands on `main`, GitHub Actions redeploys the site.
 - You can edit test cards (title/summary/why/how/tags/category/standard fields), set `Where is this performed` labs, and create new tests.
 
 ### GitHub-only editing limitation
 GitHub Pages is static hosting. A public browser app cannot create commits with a hidden repository token because any `VITE_*` token is bundled into public JavaScript.
 
 Safe GitHub-only options:
-- Static review flow: users edit in the app, download `tests.json`, and a maintainer commits it.
-- GitHub web flow: users edit `public/data/tests.json` directly in GitHub and open a pull request.
+- Self-service commit flow: users edit in the app, copy `tests.json`, open the GitHub file editor, and commit with their own GitHub account.
+- Pull request flow: users edit in the app, copy `tests.json`, open the GitHub file editor, and submit a PR if they do not have write access.
 - Authenticated contributor flow: implement GitHub OAuth/device login so each user commits with their own GitHub permissions. This requires GitHub App/OAuth setup and should not use a shared token in the frontend.
 
 ### Directus content model
