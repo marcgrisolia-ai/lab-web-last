@@ -71,14 +71,16 @@ Create `.env` from `.env.example`:
 ```
 VITE_CMS_PROVIDER=directus
 VITE_CMS_URL=https://your-directus-instance.example
-VITE_CMS_TOKEN=your_api_token
+VITE_CMS_TOKEN=
 VITE_CMS_CACHE_TTL_MS=300000
 VITE_API_BASE=http://127.0.0.1:8000
+VITE_ENABLE_LOCAL_ADMIN_API=false
 VITE_ADMIN_API_KEY=
 VITE_ADMIN_API_BASE=
 ```
 
 If CMS env vars are **not** set or CMS fails, the app automatically falls back to local JSON.
+Do not put private tokens in `VITE_*` variables: Vite embeds them in the browser bundle.
 
 ### GitHub Pages deployment
 This repo is configured to deploy with GitHub Actions using `.github/workflows/pages.yml`.
@@ -93,6 +95,11 @@ Setup:
 - On GitHub Pages, the editor runs in static mode: changes are saved in browser `localStorage`.
 - To publish edits with no backend/cost, the technician uses `Copy tests.json`, opens `Open GitHub editor`, replaces `public/data/tests.json`, and commits with their own GitHub user.
 - A technician needs write access to commit directly to `main`; otherwise GitHub will guide them to create a fork/pull request.
+
+### Document access model
+- `public/assets/clients_guide_lab.pdf` is intentionally public and powers the main `Export PDF` action.
+- Standards PDFs are restricted documents. They must not be stored under `public/` because GitHub Pages serves every file there without authentication.
+- Keep restricted standards in `private/standards/` for local reference only, or host them in an authenticated Schneider repository such as SharePoint and wire the HTTPS links in `TRUSTED_STANDARD_URLS`.
 - After the commit lands on `main`, GitHub Actions redeploys the site.
 - You can edit test cards (title/summary/why/how/tags/category/standard fields), set `Where is this performed` labs, and create new tests.
 

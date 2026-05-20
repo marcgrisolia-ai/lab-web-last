@@ -28,3 +28,7 @@ tmp
 *.njsproj
 *.sln
 *.sw?
+
+# Private/local-only documents. Do not deploy restricted standards with GitHub Pages.
+private/standards/
+public/data/Standards/

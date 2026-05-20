@@ -2,7 +2,9 @@ import type { Test } from '../models/types';
 
 const API_BASE = import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8000';
 const ADMIN_API_BASE = import.meta.env.VITE_ADMIN_API_BASE || '';
-const ADMIN_API_KEY = import.meta.env.VITE_ADMIN_API_KEY || '';
+const ENABLE_LOCAL_ADMIN_API =
+  import.meta.env.DEV && import.meta.env.VITE_ENABLE_LOCAL_ADMIN_API === 'true';
+const ADMIN_API_KEY = ENABLE_LOCAL_ADMIN_API ? import.meta.env.VITE_ADMIN_API_KEY || '' : '';
 
 function buildAdminHeaders(sourceLang?: string): HeadersInit {
   const headers: Record<string, string> = {
@@ -18,6 +20,9 @@ async function requestAdmin<T>(
   payload: unknown,
   opts: { method?: 'PUT' | 'POST'; sourceLang?: string } = {},
 ): Promise<T> {
+  if (!ENABLE_LOCAL_ADMIN_API) {
+    throw new Error('Remote admin API is disabled in the public frontend build');
+  }
   if (!ADMIN_API_KEY) {
     throw new Error('Missing VITE_ADMIN_API_KEY in frontend env');
   }
@@ -41,7 +46,7 @@ async function requestAdmin<T>(
 }
 
 export function hasAdminApiKey(): boolean {
-  return !!ADMIN_API_KEY;
+  return ENABLE_LOCAL_ADMIN_API && !!ADMIN_API_KEY;
 }
 
 export async function updateAdminTest(

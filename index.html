@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https: http://127.0.0.1:* http://localhost:*; frame-src https://schneiderelectric.sharepoint.com https://*.sharepoint.com; object-src 'none'; base-uri 'self'; form-action 'self'"
+    />
     <link rel="icon" href="favicon.ico" />
     <title>SE — UE Lab Tests</title>
   </head>
@@ -491,15 +495,15 @@
               <div class="standardMeta">
                 <div class="standardTitle" id="standard1Title">IEC 62208 (ed.1.0)</div>
                 <div class="standardSub" id="standard1Sub">Empty enclosures — general requirements</div>
-                <a
+                <button
                   class="standardBtn"
-                  href="data/Standards/iec62208%7Bed1.0%7Db.pdf"
-                  target="_blank"
-                  rel="noreferrer"
+                  type="button"
+                  data-standard-key="iec62208"
+                  data-standard-title="IEC 62208 (ed.1.0)"
                   id="standard1Btn"
                 >
                   Open standard
-                </a>
+                </button>
               </div>
             </div>
             <div class="standardCard" role="listitem">
@@ -509,15 +513,15 @@
               <div class="standardMeta">
                 <div class="standardTitle" id="standard2Title">IEC 61439-5:2023</div>
                 <div class="standardSub" id="standard2Sub">Assemblies for public networks</div>
-                <a
+                <button
                   class="standardBtn"
-                  href="data/Standards/IEC%2061439-5=2023.pdf"
-                  target="_blank"
-                  rel="noreferrer"
+                  type="button"
+                  data-standard-key="iec61439-5"
+                  data-standard-title="IEC 61439-5:2023"
                   id="standard2Btn"
                 >
                   Open standard
-                </a>
+                </button>
               </div>
             </div>
             <div class="standardCard" role="listitem">
@@ -527,15 +531,15 @@
               <div class="standardMeta">
                 <div class="standardTitle" id="standard3Title">UL 50 (2024)</div>
                 <div class="standardSub" id="standard3Sub">Enclosures for electrical equipment</div>
-                <a
+                <button
                   class="standardBtn"
-                  href="data/Standards/UL%2050_14%20(2024).pdf"
-                  target="_blank"
-                  rel="noreferrer"
+                  type="button"
+                  data-standard-key="ul50"
+                  data-standard-title="UL 50 (2024)"
                   id="standard3Btn"
                 >
                   Open standard
-                </a>
+                </button>
               </div>
             </div>
             <div class="standardCard" role="listitem">
@@ -545,15 +549,15 @@
               <div class="standardMeta">
                 <div class="standardTitle" id="standard4Title">UL 50E (Rev. Oct 2025)</div>
                 <div class="standardSub" id="standard4Sub">Environmental considerations</div>
-                <a
+                <button
                   class="standardBtn"
-                  href="data/Standards/UL%2050E_3%20(2020_Rev%20Oct.2025).pdf"
-                  target="_blank"
-                  rel="noreferrer"
+                  type="button"
+                  data-standard-key="ul50e"
+                  data-standard-title="UL 50E (Rev. Oct 2025)"
                   id="standard4Btn"
                 >
                   Open standard
-                </a>
+                </button>
               </div>
             </div>
             <div class="standardCard" role="listitem">
@@ -563,15 +567,15 @@
               <div class="standardMeta">
                 <div class="standardTitle" id="standard5Title">ISO 13347-1:2004</div>
                 <div class="standardSub" id="standard5Sub">Sound power measurement</div>
-                <a
+                <button
                   class="standardBtn"
-                  href="data/Standards/ISO-13347-1-2004.pdf"
-                  target="_blank"
-                  rel="noreferrer"
+                  type="button"
+                  data-standard-key="iso13347-1"
+                  data-standard-title="ISO 13347-1:2004"
                   id="standard5Btn"
                 >
                   Open standard
-                </a>
+                </button>
               </div>
             </div>
           </div>

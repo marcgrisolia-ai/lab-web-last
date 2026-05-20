@@ -18,3 +18,38 @@
   outline:2px solid var(--se-green);
   outline-offset:2px;
 }
+
+
+.panelTop .small.overviewHeaderTabs{max-width:none;overflow:visible;text-overflow:clip;white-space:normal;color:var(--text);display:flex;align-items:center;justify-content:flex-end;flex:1 1 auto}
+.overviewHub{display:flex;flex-direction:column;gap:14px}
+.overviewHubTabs{display:inline-flex;align-items:center;gap:4px;padding:4px;border:1px solid var(--border);background:#f3f5f6;border-radius:10px;position:static;z-index:2;box-shadow:0 4px 12px #00000008}
+.overviewHubTab{border:0;background:transparent;color:var(--text);padding:9px 18px;border-radius:7px;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;transition:background .14s ease,color .14s ease,box-shadow .14s ease}
+.overviewHubTab:hover{background:#ffffffa6}
+.overviewHubTab:focus-visible{outline:2px solid rgba(61,205,88,.55);outline-offset:2px}
+.overviewHubTab.is-active{background:#fff;box-shadow:0 6px 14px #00000014;color:#1f5d30}
+.overviewPane{border:1px solid var(--border);background:var(--surface);border-radius:var(--radius);box-shadow:var(--shadow2);padding:14px}
+.overviewPane[hidden]{display:none}
+.overviewPaneLead{margin:0 0 14px;color:var(--muted);font-size:14px;line-height:1.45;font-weight:500}
+.overviewSectionHead{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:12px}
+.overviewSectionHead h3{margin:0;font-size:17px;font-weight:700;color:var(--text)}
+.overviewSectionHead p{margin:5px 0 0;color:var(--muted);font-size:13px;line-height:1.45}
+.overviewLabsGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.overviewLabCard{border:1px solid var(--border);border-radius:10px;background:#fff;overflow:hidden;display:flex;flex-direction:column;min-height:100%;box-shadow:0 6px 16px #00000008}
+.overviewLabMedia{height:130px;background:#eef2f4;overflow:hidden}
+.overviewLabMedia img{width:100%;height:100%;object-fit:cover;display:block}
+.overviewLabContent{padding:12px;display:flex;flex-direction:column;gap:10px;flex:1}
+.overviewLabTop{display:flex;align-items:center;gap:8px}
+.overviewLabTop h4{margin:0;font-size:14px;line-height:1.25;color:var(--text)}
+.overviewLabContent p{margin:0;color:var(--muted);font-size:12.5px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:5;line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+.overviewLabMeta{display:flex;flex-direction:column;gap:4px;color:#46515c;font-size:11.5px;margin-top:auto}
+.overviewLabMeta span:first-child{font-weight:700;color:#1f5d30}
+.overviewLabActions{display:flex;gap:8px;flex-wrap:wrap;margin-top:2px}
+.overviewLabActions .btn{font-size:12px;padding:7px 10px}
+.overviewPane--activity .overviewCharts{margin-top:0;grid-template-columns:minmax(0,1.12fr) minmax(360px,.88fr);gap:14px;align-items:stretch}
+.overviewPane--activity .overviewCharts .labChart{min-width:0}
+.overviewPane--activity .overviewCharts .labChart:first-child{grid-row:1 / span 2;display:flex;flex-direction:column}
+.overviewPane--activity .overviewCharts .labChart:first-child .labChartDonutWrap{flex:1;align-items:center}
+.overviewPane--activity .overviewCharts .labChart:last-child{grid-column:2;width:auto;justify-self:stretch}
+@media(max-width:1200px){.overviewLabsGrid{grid-template-columns:1fr}}
+@media(max-width:1180px){.overviewPane--activity .overviewCharts{grid-template-columns:1fr}.overviewPane--activity .overviewCharts .labChart:first-child{grid-row:auto}.overviewPane--activity .overviewCharts .labChart:last-child{grid-column:auto}}
+@media(max-width:640px){.panelTop .small.overviewHeaderTabs{justify-content:flex-start;flex-basis:100%;order:3}.overviewHubTabs{width:100%;overflow-x:auto}.overviewHubTab{flex:1;padding:8px 10px}.overviewSectionHead{flex-direction:column}}

@@ -5,6 +5,25 @@ export type MapControllerOptions = {
   onLabClick?: (labId: string) => void;
 };
 
+const DEFAULT_MARKER_COLOR = '#3dcd58';
+
+function safeMarkerColor(value: string | undefined): string {
+  const color = (value || '').trim();
+  return /^#[0-9a-fA-F]{3,8}$/.test(color) ? color : DEFAULT_MARKER_COLOR;
+}
+
+function buildMarkerHtml(lab: Lab): string {
+  const dot = document.createElement('span');
+  dot.className = 'labMarkerDot';
+  dot.style.setProperty('--lab-color', safeMarkerColor(lab.color));
+
+  const label = document.createElement('span');
+  label.className = 'labMarkerLabel';
+  label.textContent = lab.name.en || lab.id;
+
+  return `${dot.outerHTML}${label.outerHTML}`;
+}
+
 export class MapController {
   private map: L.Map | null = null;
   private markers: Map<string, L.Marker> = new Map();
@@ -35,10 +54,7 @@ export class MapController {
     labs.forEach((lab) => {
       const icon = L.divIcon({
         className: 'labMarker',
-        html: `
-          <span class="labMarkerDot" style="--lab-color:${lab.color};"></span>
-          <span class="labMarkerLabel">${lab.name.en || lab.id}</span>
-        `,
+        html: buildMarkerHtml(lab),
         iconSize: [18, 18],
         iconAnchor: [9, 9],
       });

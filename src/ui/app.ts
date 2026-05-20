@@ -7,22 +7,61 @@ import { createAdminTest, hasAdminApiKey, updateAdminTest } from '../services/ad
 import { setContentBundle } from '../store/contentStore';
 import { assetUrl } from '../services/assetUrl';
 
+const DEFAULT_CATEGORY_COLOR = '#3dcd58';
 const CATEGORY_COLORS: Record<string, string> = {
   CAT_ENV: '#3dcd58',
-  CAT_MECH: '#299bcd',
+  CAT_MECH: '#1597c9',
   CAT_ELEC: '#ffd100',
-  CAT_FIRE: '#c20241',
-  CAT_MAR: '#0075a3',
-  CAT_ACOU: '#676f73',
-  CAT_ASM: '#008029',
+  CAT_FIRE: '#ff8a00',
+  CAT_MARK: '#00a38a',
+  CAT_ACOU: '#687078',
+  CAT_ASSEMBLY: '#6b5eae',
+  // Backward-compatible aliases for older local drafts.
+  CAT_MAR: '#00a38a',
+  CAT_ASM: '#6b5eae',
 };
 const TESTS_PER_PAGE = 12;
 const LOCAL_ADMIN_TESTS_KEY = 'lab_admin_tests_draft';
 const GITHUB_TESTS_EDIT_URL = 'https://github.com/marcgrisolia-ai/lab-web-last/edit/main/public/data/tests.json';
+const TRUSTED_STANDARD_URLS: Record<string, string> = {
+  // Standards must live in an authenticated Schneider repository, not in public/.
+  // Example: iec62208: 'https://schneiderelectric.sharepoint.com/sites/.../iec62208.pdf',
+};
+const RESTRICTED_STANDARD_MESSAGE =
+  'Restricted standard document is not bundled in this public website. Store it in an authenticated Schneider repository and add its HTTPS link in TRUSTED_STANDARD_URLS.';
+
+function isLocalhost(hostname: string): boolean {
+  return hostname === 'localhost' || hostname === '127.0.0.1' || hostname === '::1';
+}
+
+function safeHttpsUrl(value: string | undefined | null): string | null {
+  const raw = (value || '').trim();
+  if (!raw || /^(data:|blob:|javascript:)/i.test(raw)) return null;
+  try {
+    const url = new URL(raw, window.location.origin);
+    return url.protocol === 'https:' ? url.toString() : null;
+  } catch {
+    return null;
+  }
+}
+
+function safeDownloadUrl(value: string | undefined | null): string | null {
+  const raw = (value || '').trim();
+  if (!raw || /^(data:|blob:|javascript:)/i.test(raw)) return null;
+  try {
+    const url = new URL(raw, window.location.origin);
+    if (url.origin === window.location.origin) return url.toString();
+    if (url.protocol === 'https:') return url.toString();
+    if (url.protocol === 'http:' && isLocalhost(url.hostname)) return url.toString();
+    return null;
+  } catch {
+    return null;
+  }
+}
 
 function getCategoryColor(categoryId: string | null | undefined): string {
-  if (!categoryId) return '#3dcd58';
-  return CATEGORY_COLORS[categoryId] || '#3dcd58';
+  if (!categoryId) return DEFAULT_CATEGORY_COLOR;
+  return CATEGORY_COLORS[categoryId] || DEFAULT_CATEGORY_COLOR;
 }
 
 function setText(id: string, value: string): void {
@@ -116,9 +155,10 @@ export async function initApp({
   const SE_MEMBER_KEY = 'se_member_unlocked';
   const remoteAdminEnabled = hasAdminApiKey();
   const resolveContentAsset = (path?: string): string => {
-    if (!path) return '';
-    if (/^(https?:|data:|blob:)/i.test(path)) return path;
-    return assetUrl(path);
+    const raw = (path || '').trim();
+    if (!raw || /^(data:|blob:|javascript:)/i.test(raw)) return '';
+    if (/^https?:\/\//i.test(raw)) return raw;
+    return assetUrl(raw);
   };
   const localAdminTests = readLocalAdminTests();
   if (localAdminTests?.length) {
@@ -207,6 +247,78 @@ export async function initApp({
     host.classList.add('fade-in');
   }
 
+  function scrollToMainPanels(): void {
+    const target =
+      document.querySelector<HTMLElement>('.app') ||
+      document.getElementById('detailBody') ||
+      document.querySelector<HTMLElement>('.pageIntro');
+    if (!target) return;
+    const header = document.getElementById('topHeader');
+    const headerH = header ? Math.ceil(header.getBoundingClientRect().height) : 0;
+    const y = window.scrollY + target.getBoundingClientRect().top - headerH - 12;
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+  }
+
+  function setDetailHeader(title: string, sub: string): void {
+    setText('detailTitle', title);
+    const detailSub = document.getElementById('detailSub');
+    if (!detailSub) return;
+    detailSub.classList.remove('overviewHeaderTabs');
+    detailSub.onclick = null;
+    detailSub.textContent = sub;
+  }
+
+  function setLabDetailHeader(lab: Lab, state: AppState, view: 'about' | 'tests'): void {
+    setText('detailTitle', tx(lab.name, state.lang));
+    const detailSub = document.getElementById('detailSub');
+    if (!detailSub) return;
+    detailSub.classList.add('overviewHeaderTabs');
+    detailSub.onclick = null;
+    detailSub.innerHTML = `
+      <div class="overviewHubTabs labHeaderTabs" role="tablist" aria-label="${escapeHtml(
+        tx(lab.name, state.lang),
+      )}">
+        <button type="button" class="overviewHubTab ${
+          view === 'about' ? 'is-active' : ''
+        }" data-lab-view="about" role="tab" aria-selected="${view === 'about' ? 'true' : 'false'}" tabindex="${
+          view === 'about' ? '0' : '-1'
+        }">${escapeHtml(ui.navLabAbout)}</button>
+        <button type="button" class="overviewHubTab ${
+          view === 'tests' ? 'is-active' : ''
+        }" data-lab-view="tests" role="tab" aria-selected="${view === 'tests' ? 'true' : 'false'}" tabindex="${
+          view === 'tests' ? '0' : '-1'
+        }">${escapeHtml(ui.navLabTests)}</button>
+      </div>
+    `;
+    const tabs = Array.from(detailSub.querySelectorAll<HTMLButtonElement>('.overviewHubTab'));
+    const navigate = (target: 'about' | 'tests') => {
+      if (target === view) return;
+      if (target === 'tests') selectLabTests(lab.id, { focusDetail: true });
+      else selectLab(lab.id, { focusDetail: true });
+    };
+    tabs.forEach((tab) => {
+      tab.addEventListener('keydown', (e) => {
+        const idx = tabs.indexOf(tab);
+        if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+          e.preventDefault();
+          const dir = e.key === 'ArrowRight' ? 1 : -1;
+          tabs[(idx + dir + tabs.length) % tabs.length]?.focus();
+          return;
+        }
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          navigate(tab.dataset.labView === 'tests' ? 'tests' : 'about');
+        }
+      });
+    });
+    detailSub.onclick = (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      const tab = target?.closest<HTMLButtonElement>('.overviewHubTab');
+      if (!tab || !detailSub.contains(tab)) return;
+      navigate(tab.dataset.labView === 'tests' ? 'tests' : 'about');
+    };
+  }
+
   function applyUiStrings(state: AppState): void {
     setText('uiTitle', ui.uiTitle);
     setText('uiSubtitle', ui.uiSubtitle);
@@ -219,8 +331,7 @@ export async function initApp({
     setText('btnNextPage', ui.nextPage);
     setText('btnExportExcel', ui.exportExcel);
     setText('btnExportPdfAll', ui.exportPdf);
-    setText('detailTitle', ui.detailTitle);
-    setText('detailSub', ui.detailSub);
+    setDetailHeader(ui.detailTitle, ui.detailSub);
     setText('navTestsBtn', ui.navTestsLabel);
     setText('navLabsBtn', ui.navLabsLabel);
     setText('navOverviewBtn', ui.navOverviewLabel);
@@ -468,12 +579,12 @@ export async function initApp({
     return 'Internal Method';
   }
   const STANDARD_COLORS: Record<string, string> = {
-    'IEC 62208': '#009e4d',
-    'IEC 61439-5': '#0075a3',
-    'IEC 61386-1': '#005c80',
-    'ISO 13347-1': '#299bcd',
-    UL: '#c20241',
-    'Internal Method': '#626469',
+    'IEC 62208': '#3dcd58',
+    UL: '#ff8a00',
+    'IEC 61439-5': '#009fda',
+    'IEC 61386-1': '#6b5eae',
+    'ISO 13347-1': '#00a38a',
+    'Internal Method': '#687078',
   };
   function getStandardColor(label: string): string {
     return STANDARD_COLORS[label] || '#626469';
@@ -1058,6 +1169,13 @@ export async function initApp({
     return wrap;
   }
 
+  function getLabTestCount(labId: string): number {
+    return tests.filter((test) => {
+      const labList = test.labs && test.labs.length ? test.labs : labs.map((lab) => lab.id);
+      return labList.includes(labId);
+    }).length;
+  }
+
   function renderCategoryView(): void {
     setTestsBrowsePanels(testsBrowseMode);
     const inactiveHost = document.getElementById(
@@ -1265,18 +1383,185 @@ export async function initApp({
     store.setState({ selectedLabId: null, selectedTestId: null, selectedCategoryId: null });
     const host = document.getElementById('detailBody');
     if (!host) return;
+    const state = store.getState();
     labViewMode = 'about';
     lastLabTestsId = null;
     triggerDetailFade(host);
-    const overviewIntro = escapeHtml(ui.overviewIntro).replace(/\n\s*\n/g, '<br><br>');
+    const overviewCopy: Record<
+      Lang,
+      {
+        labs: string;
+        activity: string;
+        tests: string;
+        labsTitle: string;
+        labsSub: string;
+        activityTitle: string;
+        activitySub: string;
+        viewLab: string;
+        viewTests: string;
+      }
+    > = {
+      en: {
+        labs: 'Laboratories',
+        activity: 'Testing activity',
+        tests: 'Tests',
+        labsTitle: 'Laboratory network',
+        labsSub: 'Three sites connected to the catalogue, each with its own scope, location and performed tests.',
+        activityTitle: 'Catalogue activity',
+        activitySub: 'Distribution of tests by category, standard and laboratory.',
+        viewLab: 'View lab',
+        viewTests: 'View tests',
+      },
+      es: {
+        labs: 'Laboratorios',
+        activity: 'Actividad de pruebas',
+        tests: 'Pruebas',
+        labsTitle: 'Red de laboratorios',
+        labsSub: 'Tres centros conectados al catálogo, cada uno con su alcance, ubicación y pruebas realizadas.',
+        activityTitle: 'Actividad del catálogo',
+        activitySub: 'Distribución de pruebas por categoría, estándar y laboratorio.',
+        viewLab: 'Ver laboratorio',
+        viewTests: 'Ver pruebas',
+      },
+      fr: {
+        labs: 'Laboratoires',
+        activity: 'Activité essais',
+        tests: 'Essais',
+        labsTitle: 'Réseau de laboratoires',
+        labsSub: 'Trois sites reliés au catalogue, chacun avec son périmètre, son emplacement et ses essais réalisés.',
+        activityTitle: 'Activité du catalogue',
+        activitySub: 'Répartition des essais par catégorie, norme et laboratoire.',
+        viewLab: 'Voir laboratoire',
+        viewTests: 'Voir essais',
+      },
+      ca: {
+        labs: 'Laboratoris',
+        activity: 'Activitat de proves',
+        tests: 'Proves',
+        labsTitle: 'Xarxa de laboratoris',
+        labsSub: 'Tres centres connectats al catàleg, cadascun amb el seu abast, ubicació i proves realitzades.',
+        activityTitle: 'Activitat del catàleg',
+        activitySub: 'Distribució de proves per categoria, norma i laboratori.',
+        viewLab: 'Veure laboratori',
+        viewTests: 'Veure proves',
+      },
+    };
+    const copy = overviewCopy[state.lang] || overviewCopy.en;
+    setText('detailTitle', copy.labsTitle);
+    const detailSub = document.getElementById('detailSub');
+    if (detailSub) {
+      detailSub.classList.add('overviewHeaderTabs');
+      detailSub.innerHTML = `
+        <div class="overviewHubTabs" role="tablist" aria-label="${escapeHtml(ui.overviewTitle)}">
+          <button type="button" class="overviewHubTab is-active" data-overview-tab="labs" role="tab" aria-selected="true" tabindex="0">${escapeHtml(
+            copy.labs,
+          )}</button>
+          <button type="button" class="overviewHubTab" data-overview-tab="activity" role="tab" aria-selected="false" tabindex="-1">${escapeHtml(
+            copy.activity,
+          )}</button>
+        </div>
+      `;
+    }
+    const labCards = labs
+      .map((lab) => {
+        const imgSrc = lab.img && lab.img.trim() ? resolveContentAsset(lab.img) : SAMPLE_IMG;
+        const overview = tx(lab.overview || lab.desc, state.lang) || tx(lab.desc, state.lang);
+        return `
+          <article class="overviewLabCard">
+            <div class="overviewLabMedia">
+              <img src="${escapeHtml(imgSrc)}" alt="" loading="lazy" />
+            </div>
+            <div class="overviewLabContent">
+              <div class="overviewLabTop">
+                <span class="labColorDot" style="--lab-color:${escapeHtml(lab.color || '#3dcd58')}"></span>
+                <h4>${escapeHtml(tx(lab.name, state.lang))}</h4>
+              </div>
+              <p>${escapeHtml(overview)}</p>
+              <div class="overviewLabMeta">
+                <span>${getLabTestCount(lab.id)} ${escapeHtml(copy.tests.toLowerCase())}</span>
+                <span>${escapeHtml(tx(lab.address, state.lang))}</span>
+              </div>
+              <div class="overviewLabActions">
+                <button type="button" class="btn ghost overviewLabAction" data-action="about" data-lab-id="${escapeHtml(
+                  lab.id,
+                )}">${escapeHtml(copy.viewLab)}</button>
+                <button type="button" class="btn ghost overviewLabAction" data-action="tests" data-lab-id="${escapeHtml(
+                  lab.id,
+                )}">${escapeHtml(copy.viewTests)}</button>
+              </div>
+            </div>
+          </article>
+        `;
+      })
+      .join('');
     host.innerHTML = `
-      <div class="hero">
-        <div class="heroTitle">${escapeHtml(ui.overviewTitle)}</div>
-        <div class="heroSub">${escapeHtml(ui.overviewSub)}</div>
-        <div class="hint overviewIntro">${overviewIntro}</div>
+      <div class="overviewHub">
+        <section class="overviewPane is-active overviewPane--labs" data-overview-pane="labs">
+          <p class="overviewPaneLead">${escapeHtml(copy.labsSub)}</p>
+          <div class="overviewLabsGrid">${labCards}</div>
+        </section>
+        <section class="overviewPane overviewPane--activity" data-overview-pane="activity" hidden>
+          <p class="overviewPaneLead">${escapeHtml(copy.activitySub)}</p>
+          <div id="overviewChartsHost"></div>
+        </section>
       </div>
     `;
-    host.appendChild(createOverviewCharts(store.getState()));
+    const chartsHost = host.querySelector('#overviewChartsHost');
+    chartsHost?.appendChild(createOverviewCharts(state));
+    const overviewTabs = Array.from(
+      detailSub?.querySelectorAll<HTMLButtonElement>('.overviewHubTab') || [],
+    );
+    const overviewPanes = Array.from(host.querySelectorAll<HTMLElement>('.overviewPane'));
+    const overviewTitleByPane: Record<string, string> = {
+      labs: copy.labsTitle,
+      activity: copy.activity,
+    };
+    const activateOverviewPane = (target: string) => {
+      overviewTabs.forEach((tab) => {
+        const active = tab.dataset.overviewTab === target;
+        tab.classList.toggle('is-active', active);
+        tab.setAttribute('aria-selected', active ? 'true' : 'false');
+        tab.tabIndex = active ? 0 : -1;
+      });
+      overviewPanes.forEach((pane) => {
+        const active = pane.dataset.overviewPane === target;
+        pane.classList.toggle('is-active', active);
+        pane.hidden = !active;
+      });
+      setText('detailTitle', overviewTitleByPane[target] || copy.labsTitle);
+    };
+    overviewTabs.forEach((tab) => {
+      tab.addEventListener('keydown', (e) => {
+        const idx = overviewTabs.indexOf(tab);
+        if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+          e.preventDefault();
+          const dir = e.key === 'ArrowRight' ? 1 : -1;
+          overviewTabs[(idx + dir + overviewTabs.length) % overviewTabs.length]?.focus();
+          return;
+        }
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          activateOverviewPane(tab.dataset.overviewTab || 'labs');
+        }
+      });
+    });
+    if (detailSub) detailSub.onclick = (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      const tab = target?.closest<HTMLButtonElement>('.overviewHubTab');
+      if (!tab || !detailSub.contains(tab)) return;
+      activateOverviewPane(tab.dataset.overviewTab || 'labs');
+    };
+    overviewTabs.forEach((tab) => {
+      tab.addEventListener('click', () => activateOverviewPane(tab.dataset.overviewTab || 'labs'));
+    });
+    host.querySelectorAll<HTMLButtonElement>('.overviewLabAction').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const labId = btn.dataset.labId;
+        if (!labId) return;
+        if (btn.dataset.action === 'tests') selectLabTests(labId, { focusDetail: true });
+        else selectLab(labId, { focusDetail: true });
+      });
+    });
     placeMap(null);
     renderLabsStrip();
     mapController.fitToAllLabs();
@@ -1289,6 +1574,7 @@ export async function initApp({
     const cat = categoryById.get(test.categoryId);
     const host = document.getElementById('detailBody');
     if (!host || !cat) return;
+    setDetailHeader(ui.detailTitle, ui.detailSub);
     labViewMode = 'about';
     triggerDetailFade(host);
     const backBtn = document.getElementById('detailBackBtn');
@@ -1414,6 +1700,7 @@ export async function initApp({
     if (!lab) return renderEmptyDetail();
     const host = document.getElementById('detailBody');
     if (!host) return;
+    setLabDetailHeader(lab, state, 'about');
     labViewMode = 'about';
     triggerDetailFade(host);
     const backBtn = document.getElementById('detailBackBtn');
@@ -1476,6 +1763,7 @@ export async function initApp({
     if (!lab) return renderEmptyDetail();
     const host = document.getElementById('detailBody');
     if (!host) return;
+    setLabDetailHeader(lab, state, 'tests');
     labViewMode = 'tests';
     lastLabTestsId = labId;
     triggerDetailFade(host);
@@ -2132,16 +2420,7 @@ export async function initApp({
     renderDetail(id);
     updateUrlState();
     if (opts.focusDetail) {
-      const target =
-        document.querySelector('.pageIntro') ||
-        document.querySelector('.app') ||
-        document.getElementById('detailBody');
-      if (target instanceof HTMLElement) {
-        const header = document.getElementById('topHeader');
-        const headerH = header ? Math.ceil(header.getBoundingClientRect().height) : 0;
-        const y = window.scrollY + target.getBoundingClientRect().top - headerH - 12;
-        window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
-      }
+      scrollToMainPanels();
     }
   }
 
@@ -2152,16 +2431,7 @@ export async function initApp({
     renderLabDetail(id);
     updateUrlState();
     if (opts.focusDetail) {
-      const target =
-        document.querySelector('.pageIntro') ||
-        document.querySelector('.app') ||
-        document.getElementById('detailBody');
-      if (target instanceof HTMLElement) {
-        const header = document.getElementById('topHeader');
-        const headerH = header ? Math.ceil(header.getBoundingClientRect().height) : 0;
-        const y = window.scrollY + target.getBoundingClientRect().top - headerH - 12;
-        window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
-      }
+      scrollToMainPanels();
     }
   }
 
@@ -2172,16 +2442,7 @@ export async function initApp({
     renderLabTests(id);
     updateUrlState();
     if (opts.focusDetail) {
-      const target =
-        document.querySelector('.pageIntro') ||
-        document.querySelector('.app') ||
-        document.getElementById('detailBody');
-      if (target instanceof HTMLElement) {
-        const header = document.getElementById('topHeader');
-        const headerH = header ? Math.ceil(header.getBoundingClientRect().height) : 0;
-        const y = window.scrollY + target.getBoundingClientRect().top - headerH - 12;
-        window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
-      }
+      scrollToMainPanels();
     }
   }
 
@@ -2192,16 +2453,7 @@ export async function initApp({
     renderEmptyDetail();
     updateUrlState();
     if (opts.focusDetail) {
-      const target =
-        document.querySelector('.pageIntro') ||
-        document.querySelector('.app') ||
-        document.getElementById('detailBody');
-      if (target instanceof HTMLElement) {
-        const header = document.getElementById('topHeader');
-        const headerH = header ? Math.ceil(header.getBoundingClientRect().height) : 0;
-        const y = window.scrollY + target.getBoundingClientRect().top - headerH - 12;
-        window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
-      }
+      scrollToMainPanels();
     }
   }
 
@@ -2259,6 +2511,10 @@ export async function initApp({
     const internalMethodsCloseBtn = document.getElementById('internalMethodsCloseBtn');
     const standardsOverlay = document.getElementById('standardsOverlay');
     const standardsCloseBtn = document.getElementById('standardsCloseBtn');
+    const standardsNote = document.getElementById('standardsNote');
+    const standardButtons = Array.from(
+      document.querySelectorAll<HTMLButtonElement>('.standardBtn[data-standard-key]'),
+    );
     const addTestBtn = document.getElementById('btnAddTest');
     const adminEditorOverlay = document.getElementById('adminEditorOverlay');
     const adminEditorCancelBtn = document.getElementById('adminEditorCancelBtn');
@@ -2456,6 +2712,24 @@ export async function initApp({
       standardsOverlay.classList.remove('is-open');
       standardsOverlay.setAttribute('aria-hidden', 'true');
     };
+    const openSecureStandard = (btn: HTMLButtonElement) => {
+      if (!isMemberUnlocked()) {
+        openMemberModal();
+        return;
+      }
+      const key = btn.dataset.standardKey || '';
+      const url = safeHttpsUrl(TRUSTED_STANDARD_URLS[key] || btn.dataset.secureUrl);
+      if (!url) {
+        if (standardsNote) {
+          const title = btn.dataset.standardTitle || 'Selected standard';
+          standardsNote.textContent = `${title}: ${RESTRICTED_STANDARD_MESSAGE}`;
+        } else {
+          window.alert(RESTRICTED_STANDARD_MESSAGE);
+        }
+        return;
+      }
+      window.open(url, '_blank', 'noopener');
+    };
 
     const submitMember = () => {
       if (!memberPassword) return;
@@ -2534,6 +2808,9 @@ export async function initApp({
     templatesCloseBtn?.addEventListener('click', closeTemplates);
     internalMethodsCloseBtn?.addEventListener('click', closeInternalMethods);
     standardsCloseBtn?.addEventListener('click', closeStandards);
+    standardButtons.forEach((btn) => {
+      btn.addEventListener('click', () => openSecureStandard(btn));
+    });
     adminEditorCancelBtn?.addEventListener('click', closeAdminEditor);
     adminEditorSaveBtn?.addEventListener('click', () => {
       void saveAdminEditor();
@@ -2566,7 +2843,7 @@ export async function initApp({
     });
     templatesAddBtn?.addEventListener('click', () => {
       const title = window.prompt('Template title');
-      const fileUrl = window.prompt('Template file URL');
+      const fileUrl = safeDownloadUrl(window.prompt('Template file URL'));
       if (!title || !fileUrl || !templatesList) return;
       const item = document.createElement('div');
       item.className = 'templateCard';
@@ -2583,7 +2860,7 @@ export async function initApp({
     });
     internalMethodsAddBtn?.addEventListener('click', () => {
       const title = window.prompt('Internal method title');
-      const fileUrl = window.prompt('Internal method file URL');
+      const fileUrl = safeDownloadUrl(window.prompt('Internal method file URL'));
       if (!title || !fileUrl || !internalMethodsList) return;
       const item = document.createElement('div');
       item.className = 'templateCard';
@@ -2601,7 +2878,8 @@ export async function initApp({
     videoAddBtn?.addEventListener('click', () => {
       const title = window.prompt('Video title');
       const url = window.prompt('Video URL');
-      if (!title || !url || !videoList) return;
+      const safeVideoUrl = safeHttpsUrl(url);
+      if (!title || !safeVideoUrl || !videoList) return;
       const card = document.createElement('div');
       card.className = 'videoCard';
       card.setAttribute('role', 'listitem');
@@ -2610,7 +2888,7 @@ export async function initApp({
         <div class="videoMeta">
           <div class="videoTitle">${escapeHtml(title)}</div>
           <div class="videoSub">Added from editor</div>
-          <button class="videoBtn" type="button" data-video-title="${escapeHtml(title)}" data-video-src="${escapeHtml(url)}">
+          <button class="videoBtn" type="button" data-video-title="${escapeHtml(title)}" data-video-src="${escapeHtml(safeVideoUrl)}">
             ▶ View procedure
           </button>
         </div>
@@ -2618,7 +2896,7 @@ export async function initApp({
       const btn = card.querySelector<HTMLButtonElement>('.videoBtn');
       btn?.addEventListener('click', () => {
         if (!videoFrame) return;
-        videoFrame.src = url;
+        videoFrame.src = safeVideoUrl;
         videoFrame.setAttribute('title', title);
         videoFrame.removeAttribute('hidden');
         videoPlaceholder?.setAttribute('hidden', 'true');
@@ -2660,7 +2938,7 @@ export async function initApp({
     document.querySelectorAll<HTMLButtonElement>('.videoBtn[data-video-src]').forEach((btn) => {
       btn.addEventListener('click', () => {
         if (!videoFrame) return;
-        const src = btn.dataset.videoSrc;
+        const src = safeHttpsUrl(btn.dataset.videoSrc);
         if (!src) return;
         videoFrame.src = src;
         const title = btn.dataset.videoTitle || 'Video procedure';
