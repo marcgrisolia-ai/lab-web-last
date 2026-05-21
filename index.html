@@ -83,7 +83,7 @@
         </nav>
         <div class="navActions">
           <button class="btn primary" id="btnExportExcel" type="button">Export Excel</button>
-          <button class="btn primary" id="btnExportPdfAll" type="button">Export PDF</button>
+          <button class="btn primary" id="btnExportPdfAll" type="button">Client Catalog</button>
         </div>
       </div>
     </header>
@@ -231,45 +231,45 @@
         <div class="modalTitle" id="adminEditorTitle">Edit test content</div>
         <form id="adminEditorForm" class="adminEditorForm" novalidate>
           <div class="adminEditorGrid adminEditorGrid--2">
-            <label class="modalLabel">Test ID
+            <label class="modalLabel"><span id="adminTestIdLabel">Test ID</span>
               <input class="modalInput" name="id" type="text" required />
             </label>
-            <label class="modalLabel">Category
+            <label class="modalLabel"><span id="adminCategoryLabel">Category</span>
               <select class="modalInput" name="categoryId" required></select>
             </label>
           </div>
           <div class="adminEditorGrid adminEditorGrid--2">
-            <label class="modalLabel">Standard ID
+            <label class="modalLabel"><span id="adminStandardIdLabel">Standard ID</span>
               <input class="modalInput" name="refStdId" type="text" placeholder="IEC_62208, UL..." />
             </label>
-            <label class="modalLabel">Clause
+            <label class="modalLabel"><span id="adminClauseLabel">Clause</span>
               <input class="modalInput" name="refClause" type="text" />
             </label>
           </div>
           <label class="adminCheck adminNoClause">
             <input type="checkbox" name="noClause" />
-            <span>No clause</span>
+            <span id="adminNoClauseLabel">No clause</span>
           </label>
           <div class="adminLabs">
             <label class="adminCheck">
               <input type="checkbox" name="labsAll" />
-              <span>Performed in all labs</span>
+              <span id="adminLabsAllLabel">Performed in all labs</span>
             </label>
             <div class="adminLabList" id="adminLabList"></div>
           </div>
           <div class="adminLanguageHint">
             Editing language: <strong id="adminEditorLangLabel">EN</strong>. Other languages are auto-translated on save.
           </div>
-          <label class="modalLabel">Title
+          <label class="modalLabel"><span id="adminTitleFieldLabel">Title</span>
             <input class="modalInput" name="title_text" type="text" />
           </label>
-          <label class="modalLabel">Summary
+          <label class="modalLabel"><span id="adminSummaryFieldLabel">Summary</span>
             <textarea class="modalInput adminTextarea" name="summary_text"></textarea>
           </label>
-          <label class="modalLabel">WHY
+          <label class="modalLabel"><span id="adminWhyFieldLabel">WHY</span>
             <textarea class="modalInput adminTextarea" name="why_text"></textarea>
           </label>
-          <label class="modalLabel">HOW
+          <label class="modalLabel"><span id="adminHowFieldLabel">HOW</span>
             <textarea class="modalInput adminTextarea" name="how_text"></textarea>
           </label>
         </form>

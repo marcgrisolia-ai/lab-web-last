@@ -59,6 +59,230 @@ function safeDownloadUrl(value: string | undefined | null): string | null {
   }
 }
 
+type ChromeCopy = {
+  pageTitle: string;
+  skipLink: string;
+  searchLabel: string;
+  searchAction: string;
+  member: string;
+  logout: string;
+  addTest: string;
+  back: string;
+  memberModalTitle: string;
+  password: string;
+  cancel: string;
+  access: string;
+  save: string;
+  adminEditorTitle: string;
+  adminCreateTitle: string;
+  editTest: string;
+  copyTests: string;
+  openGithub: string;
+  downloadTests: string;
+  testId: string;
+  category: string;
+  standardId: string;
+  clause: string;
+  noClause: string;
+  performedInAllLabs: string;
+  titleField: string;
+  summaryField: string;
+  whyField: string;
+  howField: string;
+  remoteLanguageHint: (lang: string) => string;
+  staticLanguageHint: (lang: string) => string;
+  requiredTestError: string;
+  duplicateTestError: string;
+  resolveSavedTestError: string;
+  unableToSaveTest: string;
+  selectedStandard: string;
+  copiedTests: string;
+  clipboardUnavailable: string;
+  githubInstructions: string;
+  incorrectPassword: string;
+};
+
+const CHROME_COPY: Record<Lang, ChromeCopy> = {
+  en: {
+    pageTitle: 'SE — UE Laboratories and Tests',
+    skipLink: 'Skip to main content',
+    searchLabel: 'Search tests',
+    searchAction: 'Search',
+    member: 'SE Member',
+    logout: 'Logout',
+    addTest: '+ Add test',
+    back: 'Back',
+    memberModalTitle: 'Restricted access – SE Members',
+    password: 'Password',
+    cancel: 'Cancel',
+    access: 'Access',
+    save: 'Save',
+    adminEditorTitle: 'Edit test content',
+    adminCreateTitle: 'Create new test',
+    editTest: 'Edit test',
+    copyTests: 'Copy tests.json',
+    openGithub: 'Open GitHub editor',
+    downloadTests: 'Download tests.json',
+    testId: 'Test ID',
+    category: 'Category',
+    standardId: 'Standard ID',
+    clause: 'Clause',
+    noClause: 'No clause',
+    performedInAllLabs: 'Performed in all labs',
+    titleField: 'Title',
+    summaryField: 'Summary',
+    whyField: 'WHY',
+    howField: 'HOW',
+    remoteLanguageHint: (lang) => `Editing language: <strong id="adminEditorLangLabel">${escapeHtml(lang)}</strong>. Other languages are handled by the admin API on save.`,
+    staticLanguageHint: (lang) => `Static mode: editing <strong id="adminEditorLangLabel">${escapeHtml(lang)}</strong> locally. Download <strong>tests.json</strong> and commit it to publish changes.`,
+    requiredTestError: 'Test ID and category are required.',
+    duplicateTestError: 'Test ID already exists.',
+    resolveSavedTestError: 'Unable to resolve saved test.',
+    unableToSaveTest: 'Unable to save test.',
+    selectedStandard: 'Selected standard',
+    copiedTests: 'Copied updated tests.json. Open GitHub editor, replace all content, and commit with your GitHub user.',
+    clipboardUnavailable: 'Clipboard is unavailable. Downloaded tests.json instead.',
+    githubInstructions: 'In GitHub: replace the full file content with the copied tests.json, then commit to main or open a pull request.',
+    incorrectPassword: 'Incorrect password',
+  },
+  es: {
+    pageTitle: 'SE — Laboratorios y pruebas UE',
+    skipLink: 'Saltar al contenido principal',
+    searchLabel: 'Buscar pruebas',
+    searchAction: 'Buscar',
+    member: 'Miembro SE',
+    logout: 'Cerrar sesión',
+    addTest: '+ Añadir prueba',
+    back: 'Volver',
+    memberModalTitle: 'Acceso restringido – miembros SE',
+    password: 'Contraseña',
+    cancel: 'Cancelar',
+    access: 'Acceder',
+    save: 'Guardar',
+    adminEditorTitle: 'Editar contenido de la prueba',
+    adminCreateTitle: 'Crear nueva prueba',
+    editTest: 'Editar prueba',
+    copyTests: 'Copiar tests.json',
+    openGithub: 'Abrir editor de GitHub',
+    downloadTests: 'Descargar tests.json',
+    testId: 'ID de prueba',
+    category: 'Categoría',
+    standardId: 'ID de norma',
+    clause: 'Cláusula',
+    noClause: 'Sin cláusula',
+    performedInAllLabs: 'Realizada en todos los laboratorios',
+    titleField: 'Título',
+    summaryField: 'Resumen',
+    whyField: 'POR QUÉ',
+    howField: 'CÓMO',
+    remoteLanguageHint: (lang) => `Idioma editado: <strong id="adminEditorLangLabel">${escapeHtml(lang)}</strong>. Los demás idiomas los gestiona la API de administración al guardar.`,
+    staticLanguageHint: (lang) => `Modo estático: editando <strong id="adminEditorLangLabel">${escapeHtml(lang)}</strong> localmente. Descarga <strong>tests.json</strong> y haz commit para publicar los cambios.`,
+    requiredTestError: 'El ID de prueba y la categoría son obligatorios.',
+    duplicateTestError: 'El ID de prueba ya existe.',
+    resolveSavedTestError: 'No se pudo resolver la prueba guardada.',
+    unableToSaveTest: 'No se pudo guardar la prueba.',
+    selectedStandard: 'Norma seleccionada',
+    copiedTests: 'tests.json actualizado copiado. Abre el editor de GitHub, reemplaza todo el contenido y haz commit con tu usuario de GitHub.',
+    clipboardUnavailable: 'El portapapeles no está disponible. Se ha descargado tests.json en su lugar.',
+    githubInstructions: 'En GitHub: reemplaza todo el contenido del archivo con el tests.json copiado y después haz commit en main o abre una pull request.',
+    incorrectPassword: 'Contraseña incorrecta',
+  },
+  fr: {
+    pageTitle: 'SE — Laboratoires et essais UE',
+    skipLink: 'Aller au contenu principal',
+    searchLabel: 'Rechercher des essais',
+    searchAction: 'Rechercher',
+    member: 'Membre SE',
+    logout: 'Déconnexion',
+    addTest: '+ Ajouter un essai',
+    back: 'Retour',
+    memberModalTitle: 'Accès restreint – membres SE',
+    password: 'Mot de passe',
+    cancel: 'Annuler',
+    access: 'Accéder',
+    save: 'Enregistrer',
+    adminEditorTitle: 'Modifier le contenu de l’essai',
+    adminCreateTitle: 'Créer un nouvel essai',
+    editTest: 'Modifier l’essai',
+    copyTests: 'Copier tests.json',
+    openGithub: 'Ouvrir l’éditeur GitHub',
+    downloadTests: 'Télécharger tests.json',
+    testId: 'ID de l’essai',
+    category: 'Catégorie',
+    standardId: 'ID de la norme',
+    clause: 'Clause',
+    noClause: 'Sans clause',
+    performedInAllLabs: 'Réalisé dans tous les laboratoires',
+    titleField: 'Titre',
+    summaryField: 'Résumé',
+    whyField: 'POURQUOI',
+    howField: 'COMMENT',
+    remoteLanguageHint: (lang) => `Langue modifiée : <strong id="adminEditorLangLabel">${escapeHtml(lang)}</strong>. Les autres langues sont gérées par l’API d’administration lors de l’enregistrement.`,
+    staticLanguageHint: (lang) => `Mode statique : modification de <strong id="adminEditorLangLabel">${escapeHtml(lang)}</strong> en local. Téléchargez <strong>tests.json</strong> et créez un commit pour publier les changements.`,
+    requiredTestError: 'L’ID de l’essai et la catégorie sont obligatoires.',
+    duplicateTestError: 'Cet ID d’essai existe déjà.',
+    resolveSavedTestError: 'Impossible de retrouver l’essai enregistré.',
+    unableToSaveTest: 'Impossible d’enregistrer l’essai.',
+    selectedStandard: 'Norme sélectionnée',
+    copiedTests: 'tests.json mis à jour copié. Ouvrez l’éditeur GitHub, remplacez tout le contenu et créez le commit avec votre compte GitHub.',
+    clipboardUnavailable: 'Le presse-papiers n’est pas disponible. tests.json a été téléchargé à la place.',
+    githubInstructions: 'Dans GitHub : remplacez tout le contenu du fichier par le tests.json copié, puis créez un commit dans main ou ouvrez une pull request.',
+    incorrectPassword: 'Mot de passe incorrect',
+  },
+  ca: {
+    pageTitle: 'SE — Laboratoris i proves UE',
+    skipLink: 'Ves al contingut principal',
+    searchLabel: 'Cerca proves',
+    searchAction: 'Cerca',
+    member: 'Membre SE',
+    logout: 'Tancar sessió',
+    addTest: '+ Afegir prova',
+    back: 'Tornar',
+    memberModalTitle: 'Accés restringit – membres SE',
+    password: 'Contrasenya',
+    cancel: 'Cancel·lar',
+    access: 'Accedir',
+    save: 'Desar',
+    adminEditorTitle: 'Editar contingut de la prova',
+    adminCreateTitle: 'Crear nova prova',
+    editTest: 'Editar prova',
+    copyTests: 'Copiar tests.json',
+    openGithub: 'Obrir editor de GitHub',
+    downloadTests: 'Descarregar tests.json',
+    testId: 'ID de prova',
+    category: 'Categoria',
+    standardId: 'ID de norma',
+    clause: 'Clàusula',
+    noClause: 'Sense clàusula',
+    performedInAllLabs: 'Realitzada a tots els laboratoris',
+    titleField: 'Títol',
+    summaryField: 'Resum',
+    whyField: 'PER QUÈ',
+    howField: 'COM',
+    remoteLanguageHint: (lang) => `Idioma editat: <strong id="adminEditorLangLabel">${escapeHtml(lang)}</strong>. La resta d’idiomes els gestiona l’API d’administració en desar.`,
+    staticLanguageHint: (lang) => `Mode estàtic: editant <strong id="adminEditorLangLabel">${escapeHtml(lang)}</strong> localment. Descarrega <strong>tests.json</strong> i fes commit per publicar els canvis.`,
+    requiredTestError: 'L’ID de prova i la categoria són obligatoris.',
+    duplicateTestError: 'L’ID de prova ja existeix.',
+    resolveSavedTestError: 'No s’ha pogut resoldre la prova desada.',
+    unableToSaveTest: 'No s’ha pogut desar la prova.',
+    selectedStandard: 'Norma seleccionada',
+    copiedTests: 'tests.json actualitzat copiat. Obre l’editor de GitHub, substitueix tot el contingut i fes commit amb el teu usuari de GitHub.',
+    clipboardUnavailable: 'El porta-retalls no està disponible. S’ha descarregat tests.json en el seu lloc.',
+    githubInstructions: 'A GitHub: substitueix tot el contingut del fitxer amb el tests.json copiat i després fes commit a main o obre una pull request.',
+    incorrectPassword: 'Contrasenya incorrecta',
+  },
+};
+
+function setQueryText(selector: string, value: string): void {
+  const el = document.querySelector(selector);
+  if (el) el.textContent = value;
+}
+
+function setQueryAttr(selector: string, attr: string, value: string): void {
+  const el = document.querySelector(selector);
+  if (el) el.setAttribute(attr, value);
+}
+
 function getCategoryColor(categoryId: string | null | undefined): string {
   if (!categoryId) return DEFAULT_CATEGORY_COLOR;
   return CATEGORY_COLORS[categoryId] || DEFAULT_CATEGORY_COLOR;
@@ -320,6 +544,37 @@ export async function initApp({
   }
 
   function applyUiStrings(state: AppState): void {
+    const chrome = CHROME_COPY[state.lang] || CHROME_COPY.en;
+    document.documentElement.lang = state.lang;
+    document.title = chrome.pageTitle;
+    setQueryText('.skipLink', chrome.skipLink);
+    setQueryText('label[for="search"]', chrome.searchLabel);
+    setQueryAttr('#search', 'aria-label', chrome.searchLabel);
+    setQueryAttr('.searchBtn', 'aria-label', chrome.searchAction);
+    setText('navMemberBtn', chrome.member);
+    setText('navMemberLogoutBtn', chrome.logout);
+    setText('btnAddTest', chrome.addTest);
+    setText('detailBackBtn', chrome.back);
+    setText('memberModalTitle', chrome.memberModalTitle);
+    setQueryText('label[for="memberPassword"]', chrome.password);
+    setText('memberCancelBtn', chrome.cancel);
+    setText('memberAccessBtn', chrome.access);
+    setText('adminEditorTitle', chrome.adminEditorTitle);
+    setText('adminCopyTestsBtn', chrome.copyTests);
+    setText('adminOpenGithubBtn', chrome.openGithub);
+    setText('adminDownloadTestsBtn', chrome.downloadTests);
+    setText('adminEditorCancelBtn', chrome.cancel);
+    setText('adminEditorSaveBtn', chrome.save);
+    setText('adminTestIdLabel', chrome.testId);
+    setText('adminCategoryLabel', chrome.category);
+    setText('adminStandardIdLabel', chrome.standardId);
+    setText('adminClauseLabel', chrome.clause);
+    setText('adminNoClauseLabel', chrome.noClause);
+    setText('adminLabsAllLabel', chrome.performedInAllLabs);
+    setText('adminTitleFieldLabel', chrome.titleField);
+    setText('adminSummaryFieldLabel', chrome.summaryField);
+    setText('adminWhyFieldLabel', chrome.whyField);
+    setText('adminHowFieldLabel', chrome.howField);
     setText('uiTitle', ui.uiTitle);
     setText('uiSubtitle', ui.uiSubtitle);
     setPlaceholder('search', ui.searchPlaceholder);
@@ -330,7 +585,7 @@ export async function initApp({
     setText('btnPrevPage', ui.prevPage);
     setText('btnNextPage', ui.nextPage);
     setText('btnExportExcel', ui.exportExcel);
-    setText('btnExportPdfAll', ui.exportPdf);
+    setText('btnExportPdfAll', ui.clientCatalog);
     setDetailHeader(ui.detailTitle, ui.detailSub);
     setText('navTestsBtn', ui.navTestsLabel);
     setText('navLabsBtn', ui.navLabsLabel);
@@ -698,8 +953,9 @@ export async function initApp({
     if (!overlay || !form || !title) return;
 
     const test = testId ? tests.find((item) => item.id === testId) || null : null;
+    const chrome = CHROME_COPY[store.getState().lang] || CHROME_COPY.en;
     adminEditingTestId = test?.id || null;
-    title.textContent = test ? 'Edit test content' : 'Create new test';
+    title.textContent = test ? chrome.adminEditorTitle : chrome.adminCreateTitle;
     if (error) error.textContent = '';
 
     const idInput = form.elements.namedItem('id') as HTMLInputElement | null;
@@ -753,9 +1009,10 @@ export async function initApp({
 
     const languageHint = form.querySelector('.adminLanguageHint');
     if (languageHint) {
+      const langLabelText = currentLang.toUpperCase();
       languageHint.innerHTML = remoteAdminEnabled
-        ? `Editing language: <strong id="adminEditorLangLabel">${escapeHtml(currentLang.toUpperCase())}</strong>. Other languages are handled by the admin API on save.`
-        : `Static mode: editing <strong id="adminEditorLangLabel">${escapeHtml(currentLang.toUpperCase())}</strong> locally. Download <strong>tests.json</strong> and commit it to publish changes.`;
+        ? chrome.remoteLanguageHint(langLabelText)
+        : chrome.staticLanguageHint(langLabelText);
     }
 
     const selectedLabs = new Set(test?.labs || []);
@@ -806,8 +1063,9 @@ export async function initApp({
     const categoryId = readValue('categoryId');
     const noClause = (form.elements.namedItem('noClause') as HTMLInputElement | null)?.checked ?? false;
     const currentLang = store.getState().lang;
+    const chrome = CHROME_COPY[currentLang] || CHROME_COPY.en;
     if (!id || !categoryId) {
-      if (error) error.textContent = 'Test ID and category are required.';
+      if (error) error.textContent = chrome.requiredTestError;
       return;
     }
 
@@ -856,7 +1114,7 @@ export async function initApp({
         upsertLocalTest(saved);
       } else {
         if (tests.some((t) => t.id === id)) {
-          if (error) error.textContent = 'Test ID already exists.';
+          if (error) error.textContent = chrome.duplicateTestError;
           return;
         }
         const newTest: Test = { ...testPayloadBase, icon: '📄', tags: [] };
@@ -867,7 +1125,7 @@ export async function initApp({
       }
 
       const selected = tests.find((t) => t.id === id);
-      if (!selected) throw new Error('Unable to resolve saved test.');
+      if (!selected) throw new Error(chrome.resolveSavedTestError);
       store.setState({
         selectedTestId: selected.id,
         selectedCategoryId: selected.categoryId,
@@ -878,7 +1136,7 @@ export async function initApp({
       updateUrlState();
       closeAdminEditor();
     } catch (err) {
-      if (error) error.textContent = err instanceof Error ? err.message : 'Unable to save test.';
+      if (error) error.textContent = err instanceof Error ? err.message : chrome.unableToSaveTest;
     } finally {
       if (saveBtn) saveBtn.disabled = false;
     }
@@ -1425,14 +1683,14 @@ export async function initApp({
       },
       fr: {
         labs: 'Laboratoires',
-        activity: 'Activité essais',
+        activity: 'Activité des essais',
         tests: 'Essais',
         labsTitle: 'Réseau de laboratoires',
         labsSub: 'Trois sites reliés au catalogue, chacun avec son périmètre, son emplacement et ses essais réalisés.',
         activityTitle: 'Activité du catalogue',
         activitySub: 'Répartition des essais par catégorie, norme et laboratoire.',
-        viewLab: 'Voir laboratoire',
-        viewTests: 'Voir essais',
+        viewLab: 'Voir le laboratoire',
+        viewTests: 'Voir les essais',
       },
       ca: {
         labs: 'Laboratoris',
@@ -1592,7 +1850,7 @@ export async function initApp({
           <div class="heroActions">
             ${
               isMemberUnlocked() && canUseAdminEditor
-                ? `<button class="btn ghost" id="btnEditTestContent" type="button">Edit test</button>`
+                ? `<button class="btn ghost" id="btnEditTestContent" type="button">${escapeHtml((CHROME_COPY[state.lang] || CHROME_COPY.en).editTest)}</button>`
                 : ''
             }
             <button class="btn" id="btnExportPdf" type="button">${escapeHtml(ui.exportPdf)}</button>
@@ -2720,7 +2978,8 @@ export async function initApp({
       const url = safeHttpsUrl(TRUSTED_STANDARD_URLS[key] || btn.dataset.secureUrl);
       if (!url) {
         if (standardsNote) {
-          const title = btn.dataset.standardTitle || 'Selected standard';
+          const chrome = CHROME_COPY[store.getState().lang] || CHROME_COPY.en;
+          const title = btn.dataset.standardTitle || chrome.selectedStandard;
           standardsNote.textContent = `${title}: ${RESTRICTED_STANDARD_MESSAGE}`;
         } else {
           window.alert(RESTRICTED_STANDARD_MESSAGE);
@@ -2737,7 +2996,8 @@ export async function initApp({
         closeMemberModal();
         location.reload();
       } else if (memberError) {
-        memberError.textContent = 'Incorrect password';
+        const chrome = CHROME_COPY[store.getState().lang] || CHROME_COPY.en;
+        memberError.textContent = chrome.incorrectPassword;
       }
     };
 
@@ -2819,24 +3079,24 @@ export async function initApp({
     });
     adminCopyTestsBtn?.addEventListener('click', async () => {
       const error = document.getElementById('adminEditorError');
+      const chrome = CHROME_COPY[store.getState().lang] || CHROME_COPY.en;
       try {
         await navigator.clipboard.writeText(testsJson(tests));
         if (error) {
-          error.textContent =
-            'Copied updated tests.json. Open GitHub editor, replace all content, and commit with your GitHub user.';
+          error.textContent = chrome.copiedTests;
         }
       } catch {
         downloadJson('tests.json', tests);
         if (error) {
-          error.textContent = 'Clipboard is unavailable. Downloaded tests.json instead.';
+          error.textContent = chrome.clipboardUnavailable;
         }
       }
     });
     adminOpenGithubBtn?.addEventListener('click', () => {
       const error = document.getElementById('adminEditorError');
+      const chrome = CHROME_COPY[store.getState().lang] || CHROME_COPY.en;
       if (error) {
-        error.textContent =
-          'In GitHub: replace the full file content with the copied tests.json, then commit to main or open a pull request.';
+        error.textContent = chrome.githubInstructions;
       }
       window.open(GITHUB_TESTS_EDIT_URL, '_blank', 'noopener');
     });

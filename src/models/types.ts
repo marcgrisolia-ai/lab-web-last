@@ -84,6 +84,7 @@ export interface UiStrings {
   coords: string;
   exportPdf: string;
   exportExcel: string;
+  clientCatalog: string;
   navTestsLabel: string;
   navLabsLabel: string;
   navOverviewLabel: string;

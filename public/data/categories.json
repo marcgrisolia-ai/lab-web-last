@@ -54,7 +54,7 @@
       "en": "Fire & heat behavior",
       "es": "Comportamiento al fuego y calor",
       "ca": "Comportament al foc i calor",
-      "fr": "Feu & comportement thermique"
+      "fr": "Comportement au feu et à la chaleur"
     },
     "subtitle": {
       "en": "Heat resistance and flammability — safety in abnormal conditions",
@@ -70,7 +70,7 @@
       "en": "Marking, appearance & usability",
       "es": "Marcado, apariencia y usabilidad",
       "ca": "Marcat, aparença i usabilitat",
-      "fr": "Marquage, apparence & usage"
+      "fr": "Marquage, apparence et utilisation"
     },
     "subtitle": {
       "en": "Labels, information, perceived quality — easy to understand and compliant",
@@ -86,7 +86,7 @@
       "en": "Acoustics & noise",
       "es": "Acústica y ruido",
       "ca": "Acústica i soroll",
-      "fr": "Acoustique & bruit"
+      "fr": "Acoustique et bruit"
     },
     "subtitle": {
       "en": "Understand sound levels — for comfort and specification",
@@ -102,13 +102,13 @@
       "en": "Assembly & operation checks",
       "es": "Montaje y operación",
       "ca": "Muntatge i operació",
-      "fr": "Montage & fonctionnement"
+      "fr": "Montage et fonctionnement"
     },
     "subtitle": {
       "en": "Practical checks related to use, operation and components",
       "es": "Comprobaciones prácticas sobre uso, operación y componentes",
       "ca": "Comprobaciones prácticas sobre uso, operació i componentes",
-      "fr": "Vérifications pratiques liées à l’usage et aux composants"
+      "fr": "Vérifications pratiques liées à l’usage, au fonctionnement et aux composants"
     }
   }
 ]
