@@ -546,7 +546,7 @@ export async function initApp({
       labBody.append(labName, labSubtitle);
 
       el.append(labImg, labBody);
-      el.addEventListener('click', () => selectLabTests(lab.id));
+      el.addEventListener('click', () => selectLab(lab.id));
       el.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
@@ -2580,11 +2580,10 @@ export async function initApp({
       });
     }
     if (btnExportPdfAll) {
-      btnExportPdfAll.addEventListener('click', () => {
-        const pdfWindow = window.open(assetUrl('assets/clients_guide_lab.pdf'), '_blank', 'noopener');
-        if (!pdfWindow) {
-          window.location.href = assetUrl('assets/clients_guide_lab.pdf');
-        }
+      btnExportPdfAll.addEventListener('click', (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        window.open(assetUrl('assets/clients_guide_lab.pdf'), '_blank', 'noopener');
       });
     }
     const detailBackBtn = document.getElementById('detailBackBtn');
